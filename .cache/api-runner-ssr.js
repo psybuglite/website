@@ -3,17 +3,9 @@ var plugins = [{
       plugin: require('/Users/Tonye/Sites/website/node_modules/gatsby-plugin-dark-mode/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
-      name: 'gatsby-plugin-google-gtag',
-      plugin: require('/Users/Tonye/Sites/website/node_modules/gatsby-plugin-google-gtag/gatsby-ssr.js'),
-      options: {"plugins":[]},
-    },{
       name: 'gatsby-plugin-image',
       plugin: require('/Users/Tonye/Sites/website/node_modules/gatsby-plugin-image/gatsby-ssr.js'),
       options: {"plugins":[]},
-    },{
-      name: 'gatsby-plugin-sitemap',
-      plugin: require('/Users/Tonye/Sites/website/node_modules/gatsby-plugin-sitemap/gatsby-ssr.js'),
-      options: {"plugins":[],"output":"/","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
     },{
       name: 'gatsby-plugin-manifest',
       plugin: require('/Users/Tonye/Sites/website/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),

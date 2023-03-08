@@ -1,525 +1,2900 @@
-exports.id = "component---src-pages-writing-window-document-not-defined-gatsby-build-js";
-exports.ids = ["component---src-pages-writing-window-document-not-defined-gatsby-build-js"];
+exports.id = 481;
+exports.ids = [481];
 exports.modules = {
 
-/***/ "./node_modules/gatsby-plugin-dark-mode/ThemeToggler.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-dark-mode/ThemeToggler.js ***!
-  \**************************************************************/
+/***/ 6132:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-exports.__esModule = true;
-exports["default"] = void 0;
-var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
-var _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js"));
-var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js"));
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
-var ThemeToggler = /*#__PURE__*/function (_React$Component) {
-  (0, _inheritsLoose2.default)(ThemeToggler, _React$Component);
-  function ThemeToggler() {
-    var _this;
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "state", {
-      theme: typeof window !== 'undefined' ? window.__theme : null
-    });
-    return _this;
-  }
-  var _proto = ThemeToggler.prototype;
-  _proto.componentDidMount = function componentDidMount() {
-    var _this2 = this;
-    window.__onThemeChange = function () {
-      _this2.setState({
-        theme: window.__theme
-      });
-    };
-  };
-  _proto.toggleTheme = function toggleTheme(theme) {
-    window.__setPreferredTheme(theme);
-  };
-  _proto.render = function render() {
-    return /*#__PURE__*/_react.default.createElement(this.props.children, {
-      theme: this.state.theme,
-      toggleTheme: this.toggleTheme
-    });
-  };
-  return ThemeToggler;
-}(_react.default.Component);
-ThemeToggler.propTypes = {
-  children: _propTypes.default.func.isRequired
-};
-var _default = ThemeToggler;
-exports["default"] = _default;
+var _interopRequireDefault=__webpack_require__(4836);exports.__esModule=true;exports["default"]=void 0;var _assertThisInitialized2=_interopRequireDefault(__webpack_require__(6115));var _inheritsLoose2=_interopRequireDefault(__webpack_require__(7867));var _defineProperty2=_interopRequireDefault(__webpack_require__(8416));var _react=_interopRequireDefault(__webpack_require__(6781));var _propTypes=_interopRequireDefault(__webpack_require__(5697));var ThemeToggler=/*#__PURE__*/function(_React$Component){(0,_inheritsLoose2.default)(ThemeToggler,_React$Component);function ThemeToggler(){var _this;for(var _len=arguments.length,args=new Array(_len),_key=0;_key<_len;_key++){args[_key]=arguments[_key];}_this=_React$Component.call.apply(_React$Component,[this].concat(args))||this;(0,_defineProperty2.default)((0,_assertThisInitialized2.default)(_this),"state",{theme:typeof window!=='undefined'?window.__theme:null});return _this;}var _proto=ThemeToggler.prototype;_proto.componentDidMount=function componentDidMount(){var _this2=this;window.__onThemeChange=function(){_this2.setState({theme:window.__theme});};};_proto.toggleTheme=function toggleTheme(theme){window.__setPreferredTheme(theme);};_proto.render=function render(){return/*#__PURE__*/_react.default.createElement(this.props.children,{theme:this.state.theme,toggleTheme:this.toggleTheme});};return ThemeToggler;}(_react.default.Component);ThemeToggler.propTypes={children:_propTypes.default.func.isRequired};var _default=ThemeToggler;exports["default"]=_default;
 
 /***/ }),
 
-/***/ "./node_modules/gatsby-plugin-dark-mode/index.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/gatsby-plugin-dark-mode/index.js ***!
-  \*******************************************************/
+/***/ 3071:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-exports.__esModule = true;
-var _ThemeToggler = _interopRequireDefault(__webpack_require__(/*! ./ThemeToggler */ "./node_modules/gatsby-plugin-dark-mode/ThemeToggler.js"));
-exports.ThemeToggler = _ThemeToggler.default;
+var __webpack_unused_export__;
+var _interopRequireDefault=__webpack_require__(4836);__webpack_unused_export__=true;var _ThemeToggler=_interopRequireDefault(__webpack_require__(6132));exports.L=_ThemeToggler.default;
 
 /***/ }),
 
-/***/ "./src/components/footer.js":
-/*!**********************************!*\
-  !*** ./src/components/footer.js ***!
-  \**********************************/
+/***/ 1977:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 
-
-const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
-  className: "w-full"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "flex pt-16 justify-center"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-  to: "/"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "logo"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  width: "40",
-  height: "95",
-  viewBox: "0 0 40 95",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  "fill-rule": "evenodd",
-  "clip-rule": "evenodd",
-  d: "M23.5553 0.760654C21.4018 0.37215 19.1986 0.339595 17.0368 0.662991V43.8158H15.5553V0.942056C13.2266 1.47234 10.9718 2.42491 8.90877 3.79977C3.3432 7.50881 0 13.7544 0 20.4426V74.3661C0 81.0544 3.3432 87.2999 8.90877 91.009C15.6255 95.4852 24.3745 95.4852 31.0912 91.009C36.6568 87.2999 40 81.0544 40 74.3661L40 20.4426C40 13.7544 36.6568 7.50882 31.0912 3.79977C29.2035 2.54176 27.1553 1.6373 25.0368 1.0864V43.7996H23.5553V0.760654ZM10.5745 70.3153V60.4477C12.1249 60.2356 14.0684 60.2437 15.6817 60.7962C16.6292 61.1207 17.4126 61.6151 17.9599 62.3133C18.4989 63.0008 18.8739 63.9674 18.8739 65.3623C18.8739 67.1709 19.3706 68.6251 20.2479 69.7441C21.1169 70.8524 22.2947 71.5502 23.5262 71.972C25.9554 72.8039 28.7841 72.6303 30.6339 72.244L31.4932 72.0646V71.1869V59.5378V58.6546L30.6275 58.4793C29.3098 58.2124 27.4135 58.1179 25.6537 58.3272C24.7701 58.4323 23.8813 58.6185 23.0976 58.9208C22.3263 59.2183 21.5658 59.6633 21.0528 60.3434L22.7772 61.6442C22.9522 61.4122 23.2984 61.1584 23.8749 60.9361C24.4392 60.7184 25.1395 60.5636 25.9088 60.4721C27.0849 60.3322 28.3297 60.3506 29.3332 60.4636V70.277C27.7828 70.4891 25.8393 70.481 24.226 69.9285C23.2785 69.604 22.4951 69.1095 21.9478 68.4114C21.4088 67.7239 21.0339 66.7572 21.0339 65.3623C21.0339 63.5537 20.5372 62.0996 19.6598 60.9806C18.7908 59.8722 17.613 59.1744 16.3815 58.7527C13.9523 57.9207 11.1236 58.0943 9.27376 58.4806L8.41453 58.66V59.5378V71.1869V72.0321L9.23506 72.2352C14.2746 73.4825 17.6224 71.7597 18.7963 70.4523L17.1891 69.0092C16.6565 69.6024 14.4404 71.022 10.5745 70.3153Z"
-}))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "w-[1392px] mx-auto flex justify-center py-4"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "flex flex-col justify-center dark:text-[#eee]"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-  className: "py-2 text-center"
-}, "Lets Talk"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "mailto:dennistdickson@gmail.com",
-  className: "flex email underline"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "mr-2"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  width: "26",
-  height: "24",
-  viewBox: "0 0 26 24",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M4.28314 4H21.4154C22.5933 4 23.557 4.9 23.557 6V18C23.557 19.1 22.5933 20 21.4154 20H4.28314C3.10529 20 2.1416 19.1 2.1416 18V6C2.1416 4.9 3.10529 4 4.28314 4Z",
-  stroke: "#212121",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M23.557 6L12.8493 13L2.1416 6",
-  stroke: "#212121",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round"
-}))), "dennistdickson@gmail.com"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "flex justify-center py-8"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "mx-8 relative"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  target: "_blank",
-  rel: "noreferrer",
-  href: "https://dribbble.com/psybuglite"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  width: "43",
-  height: "40",
-  viewBox: "0 0 43 40",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M26.5703 21.4473C28.2506 25.4177 29.4987 29.5053 30.3094 33.6813C31.4663 33.0225 32.5473 32.2313 33.5303 31.3137C36.0826 28.9297 37.7299 25.9257 38.3119 22.6657C35.8046 21.6969 33.0583 21.1609 30.1801 21.1609C28.9496 21.1609 27.7439 21.2597 26.5703 21.4473Z",
-  fill: "#EA4C89"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M33.5439 8.7C33.5388 8.6956 33.5341 8.6908 33.5294 8.6864C30.2935 5.6644 25.9911 4 21.4151 4C19.6256 4 17.8781 4.2556 16.2197 4.7464C18.8774 7.8564 21.2155 11.1752 23.2196 14.6828C26.9947 13.1856 30.4717 11.1576 33.5439 8.7Z",
-  fill: "#EA4C89"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M34.8903 10.1165C31.6677 12.7017 28.066 14.7965 24.1475 16.3625C24.7252 17.4485 25.2709 18.5521 25.7857 19.6721C27.224 19.4165 28.6909 19.2861 30.1797 19.2861C33.0635 19.2861 35.8681 19.7705 38.5296 20.7237C38.5412 20.4833 38.5476 20.2421 38.5476 20.0005C38.5476 16.3693 37.261 12.9241 34.8903 10.1165Z",
-  fill: "#EA4C89"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M10.8701 32.6124C13.8696 34.8088 17.5444 36 21.4155 36C23.8761 36 26.2571 35.518 28.4359 34.6036C27.6191 30.184 26.3115 25.92 24.567 21.8616C18.5038 23.4068 13.5085 27.392 10.8701 32.6124Z",
-  fill: "#EA4C89"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M21.0917 20.9996C21.9727 20.6516 22.8713 20.3564 23.7836 20.114C23.3022 19.0844 22.7912 18.0692 22.2537 17.0684C17.6254 18.6732 12.7586 19.4868 7.75892 19.4868C6.59735 19.4868 5.44349 19.442 4.29819 19.3548C4.28877 19.5688 4.2832 19.784 4.2832 20.0004C4.2832 24.274 6.06539 28.292 9.30126 31.314C9.30211 31.3148 9.3034 31.316 9.30468 31.3168C10.4239 29.2324 11.8874 27.3376 13.6709 25.672C15.8145 23.67 18.3111 22.098 21.0917 20.9996Z",
-  fill: "#EA4C89"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M21.3141 15.3841C19.2809 11.8677 16.9025 8.55006 14.2217 5.47046C12.4151 6.25206 10.7507 7.33246 9.30092 8.68646C6.7088 11.1073 5.05039 14.1677 4.49316 17.4865C5.57036 17.5689 6.65912 17.6117 7.75901 17.6117C12.5171 17.6113 17.0828 16.8249 21.3141 15.3841Z",
-  fill: "#EA4C89"
-}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "absolute top-0 -right-4 link-arrow"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  width: "18",
-  height: "16",
-  viewBox: "0 0 18 16",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M5.40918 11.3334L12.5476 4.66675",
-  stroke: "#414141",
-  "stroke-width": "0.666667",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M5.40918 4.66675H12.5476V11.3334",
-  stroke: "#414141",
-  "stroke-width": "0.666667",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round"
-})))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "mx-8 relative"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  target: "_blank",
-  rel: "noreferrer",
-  href: "https://linkedin.com/in/psybug"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  width: "44",
-  height: "40",
-  viewBox: "0 0 44 40",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M39.1216 36.0001V35.9989H39.1301V24.2629C39.1301 18.5217 37.8067 14.0989 30.6197 14.0989C27.1645 14.0989 24.8461 15.8697 23.8995 17.5481H23.7997V14.6349H16.9854V35.9989H24.0811V25.4201C24.0811 22.6349 24.6465 19.9413 28.3398 19.9413C31.9791 19.9413 32.0331 23.1201 32.0331 25.5985V36.0001H39.1216Z",
-  fill: "#0073B1"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M5.43066 14.636H12.535V36H5.43066V14.636Z",
-  fill: "#0073B1"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M8.97999 4C6.70824 4 4.86523 5.7212 4.86523 7.8428C4.86523 9.9644 6.70824 11.7216 8.97999 11.7216C11.2517 11.7216 13.0947 9.9644 13.0947 7.8428C13.093 5.7212 11.25 4 8.97999 4Z",
-  fill: "#0073B1"
-}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "absolute top-0 -right-4 link-arrow"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  width: "18",
-  height: "16",
-  viewBox: "0 0 18 16",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M5.40918 11.3334L12.5476 4.66675",
-  stroke: "#414141",
-  "stroke-width": "0.666667",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M5.40918 4.66675H12.5476V11.3334",
-  stroke: "#414141",
-  "stroke-width": "0.666667",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round"
-}))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "w-[1392px] text-[12px] mx-auto dark:text-[#eee] flex justify-between py-4"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "flex"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "This site is built with"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "mx-1 flex items-center"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "mr-1"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  width: "16",
-  height: "16",
-  viewBox: "0 0 16 16",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
-  width: "16",
-  height: "16",
-  rx: "8",
-  fill: "#E4E4E4"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM3.54286 12.4571C2.34286 11.2571 1.71429 9.65714 1.71429 8.11429L7.94286 14.2857C6.34286 14.2286 4.74286 13.6571 3.54286 12.4571ZM9.37143 14.1143L1.88571 6.62857C2.51429 3.82857 5.02857 1.71429 8 1.71429C10.1143 1.71429 11.9429 2.74286 13.0857 4.28571L12.2286 5.02857C11.2571 3.71429 9.71429 2.85714 8 2.85714C5.77143 2.85714 3.88571 4.28571 3.14286 6.28571L9.71429 12.8571C11.3714 12.2857 12.6286 10.8571 13.0286 9.14286H10.2857V8H14.2857C14.2857 10.9714 12.1714 13.4857 9.37143 14.1143Z",
-  fill: "#663399"
-}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  width: "39",
-  height: "13",
-  viewBox: "0 0 39 13",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M14.5738 4.42854H16.1552V9.78568H14.5738V9.08925C14.009 9.89282 13.2747 9.94639 12.8229 9.94639C11.072 9.94639 9.94238 8.66068 9.94238 7.10711C9.94238 5.49997 11.072 4.26782 12.7099 4.26782C13.1617 4.26782 14.009 4.32139 14.5173 5.12497V4.42854H14.5738ZM11.6368 7.10711C11.6368 7.96425 12.2581 8.60711 13.2182 8.60711C14.1219 8.60711 14.7997 7.96425 14.7997 7.10711C14.7997 6.24997 14.1784 5.60711 13.2182 5.60711C12.3145 5.60711 11.6368 6.24997 11.6368 7.10711Z",
-  fill: "black"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M19.2613 5.71408V9.7855H17.6799V5.71408H17.0586V4.42836H17.6799V2.60693H19.2613V4.42836H20.3344V5.71408H19.2613Z",
-  fill: "black"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M24.0625 5.71425C23.6671 5.39282 23.3282 5.33925 23.1588 5.33925C22.7634 5.33925 22.5375 5.49997 22.5375 5.76782C22.5375 5.92854 22.594 6.08925 23.0458 6.24997L23.4412 6.35711C23.893 6.51782 24.5708 6.67854 24.8532 7.10711C25.0226 7.32139 25.1356 7.64282 25.1356 8.01782C25.1356 8.49997 24.9662 8.98211 24.5143 9.35711C24.0625 9.73211 23.4977 9.94639 22.8199 9.94639C21.6338 9.94639 21.0125 9.41068 20.6172 9.03568L21.4644 8.12497C21.8033 8.44639 22.2551 8.76782 22.707 8.76782C23.1588 8.76782 23.4977 8.55354 23.4977 8.17854C23.4977 7.85711 23.2153 7.69639 22.9894 7.64282L22.6505 7.53568C22.2551 7.37497 21.8033 7.21425 21.4644 6.89282C21.182 6.62497 21.0126 6.30354 21.0126 5.87497C21.0126 5.33925 21.295 4.91068 21.5774 4.64282C22.0292 4.32139 22.594 4.26782 23.0458 4.26782C23.4412 4.26782 24.119 4.32139 24.8532 4.85711L24.0625 5.71425Z",
-  fill: "black"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M27.5072 5.12493C28.072 4.37493 28.8627 4.26779 29.3146 4.26779C30.9525 4.26779 32.0821 5.49993 32.0821 7.10707C32.0821 8.71422 30.9525 9.94636 29.2581 9.94636C28.9192 9.94636 28.072 9.89279 27.4507 9.08922V9.78564H25.9258V0.785645H27.5072V5.12493ZM27.3378 7.10707C27.3378 7.96422 27.9591 8.60707 28.9192 8.60707C29.8229 8.60707 30.5007 7.96422 30.5007 7.10707C30.5007 6.24993 29.8794 5.60707 28.9192 5.60707C27.9591 5.60707 27.3378 6.24993 27.3378 7.10707Z",
-  fill: "black"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M34.6798 8.98204L31.9688 4.42847H33.8326L35.5835 7.48204L37.1649 4.42847H38.9723L34.4539 12.6249H32.6465L34.6798 8.98204Z",
-  fill: "black"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M9.54659 5.33929H7.96514H5.59298V6.83929H7.68274C7.34386 7.85714 6.55314 8.55357 5.08466 8.55357C3.44673 8.55357 2.26065 7.26786 2.26065 5.71429C2.26065 4.16071 3.39025 2.82143 5.02818 2.82143C5.93186 2.82143 6.83554 3.25 7.40034 3.94643L8.69938 3.14286C7.85218 2.01786 6.49666 1.375 5.02818 1.375C2.54305 1.375 0.509766 3.30357 0.509766 5.71429C0.509766 8.125 2.43009 10.0536 5.02818 10.0536C7.62626 10.0536 9.54659 8.125 9.54659 5.71429C9.60307 5.55357 9.54659 5.44643 9.54659 5.33929Z",
-  fill: "black"
-})))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "and hosted on"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "ml-1 flex items-center"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "mr-1"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  width: "16",
-  height: "17",
-  viewBox: "0 0 16 17",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  "fill-rule": "evenodd",
-  "clip-rule": "evenodd",
-  d: "M4.62749 3.61755C4.8785 3.72357 6.63303 4.4646 6.85863 4.56243C6.87306 4.56868 6.8898 4.57551 6.90099 4.56448C7.05213 4.44362 7.24645 4.37258 7.44082 4.37258C7.52827 4.37258 7.61578 4.38499 7.70318 4.40982C7.7154 4.41326 7.73019 4.41664 7.74062 4.40951C7.74817 4.40428 7.75274 4.3973 7.75772 4.38961L9.48508 1.71709L8.95871 1.19133C8.6223 0.855259 8.45407 0.687223 8.25949 0.625759C8.09557 0.573966 7.91958 0.573966 7.75566 0.625759C7.56109 0.687223 7.39285 0.855259 7.05644 1.19133L4.62749 3.61755ZM4.38114 8.79637L2.37247 5.87012L4.24868 3.99596C4.42398 4.07255 5.05921 4.34072 5.63026 4.58182L5.64053 4.58612C6.07534 4.76966 6.47122 4.93679 6.59539 4.99039C6.60792 4.99578 6.61932 5.0007 6.62482 5.01311C6.6281 5.0206 6.62651 5.03045 6.62482 5.03846C6.61213 5.09842 6.60587 5.15839 6.60587 5.21835C6.60587 5.43867 6.69224 5.64483 6.84338 5.80118C6.8558 5.81339 6.84332 5.83134 6.83233 5.84709L6.83172 5.84796L6.8291 5.85181L6.82648 5.85576L4.92184 8.80314C4.91671 8.81109 4.91188 8.81853 4.90392 8.82371C4.89381 8.83033 4.87963 8.82735 4.86792 8.82438C4.79372 8.8056 4.71417 8.79339 4.64084 8.79339C4.57264 8.79339 4.49803 8.80617 4.42305 8.81956L4.42238 8.81971C4.41432 8.8212 4.40673 8.82253 4.40002 8.81766C4.39268 8.81237 4.38628 8.80386 4.38114 8.79637ZM11.8028 6.29865C11.7471 6.23679 11.678 6.18164 11.5954 6.13948C11.5935 6.1385 11.5916 6.13779 11.5898 6.13707C11.5864 6.13573 11.5831 6.1345 11.5801 6.13163C11.5703 6.12245 11.5665 6.10598 11.5686 6.0928L11.8913 4.12056L13.4059 5.63354L11.8309 6.30291C11.8266 6.30481 11.8219 6.30573 11.8171 6.30573C11.8141 6.30573 11.8123 6.30573 11.8108 6.30522C11.8087 6.30445 11.8067 6.3025 11.8028 6.29865ZM12.1293 6.72205L13.792 6.01934L15.4113 7.63682C15.7477 7.97281 15.916 8.14096 15.9775 8.33527C15.9866 8.36394 15.9941 8.39303 16 8.42232L12.1303 6.78561L12.1242 6.78314C12.1086 6.77678 12.0906 6.76955 12.0906 6.7536C12.0906 6.73795 12.109 6.73041 12.1243 6.7241L12.1293 6.72205ZM15.9339 8.94154L11.9023 7.2383C11.8889 7.23265 11.8725 7.22614 11.8594 7.2324C11.8549 7.2345 11.8523 7.23804 11.8494 7.24194L11.8481 7.24368C11.733 7.39614 11.5623 7.49314 11.3637 7.52114C11.3444 7.52114 11.341 7.54556 11.3381 7.56634L11.3368 7.57536L10.8924 10.2985L10.8914 10.3043C10.8889 10.3182 10.8862 10.3333 10.8959 10.3429C11.0542 10.4637 11.1478 10.6413 11.1694 10.8404C11.1694 10.8595 11.192 10.8632 11.2127 10.8666L11.2144 10.8669L11.2168 10.8673L11.2238 10.8685L11.2251 10.8688L13.5863 11.36L15.4114 9.53693C15.6874 9.26122 15.8504 9.09835 15.9339 8.94154ZM11.0521 11.3462L13.1662 11.7797L10.1643 14.7783L10.6785 11.6234L10.6791 11.6191C10.6797 11.6153 10.6802 11.611 10.6816 11.6074C10.6856 11.5972 10.6966 11.5929 10.707 11.5888L10.712 11.5868C10.8261 11.5394 10.9229 11.4641 11.0024 11.3711C11.0125 11.3593 11.0247 11.3483 11.04 11.3456C11.0434 11.3451 11.0487 11.3454 11.0521 11.3462ZM9.52909 15.4129C9.64931 14.6764 10.0974 11.9485 10.1495 11.6312C10.1505 11.6253 10.1531 11.6187 10.1556 11.6124C10.161 11.5986 10.1662 11.5854 10.1545 11.5797C9.94356 11.4963 9.7876 11.3113 9.72675 11.0974C9.72598 11.0946 9.72542 11.0918 9.72495 11.0892C9.72372 11.0826 9.72259 11.0768 9.71725 11.0715C9.7097 11.0641 9.69579 11.0597 9.68546 11.0576L5.54091 10.2038C5.53115 10.2018 5.51924 10.1998 5.5104 10.2045C5.50023 10.2099 5.49474 10.2193 5.48894 10.2292L5.48811 10.2306L5.47964 10.2451C5.46896 10.2634 5.45925 10.2801 5.4478 10.2965L5.44647 10.2983L5.44375 10.3018C5.43943 10.3073 5.43512 10.3127 5.43455 10.3195C5.43368 10.3288 5.43969 10.3368 5.44559 10.3445C5.44708 10.3465 5.44852 10.3484 5.44991 10.3504L9.19057 15.751L9.52909 15.4129ZM5.06312 10.6697L8.82217 16.1186C8.57285 16.3651 8.42582 16.4955 8.25954 16.5481C8.09562 16.5999 7.91958 16.5999 7.75566 16.5481C7.56109 16.4866 7.39285 16.3186 7.05644 15.9825L3.29977 12.23L4.28082 10.7096C4.28567 10.7021 4.29006 10.6953 4.29737 10.6901C4.30802 10.6826 4.32323 10.6862 4.33567 10.6901C4.43666 10.7212 4.53192 10.7339 4.6336 10.7339C4.76481 10.7339 4.88939 10.7077 5.02003 10.6554C5.03107 10.6509 5.04252 10.6483 5.05136 10.6562C5.05557 10.6599 5.05993 10.6651 5.06312 10.6697ZM2.93757 11.868L3.878 10.4107C3.88265 10.4035 3.88618 10.3967 3.88136 10.3895C3.88017 10.3878 3.87728 10.3846 3.876 10.383C3.85976 10.3616 3.84352 10.3401 3.82728 10.3154C3.82537 10.3125 3.82351 10.3094 3.82161 10.3061C3.81391 10.2929 3.80563 10.2788 3.79154 10.2788C3.78679 10.2788 3.78209 10.2798 3.77772 10.2817L2.07547 11.0069L2.93757 11.868ZM3.50598 9.85964L1.69427 10.6263L0.603841 9.53709C0.418533 9.35196 0.283993 9.21756 0.190505 9.10194L3.5054 9.78859C3.50931 9.78942 3.51354 9.79008 3.51785 9.7908C3.53851 9.79413 3.56112 9.79788 3.56112 9.81696C3.56112 9.83774 3.53659 9.84743 3.51563 9.85569L3.50598 9.85964ZM0 8.54184L3.73826 9.32447L3.73921 9.32462C3.7455 9.32595 3.7512 9.32713 3.75673 9.32375C3.76583 9.3181 3.77233 9.30744 3.77741 9.29805C3.82039 9.21823 3.88153 9.14483 3.94268 9.07778C3.95531 9.06532 3.94285 9.04849 3.93153 9.03326L3.92842 9.02905L3.92597 9.02561C3.74866 8.7719 2.22954 6.57986 1.99956 6.24269L0.603867 7.63682C0.267427 7.97291 0.0991989 8.14096 0.0376676 8.33527C0.0163406 8.40267 0.00378473 8.47207 0 8.54184ZM8.15339 4.71375L9.85174 2.08341L11.4471 3.67698L11.063 6.05433C11.0627 6.05622 11.0624 6.05843 11.0622 6.06074C11.0616 6.06618 11.061 6.07223 11.059 6.07649C11.0553 6.08485 11.047 6.08675 11.0383 6.08875C11.0353 6.08941 11.0323 6.09008 11.0293 6.09105C10.9485 6.11742 10.8736 6.15456 10.8092 6.20257C10.8061 6.20483 10.8037 6.20745 10.8012 6.21001C10.7964 6.21514 10.7918 6.21986 10.7844 6.22032C10.7794 6.22063 10.7711 6.21955 10.7665 6.2176L8.33606 5.18603L8.33113 5.18398C8.31577 5.17767 8.29734 5.17008 8.29734 5.15439C8.28424 5.02461 8.24105 4.89488 8.17342 4.78136L8.16813 4.77269C8.15627 4.75356 8.14353 4.73314 8.15339 4.71375ZM8.20952 5.67468C8.19627 5.66904 8.17974 5.66458 8.16839 5.67335C8.16243 5.67802 8.15863 5.68361 8.15437 5.68987C7.99533 5.92578 7.7322 6.06423 7.44811 6.06423C7.41037 6.06423 7.37272 6.05879 7.3302 6.05269L7.31136 6.05002C7.29128 6.05002 7.2789 6.06951 7.26781 6.08695L7.26457 6.09208L5.39203 8.98765C5.39096 8.9893 5.38983 8.99094 5.38864 8.99268C5.38782 8.99386 5.387 8.99499 5.38618 8.99617C5.37524 9.01197 5.36271 9.03002 5.37509 9.04223C5.38233 9.04936 5.38952 9.04936 5.39671 9.04936C5.40364 9.04936 10.1102 7.0446 10.471 6.89087L10.4759 6.88881C10.4908 6.88271 10.5072 6.87589 10.5072 6.86024V6.79628C10.5072 6.75801 10.513 6.71969 10.5194 6.6865C10.5208 6.67917 10.5222 6.67004 10.5194 6.66301C10.514 6.64993 10.5007 6.64429 10.4877 6.6388L8.20952 5.67468ZM5.63581 9.6205C5.61937 9.56484 5.60248 9.50754 5.60027 9.50718L10.7302 7.32211C10.7302 7.32211 10.7375 7.32217 10.7447 7.3293C10.7728 7.357 10.7965 7.37608 10.8192 7.39326C10.8225 7.39578 10.8264 7.39798 10.8302 7.40024C10.8408 7.40634 10.8518 7.41276 10.8525 7.42394C10.8527 7.42773 10.8523 7.43066 10.8517 7.43445L10.412 10.1308C10.4115 10.1336 10.4111 10.1364 10.4107 10.1394L10.4104 10.1415C10.4076 10.1627 10.4045 10.1864 10.3848 10.1864C10.1463 10.2003 9.93525 10.3356 9.81138 10.5397L9.80938 10.543C9.80363 10.5527 9.79813 10.5619 9.78807 10.5669C9.77959 10.5712 9.76824 10.5693 9.75905 10.5674L5.66826 9.72442C5.66636 9.72401 5.65132 9.67302 5.63581 9.6205Z",
-  fill: "url(#paint0_radial_2859_545)"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("radialGradient", {
-  id: "paint0_radial_2859_545",
-  cx: "0",
-  cy: "0",
-  r: "1",
-  gradientUnits: "userSpaceOnUse",
-  gradientTransform: "translate(8 0.586912) rotate(90) scale(16 18.432)"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("stop", {
-  "stop-color": "#00CEBF"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("stop", {
-  offset: "1",
-  "stop-color": "#008FC9"
-}))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  width: "34",
-  height: "12",
-  viewBox: "0 0 34 12",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M1.35766 2.84672L1.40146 3.59124C1.88321 3.0219 2.54015 2.71533 3.28467 2.71533C4.64234 2.71533 5.34306 3.50365 5.34306 5.0365V9.32847H3.94161V5.12409C3.94161 4.68613 3.85402 4.42336 3.67883 4.24817C3.50365 4.0292 3.24088 3.89781 2.80292 3.89781C2.23358 3.89781 1.79562 4.16058 1.48905 4.72993V9.32847H0V2.84672H1.35766ZM9.67883 9.41606C8.80292 9.41606 8.0146 9.15328 7.48905 8.54015C6.87591 7.9708 6.61314 7.22628 6.61314 6.26277V6.08759C6.61314 5.43066 6.70073 4.86131 6.9635 4.33577C7.18425 3.8485 7.54188 3.43591 7.99286 3.14821C8.44385 2.86051 8.96874 2.71011 9.50365 2.71533C10.3796 2.71533 11.0803 3.0219 11.562 3.59124C12.0831 4.26618 12.347 5.10449 12.3066 5.9562V6.52555H8.05839C8.10219 7.09489 8.27737 7.48905 8.58394 7.83942C8.89051 8.14598 9.28467 8.27737 9.76642 8.27737C10.4234 8.27737 10.9927 8.0146 11.3869 7.48905L12.1752 8.23358C11.9204 8.60738 11.5734 8.90909 11.1679 9.10949C10.7299 9.32847 10.2482 9.45985 9.67883 9.45985V9.41606ZM9.50365 3.94161C9.10949 3.94161 8.80292 4.07299 8.54015 4.37956C8.28924 4.70997 8.13736 5.10486 8.10219 5.51825H10.8613V5.43066C10.8687 5.01643 10.7291 4.61298 10.4672 4.29197C10.2482 4.07299 9.9416 3.94161 9.50365 3.94161ZM15.2409 1.31387V2.89051H16.3796V3.94161H15.2409V7.53285C15.2409 7.79562 15.2847 7.9708 15.3723 8.05839C15.5036 8.18978 15.6788 8.23358 15.8978 8.23358L16.4234 8.18978V9.28467C16.1117 9.38679 15.7875 9.44573 15.4599 9.45985C14.365 9.45985 13.7956 8.84671 13.7956 7.57664V3.94161H12.7007V2.84672H13.7518V1.27007H15.1971L15.2409 1.31387ZM19.0511 9.37226H17.6058V0.175183H19.0511V9.37226ZM22.1606 9.37226H20.7153V2.84672H22.1606V9.32847V9.37226ZM20.6277 1.22628C20.6277 0.963504 20.7153 0.788321 20.8467 0.656934C20.9781 0.481752 21.1971 0.437956 21.4599 0.437956C21.7226 0.437956 21.8978 0.481752 22.073 0.656934C22.2044 0.788321 22.292 0.963504 22.292 1.22628C22.292 1.44526 22.2044 1.62044 22.073 1.75182C21.9416 1.88321 21.7226 1.9708 21.4599 1.9708C21.1971 1.9708 21.0219 1.88321 20.8467 1.75182C20.7153 1.62044 20.6277 1.44526 20.6277 1.22628ZM24.2628 9.37226V3.94161H23.2993V2.84672H24.2628V2.23358C24.2628 1.53285 24.4818 0.963504 24.8759 0.569343C25.2701 0.175183 25.8394 0 26.5401 0C26.8029 0 27.0657 -8.48387e-08 27.3723 0.0875912L27.3285 1.22628C27.1392 1.20725 26.9484 1.20725 26.7591 1.22628C26.0584 1.22628 25.708 1.53285 25.708 2.27737V2.84672H27.0219V3.94161H25.708V9.32847H24.2628V9.37226ZM30.3942 7.27007L31.708 2.89051H33.2409L30.6569 10.3358C30.2628 11.4307 29.6058 12 28.6423 12C28.4039 11.9882 28.1681 11.944 27.9416 11.8686V10.7299H28.2482C28.5985 10.7299 28.8613 10.7299 29.0803 10.5547C29.2902 10.3858 29.4431 10.1565 29.5182 9.89781L29.6934 9.32847L27.4161 2.89051H28.9927L30.3942 7.27007Z",
-  fill: "black",
-  "fill-opacity": "0.85"
-})))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Dennis Tamunotonye Dickson \xA9 2023")));
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
-
-/***/ }),
-
-/***/ "./src/components/header.js":
-/*!**********************************!*\
-  !*** ./src/components/header.js ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var gatsby_plugin_dark_mode__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-plugin-dark-mode */ "./node_modules/gatsby-plugin-dark-mode/index.js");
-
-
-
-const Header = ({
-  menuLinks
-}) => {
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {}, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
-    className: "w-full fixed"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "w-[1392px] mx-auto flex justify-between items-start py-4"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "logo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    width: "40",
-    height: "95",
-    viewBox: "0 0 40 95",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    "fill-rule": "evenodd",
-    "clip-rule": "evenodd",
-    d: "M23.5553 0.760654C21.4018 0.37215 19.1986 0.339595 17.0368 0.662991V43.8158H15.5553V0.942056C13.2266 1.47234 10.9718 2.42491 8.90877 3.79977C3.3432 7.50881 0 13.7544 0 20.4426V74.3661C0 81.0544 3.3432 87.2999 8.90877 91.009C15.6255 95.4852 24.3745 95.4852 31.0912 91.009C36.6568 87.2999 40 81.0544 40 74.3661L40 20.4426C40 13.7544 36.6568 7.50882 31.0912 3.79977C29.2035 2.54176 27.1553 1.6373 25.0368 1.0864V43.7996H23.5553V0.760654ZM10.5745 70.3153V60.4477C12.1249 60.2356 14.0684 60.2437 15.6817 60.7962C16.6292 61.1207 17.4126 61.6151 17.9599 62.3133C18.4989 63.0008 18.8739 63.9674 18.8739 65.3623C18.8739 67.1709 19.3706 68.6251 20.2479 69.7441C21.1169 70.8524 22.2947 71.5502 23.5262 71.972C25.9554 72.8039 28.7841 72.6303 30.6339 72.244L31.4932 72.0646V71.1869V59.5378V58.6546L30.6275 58.4793C29.3098 58.2124 27.4135 58.1179 25.6537 58.3272C24.7701 58.4323 23.8813 58.6185 23.0976 58.9208C22.3263 59.2183 21.5658 59.6633 21.0528 60.3434L22.7772 61.6442C22.9522 61.4122 23.2984 61.1584 23.8749 60.9361C24.4392 60.7184 25.1395 60.5636 25.9088 60.4721C27.0849 60.3322 28.3297 60.3506 29.3332 60.4636V70.277C27.7828 70.4891 25.8393 70.481 24.226 69.9285C23.2785 69.604 22.4951 69.1095 21.9478 68.4114C21.4088 67.7239 21.0339 66.7572 21.0339 65.3623C21.0339 63.5537 20.5372 62.0996 19.6598 60.9806C18.7908 59.8722 17.613 59.1744 16.3815 58.7527C13.9523 57.9207 11.1236 58.0943 9.27376 58.4806L8.41453 58.66V59.5378V71.1869V72.0321L9.23506 72.2352C14.2746 73.4825 17.6224 71.7597 18.7963 70.4523L17.1891 69.0092C16.6565 69.6024 14.4404 71.022 10.5745 70.3153Z"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
-    className: "flex flex-col items-end"
-  }, menuLinks.map(link => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-    key: link.name,
-    className: "py-2 rounded-full dark:text-[#eee]"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: link.link,
-    className: "py-2 px-4 rounded-full bg-black text-white hover:bg-[#DC5132]",
-    activeClassName: "bg-[#DC5132]"
-  }, link.name))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-    className: "mr-2 mt-2 bg-black dark:bg-white rounded-full"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_dark_mode__WEBPACK_IMPORTED_MODULE_2__.ThemeToggler, null, ({
-    theme,
-    toggleTheme
-  }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
-    className: "relative cursor-pointer block p-3 "
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
-    className: "opacity-0 absolute",
-    type: "checkbox",
-    onChange: e => toggleTheme(e.target.checked ? 'light' : 'dark'),
-    checked: theme === 'light'
-  }), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "block"
-  }, theme === 'light' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    width: "20",
-    height: "20",
-    viewBox: "0 0 20 20",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", {
-    "clip-path": "url(#clip0_2569_1744)"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M8.20154 20C7.01999 20 5.84282 19.7414 4.74009 19.2272C2.7545 18.3013 1.24834 16.6576 0.499013 14.5988C-0.250316 12.5401 -0.1531 10.3128 0.772849 8.32719C1.69876 6.34159 3.34248 4.83539 5.40119 4.0861C7.03542 3.49133 8.78093 3.42837 10.4491 3.90394C10.6301 3.95553 10.7564 4.11887 10.7608 4.30702C10.7652 4.49516 10.6467 4.66424 10.4684 4.72431C10.4228 4.73966 10.3773 4.75548 10.3318 4.77204C7.28981 5.8793 5.71565 9.25505 6.82291 12.2972C7.35925 13.7708 8.43741 14.9474 9.85873 15.6102C11.28 16.273 12.8744 16.3426 14.348 15.8062C14.348 15.8062 14.3481 15.8062 14.3481 15.8062C14.3935 15.7897 14.4385 15.7726 14.4833 15.755C14.6585 15.6864 14.858 15.7398 14.9755 15.8868C15.0931 16.0337 15.1013 16.24 14.9958 16.3959C14.0235 17.8326 12.6459 18.9063 11.0118 19.5011C10.0964 19.8342 9.14752 20 8.20154 20ZM8.20443 4.44786C7.35656 4.44786 6.5104 4.59675 5.6951 4.89351C3.85203 5.56434 2.38052 6.91274 1.55159 8.69031C0.722699 10.4679 0.635638 12.4619 1.3065 14.3049C1.97732 16.148 3.32568 17.6195 5.10326 18.4484C6.88087 19.2773 8.87482 19.3644 10.7179 18.6935C11.7658 18.3121 12.6959 17.7107 13.4591 16.9276C12.1226 17.1559 10.7504 16.974 9.49557 16.3889C7.86622 15.6291 6.63035 14.2803 6.01542 12.591C4.88824 9.49397 6.18505 6.09549 8.93192 4.48442C8.6898 4.46009 8.44698 4.44786 8.20443 4.44786Z",
-    fill: "white"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M14.6822 6.60558C14.5931 6.60558 14.5045 6.57793 14.4296 6.52352C14.2973 6.4274 14.2311 6.26449 14.2587 6.10333L14.5771 4.2469L13.2284 2.93217C13.1113 2.818 13.0691 2.64728 13.1197 2.49175C13.1702 2.33622 13.3047 2.22287 13.4665 2.19936L15.3304 1.92853L16.164 0.239504C16.2364 0.092841 16.3858 0 16.5493 0C16.7128 0 16.8622 0.092841 16.9346 0.239504L17.7681 1.92853L19.6321 2.19936C19.794 2.22287 19.9284 2.33622 19.9789 2.49175C20.0295 2.64728 19.9873 2.81804 19.8702 2.93217L18.5215 4.2469L18.8398 6.10333C18.8675 6.26453 18.8012 6.4274 18.6689 6.52356C18.5365 6.61968 18.3612 6.63233 18.2164 6.55625L16.5493 5.67979L14.8821 6.55625C14.8192 6.58925 14.7506 6.60558 14.6822 6.60558ZM16.5492 4.76469C16.6179 4.76469 16.6866 4.78114 16.7492 4.81406L17.8457 5.39056L17.6363 4.16953C17.6124 4.03017 17.6586 3.88796 17.7599 3.78926L18.647 2.92451L17.421 2.74637C17.2811 2.72602 17.1601 2.63814 17.0975 2.51132L16.5492 1.40043L16.001 2.51136C15.9384 2.63818 15.8174 2.72606 15.6775 2.74641L14.4516 2.92455L15.3386 3.7893C15.4399 3.888 15.4861 4.03021 15.4622 4.16957L15.2528 5.3906L16.3493 4.81414C16.4119 4.78118 16.4806 4.76469 16.5492 4.76469Z",
-    fill: "#A99AFF"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M10.5144 13.0626C10.4254 13.0626 10.3367 13.035 10.2619 12.9806C10.1296 12.8844 10.0633 12.7215 10.0909 12.5603L10.334 11.1435L9.30459 10.14C9.18745 10.0259 9.14531 9.85514 9.19585 9.69961C9.24639 9.54408 9.38083 9.43074 9.54268 9.40722L10.9653 9.20049L11.6016 7.91138C11.674 7.76472 11.8233 7.67188 11.9868 7.67188C12.1504 7.67188 12.2997 7.76472 12.3721 7.91138L13.0083 9.20049L14.431 9.40722C14.5928 9.43074 14.7273 9.54408 14.7778 9.69965C14.8283 9.85518 14.7862 10.0259 14.6691 10.1401L13.6396 11.1435L13.8827 12.5604C13.9104 12.7216 13.8441 12.8845 13.7118 12.9806C13.5795 13.0767 13.4041 13.0894 13.2593 13.0133L11.9869 12.3444L10.7144 13.0133C10.6515 13.0463 10.5828 13.0626 10.5144 13.0626ZM10.5277 10.1324L11.0955 10.6858C11.1968 10.7845 11.243 10.9267 11.2191 11.0661L11.085 11.8476L11.7868 11.4786C11.912 11.4128 12.0615 11.4128 12.1867 11.4786L12.8886 11.8476L12.7545 11.0661C12.7306 10.9267 12.7768 10.7845 12.878 10.6858L13.4458 10.1323L12.6612 10.0183C12.5212 9.99798 12.4003 9.9101 12.3377 9.78328L11.9868 9.07222L11.6359 9.78328C11.5733 9.9101 11.4524 9.99798 11.3124 10.0183L10.5277 10.1324Z",
-    fill: "#A99AFF"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("clipPath", {
-    id: "clip0_2569_1744"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
-    width: "20",
-    height: "20",
-    fill: "white"
-  })))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    width: "20",
-    height: "20",
-    viewBox: "0 0 20 20",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", {
-    "clip-path": "url(#clip0_2570_1749)"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M3.23239 17.197C3.12243 17.197 3.01247 17.1551 2.92856 17.0712C2.76079 16.9034 2.76079 16.6313 2.92856 16.4635L5.46626 13.9258L6.07395 14.5335L3.53622 17.0712C3.45231 17.1551 3.34235 17.197 3.23239 17.197Z",
-    fill: "#414141"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M4.01855 10.4297H0.429688C0.192383 10.4297 0 10.2373 0 10C0 9.7627 0.192383 9.57031 0.429688 9.57031H4.01855V10.4297Z",
-    fill: "#414141"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M5.4663 6.07427L2.92856 3.53653C2.76079 3.36872 2.76079 3.09665 2.92856 2.92884C3.09638 2.76103 3.36841 2.76103 3.53626 2.92884L6.07395 5.46657L5.4663 6.07427Z",
-    fill: "#414141"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M9.5709 4.01855V0.452422C9.57051 0.444883 9.57031 0.437305 9.57031 0.429688C9.57031 0.192383 9.7627 0 10 0C10.0038 0 10.0077 3.90625e-05 10.0116 0.00015625C10.2438 0.00601563 10.4303 0.196094 10.4303 0.429727V4.01859H9.5709V4.01855Z",
-    fill: "#414141"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M13.9258 5.46657L16.4635 2.92884C16.6313 2.76103 16.9034 2.76103 17.0712 2.92884C17.2389 3.09665 17.2389 3.36872 17.0712 3.53653L14.5335 6.07427L13.9258 5.46657Z",
-    fill: "#414141"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M19.5703 10.4297H15.9814V9.57034H19.5638C19.8038 9.56761 20 9.7605 20 9.99995C20 10.2373 19.8076 10.4297 19.5703 10.4297Z",
-    fill: "#414141"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M16.7673 17.197C16.6573 17.197 16.5474 17.1551 16.4635 17.0712L13.9258 14.5335L14.5335 13.9258L17.0712 16.4635C17.2389 16.6313 17.2389 16.9034 17.0712 17.0712C16.9873 17.1551 16.8773 17.197 16.7673 17.197Z",
-    fill: "#414141"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M10.001 20C9.76367 20 9.57129 19.8076 9.57129 19.5703V15.9814H10.4307V19.5703C10.4307 19.8076 10.2383 20 10.001 20Z",
-    fill: "#414141"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M17.3423 12.5765L16.0678 12.0486C16.2853 11.4051 16.4034 10.7161 16.4034 10.0001C16.4034 9.28434 16.2851 8.59578 16.0677 7.9525L17.3426 7.42445C17.5618 7.33363 17.6659 7.0823 17.5751 6.86305C17.4843 6.64383 17.233 6.53965 17.0137 6.63051L15.7385 7.15867C15.1162 5.90547 14.0957 4.88348 12.8436 4.2591L13.3758 2.97437C13.4666 2.75512 13.3625 2.50379 13.1432 2.41297C12.9239 2.32211 12.6726 2.42625 12.5818 2.64551L12.0506 3.92789C11.4043 3.7082 10.712 3.58895 9.99228 3.58895C9.27822 3.58895 8.59115 3.70641 7.94912 3.92281L7.42177 2.64973C7.33099 2.43051 7.07966 2.32633 6.86036 2.41719C6.64111 2.50801 6.53701 2.75934 6.62783 2.97859L7.15529 4.25195C5.89853 4.87477 4.874 5.89762 4.24911 7.15312L2.98681 6.63027C2.76755 6.53941 2.51622 6.64355 2.4254 6.86281C2.33458 7.08207 2.43868 7.3334 2.65794 7.42422L3.91845 7.94633C3.69978 8.59133 3.58115 9.28211 3.58115 10.0001C3.58115 10.7183 3.69986 11.4094 3.91872 12.0546L2.65822 12.5767C2.43896 12.6675 2.33486 12.9189 2.42568 13.1381C2.49419 13.3036 2.65419 13.4035 2.82283 13.4035C2.87759 13.4035 2.93333 13.3929 2.98708 13.3707L4.24947 12.8478C4.87431 14.1027 5.89841 15.1252 7.15462 15.7479L6.62716 17.0212C6.53634 17.2405 6.64044 17.4918 6.8597 17.5827C6.91345 17.6049 6.96915 17.6155 7.02396 17.6155C7.19255 17.6155 7.35259 17.5155 7.42111 17.3501L7.94841 16.0771C8.5906 16.2937 9.27794 16.4112 9.99224 16.4112C10.7122 16.4112 11.4047 16.2919 12.0513 16.0721L12.5797 17.3477C12.6482 17.5132 12.8082 17.6131 12.9769 17.6131C13.0316 17.6131 13.0874 17.6025 13.1411 17.5803C13.3604 17.4895 13.4645 17.2381 13.3736 17.0189L12.8443 15.7408C14.0958 15.1165 15.1157 14.0949 15.7379 12.8421L17.0135 13.3705C17.0672 13.3928 17.1229 13.4033 17.1777 13.4033C17.3463 13.4033 17.5063 13.3034 17.5749 13.138C17.6656 12.9187 17.5615 12.6673 17.3423 12.5765ZM9.99224 15.5518C6.93099 15.5518 4.44048 13.0613 4.44048 10.0001C4.44048 6.93883 6.93099 4.44832 9.99224 4.44832C13.0535 4.44832 15.544 6.93883 15.544 10.0001C15.544 13.0613 13.0535 15.5518 9.99224 15.5518Z",
-    fill: "#313131"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("clipPath", {
-    id: "clip0_2570_1749"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
-    width: "20",
-    height: "20",
-    fill: "white"
-  }))))))))))));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
-
-/***/ }),
-
-/***/ "./src/components/layout.js":
-/*!**********************************!*\
-  !*** ./src/components/layout.js ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _public_page_data_sq_d_1947816842_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/1947816842.json */ "./public/page-data/sq/d/1947816842.json");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header */ "./src/components/header.js");
-/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer */ "./src/components/footer.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-
-
-
-
-
-
-const Layout = ({
-  children
-}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.StaticQuery, {
-  query: "1947816842",
-  render: data => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement((react__WEBPACK_IMPORTED_MODULE_1___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    menuLinks: data.site.siteMetadata.menuLinks,
-    siteTitle: data.site.siteMetadata.title
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-    className: "dark:text-[#eee]"
-  }, children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_footer__WEBPACK_IMPORTED_MODULE_3__["default"], null)),
-  data: _public_page_data_sq_d_1947816842_json__WEBPACK_IMPORTED_MODULE_0__
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "Z": () => (/* binding */ layout)
 });
-Layout.propTypes = {
-  children: (prop_types__WEBPACK_IMPORTED_MODULE_5___default().node.isRequired)
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
+
+// EXTERNAL MODULE: external "/Users/Tonye/Sites/website/node_modules/react/index.js"
+var index_js_ = __webpack_require__(6781);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+// EXTERNAL MODULE: ./.cache/gatsby-browser-entry.js + 11 modules
+var gatsby_browser_entry = __webpack_require__(7076);
+// EXTERNAL MODULE: ./node_modules/gatsby-plugin-dark-mode/index.js
+var gatsby_plugin_dark_mode = __webpack_require__(3071);
+;// CONCATENATED MODULE: ./src/components/header.js
+const Header=({menuLinks})=>{(0,index_js_.useEffect)(()=>{},[]);return/*#__PURE__*/index_js_default().createElement("header",{className:"w-full fixed"},/*#__PURE__*/index_js_default().createElement("div",{className:"w-[1392px] mx-auto flex justify-between items-start py-4"},/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Link,{to:"/"},/*#__PURE__*/index_js_default().createElement("span",{className:"logo"},/*#__PURE__*/index_js_default().createElement("svg",{width:"40",height:"95",viewBox:"0 0 40 95",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("path",{"fill-rule":"evenodd","clip-rule":"evenodd",d:"M23.5553 0.760654C21.4018 0.37215 19.1986 0.339595 17.0368 0.662991V43.8158H15.5553V0.942056C13.2266 1.47234 10.9718 2.42491 8.90877 3.79977C3.3432 7.50881 0 13.7544 0 20.4426V74.3661C0 81.0544 3.3432 87.2999 8.90877 91.009C15.6255 95.4852 24.3745 95.4852 31.0912 91.009C36.6568 87.2999 40 81.0544 40 74.3661L40 20.4426C40 13.7544 36.6568 7.50882 31.0912 3.79977C29.2035 2.54176 27.1553 1.6373 25.0368 1.0864V43.7996H23.5553V0.760654ZM10.5745 70.3153V60.4477C12.1249 60.2356 14.0684 60.2437 15.6817 60.7962C16.6292 61.1207 17.4126 61.6151 17.9599 62.3133C18.4989 63.0008 18.8739 63.9674 18.8739 65.3623C18.8739 67.1709 19.3706 68.6251 20.2479 69.7441C21.1169 70.8524 22.2947 71.5502 23.5262 71.972C25.9554 72.8039 28.7841 72.6303 30.6339 72.244L31.4932 72.0646V71.1869V59.5378V58.6546L30.6275 58.4793C29.3098 58.2124 27.4135 58.1179 25.6537 58.3272C24.7701 58.4323 23.8813 58.6185 23.0976 58.9208C22.3263 59.2183 21.5658 59.6633 21.0528 60.3434L22.7772 61.6442C22.9522 61.4122 23.2984 61.1584 23.8749 60.9361C24.4392 60.7184 25.1395 60.5636 25.9088 60.4721C27.0849 60.3322 28.3297 60.3506 29.3332 60.4636V70.277C27.7828 70.4891 25.8393 70.481 24.226 69.9285C23.2785 69.604 22.4951 69.1095 21.9478 68.4114C21.4088 67.7239 21.0339 66.7572 21.0339 65.3623C21.0339 63.5537 20.5372 62.0996 19.6598 60.9806C18.7908 59.8722 17.613 59.1744 16.3815 58.7527C13.9523 57.9207 11.1236 58.0943 9.27376 58.4806L8.41453 58.66V59.5378V71.1869V72.0321L9.23506 72.2352C14.2746 73.4825 17.6224 71.7597 18.7963 70.4523L17.1891 69.0092C16.6565 69.6024 14.4404 71.022 10.5745 70.3153Z"}))))),/*#__PURE__*/index_js_default().createElement("nav",null,/*#__PURE__*/index_js_default().createElement("ul",{className:"flex flex-col items-end"},menuLinks.map(link=>/*#__PURE__*/index_js_default().createElement("li",{key:link.name,className:"py-2 rounded-full dark:text-[#eee]"},/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Link,{to:link.link,className:"py-2 px-4 rounded-full bg-black text-white hover:bg-[#DC5132]",activeClassName:"bg-active"},link.name))),/*#__PURE__*/index_js_default().createElement("li",{className:"mr-2 mt-2 bg-black dark:bg-white rounded-full"},/*#__PURE__*/index_js_default().createElement(gatsby_plugin_dark_mode/* ThemeToggler */.L,null,({theme,toggleTheme})=>/*#__PURE__*/index_js_default().createElement("label",{className:"relative cursor-pointer block p-3 "},/*#__PURE__*/index_js_default().createElement("input",{className:"opacity-0 absolute",type:"checkbox",onChange:e=>toggleTheme(e.target.checked?'light':'dark'),checked:theme==='light'}),' ',/*#__PURE__*/index_js_default().createElement("span",{className:"block"},theme==='light'?/*#__PURE__*/index_js_default().createElement("svg",{width:"20",height:"20",viewBox:"0 0 20 20",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("g",{"clip-path":"url(#clip0_2569_1744)"},/*#__PURE__*/index_js_default().createElement("path",{d:"M8.20154 20C7.01999 20 5.84282 19.7414 4.74009 19.2272C2.7545 18.3013 1.24834 16.6576 0.499013 14.5988C-0.250316 12.5401 -0.1531 10.3128 0.772849 8.32719C1.69876 6.34159 3.34248 4.83539 5.40119 4.0861C7.03542 3.49133 8.78093 3.42837 10.4491 3.90394C10.6301 3.95553 10.7564 4.11887 10.7608 4.30702C10.7652 4.49516 10.6467 4.66424 10.4684 4.72431C10.4228 4.73966 10.3773 4.75548 10.3318 4.77204C7.28981 5.8793 5.71565 9.25505 6.82291 12.2972C7.35925 13.7708 8.43741 14.9474 9.85873 15.6102C11.28 16.273 12.8744 16.3426 14.348 15.8062C14.348 15.8062 14.3481 15.8062 14.3481 15.8062C14.3935 15.7897 14.4385 15.7726 14.4833 15.755C14.6585 15.6864 14.858 15.7398 14.9755 15.8868C15.0931 16.0337 15.1013 16.24 14.9958 16.3959C14.0235 17.8326 12.6459 18.9063 11.0118 19.5011C10.0964 19.8342 9.14752 20 8.20154 20ZM8.20443 4.44786C7.35656 4.44786 6.5104 4.59675 5.6951 4.89351C3.85203 5.56434 2.38052 6.91274 1.55159 8.69031C0.722699 10.4679 0.635638 12.4619 1.3065 14.3049C1.97732 16.148 3.32568 17.6195 5.10326 18.4484C6.88087 19.2773 8.87482 19.3644 10.7179 18.6935C11.7658 18.3121 12.6959 17.7107 13.4591 16.9276C12.1226 17.1559 10.7504 16.974 9.49557 16.3889C7.86622 15.6291 6.63035 14.2803 6.01542 12.591C4.88824 9.49397 6.18505 6.09549 8.93192 4.48442C8.6898 4.46009 8.44698 4.44786 8.20443 4.44786Z",fill:"white"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M14.6822 6.60558C14.5931 6.60558 14.5045 6.57793 14.4296 6.52352C14.2973 6.4274 14.2311 6.26449 14.2587 6.10333L14.5771 4.2469L13.2284 2.93217C13.1113 2.818 13.0691 2.64728 13.1197 2.49175C13.1702 2.33622 13.3047 2.22287 13.4665 2.19936L15.3304 1.92853L16.164 0.239504C16.2364 0.092841 16.3858 0 16.5493 0C16.7128 0 16.8622 0.092841 16.9346 0.239504L17.7681 1.92853L19.6321 2.19936C19.794 2.22287 19.9284 2.33622 19.9789 2.49175C20.0295 2.64728 19.9873 2.81804 19.8702 2.93217L18.5215 4.2469L18.8398 6.10333C18.8675 6.26453 18.8012 6.4274 18.6689 6.52356C18.5365 6.61968 18.3612 6.63233 18.2164 6.55625L16.5493 5.67979L14.8821 6.55625C14.8192 6.58925 14.7506 6.60558 14.6822 6.60558ZM16.5492 4.76469C16.6179 4.76469 16.6866 4.78114 16.7492 4.81406L17.8457 5.39056L17.6363 4.16953C17.6124 4.03017 17.6586 3.88796 17.7599 3.78926L18.647 2.92451L17.421 2.74637C17.2811 2.72602 17.1601 2.63814 17.0975 2.51132L16.5492 1.40043L16.001 2.51136C15.9384 2.63818 15.8174 2.72606 15.6775 2.74641L14.4516 2.92455L15.3386 3.7893C15.4399 3.888 15.4861 4.03021 15.4622 4.16957L15.2528 5.3906L16.3493 4.81414C16.4119 4.78118 16.4806 4.76469 16.5492 4.76469Z",fill:"#A99AFF"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M10.5144 13.0626C10.4254 13.0626 10.3367 13.035 10.2619 12.9806C10.1296 12.8844 10.0633 12.7215 10.0909 12.5603L10.334 11.1435L9.30459 10.14C9.18745 10.0259 9.14531 9.85514 9.19585 9.69961C9.24639 9.54408 9.38083 9.43074 9.54268 9.40722L10.9653 9.20049L11.6016 7.91138C11.674 7.76472 11.8233 7.67188 11.9868 7.67188C12.1504 7.67188 12.2997 7.76472 12.3721 7.91138L13.0083 9.20049L14.431 9.40722C14.5928 9.43074 14.7273 9.54408 14.7778 9.69965C14.8283 9.85518 14.7862 10.0259 14.6691 10.1401L13.6396 11.1435L13.8827 12.5604C13.9104 12.7216 13.8441 12.8845 13.7118 12.9806C13.5795 13.0767 13.4041 13.0894 13.2593 13.0133L11.9869 12.3444L10.7144 13.0133C10.6515 13.0463 10.5828 13.0626 10.5144 13.0626ZM10.5277 10.1324L11.0955 10.6858C11.1968 10.7845 11.243 10.9267 11.2191 11.0661L11.085 11.8476L11.7868 11.4786C11.912 11.4128 12.0615 11.4128 12.1867 11.4786L12.8886 11.8476L12.7545 11.0661C12.7306 10.9267 12.7768 10.7845 12.878 10.6858L13.4458 10.1323L12.6612 10.0183C12.5212 9.99798 12.4003 9.9101 12.3377 9.78328L11.9868 9.07222L11.6359 9.78328C11.5733 9.9101 11.4524 9.99798 11.3124 10.0183L10.5277 10.1324Z",fill:"#A99AFF"})),/*#__PURE__*/index_js_default().createElement("defs",null,/*#__PURE__*/index_js_default().createElement("clipPath",{id:"clip0_2569_1744"},/*#__PURE__*/index_js_default().createElement("rect",{width:"20",height:"20",fill:"white"})))):/*#__PURE__*/index_js_default().createElement("svg",{width:"20",height:"20",viewBox:"0 0 20 20",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("g",{"clip-path":"url(#clip0_2570_1749)"},/*#__PURE__*/index_js_default().createElement("path",{d:"M3.23239 17.197C3.12243 17.197 3.01247 17.1551 2.92856 17.0712C2.76079 16.9034 2.76079 16.6313 2.92856 16.4635L5.46626 13.9258L6.07395 14.5335L3.53622 17.0712C3.45231 17.1551 3.34235 17.197 3.23239 17.197Z",fill:"#414141"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M4.01855 10.4297H0.429688C0.192383 10.4297 0 10.2373 0 10C0 9.7627 0.192383 9.57031 0.429688 9.57031H4.01855V10.4297Z",fill:"#414141"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M5.4663 6.07427L2.92856 3.53653C2.76079 3.36872 2.76079 3.09665 2.92856 2.92884C3.09638 2.76103 3.36841 2.76103 3.53626 2.92884L6.07395 5.46657L5.4663 6.07427Z",fill:"#414141"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M9.5709 4.01855V0.452422C9.57051 0.444883 9.57031 0.437305 9.57031 0.429688C9.57031 0.192383 9.7627 0 10 0C10.0038 0 10.0077 3.90625e-05 10.0116 0.00015625C10.2438 0.00601563 10.4303 0.196094 10.4303 0.429727V4.01859H9.5709V4.01855Z",fill:"#414141"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M13.9258 5.46657L16.4635 2.92884C16.6313 2.76103 16.9034 2.76103 17.0712 2.92884C17.2389 3.09665 17.2389 3.36872 17.0712 3.53653L14.5335 6.07427L13.9258 5.46657Z",fill:"#414141"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M19.5703 10.4297H15.9814V9.57034H19.5638C19.8038 9.56761 20 9.7605 20 9.99995C20 10.2373 19.8076 10.4297 19.5703 10.4297Z",fill:"#414141"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M16.7673 17.197C16.6573 17.197 16.5474 17.1551 16.4635 17.0712L13.9258 14.5335L14.5335 13.9258L17.0712 16.4635C17.2389 16.6313 17.2389 16.9034 17.0712 17.0712C16.9873 17.1551 16.8773 17.197 16.7673 17.197Z",fill:"#414141"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M10.001 20C9.76367 20 9.57129 19.8076 9.57129 19.5703V15.9814H10.4307V19.5703C10.4307 19.8076 10.2383 20 10.001 20Z",fill:"#414141"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M17.3423 12.5765L16.0678 12.0486C16.2853 11.4051 16.4034 10.7161 16.4034 10.0001C16.4034 9.28434 16.2851 8.59578 16.0677 7.9525L17.3426 7.42445C17.5618 7.33363 17.6659 7.0823 17.5751 6.86305C17.4843 6.64383 17.233 6.53965 17.0137 6.63051L15.7385 7.15867C15.1162 5.90547 14.0957 4.88348 12.8436 4.2591L13.3758 2.97437C13.4666 2.75512 13.3625 2.50379 13.1432 2.41297C12.9239 2.32211 12.6726 2.42625 12.5818 2.64551L12.0506 3.92789C11.4043 3.7082 10.712 3.58895 9.99228 3.58895C9.27822 3.58895 8.59115 3.70641 7.94912 3.92281L7.42177 2.64973C7.33099 2.43051 7.07966 2.32633 6.86036 2.41719C6.64111 2.50801 6.53701 2.75934 6.62783 2.97859L7.15529 4.25195C5.89853 4.87477 4.874 5.89762 4.24911 7.15312L2.98681 6.63027C2.76755 6.53941 2.51622 6.64355 2.4254 6.86281C2.33458 7.08207 2.43868 7.3334 2.65794 7.42422L3.91845 7.94633C3.69978 8.59133 3.58115 9.28211 3.58115 10.0001C3.58115 10.7183 3.69986 11.4094 3.91872 12.0546L2.65822 12.5767C2.43896 12.6675 2.33486 12.9189 2.42568 13.1381C2.49419 13.3036 2.65419 13.4035 2.82283 13.4035C2.87759 13.4035 2.93333 13.3929 2.98708 13.3707L4.24947 12.8478C4.87431 14.1027 5.89841 15.1252 7.15462 15.7479L6.62716 17.0212C6.53634 17.2405 6.64044 17.4918 6.8597 17.5827C6.91345 17.6049 6.96915 17.6155 7.02396 17.6155C7.19255 17.6155 7.35259 17.5155 7.42111 17.3501L7.94841 16.0771C8.5906 16.2937 9.27794 16.4112 9.99224 16.4112C10.7122 16.4112 11.4047 16.2919 12.0513 16.0721L12.5797 17.3477C12.6482 17.5132 12.8082 17.6131 12.9769 17.6131C13.0316 17.6131 13.0874 17.6025 13.1411 17.5803C13.3604 17.4895 13.4645 17.2381 13.3736 17.0189L12.8443 15.7408C14.0958 15.1165 15.1157 14.0949 15.7379 12.8421L17.0135 13.3705C17.0672 13.3928 17.1229 13.4033 17.1777 13.4033C17.3463 13.4033 17.5063 13.3034 17.5749 13.138C17.6656 12.9187 17.5615 12.6673 17.3423 12.5765ZM9.99224 15.5518C6.93099 15.5518 4.44048 13.0613 4.44048 10.0001C4.44048 6.93883 6.93099 4.44832 9.99224 4.44832C13.0535 4.44832 15.544 6.93883 15.544 10.0001C15.544 13.0613 13.0535 15.5518 9.99224 15.5518Z",fill:"#313131"})),/*#__PURE__*/index_js_default().createElement("defs",null,/*#__PURE__*/index_js_default().createElement("clipPath",{id:"clip0_2570_1749"},/*#__PURE__*/index_js_default().createElement("rect",{width:"20",height:"20",fill:"white"}))))))))))));};/* harmony default export */ const header = (Header);
+;// CONCATENATED MODULE: ./src/components/footer.js
+const Footer=()=>/*#__PURE__*/index_js_default().createElement("footer",{className:"w-full"},/*#__PURE__*/index_js_default().createElement("div",{className:"flex pt-16 justify-center"},/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Link,{to:"/"},/*#__PURE__*/index_js_default().createElement("span",{className:"logo"},/*#__PURE__*/index_js_default().createElement("svg",{width:"40",height:"95",viewBox:"0 0 40 95",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("path",{"fill-rule":"evenodd","clip-rule":"evenodd",d:"M23.5553 0.760654C21.4018 0.37215 19.1986 0.339595 17.0368 0.662991V43.8158H15.5553V0.942056C13.2266 1.47234 10.9718 2.42491 8.90877 3.79977C3.3432 7.50881 0 13.7544 0 20.4426V74.3661C0 81.0544 3.3432 87.2999 8.90877 91.009C15.6255 95.4852 24.3745 95.4852 31.0912 91.009C36.6568 87.2999 40 81.0544 40 74.3661L40 20.4426C40 13.7544 36.6568 7.50882 31.0912 3.79977C29.2035 2.54176 27.1553 1.6373 25.0368 1.0864V43.7996H23.5553V0.760654ZM10.5745 70.3153V60.4477C12.1249 60.2356 14.0684 60.2437 15.6817 60.7962C16.6292 61.1207 17.4126 61.6151 17.9599 62.3133C18.4989 63.0008 18.8739 63.9674 18.8739 65.3623C18.8739 67.1709 19.3706 68.6251 20.2479 69.7441C21.1169 70.8524 22.2947 71.5502 23.5262 71.972C25.9554 72.8039 28.7841 72.6303 30.6339 72.244L31.4932 72.0646V71.1869V59.5378V58.6546L30.6275 58.4793C29.3098 58.2124 27.4135 58.1179 25.6537 58.3272C24.7701 58.4323 23.8813 58.6185 23.0976 58.9208C22.3263 59.2183 21.5658 59.6633 21.0528 60.3434L22.7772 61.6442C22.9522 61.4122 23.2984 61.1584 23.8749 60.9361C24.4392 60.7184 25.1395 60.5636 25.9088 60.4721C27.0849 60.3322 28.3297 60.3506 29.3332 60.4636V70.277C27.7828 70.4891 25.8393 70.481 24.226 69.9285C23.2785 69.604 22.4951 69.1095 21.9478 68.4114C21.4088 67.7239 21.0339 66.7572 21.0339 65.3623C21.0339 63.5537 20.5372 62.0996 19.6598 60.9806C18.7908 59.8722 17.613 59.1744 16.3815 58.7527C13.9523 57.9207 11.1236 58.0943 9.27376 58.4806L8.41453 58.66V59.5378V71.1869V72.0321L9.23506 72.2352C14.2746 73.4825 17.6224 71.7597 18.7963 70.4523L17.1891 69.0092C16.6565 69.6024 14.4404 71.022 10.5745 70.3153Z"}))))),/*#__PURE__*/index_js_default().createElement("div",{className:"w-[1392px] mx-auto flex justify-center py-4"},/*#__PURE__*/index_js_default().createElement("div",{className:"flex flex-col justify-center dark:text-[#eee]"},/*#__PURE__*/index_js_default().createElement("p",{className:"py-2 text-center"},"Lets Talk"),/*#__PURE__*/index_js_default().createElement("a",{href:"mailto:dennistdickson@gmail.com",className:"flex email underline"},/*#__PURE__*/index_js_default().createElement("span",{className:"mr-2"},/*#__PURE__*/index_js_default().createElement("svg",{width:"26",height:"24",viewBox:"0 0 26 24",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("path",{d:"M4.28314 4H21.4154C22.5933 4 23.557 4.9 23.557 6V18C23.557 19.1 22.5933 20 21.4154 20H4.28314C3.10529 20 2.1416 19.1 2.1416 18V6C2.1416 4.9 3.10529 4 4.28314 4Z",stroke:"#212121","stroke-linecap":"round","stroke-linejoin":"round"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M23.557 6L12.8493 13L2.1416 6",stroke:"#212121","stroke-linecap":"round","stroke-linejoin":"round"}))),"dennistdickson@gmail.com"))),/*#__PURE__*/index_js_default().createElement("div",{className:"flex justify-center py-8"},/*#__PURE__*/index_js_default().createElement("span",{className:"mx-8 relative"},/*#__PURE__*/index_js_default().createElement("a",{target:"_blank",rel:"noreferrer",href:"https://dribbble.com/psybuglite"},/*#__PURE__*/index_js_default().createElement("svg",{width:"43",height:"40",viewBox:"0 0 43 40",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("path",{d:"M26.5703 21.4473C28.2506 25.4177 29.4987 29.5053 30.3094 33.6813C31.4663 33.0225 32.5473 32.2313 33.5303 31.3137C36.0826 28.9297 37.7299 25.9257 38.3119 22.6657C35.8046 21.6969 33.0583 21.1609 30.1801 21.1609C28.9496 21.1609 27.7439 21.2597 26.5703 21.4473Z",fill:"#EA4C89"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M33.5439 8.7C33.5388 8.6956 33.5341 8.6908 33.5294 8.6864C30.2935 5.6644 25.9911 4 21.4151 4C19.6256 4 17.8781 4.2556 16.2197 4.7464C18.8774 7.8564 21.2155 11.1752 23.2196 14.6828C26.9947 13.1856 30.4717 11.1576 33.5439 8.7Z",fill:"#EA4C89"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M34.8903 10.1165C31.6677 12.7017 28.066 14.7965 24.1475 16.3625C24.7252 17.4485 25.2709 18.5521 25.7857 19.6721C27.224 19.4165 28.6909 19.2861 30.1797 19.2861C33.0635 19.2861 35.8681 19.7705 38.5296 20.7237C38.5412 20.4833 38.5476 20.2421 38.5476 20.0005C38.5476 16.3693 37.261 12.9241 34.8903 10.1165Z",fill:"#EA4C89"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M10.8701 32.6124C13.8696 34.8088 17.5444 36 21.4155 36C23.8761 36 26.2571 35.518 28.4359 34.6036C27.6191 30.184 26.3115 25.92 24.567 21.8616C18.5038 23.4068 13.5085 27.392 10.8701 32.6124Z",fill:"#EA4C89"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M21.0917 20.9996C21.9727 20.6516 22.8713 20.3564 23.7836 20.114C23.3022 19.0844 22.7912 18.0692 22.2537 17.0684C17.6254 18.6732 12.7586 19.4868 7.75892 19.4868C6.59735 19.4868 5.44349 19.442 4.29819 19.3548C4.28877 19.5688 4.2832 19.784 4.2832 20.0004C4.2832 24.274 6.06539 28.292 9.30126 31.314C9.30211 31.3148 9.3034 31.316 9.30468 31.3168C10.4239 29.2324 11.8874 27.3376 13.6709 25.672C15.8145 23.67 18.3111 22.098 21.0917 20.9996Z",fill:"#EA4C89"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M21.3141 15.3841C19.2809 11.8677 16.9025 8.55006 14.2217 5.47046C12.4151 6.25206 10.7507 7.33246 9.30092 8.68646C6.7088 11.1073 5.05039 14.1677 4.49316 17.4865C5.57036 17.5689 6.65912 17.6117 7.75901 17.6117C12.5171 17.6113 17.0828 16.8249 21.3141 15.3841Z",fill:"#EA4C89"}))),/*#__PURE__*/index_js_default().createElement("span",{className:"absolute top-0 -right-4 link-arrow"},/*#__PURE__*/index_js_default().createElement("svg",{width:"18",height:"16",viewBox:"0 0 18 16",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("path",{d:"M5.40918 11.3334L12.5476 4.66675",stroke:"#414141","stroke-width":"0.666667","stroke-linecap":"round","stroke-linejoin":"round"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M5.40918 4.66675H12.5476V11.3334",stroke:"#414141","stroke-width":"0.666667","stroke-linecap":"round","stroke-linejoin":"round"})))),/*#__PURE__*/index_js_default().createElement("span",{className:"mx-8 relative"},/*#__PURE__*/index_js_default().createElement("a",{target:"_blank",rel:"noreferrer",href:"https://linkedin.com/in/psybug"},/*#__PURE__*/index_js_default().createElement("svg",{width:"44",height:"40",viewBox:"0 0 44 40",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("path",{d:"M39.1216 36.0001V35.9989H39.1301V24.2629C39.1301 18.5217 37.8067 14.0989 30.6197 14.0989C27.1645 14.0989 24.8461 15.8697 23.8995 17.5481H23.7997V14.6349H16.9854V35.9989H24.0811V25.4201C24.0811 22.6349 24.6465 19.9413 28.3398 19.9413C31.9791 19.9413 32.0331 23.1201 32.0331 25.5985V36.0001H39.1216Z",fill:"#0073B1"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M5.43066 14.636H12.535V36H5.43066V14.636Z",fill:"#0073B1"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M8.97999 4C6.70824 4 4.86523 5.7212 4.86523 7.8428C4.86523 9.9644 6.70824 11.7216 8.97999 11.7216C11.2517 11.7216 13.0947 9.9644 13.0947 7.8428C13.093 5.7212 11.25 4 8.97999 4Z",fill:"#0073B1"}))),/*#__PURE__*/index_js_default().createElement("span",{className:"absolute top-0 -right-4 link-arrow"},/*#__PURE__*/index_js_default().createElement("svg",{width:"18",height:"16",viewBox:"0 0 18 16",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("path",{d:"M5.40918 11.3334L12.5476 4.66675",stroke:"#414141","stroke-width":"0.666667","stroke-linecap":"round","stroke-linejoin":"round"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M5.40918 4.66675H12.5476V11.3334",stroke:"#414141","stroke-width":"0.666667","stroke-linecap":"round","stroke-linejoin":"round"}))))),/*#__PURE__*/index_js_default().createElement("div",{className:"w-[1392px] text-[12px] mx-auto dark:text-[#eee] flex justify-between py-4"},/*#__PURE__*/index_js_default().createElement("div",{className:"flex"},/*#__PURE__*/index_js_default().createElement("p",null,"This site is built with"),/*#__PURE__*/index_js_default().createElement("div",{className:"mx-1 flex items-center"},/*#__PURE__*/index_js_default().createElement("span",{className:"mr-1"},/*#__PURE__*/index_js_default().createElement("svg",{width:"16",height:"16",viewBox:"0 0 16 16",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("rect",{width:"16",height:"16",rx:"8",fill:"#E4E4E4"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM3.54286 12.4571C2.34286 11.2571 1.71429 9.65714 1.71429 8.11429L7.94286 14.2857C6.34286 14.2286 4.74286 13.6571 3.54286 12.4571ZM9.37143 14.1143L1.88571 6.62857C2.51429 3.82857 5.02857 1.71429 8 1.71429C10.1143 1.71429 11.9429 2.74286 13.0857 4.28571L12.2286 5.02857C11.2571 3.71429 9.71429 2.85714 8 2.85714C5.77143 2.85714 3.88571 4.28571 3.14286 6.28571L9.71429 12.8571C11.3714 12.2857 12.6286 10.8571 13.0286 9.14286H10.2857V8H14.2857C14.2857 10.9714 12.1714 13.4857 9.37143 14.1143Z",fill:"#663399"}))),/*#__PURE__*/index_js_default().createElement("span",{className:"svg"},/*#__PURE__*/index_js_default().createElement("svg",{width:"39",height:"13",viewBox:"0 0 39 13",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("path",{d:"M14.5738 4.42854H16.1552V9.78568H14.5738V9.08925C14.009 9.89282 13.2747 9.94639 12.8229 9.94639C11.072 9.94639 9.94238 8.66068 9.94238 7.10711C9.94238 5.49997 11.072 4.26782 12.7099 4.26782C13.1617 4.26782 14.009 4.32139 14.5173 5.12497V4.42854H14.5738ZM11.6368 7.10711C11.6368 7.96425 12.2581 8.60711 13.2182 8.60711C14.1219 8.60711 14.7997 7.96425 14.7997 7.10711C14.7997 6.24997 14.1784 5.60711 13.2182 5.60711C12.3145 5.60711 11.6368 6.24997 11.6368 7.10711Z",fill:"black"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M19.2613 5.71408V9.7855H17.6799V5.71408H17.0586V4.42836H17.6799V2.60693H19.2613V4.42836H20.3344V5.71408H19.2613Z",fill:"black"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M24.0625 5.71425C23.6671 5.39282 23.3282 5.33925 23.1588 5.33925C22.7634 5.33925 22.5375 5.49997 22.5375 5.76782C22.5375 5.92854 22.594 6.08925 23.0458 6.24997L23.4412 6.35711C23.893 6.51782 24.5708 6.67854 24.8532 7.10711C25.0226 7.32139 25.1356 7.64282 25.1356 8.01782C25.1356 8.49997 24.9662 8.98211 24.5143 9.35711C24.0625 9.73211 23.4977 9.94639 22.8199 9.94639C21.6338 9.94639 21.0125 9.41068 20.6172 9.03568L21.4644 8.12497C21.8033 8.44639 22.2551 8.76782 22.707 8.76782C23.1588 8.76782 23.4977 8.55354 23.4977 8.17854C23.4977 7.85711 23.2153 7.69639 22.9894 7.64282L22.6505 7.53568C22.2551 7.37497 21.8033 7.21425 21.4644 6.89282C21.182 6.62497 21.0126 6.30354 21.0126 5.87497C21.0126 5.33925 21.295 4.91068 21.5774 4.64282C22.0292 4.32139 22.594 4.26782 23.0458 4.26782C23.4412 4.26782 24.119 4.32139 24.8532 4.85711L24.0625 5.71425Z",fill:"black"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M27.5072 5.12493C28.072 4.37493 28.8627 4.26779 29.3146 4.26779C30.9525 4.26779 32.0821 5.49993 32.0821 7.10707C32.0821 8.71422 30.9525 9.94636 29.2581 9.94636C28.9192 9.94636 28.072 9.89279 27.4507 9.08922V9.78564H25.9258V0.785645H27.5072V5.12493ZM27.3378 7.10707C27.3378 7.96422 27.9591 8.60707 28.9192 8.60707C29.8229 8.60707 30.5007 7.96422 30.5007 7.10707C30.5007 6.24993 29.8794 5.60707 28.9192 5.60707C27.9591 5.60707 27.3378 6.24993 27.3378 7.10707Z",fill:"black"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M34.6798 8.98204L31.9688 4.42847H33.8326L35.5835 7.48204L37.1649 4.42847H38.9723L34.4539 12.6249H32.6465L34.6798 8.98204Z",fill:"black"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M9.54659 5.33929H7.96514H5.59298V6.83929H7.68274C7.34386 7.85714 6.55314 8.55357 5.08466 8.55357C3.44673 8.55357 2.26065 7.26786 2.26065 5.71429C2.26065 4.16071 3.39025 2.82143 5.02818 2.82143C5.93186 2.82143 6.83554 3.25 7.40034 3.94643L8.69938 3.14286C7.85218 2.01786 6.49666 1.375 5.02818 1.375C2.54305 1.375 0.509766 3.30357 0.509766 5.71429C0.509766 8.125 2.43009 10.0536 5.02818 10.0536C7.62626 10.0536 9.54659 8.125 9.54659 5.71429C9.60307 5.55357 9.54659 5.44643 9.54659 5.33929Z",fill:"black"})))),/*#__PURE__*/index_js_default().createElement("p",null,"and hosted on"),/*#__PURE__*/index_js_default().createElement("div",{className:"ml-1 flex items-center"},/*#__PURE__*/index_js_default().createElement("span",{className:"mr-1"},/*#__PURE__*/index_js_default().createElement("svg",{width:"16",height:"17",viewBox:"0 0 16 17",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("path",{"fill-rule":"evenodd","clip-rule":"evenodd",d:"M4.62749 3.61755C4.8785 3.72357 6.63303 4.4646 6.85863 4.56243C6.87306 4.56868 6.8898 4.57551 6.90099 4.56448C7.05213 4.44362 7.24645 4.37258 7.44082 4.37258C7.52827 4.37258 7.61578 4.38499 7.70318 4.40982C7.7154 4.41326 7.73019 4.41664 7.74062 4.40951C7.74817 4.40428 7.75274 4.3973 7.75772 4.38961L9.48508 1.71709L8.95871 1.19133C8.6223 0.855259 8.45407 0.687223 8.25949 0.625759C8.09557 0.573966 7.91958 0.573966 7.75566 0.625759C7.56109 0.687223 7.39285 0.855259 7.05644 1.19133L4.62749 3.61755ZM4.38114 8.79637L2.37247 5.87012L4.24868 3.99596C4.42398 4.07255 5.05921 4.34072 5.63026 4.58182L5.64053 4.58612C6.07534 4.76966 6.47122 4.93679 6.59539 4.99039C6.60792 4.99578 6.61932 5.0007 6.62482 5.01311C6.6281 5.0206 6.62651 5.03045 6.62482 5.03846C6.61213 5.09842 6.60587 5.15839 6.60587 5.21835C6.60587 5.43867 6.69224 5.64483 6.84338 5.80118C6.8558 5.81339 6.84332 5.83134 6.83233 5.84709L6.83172 5.84796L6.8291 5.85181L6.82648 5.85576L4.92184 8.80314C4.91671 8.81109 4.91188 8.81853 4.90392 8.82371C4.89381 8.83033 4.87963 8.82735 4.86792 8.82438C4.79372 8.8056 4.71417 8.79339 4.64084 8.79339C4.57264 8.79339 4.49803 8.80617 4.42305 8.81956L4.42238 8.81971C4.41432 8.8212 4.40673 8.82253 4.40002 8.81766C4.39268 8.81237 4.38628 8.80386 4.38114 8.79637ZM11.8028 6.29865C11.7471 6.23679 11.678 6.18164 11.5954 6.13948C11.5935 6.1385 11.5916 6.13779 11.5898 6.13707C11.5864 6.13573 11.5831 6.1345 11.5801 6.13163C11.5703 6.12245 11.5665 6.10598 11.5686 6.0928L11.8913 4.12056L13.4059 5.63354L11.8309 6.30291C11.8266 6.30481 11.8219 6.30573 11.8171 6.30573C11.8141 6.30573 11.8123 6.30573 11.8108 6.30522C11.8087 6.30445 11.8067 6.3025 11.8028 6.29865ZM12.1293 6.72205L13.792 6.01934L15.4113 7.63682C15.7477 7.97281 15.916 8.14096 15.9775 8.33527C15.9866 8.36394 15.9941 8.39303 16 8.42232L12.1303 6.78561L12.1242 6.78314C12.1086 6.77678 12.0906 6.76955 12.0906 6.7536C12.0906 6.73795 12.109 6.73041 12.1243 6.7241L12.1293 6.72205ZM15.9339 8.94154L11.9023 7.2383C11.8889 7.23265 11.8725 7.22614 11.8594 7.2324C11.8549 7.2345 11.8523 7.23804 11.8494 7.24194L11.8481 7.24368C11.733 7.39614 11.5623 7.49314 11.3637 7.52114C11.3444 7.52114 11.341 7.54556 11.3381 7.56634L11.3368 7.57536L10.8924 10.2985L10.8914 10.3043C10.8889 10.3182 10.8862 10.3333 10.8959 10.3429C11.0542 10.4637 11.1478 10.6413 11.1694 10.8404C11.1694 10.8595 11.192 10.8632 11.2127 10.8666L11.2144 10.8669L11.2168 10.8673L11.2238 10.8685L11.2251 10.8688L13.5863 11.36L15.4114 9.53693C15.6874 9.26122 15.8504 9.09835 15.9339 8.94154ZM11.0521 11.3462L13.1662 11.7797L10.1643 14.7783L10.6785 11.6234L10.6791 11.6191C10.6797 11.6153 10.6802 11.611 10.6816 11.6074C10.6856 11.5972 10.6966 11.5929 10.707 11.5888L10.712 11.5868C10.8261 11.5394 10.9229 11.4641 11.0024 11.3711C11.0125 11.3593 11.0247 11.3483 11.04 11.3456C11.0434 11.3451 11.0487 11.3454 11.0521 11.3462ZM9.52909 15.4129C9.64931 14.6764 10.0974 11.9485 10.1495 11.6312C10.1505 11.6253 10.1531 11.6187 10.1556 11.6124C10.161 11.5986 10.1662 11.5854 10.1545 11.5797C9.94356 11.4963 9.7876 11.3113 9.72675 11.0974C9.72598 11.0946 9.72542 11.0918 9.72495 11.0892C9.72372 11.0826 9.72259 11.0768 9.71725 11.0715C9.7097 11.0641 9.69579 11.0597 9.68546 11.0576L5.54091 10.2038C5.53115 10.2018 5.51924 10.1998 5.5104 10.2045C5.50023 10.2099 5.49474 10.2193 5.48894 10.2292L5.48811 10.2306L5.47964 10.2451C5.46896 10.2634 5.45925 10.2801 5.4478 10.2965L5.44647 10.2983L5.44375 10.3018C5.43943 10.3073 5.43512 10.3127 5.43455 10.3195C5.43368 10.3288 5.43969 10.3368 5.44559 10.3445C5.44708 10.3465 5.44852 10.3484 5.44991 10.3504L9.19057 15.751L9.52909 15.4129ZM5.06312 10.6697L8.82217 16.1186C8.57285 16.3651 8.42582 16.4955 8.25954 16.5481C8.09562 16.5999 7.91958 16.5999 7.75566 16.5481C7.56109 16.4866 7.39285 16.3186 7.05644 15.9825L3.29977 12.23L4.28082 10.7096C4.28567 10.7021 4.29006 10.6953 4.29737 10.6901C4.30802 10.6826 4.32323 10.6862 4.33567 10.6901C4.43666 10.7212 4.53192 10.7339 4.6336 10.7339C4.76481 10.7339 4.88939 10.7077 5.02003 10.6554C5.03107 10.6509 5.04252 10.6483 5.05136 10.6562C5.05557 10.6599 5.05993 10.6651 5.06312 10.6697ZM2.93757 11.868L3.878 10.4107C3.88265 10.4035 3.88618 10.3967 3.88136 10.3895C3.88017 10.3878 3.87728 10.3846 3.876 10.383C3.85976 10.3616 3.84352 10.3401 3.82728 10.3154C3.82537 10.3125 3.82351 10.3094 3.82161 10.3061C3.81391 10.2929 3.80563 10.2788 3.79154 10.2788C3.78679 10.2788 3.78209 10.2798 3.77772 10.2817L2.07547 11.0069L2.93757 11.868ZM3.50598 9.85964L1.69427 10.6263L0.603841 9.53709C0.418533 9.35196 0.283993 9.21756 0.190505 9.10194L3.5054 9.78859C3.50931 9.78942 3.51354 9.79008 3.51785 9.7908C3.53851 9.79413 3.56112 9.79788 3.56112 9.81696C3.56112 9.83774 3.53659 9.84743 3.51563 9.85569L3.50598 9.85964ZM0 8.54184L3.73826 9.32447L3.73921 9.32462C3.7455 9.32595 3.7512 9.32713 3.75673 9.32375C3.76583 9.3181 3.77233 9.30744 3.77741 9.29805C3.82039 9.21823 3.88153 9.14483 3.94268 9.07778C3.95531 9.06532 3.94285 9.04849 3.93153 9.03326L3.92842 9.02905L3.92597 9.02561C3.74866 8.7719 2.22954 6.57986 1.99956 6.24269L0.603867 7.63682C0.267427 7.97291 0.0991989 8.14096 0.0376676 8.33527C0.0163406 8.40267 0.00378473 8.47207 0 8.54184ZM8.15339 4.71375L9.85174 2.08341L11.4471 3.67698L11.063 6.05433C11.0627 6.05622 11.0624 6.05843 11.0622 6.06074C11.0616 6.06618 11.061 6.07223 11.059 6.07649C11.0553 6.08485 11.047 6.08675 11.0383 6.08875C11.0353 6.08941 11.0323 6.09008 11.0293 6.09105C10.9485 6.11742 10.8736 6.15456 10.8092 6.20257C10.8061 6.20483 10.8037 6.20745 10.8012 6.21001C10.7964 6.21514 10.7918 6.21986 10.7844 6.22032C10.7794 6.22063 10.7711 6.21955 10.7665 6.2176L8.33606 5.18603L8.33113 5.18398C8.31577 5.17767 8.29734 5.17008 8.29734 5.15439C8.28424 5.02461 8.24105 4.89488 8.17342 4.78136L8.16813 4.77269C8.15627 4.75356 8.14353 4.73314 8.15339 4.71375ZM8.20952 5.67468C8.19627 5.66904 8.17974 5.66458 8.16839 5.67335C8.16243 5.67802 8.15863 5.68361 8.15437 5.68987C7.99533 5.92578 7.7322 6.06423 7.44811 6.06423C7.41037 6.06423 7.37272 6.05879 7.3302 6.05269L7.31136 6.05002C7.29128 6.05002 7.2789 6.06951 7.26781 6.08695L7.26457 6.09208L5.39203 8.98765C5.39096 8.9893 5.38983 8.99094 5.38864 8.99268C5.38782 8.99386 5.387 8.99499 5.38618 8.99617C5.37524 9.01197 5.36271 9.03002 5.37509 9.04223C5.38233 9.04936 5.38952 9.04936 5.39671 9.04936C5.40364 9.04936 10.1102 7.0446 10.471 6.89087L10.4759 6.88881C10.4908 6.88271 10.5072 6.87589 10.5072 6.86024V6.79628C10.5072 6.75801 10.513 6.71969 10.5194 6.6865C10.5208 6.67917 10.5222 6.67004 10.5194 6.66301C10.514 6.64993 10.5007 6.64429 10.4877 6.6388L8.20952 5.67468ZM5.63581 9.6205C5.61937 9.56484 5.60248 9.50754 5.60027 9.50718L10.7302 7.32211C10.7302 7.32211 10.7375 7.32217 10.7447 7.3293C10.7728 7.357 10.7965 7.37608 10.8192 7.39326C10.8225 7.39578 10.8264 7.39798 10.8302 7.40024C10.8408 7.40634 10.8518 7.41276 10.8525 7.42394C10.8527 7.42773 10.8523 7.43066 10.8517 7.43445L10.412 10.1308C10.4115 10.1336 10.4111 10.1364 10.4107 10.1394L10.4104 10.1415C10.4076 10.1627 10.4045 10.1864 10.3848 10.1864C10.1463 10.2003 9.93525 10.3356 9.81138 10.5397L9.80938 10.543C9.80363 10.5527 9.79813 10.5619 9.78807 10.5669C9.77959 10.5712 9.76824 10.5693 9.75905 10.5674L5.66826 9.72442C5.66636 9.72401 5.65132 9.67302 5.63581 9.6205Z",fill:"url(#paint0_radial_2859_545)"}),/*#__PURE__*/index_js_default().createElement("defs",null,/*#__PURE__*/index_js_default().createElement("radialGradient",{id:"paint0_radial_2859_545",cx:"0",cy:"0",r:"1",gradientUnits:"userSpaceOnUse",gradientTransform:"translate(8 0.586912) rotate(90) scale(16 18.432)"},/*#__PURE__*/index_js_default().createElement("stop",{"stop-color":"#00CEBF"}),/*#__PURE__*/index_js_default().createElement("stop",{offset:"1","stop-color":"#008FC9"}))))),/*#__PURE__*/index_js_default().createElement("span",{className:"svg"},/*#__PURE__*/index_js_default().createElement("svg",{width:"34",height:"12",viewBox:"0 0 34 12",fill:"none",xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("path",{d:"M1.35766 2.84672L1.40146 3.59124C1.88321 3.0219 2.54015 2.71533 3.28467 2.71533C4.64234 2.71533 5.34306 3.50365 5.34306 5.0365V9.32847H3.94161V5.12409C3.94161 4.68613 3.85402 4.42336 3.67883 4.24817C3.50365 4.0292 3.24088 3.89781 2.80292 3.89781C2.23358 3.89781 1.79562 4.16058 1.48905 4.72993V9.32847H0V2.84672H1.35766ZM9.67883 9.41606C8.80292 9.41606 8.0146 9.15328 7.48905 8.54015C6.87591 7.9708 6.61314 7.22628 6.61314 6.26277V6.08759C6.61314 5.43066 6.70073 4.86131 6.9635 4.33577C7.18425 3.8485 7.54188 3.43591 7.99286 3.14821C8.44385 2.86051 8.96874 2.71011 9.50365 2.71533C10.3796 2.71533 11.0803 3.0219 11.562 3.59124C12.0831 4.26618 12.347 5.10449 12.3066 5.9562V6.52555H8.05839C8.10219 7.09489 8.27737 7.48905 8.58394 7.83942C8.89051 8.14598 9.28467 8.27737 9.76642 8.27737C10.4234 8.27737 10.9927 8.0146 11.3869 7.48905L12.1752 8.23358C11.9204 8.60738 11.5734 8.90909 11.1679 9.10949C10.7299 9.32847 10.2482 9.45985 9.67883 9.45985V9.41606ZM9.50365 3.94161C9.10949 3.94161 8.80292 4.07299 8.54015 4.37956C8.28924 4.70997 8.13736 5.10486 8.10219 5.51825H10.8613V5.43066C10.8687 5.01643 10.7291 4.61298 10.4672 4.29197C10.2482 4.07299 9.9416 3.94161 9.50365 3.94161ZM15.2409 1.31387V2.89051H16.3796V3.94161H15.2409V7.53285C15.2409 7.79562 15.2847 7.9708 15.3723 8.05839C15.5036 8.18978 15.6788 8.23358 15.8978 8.23358L16.4234 8.18978V9.28467C16.1117 9.38679 15.7875 9.44573 15.4599 9.45985C14.365 9.45985 13.7956 8.84671 13.7956 7.57664V3.94161H12.7007V2.84672H13.7518V1.27007H15.1971L15.2409 1.31387ZM19.0511 9.37226H17.6058V0.175183H19.0511V9.37226ZM22.1606 9.37226H20.7153V2.84672H22.1606V9.32847V9.37226ZM20.6277 1.22628C20.6277 0.963504 20.7153 0.788321 20.8467 0.656934C20.9781 0.481752 21.1971 0.437956 21.4599 0.437956C21.7226 0.437956 21.8978 0.481752 22.073 0.656934C22.2044 0.788321 22.292 0.963504 22.292 1.22628C22.292 1.44526 22.2044 1.62044 22.073 1.75182C21.9416 1.88321 21.7226 1.9708 21.4599 1.9708C21.1971 1.9708 21.0219 1.88321 20.8467 1.75182C20.7153 1.62044 20.6277 1.44526 20.6277 1.22628ZM24.2628 9.37226V3.94161H23.2993V2.84672H24.2628V2.23358C24.2628 1.53285 24.4818 0.963504 24.8759 0.569343C25.2701 0.175183 25.8394 0 26.5401 0C26.8029 0 27.0657 -8.48387e-08 27.3723 0.0875912L27.3285 1.22628C27.1392 1.20725 26.9484 1.20725 26.7591 1.22628C26.0584 1.22628 25.708 1.53285 25.708 2.27737V2.84672H27.0219V3.94161H25.708V9.32847H24.2628V9.37226ZM30.3942 7.27007L31.708 2.89051H33.2409L30.6569 10.3358C30.2628 11.4307 29.6058 12 28.6423 12C28.4039 11.9882 28.1681 11.944 27.9416 11.8686V10.7299H28.2482C28.5985 10.7299 28.8613 10.7299 29.0803 10.5547C29.2902 10.3858 29.4431 10.1565 29.5182 9.89781L29.6934 9.32847L27.4161 2.89051H28.9927L30.3942 7.27007Z",fill:"black","fill-opacity":"0.85"})))),/*#__PURE__*/index_js_default().createElement("p",null,".")),/*#__PURE__*/index_js_default().createElement("p",null,"Dennis Tamunotonye Dickson \xA9 2023")));/* harmony default export */ const footer = (Footer);
+// EXTERNAL MODULE: ./node_modules/prop-types/index.js
+var prop_types = __webpack_require__(5697);
+var prop_types_default = /*#__PURE__*/__webpack_require__.n(prop_types);
+;// CONCATENATED MODULE: ./src/components/layout.js
+const Layout=({children})=>/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.StaticQuery,{query:"1947816842",render:data=>/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement(header,{menuLinks:data.site.siteMetadata.menuLinks,siteTitle:data.site.siteMetadata.title}),/*#__PURE__*/index_js_default().createElement("div",{className:"dark:text-[#eee]"},children),/*#__PURE__*/index_js_default().createElement(footer,null))});Layout.propTypes={children:(prop_types_default()).node.isRequired};/* harmony default export */ const layout = (Layout);
 
 /***/ }),
 
-/***/ "./src/pages/writing/window-document-not-defined-gatsby-build.js?export=default":
-/*!**************************************************************************************!*\
-  !*** ./src/pages/writing/window-document-not-defined-gatsby-build.js?export=default ***!
-  \**************************************************************************************/
+/***/ 5079:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/layout */ "./src/components/layout.js");
-/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! marked */ "./node_modules/marked/lib/marked.esm.js");
-/* harmony import */ var highlight_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! highlight.js */ "./node_modules/highlight.js/es/index.js");
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ window_document_not_defined_gatsby_build)
+});
+
+// EXTERNAL MODULE: external "/Users/Tonye/Sites/website/node_modules/react/index.js"
+var index_js_ = __webpack_require__(6781);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+// EXTERNAL MODULE: ./src/components/layout.js + 2 modules
+var layout = __webpack_require__(1977);
+;// CONCATENATED MODULE: ./node_modules/marked/lib/marked.esm.js
+/**
+ * marked v4.2.12 - a markdown parser
+ * Copyright (c) 2011-2023, Christopher Jeffrey. (MIT Licensed)
+ * https://github.com/markedjs/marked
+ */
+
+/**
+ * DO NOT EDIT THIS FILE
+ * The code in this file is generated from files in ./src/
+ */
+
+function getDefaults() {
+  return {
+    async: false,
+    baseUrl: null,
+    breaks: false,
+    extensions: null,
+    gfm: true,
+    headerIds: true,
+    headerPrefix: '',
+    highlight: null,
+    langPrefix: 'language-',
+    mangle: true,
+    pedantic: false,
+    renderer: null,
+    sanitize: false,
+    sanitizer: null,
+    silent: false,
+    smartypants: false,
+    tokenizer: null,
+    walkTokens: null,
+    xhtml: false
+  };
+}
+
+let defaults = getDefaults();
+
+function changeDefaults(newDefaults) {
+  defaults = newDefaults;
+}
+
+/**
+ * Helpers
+ */
+const escapeTest = /[&<>"']/;
+const escapeReplace = new RegExp(escapeTest.source, 'g');
+const escapeTestNoEncode = /[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/;
+const escapeReplaceNoEncode = new RegExp(escapeTestNoEncode.source, 'g');
+const escapeReplacements = {
+  '&': '&amp;',
+  '<': '&lt;',
+  '>': '&gt;',
+  '"': '&quot;',
+  "'": '&#39;'
+};
+const getEscapeReplacement = (ch) => escapeReplacements[ch];
+function marked_esm_escape(html, encode) {
+  if (encode) {
+    if (escapeTest.test(html)) {
+      return html.replace(escapeReplace, getEscapeReplacement);
+    }
+  } else {
+    if (escapeTestNoEncode.test(html)) {
+      return html.replace(escapeReplaceNoEncode, getEscapeReplacement);
+    }
+  }
+
+  return html;
+}
+
+const unescapeTest = /&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/ig;
+
+/**
+ * @param {string} html
+ */
+function marked_esm_unescape(html) {
+  // explicitly match decimal, hex, and named HTML entities
+  return html.replace(unescapeTest, (_, n) => {
+    n = n.toLowerCase();
+    if (n === 'colon') return ':';
+    if (n.charAt(0) === '#') {
+      return n.charAt(1) === 'x'
+        ? String.fromCharCode(parseInt(n.substring(2), 16))
+        : String.fromCharCode(+n.substring(1));
+    }
+    return '';
+  });
+}
+
+const caret = /(^|[^\[])\^/g;
+
+/**
+ * @param {string | RegExp} regex
+ * @param {string} opt
+ */
+function edit(regex, opt) {
+  regex = typeof regex === 'string' ? regex : regex.source;
+  opt = opt || '';
+  const obj = {
+    replace: (name, val) => {
+      val = val.source || val;
+      val = val.replace(caret, '$1');
+      regex = regex.replace(name, val);
+      return obj;
+    },
+    getRegex: () => {
+      return new RegExp(regex, opt);
+    }
+  };
+  return obj;
+}
+
+const nonWordAndColonTest = /[^\w:]/g;
+const originIndependentUrl = /^$|^[a-z][a-z0-9+.-]*:|^[?#]/i;
+
+/**
+ * @param {boolean} sanitize
+ * @param {string} base
+ * @param {string} href
+ */
+function cleanUrl(sanitize, base, href) {
+  if (sanitize) {
+    let prot;
+    try {
+      prot = decodeURIComponent(marked_esm_unescape(href))
+        .replace(nonWordAndColonTest, '')
+        .toLowerCase();
+    } catch (e) {
+      return null;
+    }
+    if (prot.indexOf('javascript:') === 0 || prot.indexOf('vbscript:') === 0 || prot.indexOf('data:') === 0) {
+      return null;
+    }
+  }
+  if (base && !originIndependentUrl.test(href)) {
+    href = resolveUrl(base, href);
+  }
+  try {
+    href = encodeURI(href).replace(/%25/g, '%');
+  } catch (e) {
+    return null;
+  }
+  return href;
+}
+
+const baseUrls = {};
+const justDomain = /^[^:]+:\/*[^/]*$/;
+const protocol = /^([^:]+:)[\s\S]*$/;
+const domain = /^([^:]+:\/*[^/]*)[\s\S]*$/;
+
+/**
+ * @param {string} base
+ * @param {string} href
+ */
+function resolveUrl(base, href) {
+  if (!baseUrls[' ' + base]) {
+    // we can ignore everything in base after the last slash of its path component,
+    // but we might need to add _that_
+    // https://tools.ietf.org/html/rfc3986#section-3
+    if (justDomain.test(base)) {
+      baseUrls[' ' + base] = base + '/';
+    } else {
+      baseUrls[' ' + base] = rtrim(base, '/', true);
+    }
+  }
+  base = baseUrls[' ' + base];
+  const relativeBase = base.indexOf(':') === -1;
+
+  if (href.substring(0, 2) === '//') {
+    if (relativeBase) {
+      return href;
+    }
+    return base.replace(protocol, '$1') + href;
+  } else if (href.charAt(0) === '/') {
+    if (relativeBase) {
+      return href;
+    }
+    return base.replace(domain, '$1') + href;
+  } else {
+    return base + href;
+  }
+}
+
+const noopTest = { exec: function noopTest() {} };
+
+function merge(obj) {
+  let i = 1,
+    target,
+    key;
+
+  for (; i < arguments.length; i++) {
+    target = arguments[i];
+    for (key in target) {
+      if (Object.prototype.hasOwnProperty.call(target, key)) {
+        obj[key] = target[key];
+      }
+    }
+  }
+
+  return obj;
+}
+
+function splitCells(tableRow, count) {
+  // ensure that every cell-delimiting pipe has a space
+  // before it to distinguish it from an escaped pipe
+  const row = tableRow.replace(/\|/g, (match, offset, str) => {
+      let escaped = false,
+        curr = offset;
+      while (--curr >= 0 && str[curr] === '\\') escaped = !escaped;
+      if (escaped) {
+        // odd number of slashes means | is escaped
+        // so we leave it alone
+        return '|';
+      } else {
+        // add space before unescaped |
+        return ' |';
+      }
+    }),
+    cells = row.split(/ \|/);
+  let i = 0;
+
+  // First/last cell in a row cannot be empty if it has no leading/trailing pipe
+  if (!cells[0].trim()) { cells.shift(); }
+  if (cells.length > 0 && !cells[cells.length - 1].trim()) { cells.pop(); }
+
+  if (cells.length > count) {
+    cells.splice(count);
+  } else {
+    while (cells.length < count) cells.push('');
+  }
+
+  for (; i < cells.length; i++) {
+    // leading or trailing whitespace is ignored per the gfm spec
+    cells[i] = cells[i].trim().replace(/\\\|/g, '|');
+  }
+  return cells;
+}
+
+/**
+ * Remove trailing 'c's. Equivalent to str.replace(/c*$/, '').
+ * /c*$/ is vulnerable to REDOS.
+ *
+ * @param {string} str
+ * @param {string} c
+ * @param {boolean} invert Remove suffix of non-c chars instead. Default falsey.
+ */
+function rtrim(str, c, invert) {
+  const l = str.length;
+  if (l === 0) {
+    return '';
+  }
+
+  // Length of suffix matching the invert condition.
+  let suffLen = 0;
+
+  // Step left until we fail to match the invert condition.
+  while (suffLen < l) {
+    const currChar = str.charAt(l - suffLen - 1);
+    if (currChar === c && !invert) {
+      suffLen++;
+    } else if (currChar !== c && invert) {
+      suffLen++;
+    } else {
+      break;
+    }
+  }
+
+  return str.slice(0, l - suffLen);
+}
+
+function findClosingBracket(str, b) {
+  if (str.indexOf(b[1]) === -1) {
+    return -1;
+  }
+  const l = str.length;
+  let level = 0,
+    i = 0;
+  for (; i < l; i++) {
+    if (str[i] === '\\') {
+      i++;
+    } else if (str[i] === b[0]) {
+      level++;
+    } else if (str[i] === b[1]) {
+      level--;
+      if (level < 0) {
+        return i;
+      }
+    }
+  }
+  return -1;
+}
+
+function checkSanitizeDeprecation(opt) {
+  if (opt && opt.sanitize && !opt.silent) {
+    console.warn('marked(): sanitize and sanitizer parameters are deprecated since version 0.7.0, should not be used and will be removed in the future. Read more here: https://marked.js.org/#/USING_ADVANCED.md#options');
+  }
+}
+
+// copied from https://stackoverflow.com/a/5450113/806777
+/**
+ * @param {string} pattern
+ * @param {number} count
+ */
+function repeatString(pattern, count) {
+  if (count < 1) {
+    return '';
+  }
+  let result = '';
+  while (count > 1) {
+    if (count & 1) {
+      result += pattern;
+    }
+    count >>= 1;
+    pattern += pattern;
+  }
+  return result + pattern;
+}
+
+function outputLink(cap, link, raw, lexer) {
+  const href = link.href;
+  const title = link.title ? marked_esm_escape(link.title) : null;
+  const text = cap[1].replace(/\\([\[\]])/g, '$1');
+
+  if (cap[0].charAt(0) !== '!') {
+    lexer.state.inLink = true;
+    const token = {
+      type: 'link',
+      raw,
+      href,
+      title,
+      text,
+      tokens: lexer.inlineTokens(text)
+    };
+    lexer.state.inLink = false;
+    return token;
+  }
+  return {
+    type: 'image',
+    raw,
+    href,
+    title,
+    text: marked_esm_escape(text)
+  };
+}
+
+function indentCodeCompensation(raw, text) {
+  const matchIndentToCode = raw.match(/^(\s+)(?:```)/);
+
+  if (matchIndentToCode === null) {
+    return text;
+  }
+
+  const indentToCode = matchIndentToCode[1];
+
+  return text
+    .split('\n')
+    .map(node => {
+      const matchIndentInNode = node.match(/^\s+/);
+      if (matchIndentInNode === null) {
+        return node;
+      }
+
+      const [indentInNode] = matchIndentInNode;
+
+      if (indentInNode.length >= indentToCode.length) {
+        return node.slice(indentToCode.length);
+      }
+
+      return node;
+    })
+    .join('\n');
+}
+
+/**
+ * Tokenizer
+ */
+class Tokenizer {
+  constructor(options) {
+    this.options = options || defaults;
+  }
+
+  space(src) {
+    const cap = this.rules.block.newline.exec(src);
+    if (cap && cap[0].length > 0) {
+      return {
+        type: 'space',
+        raw: cap[0]
+      };
+    }
+  }
+
+  code(src) {
+    const cap = this.rules.block.code.exec(src);
+    if (cap) {
+      const text = cap[0].replace(/^ {1,4}/gm, '');
+      return {
+        type: 'code',
+        raw: cap[0],
+        codeBlockStyle: 'indented',
+        text: !this.options.pedantic
+          ? rtrim(text, '\n')
+          : text
+      };
+    }
+  }
+
+  fences(src) {
+    const cap = this.rules.block.fences.exec(src);
+    if (cap) {
+      const raw = cap[0];
+      const text = indentCodeCompensation(raw, cap[3] || '');
+
+      return {
+        type: 'code',
+        raw,
+        lang: cap[2] ? cap[2].trim().replace(this.rules.inline._escapes, '$1') : cap[2],
+        text
+      };
+    }
+  }
+
+  heading(src) {
+    const cap = this.rules.block.heading.exec(src);
+    if (cap) {
+      let text = cap[2].trim();
+
+      // remove trailing #s
+      if (/#$/.test(text)) {
+        const trimmed = rtrim(text, '#');
+        if (this.options.pedantic) {
+          text = trimmed.trim();
+        } else if (!trimmed || / $/.test(trimmed)) {
+          // CommonMark requires space before trailing #s
+          text = trimmed.trim();
+        }
+      }
+
+      return {
+        type: 'heading',
+        raw: cap[0],
+        depth: cap[1].length,
+        text,
+        tokens: this.lexer.inline(text)
+      };
+    }
+  }
+
+  hr(src) {
+    const cap = this.rules.block.hr.exec(src);
+    if (cap) {
+      return {
+        type: 'hr',
+        raw: cap[0]
+      };
+    }
+  }
+
+  blockquote(src) {
+    const cap = this.rules.block.blockquote.exec(src);
+    if (cap) {
+      const text = cap[0].replace(/^ *>[ \t]?/gm, '');
+      const top = this.lexer.state.top;
+      this.lexer.state.top = true;
+      const tokens = this.lexer.blockTokens(text);
+      this.lexer.state.top = top;
+      return {
+        type: 'blockquote',
+        raw: cap[0],
+        tokens,
+        text
+      };
+    }
+  }
+
+  list(src) {
+    let cap = this.rules.block.list.exec(src);
+    if (cap) {
+      let raw, istask, ischecked, indent, i, blankLine, endsWithBlankLine,
+        line, nextLine, rawLine, itemContents, endEarly;
+
+      let bull = cap[1].trim();
+      const isordered = bull.length > 1;
+
+      const list = {
+        type: 'list',
+        raw: '',
+        ordered: isordered,
+        start: isordered ? +bull.slice(0, -1) : '',
+        loose: false,
+        items: []
+      };
+
+      bull = isordered ? `\\d{1,9}\\${bull.slice(-1)}` : `\\${bull}`;
+
+      if (this.options.pedantic) {
+        bull = isordered ? bull : '[*+-]';
+      }
+
+      // Get next list item
+      const itemRegex = new RegExp(`^( {0,3}${bull})((?:[\t ][^\\n]*)?(?:\\n|$))`);
+
+      // Check if current bullet point can start a new List Item
+      while (src) {
+        endEarly = false;
+        if (!(cap = itemRegex.exec(src))) {
+          break;
+        }
+
+        if (this.rules.block.hr.test(src)) { // End list if bullet was actually HR (possibly move into itemRegex?)
+          break;
+        }
+
+        raw = cap[0];
+        src = src.substring(raw.length);
+
+        line = cap[2].split('\n', 1)[0].replace(/^\t+/, (t) => ' '.repeat(3 * t.length));
+        nextLine = src.split('\n', 1)[0];
+
+        if (this.options.pedantic) {
+          indent = 2;
+          itemContents = line.trimLeft();
+        } else {
+          indent = cap[2].search(/[^ ]/); // Find first non-space char
+          indent = indent > 4 ? 1 : indent; // Treat indented code blocks (> 4 spaces) as having only 1 indent
+          itemContents = line.slice(indent);
+          indent += cap[1].length;
+        }
+
+        blankLine = false;
+
+        if (!line && /^ *$/.test(nextLine)) { // Items begin with at most one blank line
+          raw += nextLine + '\n';
+          src = src.substring(nextLine.length + 1);
+          endEarly = true;
+        }
+
+        if (!endEarly) {
+          const nextBulletRegex = new RegExp(`^ {0,${Math.min(3, indent - 1)}}(?:[*+-]|\\d{1,9}[.)])((?:[ \t][^\\n]*)?(?:\\n|$))`);
+          const hrRegex = new RegExp(`^ {0,${Math.min(3, indent - 1)}}((?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$)`);
+          const fencesBeginRegex = new RegExp(`^ {0,${Math.min(3, indent - 1)}}(?:\`\`\`|~~~)`);
+          const headingBeginRegex = new RegExp(`^ {0,${Math.min(3, indent - 1)}}#`);
+
+          // Check if following lines should be included in List Item
+          while (src) {
+            rawLine = src.split('\n', 1)[0];
+            nextLine = rawLine;
+
+            // Re-align to follow commonmark nesting rules
+            if (this.options.pedantic) {
+              nextLine = nextLine.replace(/^ {1,4}(?=( {4})*[^ ])/g, '  ');
+            }
+
+            // End list item if found code fences
+            if (fencesBeginRegex.test(nextLine)) {
+              break;
+            }
+
+            // End list item if found start of new heading
+            if (headingBeginRegex.test(nextLine)) {
+              break;
+            }
+
+            // End list item if found start of new bullet
+            if (nextBulletRegex.test(nextLine)) {
+              break;
+            }
+
+            // Horizontal rule found
+            if (hrRegex.test(src)) {
+              break;
+            }
+
+            if (nextLine.search(/[^ ]/) >= indent || !nextLine.trim()) { // Dedent if possible
+              itemContents += '\n' + nextLine.slice(indent);
+            } else {
+              // not enough indentation
+              if (blankLine) {
+                break;
+              }
+
+              // paragraph continuation unless last line was a different block level element
+              if (line.search(/[^ ]/) >= 4) { // indented code block
+                break;
+              }
+              if (fencesBeginRegex.test(line)) {
+                break;
+              }
+              if (headingBeginRegex.test(line)) {
+                break;
+              }
+              if (hrRegex.test(line)) {
+                break;
+              }
+
+              itemContents += '\n' + nextLine;
+            }
+
+            if (!blankLine && !nextLine.trim()) { // Check if current line is blank
+              blankLine = true;
+            }
+
+            raw += rawLine + '\n';
+            src = src.substring(rawLine.length + 1);
+            line = nextLine.slice(indent);
+          }
+        }
+
+        if (!list.loose) {
+          // If the previous item ended with a blank line, the list is loose
+          if (endsWithBlankLine) {
+            list.loose = true;
+          } else if (/\n *\n *$/.test(raw)) {
+            endsWithBlankLine = true;
+          }
+        }
+
+        // Check for task list items
+        if (this.options.gfm) {
+          istask = /^\[[ xX]\] /.exec(itemContents);
+          if (istask) {
+            ischecked = istask[0] !== '[ ] ';
+            itemContents = itemContents.replace(/^\[[ xX]\] +/, '');
+          }
+        }
+
+        list.items.push({
+          type: 'list_item',
+          raw,
+          task: !!istask,
+          checked: ischecked,
+          loose: false,
+          text: itemContents
+        });
+
+        list.raw += raw;
+      }
+
+      // Do not consume newlines at end of final item. Alternatively, make itemRegex *start* with any newlines to simplify/speed up endsWithBlankLine logic
+      list.items[list.items.length - 1].raw = raw.trimRight();
+      list.items[list.items.length - 1].text = itemContents.trimRight();
+      list.raw = list.raw.trimRight();
+
+      const l = list.items.length;
+
+      // Item child tokens handled here at end because we needed to have the final item to trim it first
+      for (i = 0; i < l; i++) {
+        this.lexer.state.top = false;
+        list.items[i].tokens = this.lexer.blockTokens(list.items[i].text, []);
+
+        if (!list.loose) {
+          // Check if list should be loose
+          const spacers = list.items[i].tokens.filter(t => t.type === 'space');
+          const hasMultipleLineBreaks = spacers.length > 0 && spacers.some(t => /\n.*\n/.test(t.raw));
+
+          list.loose = hasMultipleLineBreaks;
+        }
+      }
+
+      // Set all items to loose if list is loose
+      if (list.loose) {
+        for (i = 0; i < l; i++) {
+          list.items[i].loose = true;
+        }
+      }
+
+      return list;
+    }
+  }
+
+  html(src) {
+    const cap = this.rules.block.html.exec(src);
+    if (cap) {
+      const token = {
+        type: 'html',
+        raw: cap[0],
+        pre: !this.options.sanitizer
+          && (cap[1] === 'pre' || cap[1] === 'script' || cap[1] === 'style'),
+        text: cap[0]
+      };
+      if (this.options.sanitize) {
+        const text = this.options.sanitizer ? this.options.sanitizer(cap[0]) : marked_esm_escape(cap[0]);
+        token.type = 'paragraph';
+        token.text = text;
+        token.tokens = this.lexer.inline(text);
+      }
+      return token;
+    }
+  }
+
+  def(src) {
+    const cap = this.rules.block.def.exec(src);
+    if (cap) {
+      const tag = cap[1].toLowerCase().replace(/\s+/g, ' ');
+      const href = cap[2] ? cap[2].replace(/^<(.*)>$/, '$1').replace(this.rules.inline._escapes, '$1') : '';
+      const title = cap[3] ? cap[3].substring(1, cap[3].length - 1).replace(this.rules.inline._escapes, '$1') : cap[3];
+      return {
+        type: 'def',
+        tag,
+        raw: cap[0],
+        href,
+        title
+      };
+    }
+  }
+
+  table(src) {
+    const cap = this.rules.block.table.exec(src);
+    if (cap) {
+      const item = {
+        type: 'table',
+        header: splitCells(cap[1]).map(c => { return { text: c }; }),
+        align: cap[2].replace(/^ *|\| *$/g, '').split(/ *\| */),
+        rows: cap[3] && cap[3].trim() ? cap[3].replace(/\n[ \t]*$/, '').split('\n') : []
+      };
+
+      if (item.header.length === item.align.length) {
+        item.raw = cap[0];
+
+        let l = item.align.length;
+        let i, j, k, row;
+        for (i = 0; i < l; i++) {
+          if (/^ *-+: *$/.test(item.align[i])) {
+            item.align[i] = 'right';
+          } else if (/^ *:-+: *$/.test(item.align[i])) {
+            item.align[i] = 'center';
+          } else if (/^ *:-+ *$/.test(item.align[i])) {
+            item.align[i] = 'left';
+          } else {
+            item.align[i] = null;
+          }
+        }
+
+        l = item.rows.length;
+        for (i = 0; i < l; i++) {
+          item.rows[i] = splitCells(item.rows[i], item.header.length).map(c => { return { text: c }; });
+        }
+
+        // parse child tokens inside headers and cells
+
+        // header child tokens
+        l = item.header.length;
+        for (j = 0; j < l; j++) {
+          item.header[j].tokens = this.lexer.inline(item.header[j].text);
+        }
+
+        // cell child tokens
+        l = item.rows.length;
+        for (j = 0; j < l; j++) {
+          row = item.rows[j];
+          for (k = 0; k < row.length; k++) {
+            row[k].tokens = this.lexer.inline(row[k].text);
+          }
+        }
+
+        return item;
+      }
+    }
+  }
+
+  lheading(src) {
+    const cap = this.rules.block.lheading.exec(src);
+    if (cap) {
+      return {
+        type: 'heading',
+        raw: cap[0],
+        depth: cap[2].charAt(0) === '=' ? 1 : 2,
+        text: cap[1],
+        tokens: this.lexer.inline(cap[1])
+      };
+    }
+  }
+
+  paragraph(src) {
+    const cap = this.rules.block.paragraph.exec(src);
+    if (cap) {
+      const text = cap[1].charAt(cap[1].length - 1) === '\n'
+        ? cap[1].slice(0, -1)
+        : cap[1];
+      return {
+        type: 'paragraph',
+        raw: cap[0],
+        text,
+        tokens: this.lexer.inline(text)
+      };
+    }
+  }
+
+  text(src) {
+    const cap = this.rules.block.text.exec(src);
+    if (cap) {
+      return {
+        type: 'text',
+        raw: cap[0],
+        text: cap[0],
+        tokens: this.lexer.inline(cap[0])
+      };
+    }
+  }
+
+  escape(src) {
+    const cap = this.rules.inline.escape.exec(src);
+    if (cap) {
+      return {
+        type: 'escape',
+        raw: cap[0],
+        text: marked_esm_escape(cap[1])
+      };
+    }
+  }
+
+  tag(src) {
+    const cap = this.rules.inline.tag.exec(src);
+    if (cap) {
+      if (!this.lexer.state.inLink && /^<a /i.test(cap[0])) {
+        this.lexer.state.inLink = true;
+      } else if (this.lexer.state.inLink && /^<\/a>/i.test(cap[0])) {
+        this.lexer.state.inLink = false;
+      }
+      if (!this.lexer.state.inRawBlock && /^<(pre|code|kbd|script)(\s|>)/i.test(cap[0])) {
+        this.lexer.state.inRawBlock = true;
+      } else if (this.lexer.state.inRawBlock && /^<\/(pre|code|kbd|script)(\s|>)/i.test(cap[0])) {
+        this.lexer.state.inRawBlock = false;
+      }
+
+      return {
+        type: this.options.sanitize
+          ? 'text'
+          : 'html',
+        raw: cap[0],
+        inLink: this.lexer.state.inLink,
+        inRawBlock: this.lexer.state.inRawBlock,
+        text: this.options.sanitize
+          ? (this.options.sanitizer
+            ? this.options.sanitizer(cap[0])
+            : marked_esm_escape(cap[0]))
+          : cap[0]
+      };
+    }
+  }
+
+  link(src) {
+    const cap = this.rules.inline.link.exec(src);
+    if (cap) {
+      const trimmedUrl = cap[2].trim();
+      if (!this.options.pedantic && /^</.test(trimmedUrl)) {
+        // commonmark requires matching angle brackets
+        if (!(/>$/.test(trimmedUrl))) {
+          return;
+        }
+
+        // ending angle bracket cannot be escaped
+        const rtrimSlash = rtrim(trimmedUrl.slice(0, -1), '\\');
+        if ((trimmedUrl.length - rtrimSlash.length) % 2 === 0) {
+          return;
+        }
+      } else {
+        // find closing parenthesis
+        const lastParenIndex = findClosingBracket(cap[2], '()');
+        if (lastParenIndex > -1) {
+          const start = cap[0].indexOf('!') === 0 ? 5 : 4;
+          const linkLen = start + cap[1].length + lastParenIndex;
+          cap[2] = cap[2].substring(0, lastParenIndex);
+          cap[0] = cap[0].substring(0, linkLen).trim();
+          cap[3] = '';
+        }
+      }
+      let href = cap[2];
+      let title = '';
+      if (this.options.pedantic) {
+        // split pedantic href and title
+        const link = /^([^'"]*[^\s])\s+(['"])(.*)\2/.exec(href);
+
+        if (link) {
+          href = link[1];
+          title = link[3];
+        }
+      } else {
+        title = cap[3] ? cap[3].slice(1, -1) : '';
+      }
+
+      href = href.trim();
+      if (/^</.test(href)) {
+        if (this.options.pedantic && !(/>$/.test(trimmedUrl))) {
+          // pedantic allows starting angle bracket without ending angle bracket
+          href = href.slice(1);
+        } else {
+          href = href.slice(1, -1);
+        }
+      }
+      return outputLink(cap, {
+        href: href ? href.replace(this.rules.inline._escapes, '$1') : href,
+        title: title ? title.replace(this.rules.inline._escapes, '$1') : title
+      }, cap[0], this.lexer);
+    }
+  }
+
+  reflink(src, links) {
+    let cap;
+    if ((cap = this.rules.inline.reflink.exec(src))
+        || (cap = this.rules.inline.nolink.exec(src))) {
+      let link = (cap[2] || cap[1]).replace(/\s+/g, ' ');
+      link = links[link.toLowerCase()];
+      if (!link) {
+        const text = cap[0].charAt(0);
+        return {
+          type: 'text',
+          raw: text,
+          text
+        };
+      }
+      return outputLink(cap, link, cap[0], this.lexer);
+    }
+  }
+
+  emStrong(src, maskedSrc, prevChar = '') {
+    let match = this.rules.inline.emStrong.lDelim.exec(src);
+    if (!match) return;
+
+    // _ can't be between two alphanumerics. \p{L}\p{N} includes non-english alphabet/numbers as well
+    if (match[3] && prevChar.match(/[\p{L}\p{N}]/u)) return;
+
+    const nextChar = match[1] || match[2] || '';
+
+    if (!nextChar || (nextChar && (prevChar === '' || this.rules.inline.punctuation.exec(prevChar)))) {
+      const lLength = match[0].length - 1;
+      let rDelim, rLength, delimTotal = lLength, midDelimTotal = 0;
+
+      const endReg = match[0][0] === '*' ? this.rules.inline.emStrong.rDelimAst : this.rules.inline.emStrong.rDelimUnd;
+      endReg.lastIndex = 0;
+
+      // Clip maskedSrc to same section of string as src (move to lexer?)
+      maskedSrc = maskedSrc.slice(-1 * src.length + lLength);
+
+      while ((match = endReg.exec(maskedSrc)) != null) {
+        rDelim = match[1] || match[2] || match[3] || match[4] || match[5] || match[6];
+
+        if (!rDelim) continue; // skip single * in __abc*abc__
+
+        rLength = rDelim.length;
+
+        if (match[3] || match[4]) { // found another Left Delim
+          delimTotal += rLength;
+          continue;
+        } else if (match[5] || match[6]) { // either Left or Right Delim
+          if (lLength % 3 && !((lLength + rLength) % 3)) {
+            midDelimTotal += rLength;
+            continue; // CommonMark Emphasis Rules 9-10
+          }
+        }
+
+        delimTotal -= rLength;
+
+        if (delimTotal > 0) continue; // Haven't found enough closing delimiters
+
+        // Remove extra characters. *a*** -> *a*
+        rLength = Math.min(rLength, rLength + delimTotal + midDelimTotal);
+
+        const raw = src.slice(0, lLength + match.index + (match[0].length - rDelim.length) + rLength);
+
+        // Create `em` if smallest delimiter has odd char count. *a***
+        if (Math.min(lLength, rLength) % 2) {
+          const text = raw.slice(1, -1);
+          return {
+            type: 'em',
+            raw,
+            text,
+            tokens: this.lexer.inlineTokens(text)
+          };
+        }
+
+        // Create 'strong' if smallest delimiter has even char count. **a***
+        const text = raw.slice(2, -2);
+        return {
+          type: 'strong',
+          raw,
+          text,
+          tokens: this.lexer.inlineTokens(text)
+        };
+      }
+    }
+  }
+
+  codespan(src) {
+    const cap = this.rules.inline.code.exec(src);
+    if (cap) {
+      let text = cap[2].replace(/\n/g, ' ');
+      const hasNonSpaceChars = /[^ ]/.test(text);
+      const hasSpaceCharsOnBothEnds = /^ /.test(text) && / $/.test(text);
+      if (hasNonSpaceChars && hasSpaceCharsOnBothEnds) {
+        text = text.substring(1, text.length - 1);
+      }
+      text = marked_esm_escape(text, true);
+      return {
+        type: 'codespan',
+        raw: cap[0],
+        text
+      };
+    }
+  }
+
+  br(src) {
+    const cap = this.rules.inline.br.exec(src);
+    if (cap) {
+      return {
+        type: 'br',
+        raw: cap[0]
+      };
+    }
+  }
+
+  del(src) {
+    const cap = this.rules.inline.del.exec(src);
+    if (cap) {
+      return {
+        type: 'del',
+        raw: cap[0],
+        text: cap[2],
+        tokens: this.lexer.inlineTokens(cap[2])
+      };
+    }
+  }
+
+  autolink(src, mangle) {
+    const cap = this.rules.inline.autolink.exec(src);
+    if (cap) {
+      let text, href;
+      if (cap[2] === '@') {
+        text = marked_esm_escape(this.options.mangle ? mangle(cap[1]) : cap[1]);
+        href = 'mailto:' + text;
+      } else {
+        text = marked_esm_escape(cap[1]);
+        href = text;
+      }
+
+      return {
+        type: 'link',
+        raw: cap[0],
+        text,
+        href,
+        tokens: [
+          {
+            type: 'text',
+            raw: text,
+            text
+          }
+        ]
+      };
+    }
+  }
+
+  url(src, mangle) {
+    let cap;
+    if (cap = this.rules.inline.url.exec(src)) {
+      let text, href;
+      if (cap[2] === '@') {
+        text = marked_esm_escape(this.options.mangle ? mangle(cap[0]) : cap[0]);
+        href = 'mailto:' + text;
+      } else {
+        // do extended autolink path validation
+        let prevCapZero;
+        do {
+          prevCapZero = cap[0];
+          cap[0] = this.rules.inline._backpedal.exec(cap[0])[0];
+        } while (prevCapZero !== cap[0]);
+        text = marked_esm_escape(cap[0]);
+        if (cap[1] === 'www.') {
+          href = 'http://' + cap[0];
+        } else {
+          href = cap[0];
+        }
+      }
+      return {
+        type: 'link',
+        raw: cap[0],
+        text,
+        href,
+        tokens: [
+          {
+            type: 'text',
+            raw: text,
+            text
+          }
+        ]
+      };
+    }
+  }
+
+  inlineText(src, smartypants) {
+    const cap = this.rules.inline.text.exec(src);
+    if (cap) {
+      let text;
+      if (this.lexer.state.inRawBlock) {
+        text = this.options.sanitize ? (this.options.sanitizer ? this.options.sanitizer(cap[0]) : marked_esm_escape(cap[0])) : cap[0];
+      } else {
+        text = marked_esm_escape(this.options.smartypants ? smartypants(cap[0]) : cap[0]);
+      }
+      return {
+        type: 'text',
+        raw: cap[0],
+        text
+      };
+    }
+  }
+}
+
+/**
+ * Block-Level Grammar
+ */
+const block = {
+  newline: /^(?: *(?:\n|$))+/,
+  code: /^( {4}[^\n]+(?:\n(?: *(?:\n|$))*)?)+/,
+  fences: /^ {0,3}(`{3,}(?=[^`\n]*\n)|~{3,})([^\n]*)\n(?:|([\s\S]*?)\n)(?: {0,3}\1[~`]* *(?=\n|$)|$)/,
+  hr: /^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/,
+  heading: /^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/,
+  blockquote: /^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/,
+  list: /^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/,
+  html: '^ {0,3}(?:' // optional indentation
+    + '<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)' // (1)
+    + '|comment[^\\n]*(\\n+|$)' // (2)
+    + '|<\\?[\\s\\S]*?(?:\\?>\\n*|$)' // (3)
+    + '|<![A-Z][\\s\\S]*?(?:>\\n*|$)' // (4)
+    + '|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)' // (5)
+    + '|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n *)+\\n|$)' // (6)
+    + '|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$)' // (7) open tag
+    + '|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$)' // (7) closing tag
+    + ')',
+  def: /^ {0,3}\[(label)\]: *(?:\n *)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n *)?| *\n *)(title))? *(?:\n+|$)/,
+  table: noopTest,
+  lheading: /^((?:.|\n(?!\n))+?)\n {0,3}(=+|-+) *(?:\n+|$)/,
+  // regex template, placeholders will be replaced according to different paragraph
+  // interruption rules of commonmark and the original markdown spec:
+  _paragraph: /^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/,
+  text: /^[^\n]+/
+};
+
+block._label = /(?!\s*\])(?:\\.|[^\[\]\\])+/;
+block._title = /(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/;
+block.def = edit(block.def)
+  .replace('label', block._label)
+  .replace('title', block._title)
+  .getRegex();
+
+block.bullet = /(?:[*+-]|\d{1,9}[.)])/;
+block.listItemStart = edit(/^( *)(bull) */)
+  .replace('bull', block.bullet)
+  .getRegex();
+
+block.list = edit(block.list)
+  .replace(/bull/g, block.bullet)
+  .replace('hr', '\\n+(?=\\1?(?:(?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$))')
+  .replace('def', '\\n+(?=' + block.def.source + ')')
+  .getRegex();
+
+block._tag = 'address|article|aside|base|basefont|blockquote|body|caption'
+  + '|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption'
+  + '|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe'
+  + '|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option'
+  + '|p|param|section|source|summary|table|tbody|td|tfoot|th|thead|title|tr'
+  + '|track|ul';
+block._comment = /<!--(?!-?>)[\s\S]*?(?:-->|$)/;
+block.html = edit(block.html, 'i')
+  .replace('comment', block._comment)
+  .replace('tag', block._tag)
+  .replace('attribute', / +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/)
+  .getRegex();
+
+block.paragraph = edit(block._paragraph)
+  .replace('hr', block.hr)
+  .replace('heading', ' {0,3}#{1,6} ')
+  .replace('|lheading', '') // setex headings don't interrupt commonmark paragraphs
+  .replace('|table', '')
+  .replace('blockquote', ' {0,3}>')
+  .replace('fences', ' {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n')
+  .replace('list', ' {0,3}(?:[*+-]|1[.)]) ') // only lists starting from 1 can interrupt
+  .replace('html', '</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)')
+  .replace('tag', block._tag) // pars can be interrupted by type (6) html blocks
+  .getRegex();
+
+block.blockquote = edit(block.blockquote)
+  .replace('paragraph', block.paragraph)
+  .getRegex();
+
+/**
+ * Normal Block Grammar
+ */
+
+block.normal = merge({}, block);
+
+/**
+ * GFM Block Grammar
+ */
+
+block.gfm = merge({}, block.normal, {
+  table: '^ *([^\\n ].*\\|.*)\\n' // Header
+    + ' {0,3}(?:\\| *)?(:?-+:? *(?:\\| *:?-+:? *)*)(?:\\| *)?' // Align
+    + '(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)' // Cells
+});
+
+block.gfm.table = edit(block.gfm.table)
+  .replace('hr', block.hr)
+  .replace('heading', ' {0,3}#{1,6} ')
+  .replace('blockquote', ' {0,3}>')
+  .replace('code', ' {4}[^\\n]')
+  .replace('fences', ' {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n')
+  .replace('list', ' {0,3}(?:[*+-]|1[.)]) ') // only lists starting from 1 can interrupt
+  .replace('html', '</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)')
+  .replace('tag', block._tag) // tables can be interrupted by type (6) html blocks
+  .getRegex();
+
+block.gfm.paragraph = edit(block._paragraph)
+  .replace('hr', block.hr)
+  .replace('heading', ' {0,3}#{1,6} ')
+  .replace('|lheading', '') // setex headings don't interrupt commonmark paragraphs
+  .replace('table', block.gfm.table) // interrupt paragraphs with table
+  .replace('blockquote', ' {0,3}>')
+  .replace('fences', ' {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n')
+  .replace('list', ' {0,3}(?:[*+-]|1[.)]) ') // only lists starting from 1 can interrupt
+  .replace('html', '</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)')
+  .replace('tag', block._tag) // pars can be interrupted by type (6) html blocks
+  .getRegex();
+/**
+ * Pedantic grammar (original John Gruber's loose markdown specification)
+ */
+
+block.pedantic = merge({}, block.normal, {
+  html: edit(
+    '^ *(?:comment *(?:\\n|\\s*$)'
+    + '|<(tag)[\\s\\S]+?</\\1> *(?:\\n{2,}|\\s*$)' // closed tag
+    + '|<tag(?:"[^"]*"|\'[^\']*\'|\\s[^\'"/>\\s]*)*?/?> *(?:\\n{2,}|\\s*$))')
+    .replace('comment', block._comment)
+    .replace(/tag/g, '(?!(?:'
+      + 'a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub'
+      + '|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)'
+      + '\\b)\\w+(?!:|[^\\w\\s@]*@)\\b')
+    .getRegex(),
+  def: /^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/,
+  heading: /^(#{1,6})(.*)(?:\n+|$)/,
+  fences: noopTest, // fences not supported
+  lheading: /^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/,
+  paragraph: edit(block.normal._paragraph)
+    .replace('hr', block.hr)
+    .replace('heading', ' *#{1,6} *[^\n]')
+    .replace('lheading', block.lheading)
+    .replace('blockquote', ' {0,3}>')
+    .replace('|fences', '')
+    .replace('|list', '')
+    .replace('|html', '')
+    .getRegex()
+});
+
+/**
+ * Inline-Level Grammar
+ */
+const inline = {
+  escape: /^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/,
+  autolink: /^<(scheme:[^\s\x00-\x1f<>]*|email)>/,
+  url: noopTest,
+  tag: '^comment'
+    + '|^</[a-zA-Z][\\w:-]*\\s*>' // self-closing tag
+    + '|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>' // open tag
+    + '|^<\\?[\\s\\S]*?\\?>' // processing instruction, e.g. <?php ?>
+    + '|^<![a-zA-Z]+\\s[\\s\\S]*?>' // declaration, e.g. <!DOCTYPE html>
+    + '|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>', // CDATA section
+  link: /^!?\[(label)\]\(\s*(href)(?:\s+(title))?\s*\)/,
+  reflink: /^!?\[(label)\]\[(ref)\]/,
+  nolink: /^!?\[(ref)\](?:\[\])?/,
+  reflinkSearch: 'reflink|nolink(?!\\()',
+  emStrong: {
+    lDelim: /^(?:\*+(?:([punct_])|[^\s*]))|^_+(?:([punct*])|([^\s_]))/,
+    //        (1) and (2) can only be a Right Delimiter. (3) and (4) can only be Left.  (5) and (6) can be either Left or Right.
+    //          () Skip orphan inside strong                                      () Consume to delim     (1) #***                (2) a***#, a***                             (3) #***a, ***a                 (4) ***#              (5) #***#                 (6) a***a
+    rDelimAst: /^(?:[^_*\\]|\\.)*?\_\_(?:[^_*\\]|\\.)*?\*(?:[^_*\\]|\\.)*?(?=\_\_)|(?:[^*\\]|\\.)+(?=[^*])|[punct_](\*+)(?=[\s]|$)|(?:[^punct*_\s\\]|\\.)(\*+)(?=[punct_\s]|$)|[punct_\s](\*+)(?=[^punct*_\s])|[\s](\*+)(?=[punct_])|[punct_](\*+)(?=[punct_])|(?:[^punct*_\s\\]|\\.)(\*+)(?=[^punct*_\s])/,
+    rDelimUnd: /^(?:[^_*\\]|\\.)*?\*\*(?:[^_*\\]|\\.)*?\_(?:[^_*\\]|\\.)*?(?=\*\*)|(?:[^_\\]|\\.)+(?=[^_])|[punct*](\_+)(?=[\s]|$)|(?:[^punct*_\s\\]|\\.)(\_+)(?=[punct*\s]|$)|[punct*\s](\_+)(?=[^punct*_\s])|[\s](\_+)(?=[punct*])|[punct*](\_+)(?=[punct*])/ // ^- Not allowed for _
+  },
+  code: /^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/,
+  br: /^( {2,}|\\)\n(?!\s*$)/,
+  del: noopTest,
+  text: /^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/,
+  punctuation: /^([\spunctuation])/
+};
+
+// list of punctuation marks from CommonMark spec
+// without * and _ to handle the different emphasis markers * and _
+inline._punctuation = '!"#$%&\'()+\\-.,/:;<=>?@\\[\\]`^{|}~';
+inline.punctuation = edit(inline.punctuation).replace(/punctuation/g, inline._punctuation).getRegex();
+
+// sequences em should skip over [title](link), `code`, <html>
+inline.blockSkip = /\[[^\]]*?\]\([^\)]*?\)|`[^`]*?`|<[^>]*?>/g;
+// lookbehind is not available on Safari as of version 16
+// inline.escapedEmSt = /(?<=(?:^|[^\\)(?:\\[^])*)\\[*_]/g;
+inline.escapedEmSt = /(?:^|[^\\])(?:\\\\)*\\[*_]/g;
+
+inline._comment = edit(block._comment).replace('(?:-->|$)', '-->').getRegex();
+
+inline.emStrong.lDelim = edit(inline.emStrong.lDelim)
+  .replace(/punct/g, inline._punctuation)
+  .getRegex();
+
+inline.emStrong.rDelimAst = edit(inline.emStrong.rDelimAst, 'g')
+  .replace(/punct/g, inline._punctuation)
+  .getRegex();
+
+inline.emStrong.rDelimUnd = edit(inline.emStrong.rDelimUnd, 'g')
+  .replace(/punct/g, inline._punctuation)
+  .getRegex();
+
+inline._escapes = /\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/g;
+
+inline._scheme = /[a-zA-Z][a-zA-Z0-9+.-]{1,31}/;
+inline._email = /[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/;
+inline.autolink = edit(inline.autolink)
+  .replace('scheme', inline._scheme)
+  .replace('email', inline._email)
+  .getRegex();
+
+inline._attribute = /\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/;
+
+inline.tag = edit(inline.tag)
+  .replace('comment', inline._comment)
+  .replace('attribute', inline._attribute)
+  .getRegex();
+
+inline._label = /(?:\[(?:\\.|[^\[\]\\])*\]|\\.|`[^`]*`|[^\[\]\\`])*?/;
+inline._href = /<(?:\\.|[^\n<>\\])+>|[^\s\x00-\x1f]*/;
+inline._title = /"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/;
+
+inline.link = edit(inline.link)
+  .replace('label', inline._label)
+  .replace('href', inline._href)
+  .replace('title', inline._title)
+  .getRegex();
+
+inline.reflink = edit(inline.reflink)
+  .replace('label', inline._label)
+  .replace('ref', block._label)
+  .getRegex();
+
+inline.nolink = edit(inline.nolink)
+  .replace('ref', block._label)
+  .getRegex();
+
+inline.reflinkSearch = edit(inline.reflinkSearch, 'g')
+  .replace('reflink', inline.reflink)
+  .replace('nolink', inline.nolink)
+  .getRegex();
+
+/**
+ * Normal Inline Grammar
+ */
+
+inline.normal = merge({}, inline);
+
+/**
+ * Pedantic Inline Grammar
+ */
+
+inline.pedantic = merge({}, inline.normal, {
+  strong: {
+    start: /^__|\*\*/,
+    middle: /^__(?=\S)([\s\S]*?\S)__(?!_)|^\*\*(?=\S)([\s\S]*?\S)\*\*(?!\*)/,
+    endAst: /\*\*(?!\*)/g,
+    endUnd: /__(?!_)/g
+  },
+  em: {
+    start: /^_|\*/,
+    middle: /^()\*(?=\S)([\s\S]*?\S)\*(?!\*)|^_(?=\S)([\s\S]*?\S)_(?!_)/,
+    endAst: /\*(?!\*)/g,
+    endUnd: /_(?!_)/g
+  },
+  link: edit(/^!?\[(label)\]\((.*?)\)/)
+    .replace('label', inline._label)
+    .getRegex(),
+  reflink: edit(/^!?\[(label)\]\s*\[([^\]]*)\]/)
+    .replace('label', inline._label)
+    .getRegex()
+});
+
+/**
+ * GFM Inline Grammar
+ */
+
+inline.gfm = merge({}, inline.normal, {
+  escape: edit(inline.escape).replace('])', '~|])').getRegex(),
+  _extended_email: /[A-Za-z0-9._+-]+(@)[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![-_])/,
+  url: /^((?:ftp|https?):\/\/|www\.)(?:[a-zA-Z0-9\-]+\.?)+[^\s<]*|^email/,
+  _backpedal: /(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/,
+  del: /^(~~?)(?=[^\s~])([\s\S]*?[^\s~])\1(?=[^~]|$)/,
+  text: /^([`~]+|[^`~])(?:(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|https?:\/\/|ftp:\/\/|www\.|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)))/
+});
+
+inline.gfm.url = edit(inline.gfm.url, 'i')
+  .replace('email', inline.gfm._extended_email)
+  .getRegex();
+/**
+ * GFM + Line Breaks Inline Grammar
+ */
+
+inline.breaks = merge({}, inline.gfm, {
+  br: edit(inline.br).replace('{2,}', '*').getRegex(),
+  text: edit(inline.gfm.text)
+    .replace('\\b_', '\\b_| {2,}\\n')
+    .replace(/\{2,\}/g, '*')
+    .getRegex()
+});
+
+/**
+ * smartypants text replacement
+ * @param {string} text
+ */
+function smartypants(text) {
+  return text
+    // em-dashes
+    .replace(/---/g, '\u2014')
+    // en-dashes
+    .replace(/--/g, '\u2013')
+    // opening singles
+    .replace(/(^|[-\u2014/(\[{"\s])'/g, '$1\u2018')
+    // closing singles & apostrophes
+    .replace(/'/g, '\u2019')
+    // opening doubles
+    .replace(/(^|[-\u2014/(\[{\u2018\s])"/g, '$1\u201c')
+    // closing doubles
+    .replace(/"/g, '\u201d')
+    // ellipses
+    .replace(/\.{3}/g, '\u2026');
+}
+
+/**
+ * mangle email addresses
+ * @param {string} text
+ */
+function mangle(text) {
+  let out = '',
+    i,
+    ch;
+
+  const l = text.length;
+  for (i = 0; i < l; i++) {
+    ch = text.charCodeAt(i);
+    if (Math.random() > 0.5) {
+      ch = 'x' + ch.toString(16);
+    }
+    out += '&#' + ch + ';';
+  }
+
+  return out;
+}
+
+/**
+ * Block Lexer
+ */
+class Lexer {
+  constructor(options) {
+    this.tokens = [];
+    this.tokens.links = Object.create(null);
+    this.options = options || defaults;
+    this.options.tokenizer = this.options.tokenizer || new Tokenizer();
+    this.tokenizer = this.options.tokenizer;
+    this.tokenizer.options = this.options;
+    this.tokenizer.lexer = this;
+    this.inlineQueue = [];
+    this.state = {
+      inLink: false,
+      inRawBlock: false,
+      top: true
+    };
+
+    const rules = {
+      block: block.normal,
+      inline: inline.normal
+    };
+
+    if (this.options.pedantic) {
+      rules.block = block.pedantic;
+      rules.inline = inline.pedantic;
+    } else if (this.options.gfm) {
+      rules.block = block.gfm;
+      if (this.options.breaks) {
+        rules.inline = inline.breaks;
+      } else {
+        rules.inline = inline.gfm;
+      }
+    }
+    this.tokenizer.rules = rules;
+  }
+
+  /**
+   * Expose Rules
+   */
+  static get rules() {
+    return {
+      block,
+      inline
+    };
+  }
+
+  /**
+   * Static Lex Method
+   */
+  static lex(src, options) {
+    const lexer = new Lexer(options);
+    return lexer.lex(src);
+  }
+
+  /**
+   * Static Lex Inline Method
+   */
+  static lexInline(src, options) {
+    const lexer = new Lexer(options);
+    return lexer.inlineTokens(src);
+  }
+
+  /**
+   * Preprocessing
+   */
+  lex(src) {
+    src = src
+      .replace(/\r\n|\r/g, '\n');
+
+    this.blockTokens(src, this.tokens);
+
+    let next;
+    while (next = this.inlineQueue.shift()) {
+      this.inlineTokens(next.src, next.tokens);
+    }
+
+    return this.tokens;
+  }
+
+  /**
+   * Lexing
+   */
+  blockTokens(src, tokens = []) {
+    if (this.options.pedantic) {
+      src = src.replace(/\t/g, '    ').replace(/^ +$/gm, '');
+    } else {
+      src = src.replace(/^( *)(\t+)/gm, (_, leading, tabs) => {
+        return leading + '    '.repeat(tabs.length);
+      });
+    }
+
+    let token, lastToken, cutSrc, lastParagraphClipped;
+
+    while (src) {
+      if (this.options.extensions
+        && this.options.extensions.block
+        && this.options.extensions.block.some((extTokenizer) => {
+          if (token = extTokenizer.call({ lexer: this }, src, tokens)) {
+            src = src.substring(token.raw.length);
+            tokens.push(token);
+            return true;
+          }
+          return false;
+        })) {
+        continue;
+      }
+
+      // newline
+      if (token = this.tokenizer.space(src)) {
+        src = src.substring(token.raw.length);
+        if (token.raw.length === 1 && tokens.length > 0) {
+          // if there's a single \n as a spacer, it's terminating the last line,
+          // so move it there so that we don't get unecessary paragraph tags
+          tokens[tokens.length - 1].raw += '\n';
+        } else {
+          tokens.push(token);
+        }
+        continue;
+      }
+
+      // code
+      if (token = this.tokenizer.code(src)) {
+        src = src.substring(token.raw.length);
+        lastToken = tokens[tokens.length - 1];
+        // An indented code block cannot interrupt a paragraph.
+        if (lastToken && (lastToken.type === 'paragraph' || lastToken.type === 'text')) {
+          lastToken.raw += '\n' + token.raw;
+          lastToken.text += '\n' + token.text;
+          this.inlineQueue[this.inlineQueue.length - 1].src = lastToken.text;
+        } else {
+          tokens.push(token);
+        }
+        continue;
+      }
+
+      // fences
+      if (token = this.tokenizer.fences(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // heading
+      if (token = this.tokenizer.heading(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // hr
+      if (token = this.tokenizer.hr(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // blockquote
+      if (token = this.tokenizer.blockquote(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // list
+      if (token = this.tokenizer.list(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // html
+      if (token = this.tokenizer.html(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // def
+      if (token = this.tokenizer.def(src)) {
+        src = src.substring(token.raw.length);
+        lastToken = tokens[tokens.length - 1];
+        if (lastToken && (lastToken.type === 'paragraph' || lastToken.type === 'text')) {
+          lastToken.raw += '\n' + token.raw;
+          lastToken.text += '\n' + token.raw;
+          this.inlineQueue[this.inlineQueue.length - 1].src = lastToken.text;
+        } else if (!this.tokens.links[token.tag]) {
+          this.tokens.links[token.tag] = {
+            href: token.href,
+            title: token.title
+          };
+        }
+        continue;
+      }
+
+      // table (gfm)
+      if (token = this.tokenizer.table(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // lheading
+      if (token = this.tokenizer.lheading(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // top-level paragraph
+      // prevent paragraph consuming extensions by clipping 'src' to extension start
+      cutSrc = src;
+      if (this.options.extensions && this.options.extensions.startBlock) {
+        let startIndex = Infinity;
+        const tempSrc = src.slice(1);
+        let tempStart;
+        this.options.extensions.startBlock.forEach(function(getStartIndex) {
+          tempStart = getStartIndex.call({ lexer: this }, tempSrc);
+          if (typeof tempStart === 'number' && tempStart >= 0) { startIndex = Math.min(startIndex, tempStart); }
+        });
+        if (startIndex < Infinity && startIndex >= 0) {
+          cutSrc = src.substring(0, startIndex + 1);
+        }
+      }
+      if (this.state.top && (token = this.tokenizer.paragraph(cutSrc))) {
+        lastToken = tokens[tokens.length - 1];
+        if (lastParagraphClipped && lastToken.type === 'paragraph') {
+          lastToken.raw += '\n' + token.raw;
+          lastToken.text += '\n' + token.text;
+          this.inlineQueue.pop();
+          this.inlineQueue[this.inlineQueue.length - 1].src = lastToken.text;
+        } else {
+          tokens.push(token);
+        }
+        lastParagraphClipped = (cutSrc.length !== src.length);
+        src = src.substring(token.raw.length);
+        continue;
+      }
+
+      // text
+      if (token = this.tokenizer.text(src)) {
+        src = src.substring(token.raw.length);
+        lastToken = tokens[tokens.length - 1];
+        if (lastToken && lastToken.type === 'text') {
+          lastToken.raw += '\n' + token.raw;
+          lastToken.text += '\n' + token.text;
+          this.inlineQueue.pop();
+          this.inlineQueue[this.inlineQueue.length - 1].src = lastToken.text;
+        } else {
+          tokens.push(token);
+        }
+        continue;
+      }
+
+      if (src) {
+        const errMsg = 'Infinite loop on byte: ' + src.charCodeAt(0);
+        if (this.options.silent) {
+          console.error(errMsg);
+          break;
+        } else {
+          throw new Error(errMsg);
+        }
+      }
+    }
+
+    this.state.top = true;
+    return tokens;
+  }
+
+  inline(src, tokens = []) {
+    this.inlineQueue.push({ src, tokens });
+    return tokens;
+  }
+
+  /**
+   * Lexing/Compiling
+   */
+  inlineTokens(src, tokens = []) {
+    let token, lastToken, cutSrc;
+
+    // String with links masked to avoid interference with em and strong
+    let maskedSrc = src;
+    let match;
+    let keepPrevChar, prevChar;
+
+    // Mask out reflinks
+    if (this.tokens.links) {
+      const links = Object.keys(this.tokens.links);
+      if (links.length > 0) {
+        while ((match = this.tokenizer.rules.inline.reflinkSearch.exec(maskedSrc)) != null) {
+          if (links.includes(match[0].slice(match[0].lastIndexOf('[') + 1, -1))) {
+            maskedSrc = maskedSrc.slice(0, match.index) + '[' + repeatString('a', match[0].length - 2) + ']' + maskedSrc.slice(this.tokenizer.rules.inline.reflinkSearch.lastIndex);
+          }
+        }
+      }
+    }
+    // Mask out other blocks
+    while ((match = this.tokenizer.rules.inline.blockSkip.exec(maskedSrc)) != null) {
+      maskedSrc = maskedSrc.slice(0, match.index) + '[' + repeatString('a', match[0].length - 2) + ']' + maskedSrc.slice(this.tokenizer.rules.inline.blockSkip.lastIndex);
+    }
+
+    // Mask out escaped em & strong delimiters
+    while ((match = this.tokenizer.rules.inline.escapedEmSt.exec(maskedSrc)) != null) {
+      maskedSrc = maskedSrc.slice(0, match.index + match[0].length - 2) + '++' + maskedSrc.slice(this.tokenizer.rules.inline.escapedEmSt.lastIndex);
+      this.tokenizer.rules.inline.escapedEmSt.lastIndex--;
+    }
+
+    while (src) {
+      if (!keepPrevChar) {
+        prevChar = '';
+      }
+      keepPrevChar = false;
+
+      // extensions
+      if (this.options.extensions
+        && this.options.extensions.inline
+        && this.options.extensions.inline.some((extTokenizer) => {
+          if (token = extTokenizer.call({ lexer: this }, src, tokens)) {
+            src = src.substring(token.raw.length);
+            tokens.push(token);
+            return true;
+          }
+          return false;
+        })) {
+        continue;
+      }
+
+      // escape
+      if (token = this.tokenizer.escape(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // tag
+      if (token = this.tokenizer.tag(src)) {
+        src = src.substring(token.raw.length);
+        lastToken = tokens[tokens.length - 1];
+        if (lastToken && token.type === 'text' && lastToken.type === 'text') {
+          lastToken.raw += token.raw;
+          lastToken.text += token.text;
+        } else {
+          tokens.push(token);
+        }
+        continue;
+      }
+
+      // link
+      if (token = this.tokenizer.link(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // reflink, nolink
+      if (token = this.tokenizer.reflink(src, this.tokens.links)) {
+        src = src.substring(token.raw.length);
+        lastToken = tokens[tokens.length - 1];
+        if (lastToken && token.type === 'text' && lastToken.type === 'text') {
+          lastToken.raw += token.raw;
+          lastToken.text += token.text;
+        } else {
+          tokens.push(token);
+        }
+        continue;
+      }
+
+      // em & strong
+      if (token = this.tokenizer.emStrong(src, maskedSrc, prevChar)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // code
+      if (token = this.tokenizer.codespan(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // br
+      if (token = this.tokenizer.br(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // del (gfm)
+      if (token = this.tokenizer.del(src)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // autolink
+      if (token = this.tokenizer.autolink(src, mangle)) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // url (gfm)
+      if (!this.state.inLink && (token = this.tokenizer.url(src, mangle))) {
+        src = src.substring(token.raw.length);
+        tokens.push(token);
+        continue;
+      }
+
+      // text
+      // prevent inlineText consuming extensions by clipping 'src' to extension start
+      cutSrc = src;
+      if (this.options.extensions && this.options.extensions.startInline) {
+        let startIndex = Infinity;
+        const tempSrc = src.slice(1);
+        let tempStart;
+        this.options.extensions.startInline.forEach(function(getStartIndex) {
+          tempStart = getStartIndex.call({ lexer: this }, tempSrc);
+          if (typeof tempStart === 'number' && tempStart >= 0) { startIndex = Math.min(startIndex, tempStart); }
+        });
+        if (startIndex < Infinity && startIndex >= 0) {
+          cutSrc = src.substring(0, startIndex + 1);
+        }
+      }
+      if (token = this.tokenizer.inlineText(cutSrc, smartypants)) {
+        src = src.substring(token.raw.length);
+        if (token.raw.slice(-1) !== '_') { // Track prevChar before string of ____ started
+          prevChar = token.raw.slice(-1);
+        }
+        keepPrevChar = true;
+        lastToken = tokens[tokens.length - 1];
+        if (lastToken && lastToken.type === 'text') {
+          lastToken.raw += token.raw;
+          lastToken.text += token.text;
+        } else {
+          tokens.push(token);
+        }
+        continue;
+      }
+
+      if (src) {
+        const errMsg = 'Infinite loop on byte: ' + src.charCodeAt(0);
+        if (this.options.silent) {
+          console.error(errMsg);
+          break;
+        } else {
+          throw new Error(errMsg);
+        }
+      }
+    }
+
+    return tokens;
+  }
+}
+
+/**
+ * Renderer
+ */
+class Renderer {
+  constructor(options) {
+    this.options = options || defaults;
+  }
+
+  code(code, infostring, escaped) {
+    const lang = (infostring || '').match(/\S*/)[0];
+    if (this.options.highlight) {
+      const out = this.options.highlight(code, lang);
+      if (out != null && out !== code) {
+        escaped = true;
+        code = out;
+      }
+    }
+
+    code = code.replace(/\n$/, '') + '\n';
+
+    if (!lang) {
+      return '<pre><code>'
+        + (escaped ? code : marked_esm_escape(code, true))
+        + '</code></pre>\n';
+    }
+
+    return '<pre><code class="'
+      + this.options.langPrefix
+      + marked_esm_escape(lang)
+      + '">'
+      + (escaped ? code : marked_esm_escape(code, true))
+      + '</code></pre>\n';
+  }
+
+  /**
+   * @param {string} quote
+   */
+  blockquote(quote) {
+    return `<blockquote>\n${quote}</blockquote>\n`;
+  }
+
+  html(html) {
+    return html;
+  }
+
+  /**
+   * @param {string} text
+   * @param {string} level
+   * @param {string} raw
+   * @param {any} slugger
+   */
+  heading(text, level, raw, slugger) {
+    if (this.options.headerIds) {
+      const id = this.options.headerPrefix + slugger.slug(raw);
+      return `<h${level} id="${id}">${text}</h${level}>\n`;
+    }
+
+    // ignore IDs
+    return `<h${level}>${text}</h${level}>\n`;
+  }
+
+  hr() {
+    return this.options.xhtml ? '<hr/>\n' : '<hr>\n';
+  }
+
+  list(body, ordered, start) {
+    const type = ordered ? 'ol' : 'ul',
+      startatt = (ordered && start !== 1) ? (' start="' + start + '"') : '';
+    return '<' + type + startatt + '>\n' + body + '</' + type + '>\n';
+  }
+
+  /**
+   * @param {string} text
+   */
+  listitem(text) {
+    return `<li>${text}</li>\n`;
+  }
+
+  checkbox(checked) {
+    return '<input '
+      + (checked ? 'checked="" ' : '')
+      + 'disabled="" type="checkbox"'
+      + (this.options.xhtml ? ' /' : '')
+      + '> ';
+  }
+
+  /**
+   * @param {string} text
+   */
+  paragraph(text) {
+    return `<p>${text}</p>\n`;
+  }
+
+  /**
+   * @param {string} header
+   * @param {string} body
+   */
+  table(header, body) {
+    if (body) body = `<tbody>${body}</tbody>`;
+
+    return '<table>\n'
+      + '<thead>\n'
+      + header
+      + '</thead>\n'
+      + body
+      + '</table>\n';
+  }
+
+  /**
+   * @param {string} content
+   */
+  tablerow(content) {
+    return `<tr>\n${content}</tr>\n`;
+  }
+
+  tablecell(content, flags) {
+    const type = flags.header ? 'th' : 'td';
+    const tag = flags.align
+      ? `<${type} align="${flags.align}">`
+      : `<${type}>`;
+    return tag + content + `</${type}>\n`;
+  }
+
+  /**
+   * span level renderer
+   * @param {string} text
+   */
+  strong(text) {
+    return `<strong>${text}</strong>`;
+  }
+
+  /**
+   * @param {string} text
+   */
+  em(text) {
+    return `<em>${text}</em>`;
+  }
+
+  /**
+   * @param {string} text
+   */
+  codespan(text) {
+    return `<code>${text}</code>`;
+  }
+
+  br() {
+    return this.options.xhtml ? '<br/>' : '<br>';
+  }
+
+  /**
+   * @param {string} text
+   */
+  del(text) {
+    return `<del>${text}</del>`;
+  }
+
+  /**
+   * @param {string} href
+   * @param {string} title
+   * @param {string} text
+   */
+  link(href, title, text) {
+    href = cleanUrl(this.options.sanitize, this.options.baseUrl, href);
+    if (href === null) {
+      return text;
+    }
+    let out = '<a href="' + href + '"';
+    if (title) {
+      out += ' title="' + title + '"';
+    }
+    out += '>' + text + '</a>';
+    return out;
+  }
+
+  /**
+   * @param {string} href
+   * @param {string} title
+   * @param {string} text
+   */
+  image(href, title, text) {
+    href = cleanUrl(this.options.sanitize, this.options.baseUrl, href);
+    if (href === null) {
+      return text;
+    }
+
+    let out = `<img src="${href}" alt="${text}"`;
+    if (title) {
+      out += ` title="${title}"`;
+    }
+    out += this.options.xhtml ? '/>' : '>';
+    return out;
+  }
+
+  text(text) {
+    return text;
+  }
+}
+
+/**
+ * TextRenderer
+ * returns only the textual part of the token
+ */
+class TextRenderer {
+  // no need for block level renderers
+  strong(text) {
+    return text;
+  }
+
+  em(text) {
+    return text;
+  }
+
+  codespan(text) {
+    return text;
+  }
+
+  del(text) {
+    return text;
+  }
+
+  html(text) {
+    return text;
+  }
+
+  text(text) {
+    return text;
+  }
+
+  link(href, title, text) {
+    return '' + text;
+  }
+
+  image(href, title, text) {
+    return '' + text;
+  }
+
+  br() {
+    return '';
+  }
+}
+
+/**
+ * Slugger generates header id
+ */
+class Slugger {
+  constructor() {
+    this.seen = {};
+  }
+
+  /**
+   * @param {string} value
+   */
+  serialize(value) {
+    return value
+      .toLowerCase()
+      .trim()
+      // remove html tags
+      .replace(/<[!\/a-z].*?>/ig, '')
+      // remove unwanted chars
+      .replace(/[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,./:;<=>?@[\]^`{|}~]/g, '')
+      .replace(/\s/g, '-');
+  }
+
+  /**
+   * Finds the next safe (unique) slug to use
+   * @param {string} originalSlug
+   * @param {boolean} isDryRun
+   */
+  getNextSafeSlug(originalSlug, isDryRun) {
+    let slug = originalSlug;
+    let occurenceAccumulator = 0;
+    if (this.seen.hasOwnProperty(slug)) {
+      occurenceAccumulator = this.seen[originalSlug];
+      do {
+        occurenceAccumulator++;
+        slug = originalSlug + '-' + occurenceAccumulator;
+      } while (this.seen.hasOwnProperty(slug));
+    }
+    if (!isDryRun) {
+      this.seen[originalSlug] = occurenceAccumulator;
+      this.seen[slug] = 0;
+    }
+    return slug;
+  }
+
+  /**
+   * Convert string to unique id
+   * @param {object} [options]
+   * @param {boolean} [options.dryrun] Generates the next unique slug without
+   * updating the internal accumulator.
+   */
+  slug(value, options = {}) {
+    const slug = this.serialize(value);
+    return this.getNextSafeSlug(slug, options.dryrun);
+  }
+}
+
+/**
+ * Parsing & Compiling
+ */
+class Parser {
+  constructor(options) {
+    this.options = options || defaults;
+    this.options.renderer = this.options.renderer || new Renderer();
+    this.renderer = this.options.renderer;
+    this.renderer.options = this.options;
+    this.textRenderer = new TextRenderer();
+    this.slugger = new Slugger();
+  }
+
+  /**
+   * Static Parse Method
+   */
+  static parse(tokens, options) {
+    const parser = new Parser(options);
+    return parser.parse(tokens);
+  }
+
+  /**
+   * Static Parse Inline Method
+   */
+  static parseInline(tokens, options) {
+    const parser = new Parser(options);
+    return parser.parseInline(tokens);
+  }
+
+  /**
+   * Parse Loop
+   */
+  parse(tokens, top = true) {
+    let out = '',
+      i,
+      j,
+      k,
+      l2,
+      l3,
+      row,
+      cell,
+      header,
+      body,
+      token,
+      ordered,
+      start,
+      loose,
+      itemBody,
+      item,
+      checked,
+      task,
+      checkbox,
+      ret;
+
+    const l = tokens.length;
+    for (i = 0; i < l; i++) {
+      token = tokens[i];
+
+      // Run any renderer extensions
+      if (this.options.extensions && this.options.extensions.renderers && this.options.extensions.renderers[token.type]) {
+        ret = this.options.extensions.renderers[token.type].call({ parser: this }, token);
+        if (ret !== false || !['space', 'hr', 'heading', 'code', 'table', 'blockquote', 'list', 'html', 'paragraph', 'text'].includes(token.type)) {
+          out += ret || '';
+          continue;
+        }
+      }
+
+      switch (token.type) {
+        case 'space': {
+          continue;
+        }
+        case 'hr': {
+          out += this.renderer.hr();
+          continue;
+        }
+        case 'heading': {
+          out += this.renderer.heading(
+            this.parseInline(token.tokens),
+            token.depth,
+            marked_esm_unescape(this.parseInline(token.tokens, this.textRenderer)),
+            this.slugger);
+          continue;
+        }
+        case 'code': {
+          out += this.renderer.code(token.text,
+            token.lang,
+            token.escaped);
+          continue;
+        }
+        case 'table': {
+          header = '';
+
+          // header
+          cell = '';
+          l2 = token.header.length;
+          for (j = 0; j < l2; j++) {
+            cell += this.renderer.tablecell(
+              this.parseInline(token.header[j].tokens),
+              { header: true, align: token.align[j] }
+            );
+          }
+          header += this.renderer.tablerow(cell);
+
+          body = '';
+          l2 = token.rows.length;
+          for (j = 0; j < l2; j++) {
+            row = token.rows[j];
+
+            cell = '';
+            l3 = row.length;
+            for (k = 0; k < l3; k++) {
+              cell += this.renderer.tablecell(
+                this.parseInline(row[k].tokens),
+                { header: false, align: token.align[k] }
+              );
+            }
+
+            body += this.renderer.tablerow(cell);
+          }
+          out += this.renderer.table(header, body);
+          continue;
+        }
+        case 'blockquote': {
+          body = this.parse(token.tokens);
+          out += this.renderer.blockquote(body);
+          continue;
+        }
+        case 'list': {
+          ordered = token.ordered;
+          start = token.start;
+          loose = token.loose;
+          l2 = token.items.length;
+
+          body = '';
+          for (j = 0; j < l2; j++) {
+            item = token.items[j];
+            checked = item.checked;
+            task = item.task;
+
+            itemBody = '';
+            if (item.task) {
+              checkbox = this.renderer.checkbox(checked);
+              if (loose) {
+                if (item.tokens.length > 0 && item.tokens[0].type === 'paragraph') {
+                  item.tokens[0].text = checkbox + ' ' + item.tokens[0].text;
+                  if (item.tokens[0].tokens && item.tokens[0].tokens.length > 0 && item.tokens[0].tokens[0].type === 'text') {
+                    item.tokens[0].tokens[0].text = checkbox + ' ' + item.tokens[0].tokens[0].text;
+                  }
+                } else {
+                  item.tokens.unshift({
+                    type: 'text',
+                    text: checkbox
+                  });
+                }
+              } else {
+                itemBody += checkbox;
+              }
+            }
+
+            itemBody += this.parse(item.tokens, loose);
+            body += this.renderer.listitem(itemBody, task, checked);
+          }
+
+          out += this.renderer.list(body, ordered, start);
+          continue;
+        }
+        case 'html': {
+          // TODO parse inline content if parameter markdown=1
+          out += this.renderer.html(token.text);
+          continue;
+        }
+        case 'paragraph': {
+          out += this.renderer.paragraph(this.parseInline(token.tokens));
+          continue;
+        }
+        case 'text': {
+          body = token.tokens ? this.parseInline(token.tokens) : token.text;
+          while (i + 1 < l && tokens[i + 1].type === 'text') {
+            token = tokens[++i];
+            body += '\n' + (token.tokens ? this.parseInline(token.tokens) : token.text);
+          }
+          out += top ? this.renderer.paragraph(body) : body;
+          continue;
+        }
+
+        default: {
+          const errMsg = 'Token with "' + token.type + '" type was not found.';
+          if (this.options.silent) {
+            console.error(errMsg);
+            return;
+          } else {
+            throw new Error(errMsg);
+          }
+        }
+      }
+    }
+
+    return out;
+  }
+
+  /**
+   * Parse Inline Tokens
+   */
+  parseInline(tokens, renderer) {
+    renderer = renderer || this.renderer;
+    let out = '',
+      i,
+      token,
+      ret;
+
+    const l = tokens.length;
+    for (i = 0; i < l; i++) {
+      token = tokens[i];
+
+      // Run any renderer extensions
+      if (this.options.extensions && this.options.extensions.renderers && this.options.extensions.renderers[token.type]) {
+        ret = this.options.extensions.renderers[token.type].call({ parser: this }, token);
+        if (ret !== false || !['escape', 'html', 'link', 'image', 'strong', 'em', 'codespan', 'br', 'del', 'text'].includes(token.type)) {
+          out += ret || '';
+          continue;
+        }
+      }
+
+      switch (token.type) {
+        case 'escape': {
+          out += renderer.text(token.text);
+          break;
+        }
+        case 'html': {
+          out += renderer.html(token.text);
+          break;
+        }
+        case 'link': {
+          out += renderer.link(token.href, token.title, this.parseInline(token.tokens, renderer));
+          break;
+        }
+        case 'image': {
+          out += renderer.image(token.href, token.title, token.text);
+          break;
+        }
+        case 'strong': {
+          out += renderer.strong(this.parseInline(token.tokens, renderer));
+          break;
+        }
+        case 'em': {
+          out += renderer.em(this.parseInline(token.tokens, renderer));
+          break;
+        }
+        case 'codespan': {
+          out += renderer.codespan(token.text);
+          break;
+        }
+        case 'br': {
+          out += renderer.br();
+          break;
+        }
+        case 'del': {
+          out += renderer.del(this.parseInline(token.tokens, renderer));
+          break;
+        }
+        case 'text': {
+          out += renderer.text(token.text);
+          break;
+        }
+        default: {
+          const errMsg = 'Token with "' + token.type + '" type was not found.';
+          if (this.options.silent) {
+            console.error(errMsg);
+            return;
+          } else {
+            throw new Error(errMsg);
+          }
+        }
+      }
+    }
+    return out;
+  }
+}
+
+/**
+ * Marked
+ */
+function marked(src, opt, callback) {
+  // throw error in case of non string input
+  if (typeof src === 'undefined' || src === null) {
+    throw new Error('marked(): input parameter is undefined or null');
+  }
+  if (typeof src !== 'string') {
+    throw new Error('marked(): input parameter is of type '
+      + Object.prototype.toString.call(src) + ', string expected');
+  }
+
+  if (typeof opt === 'function') {
+    callback = opt;
+    opt = null;
+  }
+
+  opt = merge({}, marked.defaults, opt || {});
+  checkSanitizeDeprecation(opt);
+
+  if (callback) {
+    const highlight = opt.highlight;
+    let tokens;
+
+    try {
+      tokens = Lexer.lex(src, opt);
+    } catch (e) {
+      return callback(e);
+    }
+
+    const done = function(err) {
+      let out;
+
+      if (!err) {
+        try {
+          if (opt.walkTokens) {
+            marked.walkTokens(tokens, opt.walkTokens);
+          }
+          out = Parser.parse(tokens, opt);
+        } catch (e) {
+          err = e;
+        }
+      }
+
+      opt.highlight = highlight;
+
+      return err
+        ? callback(err)
+        : callback(null, out);
+    };
+
+    if (!highlight || highlight.length < 3) {
+      return done();
+    }
+
+    delete opt.highlight;
+
+    if (!tokens.length) return done();
+
+    let pending = 0;
+    marked.walkTokens(tokens, function(token) {
+      if (token.type === 'code') {
+        pending++;
+        setTimeout(() => {
+          highlight(token.text, token.lang, function(err, code) {
+            if (err) {
+              return done(err);
+            }
+            if (code != null && code !== token.text) {
+              token.text = code;
+              token.escaped = true;
+            }
+
+            pending--;
+            if (pending === 0) {
+              done();
+            }
+          });
+        }, 0);
+      }
+    });
+
+    if (pending === 0) {
+      done();
+    }
+
+    return;
+  }
+
+  function onError(e) {
+    e.message += '\nPlease report this to https://github.com/markedjs/marked.';
+    if (opt.silent) {
+      return '<p>An error occurred:</p><pre>'
+        + marked_esm_escape(e.message + '', true)
+        + '</pre>';
+    }
+    throw e;
+  }
+
+  try {
+    const tokens = Lexer.lex(src, opt);
+    if (opt.walkTokens) {
+      if (opt.async) {
+        return Promise.all(marked.walkTokens(tokens, opt.walkTokens))
+          .then(() => {
+            return Parser.parse(tokens, opt);
+          })
+          .catch(onError);
+      }
+      marked.walkTokens(tokens, opt.walkTokens);
+    }
+    return Parser.parse(tokens, opt);
+  } catch (e) {
+    onError(e);
+  }
+}
+
+/**
+ * Options
+ */
+
+marked.options =
+marked.setOptions = function(opt) {
+  merge(marked.defaults, opt);
+  changeDefaults(marked.defaults);
+  return marked;
+};
+
+marked.getDefaults = getDefaults;
+
+marked.defaults = defaults;
+
+/**
+ * Use Extension
+ */
+
+marked.use = function(...args) {
+  const extensions = marked.defaults.extensions || { renderers: {}, childTokens: {} };
+
+  args.forEach((pack) => {
+    // copy options to new object
+    const opts = merge({}, pack);
+
+    // set async to true if it was set to true before
+    opts.async = marked.defaults.async || opts.async;
+
+    // ==-- Parse "addon" extensions --== //
+    if (pack.extensions) {
+      pack.extensions.forEach((ext) => {
+        if (!ext.name) {
+          throw new Error('extension name required');
+        }
+        if (ext.renderer) { // Renderer extensions
+          const prevRenderer = extensions.renderers[ext.name];
+          if (prevRenderer) {
+            // Replace extension with func to run new extension but fall back if false
+            extensions.renderers[ext.name] = function(...args) {
+              let ret = ext.renderer.apply(this, args);
+              if (ret === false) {
+                ret = prevRenderer.apply(this, args);
+              }
+              return ret;
+            };
+          } else {
+            extensions.renderers[ext.name] = ext.renderer;
+          }
+        }
+        if (ext.tokenizer) { // Tokenizer Extensions
+          if (!ext.level || (ext.level !== 'block' && ext.level !== 'inline')) {
+            throw new Error("extension level must be 'block' or 'inline'");
+          }
+          if (extensions[ext.level]) {
+            extensions[ext.level].unshift(ext.tokenizer);
+          } else {
+            extensions[ext.level] = [ext.tokenizer];
+          }
+          if (ext.start) { // Function to check for start of token
+            if (ext.level === 'block') {
+              if (extensions.startBlock) {
+                extensions.startBlock.push(ext.start);
+              } else {
+                extensions.startBlock = [ext.start];
+              }
+            } else if (ext.level === 'inline') {
+              if (extensions.startInline) {
+                extensions.startInline.push(ext.start);
+              } else {
+                extensions.startInline = [ext.start];
+              }
+            }
+          }
+        }
+        if (ext.childTokens) { // Child tokens to be visited by walkTokens
+          extensions.childTokens[ext.name] = ext.childTokens;
+        }
+      });
+      opts.extensions = extensions;
+    }
+
+    // ==-- Parse "overwrite" extensions --== //
+    if (pack.renderer) {
+      const renderer = marked.defaults.renderer || new Renderer();
+      for (const prop in pack.renderer) {
+        const prevRenderer = renderer[prop];
+        // Replace renderer with func to run extension, but fall back if false
+        renderer[prop] = (...args) => {
+          let ret = pack.renderer[prop].apply(renderer, args);
+          if (ret === false) {
+            ret = prevRenderer.apply(renderer, args);
+          }
+          return ret;
+        };
+      }
+      opts.renderer = renderer;
+    }
+    if (pack.tokenizer) {
+      const tokenizer = marked.defaults.tokenizer || new Tokenizer();
+      for (const prop in pack.tokenizer) {
+        const prevTokenizer = tokenizer[prop];
+        // Replace tokenizer with func to run extension, but fall back if false
+        tokenizer[prop] = (...args) => {
+          let ret = pack.tokenizer[prop].apply(tokenizer, args);
+          if (ret === false) {
+            ret = prevTokenizer.apply(tokenizer, args);
+          }
+          return ret;
+        };
+      }
+      opts.tokenizer = tokenizer;
+    }
+
+    // ==-- Parse WalkTokens extensions --== //
+    if (pack.walkTokens) {
+      const walkTokens = marked.defaults.walkTokens;
+      opts.walkTokens = function(token) {
+        let values = [];
+        values.push(pack.walkTokens.call(this, token));
+        if (walkTokens) {
+          values = values.concat(walkTokens.call(this, token));
+        }
+        return values;
+      };
+    }
+
+    marked.setOptions(opts);
+  });
+};
+
+/**
+ * Run callback for every token
+ */
+
+marked.walkTokens = function(tokens, callback) {
+  let values = [];
+  for (const token of tokens) {
+    values = values.concat(callback.call(marked, token));
+    switch (token.type) {
+      case 'table': {
+        for (const cell of token.header) {
+          values = values.concat(marked.walkTokens(cell.tokens, callback));
+        }
+        for (const row of token.rows) {
+          for (const cell of row) {
+            values = values.concat(marked.walkTokens(cell.tokens, callback));
+          }
+        }
+        break;
+      }
+      case 'list': {
+        values = values.concat(marked.walkTokens(token.items, callback));
+        break;
+      }
+      default: {
+        if (marked.defaults.extensions && marked.defaults.extensions.childTokens && marked.defaults.extensions.childTokens[token.type]) { // Walk any extensions
+          marked.defaults.extensions.childTokens[token.type].forEach(function(childTokens) {
+            values = values.concat(marked.walkTokens(token[childTokens], callback));
+          });
+        } else if (token.tokens) {
+          values = values.concat(marked.walkTokens(token.tokens, callback));
+        }
+      }
+    }
+  }
+  return values;
+};
+
+/**
+ * Parse Inline
+ * @param {string} src
+ */
+marked.parseInline = function(src, opt) {
+  // throw error in case of non string input
+  if (typeof src === 'undefined' || src === null) {
+    throw new Error('marked.parseInline(): input parameter is undefined or null');
+  }
+  if (typeof src !== 'string') {
+    throw new Error('marked.parseInline(): input parameter is of type '
+      + Object.prototype.toString.call(src) + ', string expected');
+  }
+
+  opt = merge({}, marked.defaults, opt || {});
+  checkSanitizeDeprecation(opt);
+
+  try {
+    const tokens = Lexer.lexInline(src, opt);
+    if (opt.walkTokens) {
+      marked.walkTokens(tokens, opt.walkTokens);
+    }
+    return Parser.parseInline(tokens, opt);
+  } catch (e) {
+    e.message += '\nPlease report this to https://github.com/markedjs/marked.';
+    if (opt.silent) {
+      return '<p>An error occurred:</p><pre>'
+        + marked_esm_escape(e.message + '', true)
+        + '</pre>';
+    }
+    throw e;
+  }
+};
+
+/**
+ * Expose
+ */
+marked.Parser = Parser;
+marked.parser = Parser.parse;
+marked.Renderer = Renderer;
+marked.TextRenderer = TextRenderer;
+marked.Lexer = Lexer;
+marked.lexer = Lexer.lex;
+marked.Tokenizer = Tokenizer;
+marked.Slugger = Slugger;
+marked.parse = marked;
+
+const options = marked.options;
+const setOptions = marked.setOptions;
+const use = marked.use;
+const walkTokens = marked.walkTokens;
+const parseInline = marked.parseInline;
+const parse = (/* unused pure expression or super */ null && (marked));
+const parser = Parser.parse;
+const lexer = Lexer.lex;
 
 
 
-
-const gatsbyBuildMarkdown1 = `
+// EXTERNAL MODULE: ./node_modules/highlight.js/es/index.js
+var es = __webpack_require__(637);
+;// CONCATENATED MODULE: ./src/pages/writing/window-document-not-defined-gatsby-build.js
+const gatsbyBuildMarkdown1=`
   \`\`\`javascript
     if (typeof document !== "undefined") {
       return {
@@ -533,8 +2908,7 @@ const gatsbyBuildMarkdown1 = `
       }
     }
   \`\`\`
-`;
-const gatsbyBuildMarkdown2 = `
+`;const gatsbyBuildMarkdown2=`
   \`\`\`javascript
     exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
 
@@ -556,64 +2930,14 @@ const gatsbyBuildMarkdown2 = `
       }
     }
   \`\`\`
-`;
-const Article = () => {
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    highlight_js__WEBPACK_IMPORTED_MODULE_3__["default"].highlightAll();
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
-    className: "w-full"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "border-b-2 border-[#323232] gap-16 max-w-[780px] pt-32 mx-auto"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: ""
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "mb-8"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "text-[32px]"
-  }, "How to fix 'document not defined' in Gatsby Build")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
-    className: "wrapper-y will-grow articletext article-content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "py-4"
-  }, "The error ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "small-code"
-  }, "`document is not defined`"), " or ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "small-code"
-  }, "`window is not defined`"), "window is not defined you see when building a gatsby project is as a result of gatsby attempting to query the DOM on the server as it is server-side rendering. This can occur either when you're trying to manipulate or query the DOM."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "py-4"
-  }, "Note: When querying elements in the DOM in Gatsby or React in general, it is recommended to do this inside of the Component lifecycle method, or inside the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "small-code"
-  }, "`useEffect`"), " hook when the page is rendered. This ensures that the DOM is ready before querying DOM elements."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "py-4"
-  }, "In a scenario where you want to make use of the document or window outside of the useEffect hook, you will run into a problem as neither of them are defined on the server. A quick fix for this problem is to set a condition to check if the document or window is defined."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "code-snippet py-12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    dangerouslySetInnerHTML: {
-      __html: (0,marked__WEBPACK_IMPORTED_MODULE_2__.marked)(gatsbyBuildMarkdown1)
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "py-4"
-  }, "If you observe that the error you're getting is coming from a node module, you can simply ignore the module during server-side rendering to avoid the error during the build process by adding the following code snippet to the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "small-code"
-  }, "`gatsby-node.js`"), " file. For my example, I'm using the canvas module. You can change the module to any one of your choice."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "code-snippet py-12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    dangerouslySetInnerHTML: {
-      __html: (0,marked__WEBPACK_IMPORTED_MODULE_2__.marked)(gatsbyBuildMarkdown2)
-    }
-  }))))));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Article);
+`;const Article=()=>{(0,index_js_.useEffect)(()=>{es/* default.highlightAll */.Z.highlightAll();},[]);return/*#__PURE__*/index_js_default().createElement(layout/* default */.Z,null,/*#__PURE__*/index_js_default().createElement("main",{className:"w-full"},/*#__PURE__*/index_js_default().createElement("section",{className:"border-b-2 border-[#323232] gap-16 max-w-[780px] pt-32 mx-auto"},/*#__PURE__*/index_js_default().createElement("div",{className:""}),/*#__PURE__*/index_js_default().createElement("div",{className:"mb-8"},/*#__PURE__*/index_js_default().createElement("h2",{className:"text-[32px]"},"How to fix 'document not defined' in Gatsby Build")),/*#__PURE__*/index_js_default().createElement("article",{className:"wrapper-y will-grow articletext article-content"},/*#__PURE__*/index_js_default().createElement("p",{className:"py-4"},"The error ",/*#__PURE__*/index_js_default().createElement("span",{className:"small-code"},"`document is not defined`")," or ",/*#__PURE__*/index_js_default().createElement("span",{className:"small-code"},"`window is not defined`"),"window is not defined you see when building a gatsby project is as a result of gatsby attempting to query the DOM on the server as it is server-side rendering. This can occur either when you're trying to manipulate or query the DOM."),/*#__PURE__*/index_js_default().createElement("p",{className:"py-4"},"Note: When querying elements in the DOM in Gatsby or React in general, it is recommended to do this inside of the Component lifecycle method, or inside the ",/*#__PURE__*/index_js_default().createElement("span",{className:"small-code"},"`useEffect`")," hook when the page is rendered. This ensures that the DOM is ready before querying DOM elements."),/*#__PURE__*/index_js_default().createElement("p",{className:"py-4"},"In a scenario where you want to make use of the document or window outside of the useEffect hook, you will run into a problem as neither of them are defined on the server. A quick fix for this problem is to set a condition to check if the document or window is defined."),/*#__PURE__*/index_js_default().createElement("div",{className:"code-snippet py-12"},/*#__PURE__*/index_js_default().createElement("div",{dangerouslySetInnerHTML:{__html:marked(gatsbyBuildMarkdown1)}})),/*#__PURE__*/index_js_default().createElement("p",{className:"py-4"},"If you observe that the error you're getting is coming from a node module, you can simply ignore the module during server-side rendering to avoid the error during the build process by adding the following code snippet to the ",/*#__PURE__*/index_js_default().createElement("span",{className:"small-code"},"`gatsby-node.js`")," file. For my example, I'm using the canvas module. You can change the module to any one of your choice."),/*#__PURE__*/index_js_default().createElement("div",{className:"code-snippet py-12"},/*#__PURE__*/index_js_default().createElement("div",{dangerouslySetInnerHTML:{__html:marked(gatsbyBuildMarkdown2)}}))))));};/* harmony default export */ const window_document_not_defined_gatsby_build = (Article);
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/defineProperty.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/defineProperty.js ***!
-  \***************************************************************/
+/***/ 8416:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var toPropertyKey = __webpack_require__(/*! ./toPropertyKey.js */ "./node_modules/@babel/runtime/helpers/toPropertyKey.js");
+var toPropertyKey = __webpack_require__(4062);
 function _defineProperty(obj, key, value) {
   key = toPropertyKey(key);
   if (key in obj) {
@@ -632,13 +2956,10 @@ module.exports = _defineProperty, module.exports.__esModule = true, module.expor
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/toPrimitive.js":
-/*!************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/toPrimitive.js ***!
-  \************************************************************/
+/***/ 5036:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var _typeof = (__webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/typeof.js")["default"]);
+var _typeof = (__webpack_require__(8698)["default"]);
 function _toPrimitive(input, hint) {
   if (_typeof(input) !== "object" || input === null) return input;
   var prim = input[Symbol.toPrimitive];
@@ -653,14 +2974,11 @@ module.exports = _toPrimitive, module.exports.__esModule = true, module.exports[
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/toPropertyKey.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/toPropertyKey.js ***!
-  \**************************************************************/
+/***/ 4062:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var _typeof = (__webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/typeof.js")["default"]);
-var toPrimitive = __webpack_require__(/*! ./toPrimitive.js */ "./node_modules/@babel/runtime/helpers/toPrimitive.js");
+var _typeof = (__webpack_require__(8698)["default"]);
+var toPrimitive = __webpack_require__(5036);
 function _toPropertyKey(arg) {
   var key = toPrimitive(arg, "string");
   return _typeof(key) === "symbol" ? key : String(key);
@@ -669,10 +2987,7 @@ module.exports = _toPropertyKey, module.exports.__esModule = true, module.export
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/typeof.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
-  \*******************************************************/
+/***/ 8698:
 /***/ ((module) => {
 
 function _typeof(obj) {
@@ -688,10 +3003,7 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/core.js":
-/*!***********************************************!*\
-  !*** ./node_modules/highlight.js/lib/core.js ***!
-  \***********************************************/
+/***/ 3390:
 /***/ ((module) => {
 
 var deepFreezeEs6 = {exports: {}};
@@ -3264,206 +5576,203 @@ highlight.default = highlight;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/index.js":
-/*!************************************************!*\
-  !*** ./node_modules/highlight.js/lib/index.js ***!
-  \************************************************/
+/***/ 8128:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var hljs = __webpack_require__(/*! ./core */ "./node_modules/highlight.js/lib/core.js");
+var hljs = __webpack_require__(3390);
 
-hljs.registerLanguage('1c', __webpack_require__(/*! ./languages/1c */ "./node_modules/highlight.js/lib/languages/1c.js"));
-hljs.registerLanguage('abnf', __webpack_require__(/*! ./languages/abnf */ "./node_modules/highlight.js/lib/languages/abnf.js"));
-hljs.registerLanguage('accesslog', __webpack_require__(/*! ./languages/accesslog */ "./node_modules/highlight.js/lib/languages/accesslog.js"));
-hljs.registerLanguage('actionscript', __webpack_require__(/*! ./languages/actionscript */ "./node_modules/highlight.js/lib/languages/actionscript.js"));
-hljs.registerLanguage('ada', __webpack_require__(/*! ./languages/ada */ "./node_modules/highlight.js/lib/languages/ada.js"));
-hljs.registerLanguage('angelscript', __webpack_require__(/*! ./languages/angelscript */ "./node_modules/highlight.js/lib/languages/angelscript.js"));
-hljs.registerLanguage('apache', __webpack_require__(/*! ./languages/apache */ "./node_modules/highlight.js/lib/languages/apache.js"));
-hljs.registerLanguage('applescript', __webpack_require__(/*! ./languages/applescript */ "./node_modules/highlight.js/lib/languages/applescript.js"));
-hljs.registerLanguage('arcade', __webpack_require__(/*! ./languages/arcade */ "./node_modules/highlight.js/lib/languages/arcade.js"));
-hljs.registerLanguage('arduino', __webpack_require__(/*! ./languages/arduino */ "./node_modules/highlight.js/lib/languages/arduino.js"));
-hljs.registerLanguage('armasm', __webpack_require__(/*! ./languages/armasm */ "./node_modules/highlight.js/lib/languages/armasm.js"));
-hljs.registerLanguage('xml', __webpack_require__(/*! ./languages/xml */ "./node_modules/highlight.js/lib/languages/xml.js"));
-hljs.registerLanguage('asciidoc', __webpack_require__(/*! ./languages/asciidoc */ "./node_modules/highlight.js/lib/languages/asciidoc.js"));
-hljs.registerLanguage('aspectj', __webpack_require__(/*! ./languages/aspectj */ "./node_modules/highlight.js/lib/languages/aspectj.js"));
-hljs.registerLanguage('autohotkey', __webpack_require__(/*! ./languages/autohotkey */ "./node_modules/highlight.js/lib/languages/autohotkey.js"));
-hljs.registerLanguage('autoit', __webpack_require__(/*! ./languages/autoit */ "./node_modules/highlight.js/lib/languages/autoit.js"));
-hljs.registerLanguage('avrasm', __webpack_require__(/*! ./languages/avrasm */ "./node_modules/highlight.js/lib/languages/avrasm.js"));
-hljs.registerLanguage('awk', __webpack_require__(/*! ./languages/awk */ "./node_modules/highlight.js/lib/languages/awk.js"));
-hljs.registerLanguage('axapta', __webpack_require__(/*! ./languages/axapta */ "./node_modules/highlight.js/lib/languages/axapta.js"));
-hljs.registerLanguage('bash', __webpack_require__(/*! ./languages/bash */ "./node_modules/highlight.js/lib/languages/bash.js"));
-hljs.registerLanguage('basic', __webpack_require__(/*! ./languages/basic */ "./node_modules/highlight.js/lib/languages/basic.js"));
-hljs.registerLanguage('bnf', __webpack_require__(/*! ./languages/bnf */ "./node_modules/highlight.js/lib/languages/bnf.js"));
-hljs.registerLanguage('brainfuck', __webpack_require__(/*! ./languages/brainfuck */ "./node_modules/highlight.js/lib/languages/brainfuck.js"));
-hljs.registerLanguage('c', __webpack_require__(/*! ./languages/c */ "./node_modules/highlight.js/lib/languages/c.js"));
-hljs.registerLanguage('cal', __webpack_require__(/*! ./languages/cal */ "./node_modules/highlight.js/lib/languages/cal.js"));
-hljs.registerLanguage('capnproto', __webpack_require__(/*! ./languages/capnproto */ "./node_modules/highlight.js/lib/languages/capnproto.js"));
-hljs.registerLanguage('ceylon', __webpack_require__(/*! ./languages/ceylon */ "./node_modules/highlight.js/lib/languages/ceylon.js"));
-hljs.registerLanguage('clean', __webpack_require__(/*! ./languages/clean */ "./node_modules/highlight.js/lib/languages/clean.js"));
-hljs.registerLanguage('clojure', __webpack_require__(/*! ./languages/clojure */ "./node_modules/highlight.js/lib/languages/clojure.js"));
-hljs.registerLanguage('clojure-repl', __webpack_require__(/*! ./languages/clojure-repl */ "./node_modules/highlight.js/lib/languages/clojure-repl.js"));
-hljs.registerLanguage('cmake', __webpack_require__(/*! ./languages/cmake */ "./node_modules/highlight.js/lib/languages/cmake.js"));
-hljs.registerLanguage('coffeescript', __webpack_require__(/*! ./languages/coffeescript */ "./node_modules/highlight.js/lib/languages/coffeescript.js"));
-hljs.registerLanguage('coq', __webpack_require__(/*! ./languages/coq */ "./node_modules/highlight.js/lib/languages/coq.js"));
-hljs.registerLanguage('cos', __webpack_require__(/*! ./languages/cos */ "./node_modules/highlight.js/lib/languages/cos.js"));
-hljs.registerLanguage('cpp', __webpack_require__(/*! ./languages/cpp */ "./node_modules/highlight.js/lib/languages/cpp.js"));
-hljs.registerLanguage('crmsh', __webpack_require__(/*! ./languages/crmsh */ "./node_modules/highlight.js/lib/languages/crmsh.js"));
-hljs.registerLanguage('crystal', __webpack_require__(/*! ./languages/crystal */ "./node_modules/highlight.js/lib/languages/crystal.js"));
-hljs.registerLanguage('csharp', __webpack_require__(/*! ./languages/csharp */ "./node_modules/highlight.js/lib/languages/csharp.js"));
-hljs.registerLanguage('csp', __webpack_require__(/*! ./languages/csp */ "./node_modules/highlight.js/lib/languages/csp.js"));
-hljs.registerLanguage('css', __webpack_require__(/*! ./languages/css */ "./node_modules/highlight.js/lib/languages/css.js"));
-hljs.registerLanguage('d', __webpack_require__(/*! ./languages/d */ "./node_modules/highlight.js/lib/languages/d.js"));
-hljs.registerLanguage('markdown', __webpack_require__(/*! ./languages/markdown */ "./node_modules/highlight.js/lib/languages/markdown.js"));
-hljs.registerLanguage('dart', __webpack_require__(/*! ./languages/dart */ "./node_modules/highlight.js/lib/languages/dart.js"));
-hljs.registerLanguage('delphi', __webpack_require__(/*! ./languages/delphi */ "./node_modules/highlight.js/lib/languages/delphi.js"));
-hljs.registerLanguage('diff', __webpack_require__(/*! ./languages/diff */ "./node_modules/highlight.js/lib/languages/diff.js"));
-hljs.registerLanguage('django', __webpack_require__(/*! ./languages/django */ "./node_modules/highlight.js/lib/languages/django.js"));
-hljs.registerLanguage('dns', __webpack_require__(/*! ./languages/dns */ "./node_modules/highlight.js/lib/languages/dns.js"));
-hljs.registerLanguage('dockerfile', __webpack_require__(/*! ./languages/dockerfile */ "./node_modules/highlight.js/lib/languages/dockerfile.js"));
-hljs.registerLanguage('dos', __webpack_require__(/*! ./languages/dos */ "./node_modules/highlight.js/lib/languages/dos.js"));
-hljs.registerLanguage('dsconfig', __webpack_require__(/*! ./languages/dsconfig */ "./node_modules/highlight.js/lib/languages/dsconfig.js"));
-hljs.registerLanguage('dts', __webpack_require__(/*! ./languages/dts */ "./node_modules/highlight.js/lib/languages/dts.js"));
-hljs.registerLanguage('dust', __webpack_require__(/*! ./languages/dust */ "./node_modules/highlight.js/lib/languages/dust.js"));
-hljs.registerLanguage('ebnf', __webpack_require__(/*! ./languages/ebnf */ "./node_modules/highlight.js/lib/languages/ebnf.js"));
-hljs.registerLanguage('elixir', __webpack_require__(/*! ./languages/elixir */ "./node_modules/highlight.js/lib/languages/elixir.js"));
-hljs.registerLanguage('elm', __webpack_require__(/*! ./languages/elm */ "./node_modules/highlight.js/lib/languages/elm.js"));
-hljs.registerLanguage('ruby', __webpack_require__(/*! ./languages/ruby */ "./node_modules/highlight.js/lib/languages/ruby.js"));
-hljs.registerLanguage('erb', __webpack_require__(/*! ./languages/erb */ "./node_modules/highlight.js/lib/languages/erb.js"));
-hljs.registerLanguage('erlang-repl', __webpack_require__(/*! ./languages/erlang-repl */ "./node_modules/highlight.js/lib/languages/erlang-repl.js"));
-hljs.registerLanguage('erlang', __webpack_require__(/*! ./languages/erlang */ "./node_modules/highlight.js/lib/languages/erlang.js"));
-hljs.registerLanguage('excel', __webpack_require__(/*! ./languages/excel */ "./node_modules/highlight.js/lib/languages/excel.js"));
-hljs.registerLanguage('fix', __webpack_require__(/*! ./languages/fix */ "./node_modules/highlight.js/lib/languages/fix.js"));
-hljs.registerLanguage('flix', __webpack_require__(/*! ./languages/flix */ "./node_modules/highlight.js/lib/languages/flix.js"));
-hljs.registerLanguage('fortran', __webpack_require__(/*! ./languages/fortran */ "./node_modules/highlight.js/lib/languages/fortran.js"));
-hljs.registerLanguage('fsharp', __webpack_require__(/*! ./languages/fsharp */ "./node_modules/highlight.js/lib/languages/fsharp.js"));
-hljs.registerLanguage('gams', __webpack_require__(/*! ./languages/gams */ "./node_modules/highlight.js/lib/languages/gams.js"));
-hljs.registerLanguage('gauss', __webpack_require__(/*! ./languages/gauss */ "./node_modules/highlight.js/lib/languages/gauss.js"));
-hljs.registerLanguage('gcode', __webpack_require__(/*! ./languages/gcode */ "./node_modules/highlight.js/lib/languages/gcode.js"));
-hljs.registerLanguage('gherkin', __webpack_require__(/*! ./languages/gherkin */ "./node_modules/highlight.js/lib/languages/gherkin.js"));
-hljs.registerLanguage('glsl', __webpack_require__(/*! ./languages/glsl */ "./node_modules/highlight.js/lib/languages/glsl.js"));
-hljs.registerLanguage('gml', __webpack_require__(/*! ./languages/gml */ "./node_modules/highlight.js/lib/languages/gml.js"));
-hljs.registerLanguage('go', __webpack_require__(/*! ./languages/go */ "./node_modules/highlight.js/lib/languages/go.js"));
-hljs.registerLanguage('golo', __webpack_require__(/*! ./languages/golo */ "./node_modules/highlight.js/lib/languages/golo.js"));
-hljs.registerLanguage('gradle', __webpack_require__(/*! ./languages/gradle */ "./node_modules/highlight.js/lib/languages/gradle.js"));
-hljs.registerLanguage('graphql', __webpack_require__(/*! ./languages/graphql */ "./node_modules/highlight.js/lib/languages/graphql.js"));
-hljs.registerLanguage('groovy', __webpack_require__(/*! ./languages/groovy */ "./node_modules/highlight.js/lib/languages/groovy.js"));
-hljs.registerLanguage('haml', __webpack_require__(/*! ./languages/haml */ "./node_modules/highlight.js/lib/languages/haml.js"));
-hljs.registerLanguage('handlebars', __webpack_require__(/*! ./languages/handlebars */ "./node_modules/highlight.js/lib/languages/handlebars.js"));
-hljs.registerLanguage('haskell', __webpack_require__(/*! ./languages/haskell */ "./node_modules/highlight.js/lib/languages/haskell.js"));
-hljs.registerLanguage('haxe', __webpack_require__(/*! ./languages/haxe */ "./node_modules/highlight.js/lib/languages/haxe.js"));
-hljs.registerLanguage('hsp', __webpack_require__(/*! ./languages/hsp */ "./node_modules/highlight.js/lib/languages/hsp.js"));
-hljs.registerLanguage('http', __webpack_require__(/*! ./languages/http */ "./node_modules/highlight.js/lib/languages/http.js"));
-hljs.registerLanguage('hy', __webpack_require__(/*! ./languages/hy */ "./node_modules/highlight.js/lib/languages/hy.js"));
-hljs.registerLanguage('inform7', __webpack_require__(/*! ./languages/inform7 */ "./node_modules/highlight.js/lib/languages/inform7.js"));
-hljs.registerLanguage('ini', __webpack_require__(/*! ./languages/ini */ "./node_modules/highlight.js/lib/languages/ini.js"));
-hljs.registerLanguage('irpf90', __webpack_require__(/*! ./languages/irpf90 */ "./node_modules/highlight.js/lib/languages/irpf90.js"));
-hljs.registerLanguage('isbl', __webpack_require__(/*! ./languages/isbl */ "./node_modules/highlight.js/lib/languages/isbl.js"));
-hljs.registerLanguage('java', __webpack_require__(/*! ./languages/java */ "./node_modules/highlight.js/lib/languages/java.js"));
-hljs.registerLanguage('javascript', __webpack_require__(/*! ./languages/javascript */ "./node_modules/highlight.js/lib/languages/javascript.js"));
-hljs.registerLanguage('jboss-cli', __webpack_require__(/*! ./languages/jboss-cli */ "./node_modules/highlight.js/lib/languages/jboss-cli.js"));
-hljs.registerLanguage('json', __webpack_require__(/*! ./languages/json */ "./node_modules/highlight.js/lib/languages/json.js"));
-hljs.registerLanguage('julia', __webpack_require__(/*! ./languages/julia */ "./node_modules/highlight.js/lib/languages/julia.js"));
-hljs.registerLanguage('julia-repl', __webpack_require__(/*! ./languages/julia-repl */ "./node_modules/highlight.js/lib/languages/julia-repl.js"));
-hljs.registerLanguage('kotlin', __webpack_require__(/*! ./languages/kotlin */ "./node_modules/highlight.js/lib/languages/kotlin.js"));
-hljs.registerLanguage('lasso', __webpack_require__(/*! ./languages/lasso */ "./node_modules/highlight.js/lib/languages/lasso.js"));
-hljs.registerLanguage('latex', __webpack_require__(/*! ./languages/latex */ "./node_modules/highlight.js/lib/languages/latex.js"));
-hljs.registerLanguage('ldif', __webpack_require__(/*! ./languages/ldif */ "./node_modules/highlight.js/lib/languages/ldif.js"));
-hljs.registerLanguage('leaf', __webpack_require__(/*! ./languages/leaf */ "./node_modules/highlight.js/lib/languages/leaf.js"));
-hljs.registerLanguage('less', __webpack_require__(/*! ./languages/less */ "./node_modules/highlight.js/lib/languages/less.js"));
-hljs.registerLanguage('lisp', __webpack_require__(/*! ./languages/lisp */ "./node_modules/highlight.js/lib/languages/lisp.js"));
-hljs.registerLanguage('livecodeserver', __webpack_require__(/*! ./languages/livecodeserver */ "./node_modules/highlight.js/lib/languages/livecodeserver.js"));
-hljs.registerLanguage('livescript', __webpack_require__(/*! ./languages/livescript */ "./node_modules/highlight.js/lib/languages/livescript.js"));
-hljs.registerLanguage('llvm', __webpack_require__(/*! ./languages/llvm */ "./node_modules/highlight.js/lib/languages/llvm.js"));
-hljs.registerLanguage('lsl', __webpack_require__(/*! ./languages/lsl */ "./node_modules/highlight.js/lib/languages/lsl.js"));
-hljs.registerLanguage('lua', __webpack_require__(/*! ./languages/lua */ "./node_modules/highlight.js/lib/languages/lua.js"));
-hljs.registerLanguage('makefile', __webpack_require__(/*! ./languages/makefile */ "./node_modules/highlight.js/lib/languages/makefile.js"));
-hljs.registerLanguage('mathematica', __webpack_require__(/*! ./languages/mathematica */ "./node_modules/highlight.js/lib/languages/mathematica.js"));
-hljs.registerLanguage('matlab', __webpack_require__(/*! ./languages/matlab */ "./node_modules/highlight.js/lib/languages/matlab.js"));
-hljs.registerLanguage('maxima', __webpack_require__(/*! ./languages/maxima */ "./node_modules/highlight.js/lib/languages/maxima.js"));
-hljs.registerLanguage('mel', __webpack_require__(/*! ./languages/mel */ "./node_modules/highlight.js/lib/languages/mel.js"));
-hljs.registerLanguage('mercury', __webpack_require__(/*! ./languages/mercury */ "./node_modules/highlight.js/lib/languages/mercury.js"));
-hljs.registerLanguage('mipsasm', __webpack_require__(/*! ./languages/mipsasm */ "./node_modules/highlight.js/lib/languages/mipsasm.js"));
-hljs.registerLanguage('mizar', __webpack_require__(/*! ./languages/mizar */ "./node_modules/highlight.js/lib/languages/mizar.js"));
-hljs.registerLanguage('perl', __webpack_require__(/*! ./languages/perl */ "./node_modules/highlight.js/lib/languages/perl.js"));
-hljs.registerLanguage('mojolicious', __webpack_require__(/*! ./languages/mojolicious */ "./node_modules/highlight.js/lib/languages/mojolicious.js"));
-hljs.registerLanguage('monkey', __webpack_require__(/*! ./languages/monkey */ "./node_modules/highlight.js/lib/languages/monkey.js"));
-hljs.registerLanguage('moonscript', __webpack_require__(/*! ./languages/moonscript */ "./node_modules/highlight.js/lib/languages/moonscript.js"));
-hljs.registerLanguage('n1ql', __webpack_require__(/*! ./languages/n1ql */ "./node_modules/highlight.js/lib/languages/n1ql.js"));
-hljs.registerLanguage('nestedtext', __webpack_require__(/*! ./languages/nestedtext */ "./node_modules/highlight.js/lib/languages/nestedtext.js"));
-hljs.registerLanguage('nginx', __webpack_require__(/*! ./languages/nginx */ "./node_modules/highlight.js/lib/languages/nginx.js"));
-hljs.registerLanguage('nim', __webpack_require__(/*! ./languages/nim */ "./node_modules/highlight.js/lib/languages/nim.js"));
-hljs.registerLanguage('nix', __webpack_require__(/*! ./languages/nix */ "./node_modules/highlight.js/lib/languages/nix.js"));
-hljs.registerLanguage('node-repl', __webpack_require__(/*! ./languages/node-repl */ "./node_modules/highlight.js/lib/languages/node-repl.js"));
-hljs.registerLanguage('nsis', __webpack_require__(/*! ./languages/nsis */ "./node_modules/highlight.js/lib/languages/nsis.js"));
-hljs.registerLanguage('objectivec', __webpack_require__(/*! ./languages/objectivec */ "./node_modules/highlight.js/lib/languages/objectivec.js"));
-hljs.registerLanguage('ocaml', __webpack_require__(/*! ./languages/ocaml */ "./node_modules/highlight.js/lib/languages/ocaml.js"));
-hljs.registerLanguage('openscad', __webpack_require__(/*! ./languages/openscad */ "./node_modules/highlight.js/lib/languages/openscad.js"));
-hljs.registerLanguage('oxygene', __webpack_require__(/*! ./languages/oxygene */ "./node_modules/highlight.js/lib/languages/oxygene.js"));
-hljs.registerLanguage('parser3', __webpack_require__(/*! ./languages/parser3 */ "./node_modules/highlight.js/lib/languages/parser3.js"));
-hljs.registerLanguage('pf', __webpack_require__(/*! ./languages/pf */ "./node_modules/highlight.js/lib/languages/pf.js"));
-hljs.registerLanguage('pgsql', __webpack_require__(/*! ./languages/pgsql */ "./node_modules/highlight.js/lib/languages/pgsql.js"));
-hljs.registerLanguage('php', __webpack_require__(/*! ./languages/php */ "./node_modules/highlight.js/lib/languages/php.js"));
-hljs.registerLanguage('php-template', __webpack_require__(/*! ./languages/php-template */ "./node_modules/highlight.js/lib/languages/php-template.js"));
-hljs.registerLanguage('plaintext', __webpack_require__(/*! ./languages/plaintext */ "./node_modules/highlight.js/lib/languages/plaintext.js"));
-hljs.registerLanguage('pony', __webpack_require__(/*! ./languages/pony */ "./node_modules/highlight.js/lib/languages/pony.js"));
-hljs.registerLanguage('powershell', __webpack_require__(/*! ./languages/powershell */ "./node_modules/highlight.js/lib/languages/powershell.js"));
-hljs.registerLanguage('processing', __webpack_require__(/*! ./languages/processing */ "./node_modules/highlight.js/lib/languages/processing.js"));
-hljs.registerLanguage('profile', __webpack_require__(/*! ./languages/profile */ "./node_modules/highlight.js/lib/languages/profile.js"));
-hljs.registerLanguage('prolog', __webpack_require__(/*! ./languages/prolog */ "./node_modules/highlight.js/lib/languages/prolog.js"));
-hljs.registerLanguage('properties', __webpack_require__(/*! ./languages/properties */ "./node_modules/highlight.js/lib/languages/properties.js"));
-hljs.registerLanguage('protobuf', __webpack_require__(/*! ./languages/protobuf */ "./node_modules/highlight.js/lib/languages/protobuf.js"));
-hljs.registerLanguage('puppet', __webpack_require__(/*! ./languages/puppet */ "./node_modules/highlight.js/lib/languages/puppet.js"));
-hljs.registerLanguage('purebasic', __webpack_require__(/*! ./languages/purebasic */ "./node_modules/highlight.js/lib/languages/purebasic.js"));
-hljs.registerLanguage('python', __webpack_require__(/*! ./languages/python */ "./node_modules/highlight.js/lib/languages/python.js"));
-hljs.registerLanguage('python-repl', __webpack_require__(/*! ./languages/python-repl */ "./node_modules/highlight.js/lib/languages/python-repl.js"));
-hljs.registerLanguage('q', __webpack_require__(/*! ./languages/q */ "./node_modules/highlight.js/lib/languages/q.js"));
-hljs.registerLanguage('qml', __webpack_require__(/*! ./languages/qml */ "./node_modules/highlight.js/lib/languages/qml.js"));
-hljs.registerLanguage('r', __webpack_require__(/*! ./languages/r */ "./node_modules/highlight.js/lib/languages/r.js"));
-hljs.registerLanguage('reasonml', __webpack_require__(/*! ./languages/reasonml */ "./node_modules/highlight.js/lib/languages/reasonml.js"));
-hljs.registerLanguage('rib', __webpack_require__(/*! ./languages/rib */ "./node_modules/highlight.js/lib/languages/rib.js"));
-hljs.registerLanguage('roboconf', __webpack_require__(/*! ./languages/roboconf */ "./node_modules/highlight.js/lib/languages/roboconf.js"));
-hljs.registerLanguage('routeros', __webpack_require__(/*! ./languages/routeros */ "./node_modules/highlight.js/lib/languages/routeros.js"));
-hljs.registerLanguage('rsl', __webpack_require__(/*! ./languages/rsl */ "./node_modules/highlight.js/lib/languages/rsl.js"));
-hljs.registerLanguage('ruleslanguage', __webpack_require__(/*! ./languages/ruleslanguage */ "./node_modules/highlight.js/lib/languages/ruleslanguage.js"));
-hljs.registerLanguage('rust', __webpack_require__(/*! ./languages/rust */ "./node_modules/highlight.js/lib/languages/rust.js"));
-hljs.registerLanguage('sas', __webpack_require__(/*! ./languages/sas */ "./node_modules/highlight.js/lib/languages/sas.js"));
-hljs.registerLanguage('scala', __webpack_require__(/*! ./languages/scala */ "./node_modules/highlight.js/lib/languages/scala.js"));
-hljs.registerLanguage('scheme', __webpack_require__(/*! ./languages/scheme */ "./node_modules/highlight.js/lib/languages/scheme.js"));
-hljs.registerLanguage('scilab', __webpack_require__(/*! ./languages/scilab */ "./node_modules/highlight.js/lib/languages/scilab.js"));
-hljs.registerLanguage('scss', __webpack_require__(/*! ./languages/scss */ "./node_modules/highlight.js/lib/languages/scss.js"));
-hljs.registerLanguage('shell', __webpack_require__(/*! ./languages/shell */ "./node_modules/highlight.js/lib/languages/shell.js"));
-hljs.registerLanguage('smali', __webpack_require__(/*! ./languages/smali */ "./node_modules/highlight.js/lib/languages/smali.js"));
-hljs.registerLanguage('smalltalk', __webpack_require__(/*! ./languages/smalltalk */ "./node_modules/highlight.js/lib/languages/smalltalk.js"));
-hljs.registerLanguage('sml', __webpack_require__(/*! ./languages/sml */ "./node_modules/highlight.js/lib/languages/sml.js"));
-hljs.registerLanguage('sqf', __webpack_require__(/*! ./languages/sqf */ "./node_modules/highlight.js/lib/languages/sqf.js"));
-hljs.registerLanguage('sql', __webpack_require__(/*! ./languages/sql */ "./node_modules/highlight.js/lib/languages/sql.js"));
-hljs.registerLanguage('stan', __webpack_require__(/*! ./languages/stan */ "./node_modules/highlight.js/lib/languages/stan.js"));
-hljs.registerLanguage('stata', __webpack_require__(/*! ./languages/stata */ "./node_modules/highlight.js/lib/languages/stata.js"));
-hljs.registerLanguage('step21', __webpack_require__(/*! ./languages/step21 */ "./node_modules/highlight.js/lib/languages/step21.js"));
-hljs.registerLanguage('stylus', __webpack_require__(/*! ./languages/stylus */ "./node_modules/highlight.js/lib/languages/stylus.js"));
-hljs.registerLanguage('subunit', __webpack_require__(/*! ./languages/subunit */ "./node_modules/highlight.js/lib/languages/subunit.js"));
-hljs.registerLanguage('swift', __webpack_require__(/*! ./languages/swift */ "./node_modules/highlight.js/lib/languages/swift.js"));
-hljs.registerLanguage('taggerscript', __webpack_require__(/*! ./languages/taggerscript */ "./node_modules/highlight.js/lib/languages/taggerscript.js"));
-hljs.registerLanguage('yaml', __webpack_require__(/*! ./languages/yaml */ "./node_modules/highlight.js/lib/languages/yaml.js"));
-hljs.registerLanguage('tap', __webpack_require__(/*! ./languages/tap */ "./node_modules/highlight.js/lib/languages/tap.js"));
-hljs.registerLanguage('tcl', __webpack_require__(/*! ./languages/tcl */ "./node_modules/highlight.js/lib/languages/tcl.js"));
-hljs.registerLanguage('thrift', __webpack_require__(/*! ./languages/thrift */ "./node_modules/highlight.js/lib/languages/thrift.js"));
-hljs.registerLanguage('tp', __webpack_require__(/*! ./languages/tp */ "./node_modules/highlight.js/lib/languages/tp.js"));
-hljs.registerLanguage('twig', __webpack_require__(/*! ./languages/twig */ "./node_modules/highlight.js/lib/languages/twig.js"));
-hljs.registerLanguage('typescript', __webpack_require__(/*! ./languages/typescript */ "./node_modules/highlight.js/lib/languages/typescript.js"));
-hljs.registerLanguage('vala', __webpack_require__(/*! ./languages/vala */ "./node_modules/highlight.js/lib/languages/vala.js"));
-hljs.registerLanguage('vbnet', __webpack_require__(/*! ./languages/vbnet */ "./node_modules/highlight.js/lib/languages/vbnet.js"));
-hljs.registerLanguage('vbscript', __webpack_require__(/*! ./languages/vbscript */ "./node_modules/highlight.js/lib/languages/vbscript.js"));
-hljs.registerLanguage('vbscript-html', __webpack_require__(/*! ./languages/vbscript-html */ "./node_modules/highlight.js/lib/languages/vbscript-html.js"));
-hljs.registerLanguage('verilog', __webpack_require__(/*! ./languages/verilog */ "./node_modules/highlight.js/lib/languages/verilog.js"));
-hljs.registerLanguage('vhdl', __webpack_require__(/*! ./languages/vhdl */ "./node_modules/highlight.js/lib/languages/vhdl.js"));
-hljs.registerLanguage('vim', __webpack_require__(/*! ./languages/vim */ "./node_modules/highlight.js/lib/languages/vim.js"));
-hljs.registerLanguage('wasm', __webpack_require__(/*! ./languages/wasm */ "./node_modules/highlight.js/lib/languages/wasm.js"));
-hljs.registerLanguage('wren', __webpack_require__(/*! ./languages/wren */ "./node_modules/highlight.js/lib/languages/wren.js"));
-hljs.registerLanguage('x86asm', __webpack_require__(/*! ./languages/x86asm */ "./node_modules/highlight.js/lib/languages/x86asm.js"));
-hljs.registerLanguage('xl', __webpack_require__(/*! ./languages/xl */ "./node_modules/highlight.js/lib/languages/xl.js"));
-hljs.registerLanguage('xquery', __webpack_require__(/*! ./languages/xquery */ "./node_modules/highlight.js/lib/languages/xquery.js"));
-hljs.registerLanguage('zephir', __webpack_require__(/*! ./languages/zephir */ "./node_modules/highlight.js/lib/languages/zephir.js"));
+hljs.registerLanguage('1c', __webpack_require__(908));
+hljs.registerLanguage('abnf', __webpack_require__(2853));
+hljs.registerLanguage('accesslog', __webpack_require__(5976));
+hljs.registerLanguage('actionscript', __webpack_require__(5505));
+hljs.registerLanguage('ada', __webpack_require__(59));
+hljs.registerLanguage('angelscript', __webpack_require__(2921));
+hljs.registerLanguage('apache', __webpack_require__(4998));
+hljs.registerLanguage('applescript', __webpack_require__(9733));
+hljs.registerLanguage('arcade', __webpack_require__(149));
+hljs.registerLanguage('arduino', __webpack_require__(9860));
+hljs.registerLanguage('armasm', __webpack_require__(3138));
+hljs.registerLanguage('xml', __webpack_require__(4610));
+hljs.registerLanguage('asciidoc', __webpack_require__(8699));
+hljs.registerLanguage('aspectj', __webpack_require__(9950));
+hljs.registerLanguage('autohotkey', __webpack_require__(1599));
+hljs.registerLanguage('autoit', __webpack_require__(1892));
+hljs.registerLanguage('avrasm', __webpack_require__(3105));
+hljs.registerLanguage('awk', __webpack_require__(4868));
+hljs.registerLanguage('axapta', __webpack_require__(2059));
+hljs.registerLanguage('bash', __webpack_require__(8780));
+hljs.registerLanguage('basic', __webpack_require__(995));
+hljs.registerLanguage('bnf', __webpack_require__(7061));
+hljs.registerLanguage('brainfuck', __webpack_require__(6380));
+hljs.registerLanguage('c', __webpack_require__(612));
+hljs.registerLanguage('cal', __webpack_require__(5762));
+hljs.registerLanguage('capnproto', __webpack_require__(614));
+hljs.registerLanguage('ceylon', __webpack_require__(3796));
+hljs.registerLanguage('clean', __webpack_require__(2222));
+hljs.registerLanguage('clojure', __webpack_require__(2177));
+hljs.registerLanguage('clojure-repl', __webpack_require__(2012));
+hljs.registerLanguage('cmake', __webpack_require__(5849));
+hljs.registerLanguage('coffeescript', __webpack_require__(5437));
+hljs.registerLanguage('coq', __webpack_require__(9087));
+hljs.registerLanguage('cos', __webpack_require__(2569));
+hljs.registerLanguage('cpp', __webpack_require__(6248));
+hljs.registerLanguage('crmsh', __webpack_require__(7740));
+hljs.registerLanguage('crystal', __webpack_require__(3147));
+hljs.registerLanguage('csharp', __webpack_require__(3707));
+hljs.registerLanguage('csp', __webpack_require__(9534));
+hljs.registerLanguage('css', __webpack_require__(5064));
+hljs.registerLanguage('d', __webpack_require__(118));
+hljs.registerLanguage('markdown', __webpack_require__(2003));
+hljs.registerLanguage('dart', __webpack_require__(6642));
+hljs.registerLanguage('delphi', __webpack_require__(7762));
+hljs.registerLanguage('diff', __webpack_require__(7731));
+hljs.registerLanguage('django', __webpack_require__(3189));
+hljs.registerLanguage('dns', __webpack_require__(1344));
+hljs.registerLanguage('dockerfile', __webpack_require__(7360));
+hljs.registerLanguage('dos', __webpack_require__(605));
+hljs.registerLanguage('dsconfig', __webpack_require__(7522));
+hljs.registerLanguage('dts', __webpack_require__(1729));
+hljs.registerLanguage('dust', __webpack_require__(1450));
+hljs.registerLanguage('ebnf', __webpack_require__(3039));
+hljs.registerLanguage('elixir', __webpack_require__(2543));
+hljs.registerLanguage('elm', __webpack_require__(5658));
+hljs.registerLanguage('ruby', __webpack_require__(7905));
+hljs.registerLanguage('erb', __webpack_require__(2151));
+hljs.registerLanguage('erlang-repl', __webpack_require__(2282));
+hljs.registerLanguage('erlang', __webpack_require__(7569));
+hljs.registerLanguage('excel', __webpack_require__(5817));
+hljs.registerLanguage('fix', __webpack_require__(3146));
+hljs.registerLanguage('flix', __webpack_require__(3090));
+hljs.registerLanguage('fortran', __webpack_require__(3532));
+hljs.registerLanguage('fsharp', __webpack_require__(7506));
+hljs.registerLanguage('gams', __webpack_require__(7903));
+hljs.registerLanguage('gauss', __webpack_require__(5004));
+hljs.registerLanguage('gcode', __webpack_require__(1871));
+hljs.registerLanguage('gherkin', __webpack_require__(6499));
+hljs.registerLanguage('glsl', __webpack_require__(1942));
+hljs.registerLanguage('gml', __webpack_require__(1921));
+hljs.registerLanguage('go', __webpack_require__(2399));
+hljs.registerLanguage('golo', __webpack_require__(9574));
+hljs.registerLanguage('gradle', __webpack_require__(9878));
+hljs.registerLanguage('graphql', __webpack_require__(1738));
+hljs.registerLanguage('groovy', __webpack_require__(4658));
+hljs.registerLanguage('haml', __webpack_require__(1950));
+hljs.registerLanguage('handlebars', __webpack_require__(1407));
+hljs.registerLanguage('haskell', __webpack_require__(7077));
+hljs.registerLanguage('haxe', __webpack_require__(2720));
+hljs.registerLanguage('hsp', __webpack_require__(9662));
+hljs.registerLanguage('http', __webpack_require__(8937));
+hljs.registerLanguage('hy', __webpack_require__(9358));
+hljs.registerLanguage('inform7', __webpack_require__(4458));
+hljs.registerLanguage('ini', __webpack_require__(4762));
+hljs.registerLanguage('irpf90', __webpack_require__(320));
+hljs.registerLanguage('isbl', __webpack_require__(4664));
+hljs.registerLanguage('java', __webpack_require__(8257));
+hljs.registerLanguage('javascript', __webpack_require__(978));
+hljs.registerLanguage('jboss-cli', __webpack_require__(4111));
+hljs.registerLanguage('json', __webpack_require__(14));
+hljs.registerLanguage('julia', __webpack_require__(4629));
+hljs.registerLanguage('julia-repl', __webpack_require__(5850));
+hljs.registerLanguage('kotlin', __webpack_require__(5812));
+hljs.registerLanguage('lasso', __webpack_require__(3530));
+hljs.registerLanguage('latex', __webpack_require__(7408));
+hljs.registerLanguage('ldif', __webpack_require__(7604));
+hljs.registerLanguage('leaf', __webpack_require__(3961));
+hljs.registerLanguage('less', __webpack_require__(4210));
+hljs.registerLanguage('lisp', __webpack_require__(1943));
+hljs.registerLanguage('livecodeserver', __webpack_require__(2299));
+hljs.registerLanguage('livescript', __webpack_require__(9735));
+hljs.registerLanguage('llvm', __webpack_require__(4972));
+hljs.registerLanguage('lsl', __webpack_require__(7034));
+hljs.registerLanguage('lua', __webpack_require__(4981));
+hljs.registerLanguage('makefile', __webpack_require__(8794));
+hljs.registerLanguage('mathematica', __webpack_require__(8601));
+hljs.registerLanguage('matlab', __webpack_require__(8009));
+hljs.registerLanguage('maxima', __webpack_require__(7020));
+hljs.registerLanguage('mel', __webpack_require__(7739));
+hljs.registerLanguage('mercury', __webpack_require__(4261));
+hljs.registerLanguage('mipsasm', __webpack_require__(4807));
+hljs.registerLanguage('mizar', __webpack_require__(9291));
+hljs.registerLanguage('perl', __webpack_require__(2482));
+hljs.registerLanguage('mojolicious', __webpack_require__(8895));
+hljs.registerLanguage('monkey', __webpack_require__(9676));
+hljs.registerLanguage('moonscript', __webpack_require__(6486));
+hljs.registerLanguage('n1ql', __webpack_require__(1414));
+hljs.registerLanguage('nestedtext', __webpack_require__(5384));
+hljs.registerLanguage('nginx', __webpack_require__(4028));
+hljs.registerLanguage('nim', __webpack_require__(5968));
+hljs.registerLanguage('nix', __webpack_require__(4802));
+hljs.registerLanguage('node-repl', __webpack_require__(9609));
+hljs.registerLanguage('nsis', __webpack_require__(9968));
+hljs.registerLanguage('objectivec', __webpack_require__(2446));
+hljs.registerLanguage('ocaml', __webpack_require__(7552));
+hljs.registerLanguage('openscad', __webpack_require__(6277));
+hljs.registerLanguage('oxygene', __webpack_require__(136));
+hljs.registerLanguage('parser3', __webpack_require__(3412));
+hljs.registerLanguage('pf', __webpack_require__(4485));
+hljs.registerLanguage('pgsql', __webpack_require__(9814));
+hljs.registerLanguage('php', __webpack_require__(2656));
+hljs.registerLanguage('php-template', __webpack_require__(5112));
+hljs.registerLanguage('plaintext', __webpack_require__(2437));
+hljs.registerLanguage('pony', __webpack_require__(6874));
+hljs.registerLanguage('powershell', __webpack_require__(5040));
+hljs.registerLanguage('processing', __webpack_require__(5371));
+hljs.registerLanguage('profile', __webpack_require__(3476));
+hljs.registerLanguage('prolog', __webpack_require__(3944));
+hljs.registerLanguage('properties', __webpack_require__(7546));
+hljs.registerLanguage('protobuf', __webpack_require__(5559));
+hljs.registerLanguage('puppet', __webpack_require__(3867));
+hljs.registerLanguage('purebasic', __webpack_require__(2938));
+hljs.registerLanguage('python', __webpack_require__(8245));
+hljs.registerLanguage('python-repl', __webpack_require__(3722));
+hljs.registerLanguage('q', __webpack_require__(2623));
+hljs.registerLanguage('qml', __webpack_require__(3797));
+hljs.registerLanguage('r', __webpack_require__(4730));
+hljs.registerLanguage('reasonml', __webpack_require__(2318));
+hljs.registerLanguage('rib', __webpack_require__(4820));
+hljs.registerLanguage('roboconf', __webpack_require__(1874));
+hljs.registerLanguage('routeros', __webpack_require__(4005));
+hljs.registerLanguage('rsl', __webpack_require__(2852));
+hljs.registerLanguage('ruleslanguage', __webpack_require__(2192));
+hljs.registerLanguage('rust', __webpack_require__(9880));
+hljs.registerLanguage('sas', __webpack_require__(3129));
+hljs.registerLanguage('scala', __webpack_require__(729));
+hljs.registerLanguage('scheme', __webpack_require__(2254));
+hljs.registerLanguage('scilab', __webpack_require__(5149));
+hljs.registerLanguage('scss', __webpack_require__(1062));
+hljs.registerLanguage('shell', __webpack_require__(7874));
+hljs.registerLanguage('smali', __webpack_require__(943));
+hljs.registerLanguage('smalltalk', __webpack_require__(7659));
+hljs.registerLanguage('sml', __webpack_require__(5935));
+hljs.registerLanguage('sqf', __webpack_require__(3677));
+hljs.registerLanguage('sql', __webpack_require__(8935));
+hljs.registerLanguage('stan', __webpack_require__(52));
+hljs.registerLanguage('stata', __webpack_require__(454));
+hljs.registerLanguage('step21', __webpack_require__(7022));
+hljs.registerLanguage('stylus', __webpack_require__(8688));
+hljs.registerLanguage('subunit', __webpack_require__(726));
+hljs.registerLanguage('swift', __webpack_require__(7690));
+hljs.registerLanguage('taggerscript', __webpack_require__(5460));
+hljs.registerLanguage('yaml', __webpack_require__(1392));
+hljs.registerLanguage('tap', __webpack_require__(422));
+hljs.registerLanguage('tcl', __webpack_require__(8158));
+hljs.registerLanguage('thrift', __webpack_require__(906));
+hljs.registerLanguage('tp', __webpack_require__(6123));
+hljs.registerLanguage('twig', __webpack_require__(1973));
+hljs.registerLanguage('typescript', __webpack_require__(8987));
+hljs.registerLanguage('vala', __webpack_require__(1462));
+hljs.registerLanguage('vbnet', __webpack_require__(7531));
+hljs.registerLanguage('vbscript', __webpack_require__(4703));
+hljs.registerLanguage('vbscript-html', __webpack_require__(8704));
+hljs.registerLanguage('verilog', __webpack_require__(4494));
+hljs.registerLanguage('vhdl', __webpack_require__(8110));
+hljs.registerLanguage('vim', __webpack_require__(3638));
+hljs.registerLanguage('wasm', __webpack_require__(1533));
+hljs.registerLanguage('wren', __webpack_require__(8563));
+hljs.registerLanguage('x86asm', __webpack_require__(9947));
+hljs.registerLanguage('xl', __webpack_require__(9338));
+hljs.registerLanguage('xquery', __webpack_require__(5595));
+hljs.registerLanguage('zephir', __webpack_require__(1021));
 
 hljs.HighlightJS = hljs
 hljs.default = hljs
@@ -3471,10 +5780,7 @@ module.exports = hljs;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/1c.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/1c.js ***!
-  \*******************************************************/
+/***/ 908:
 /***/ ((module) => {
 
 /*
@@ -4018,10 +6324,7 @@ module.exports = _1c;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/abnf.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/abnf.js ***!
-  \*********************************************************/
+/***/ 2853:
 /***/ ((module) => {
 
 /*
@@ -4110,10 +6413,7 @@ module.exports = abnf;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/accesslog.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/accesslog.js ***!
-  \**************************************************************/
+/***/ 5976:
 /***/ ((module) => {
 
 /*
@@ -4212,10 +6512,7 @@ module.exports = accesslog;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/actionscript.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/actionscript.js ***!
-  \*****************************************************************/
+/***/ 5505:
 /***/ ((module) => {
 
 /*
@@ -4375,10 +6672,7 @@ module.exports = actionscript;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/ada.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/ada.js ***!
-  \********************************************************/
+/***/ 59:
 /***/ ((module) => {
 
 /*
@@ -4650,10 +6944,7 @@ module.exports = ada;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/angelscript.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/angelscript.js ***!
-  \****************************************************************/
+/***/ 2921:
 /***/ ((module) => {
 
 /*
@@ -4838,10 +7129,7 @@ module.exports = angelscript;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/apache.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/apache.js ***!
-  \***********************************************************/
+/***/ 4998:
 /***/ ((module) => {
 
 /*
@@ -4949,10 +7237,7 @@ module.exports = apache;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/applescript.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/applescript.js ***!
-  \****************************************************************/
+/***/ 9733:
 /***/ ((module) => {
 
 /*
@@ -5108,10 +7393,7 @@ module.exports = applescript;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/arcade.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/arcade.js ***!
-  \***********************************************************/
+/***/ 149:
 /***/ ((module) => {
 
 /*
@@ -5479,10 +7761,7 @@ module.exports = arcade;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/arduino.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/arduino.js ***!
-  \************************************************************/
+/***/ 9860:
 /***/ ((module) => {
 
 /*
@@ -6458,10 +8737,7 @@ module.exports = arduino;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/armasm.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/armasm.js ***!
-  \***********************************************************/
+/***/ 3138:
 /***/ ((module) => {
 
 /*
@@ -6588,10 +8864,7 @@ module.exports = armasm;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/asciidoc.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/asciidoc.js ***!
-  \*************************************************************/
+/***/ 8699:
 /***/ ((module) => {
 
 /*
@@ -6859,10 +9132,7 @@ module.exports = asciidoc;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/aspectj.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/aspectj.js ***!
-  \************************************************************/
+/***/ 9950:
 /***/ ((module) => {
 
 /*
@@ -7099,10 +9369,7 @@ module.exports = aspectj;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/autohotkey.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/autohotkey.js ***!
-  \***************************************************************/
+/***/ 1599:
 /***/ ((module) => {
 
 /*
@@ -7184,10 +9451,7 @@ module.exports = autohotkey;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/autoit.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/autoit.js ***!
-  \***********************************************************/
+/***/ 1892:
 /***/ ((module) => {
 
 /*
@@ -7372,10 +9636,7 @@ module.exports = autoit;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/avrasm.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/avrasm.js ***!
-  \***********************************************************/
+/***/ 3105:
 /***/ ((module) => {
 
 /*
@@ -7460,10 +9721,7 @@ module.exports = avrasm;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/awk.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/awk.js ***!
-  \********************************************************/
+/***/ 4868:
 /***/ ((module) => {
 
 /*
@@ -7537,10 +9795,7 @@ module.exports = awk;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/axapta.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/axapta.js ***!
-  \***********************************************************/
+/***/ 2059:
 /***/ ((module) => {
 
 /*
@@ -7735,10 +9990,7 @@ module.exports = axapta;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/bash.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/bash.js ***!
-  \*********************************************************/
+/***/ 8780:
 /***/ ((module) => {
 
 /*
@@ -8132,10 +10384,7 @@ module.exports = bash;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/basic.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/basic.js ***!
-  \**********************************************************/
+/***/ 995:
 /***/ ((module) => {
 
 /*
@@ -8371,10 +10620,7 @@ module.exports = basic;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/bnf.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/bnf.js ***!
-  \********************************************************/
+/***/ 7061:
 /***/ ((module) => {
 
 /*
@@ -8419,10 +10665,7 @@ module.exports = bnf;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/brainfuck.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/brainfuck.js ***!
-  \**************************************************************/
+/***/ 6380:
 /***/ ((module) => {
 
 /*
@@ -8483,10 +10726,7 @@ module.exports = brainfuck;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/c.js":
-/*!******************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/c.js ***!
-  \******************************************************/
+/***/ 612:
 /***/ ((module) => {
 
 /*
@@ -8811,10 +11051,7 @@ module.exports = c;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/cal.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/cal.js ***!
-  \********************************************************/
+/***/ 5762:
 /***/ ((module) => {
 
 /*
@@ -8980,10 +11217,7 @@ module.exports = cal;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/capnproto.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/capnproto.js ***!
-  \**************************************************************/
+/***/ 614:
 /***/ ((module) => {
 
 /*
@@ -9089,10 +11323,7 @@ module.exports = capnproto;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/ceylon.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/ceylon.js ***!
-  \***********************************************************/
+/***/ 3796:
 /***/ ((module) => {
 
 /*
@@ -9238,10 +11469,7 @@ module.exports = ceylon;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/clean.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/clean.js ***!
-  \**********************************************************/
+/***/ 2222:
 /***/ ((module) => {
 
 /*
@@ -9315,10 +11543,7 @@ module.exports = clean;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/clojure-repl.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/clojure-repl.js ***!
-  \*****************************************************************/
+/***/ 2012:
 /***/ ((module) => {
 
 /*
@@ -9352,10 +11577,7 @@ module.exports = clojureRepl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/clojure.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/clojure.js ***!
-  \************************************************************/
+/***/ 2177:
 /***/ ((module) => {
 
 /*
@@ -9546,10 +11768,7 @@ module.exports = clojure;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/cmake.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/cmake.js ***!
-  \**********************************************************/
+/***/ 5849:
 /***/ ((module) => {
 
 /*
@@ -9619,10 +11838,7 @@ module.exports = cmake;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/coffeescript.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/coffeescript.js ***!
-  \*****************************************************************/
+/***/ 5437:
 /***/ ((module) => {
 
 const KEYWORDS = [
@@ -9994,10 +12210,7 @@ module.exports = coffeescript;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/coq.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/coq.js ***!
-  \********************************************************/
+/***/ 9087:
 /***/ ((module) => {
 
 /*
@@ -10449,10 +12662,7 @@ module.exports = coq;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/cos.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/cos.js ***!
-  \********************************************************/
+/***/ 2569:
 /***/ ((module) => {
 
 /*
@@ -10599,10 +12809,7 @@ module.exports = cos;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/cpp.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/cpp.js ***!
-  \********************************************************/
+/***/ 6248:
 /***/ ((module) => {
 
 /*
@@ -11177,10 +13384,7 @@ module.exports = cpp;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/crmsh.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/crmsh.js ***!
-  \**********************************************************/
+/***/ 7740:
 /***/ ((module) => {
 
 /*
@@ -11287,10 +13491,7 @@ module.exports = crmsh;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/crystal.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/crystal.js ***!
-  \************************************************************/
+/***/ 3147:
 /***/ ((module) => {
 
 /*
@@ -11608,10 +13809,7 @@ module.exports = crystal;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/csharp.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/csharp.js ***!
-  \***********************************************************/
+/***/ 3707:
 /***/ ((module) => {
 
 /*
@@ -12018,10 +14216,7 @@ module.exports = csharp;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/csp.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/csp.js ***!
-  \********************************************************/
+/***/ 9534:
 /***/ ((module) => {
 
 /*
@@ -12085,10 +14280,7 @@ module.exports = csp;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/css.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/css.js ***!
-  \********************************************************/
+/***/ 5064:
 /***/ ((module) => {
 
 const MODES = (hljs) => {
@@ -12832,10 +15024,7 @@ module.exports = css;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/d.js":
-/*!******************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/d.js ***!
-  \******************************************************/
+/***/ 118:
 /***/ ((module) => {
 
 /*
@@ -13113,10 +15302,7 @@ module.exports = d;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/dart.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/dart.js ***!
-  \*********************************************************/
+/***/ 6642:
 /***/ ((module) => {
 
 /*
@@ -13382,10 +15568,7 @@ module.exports = dart;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/delphi.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/delphi.js ***!
-  \***********************************************************/
+/***/ 7762:
 /***/ ((module) => {
 
 /*
@@ -13622,10 +15805,7 @@ module.exports = delphi;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/diff.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/diff.js ***!
-  \*********************************************************/
+/***/ 7731:
 /***/ ((module) => {
 
 /*
@@ -13694,10 +15874,7 @@ module.exports = diff;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/django.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/django.js ***!
-  \***********************************************************/
+/***/ 3189:
 /***/ ((module) => {
 
 /*
@@ -13779,10 +15956,7 @@ module.exports = django;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/dns.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/dns.js ***!
-  \********************************************************/
+/***/ 1344:
 /***/ ((module) => {
 
 /*
@@ -13867,10 +16041,7 @@ module.exports = dns;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/dockerfile.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/dockerfile.js ***!
-  \***************************************************************/
+/***/ 7360:
 /***/ ((module) => {
 
 /*
@@ -13921,10 +16092,7 @@ module.exports = dockerfile;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/dos.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/dos.js ***!
-  \********************************************************/
+/***/ 605:
 /***/ ((module) => {
 
 /*
@@ -14097,10 +16265,7 @@ module.exports = dos;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/dsconfig.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/dsconfig.js ***!
-  \*************************************************************/
+/***/ 7522:
 /***/ ((module) => {
 
 /*
@@ -14173,10 +16338,7 @@ module.exports = dsconfig;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/dts.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/dts.js ***!
-  \********************************************************/
+/***/ 1729:
 /***/ ((module) => {
 
 /*
@@ -14340,10 +16502,7 @@ module.exports = dts;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/dust.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/dust.js ***!
-  \*********************************************************/
+/***/ 1450:
 /***/ ((module) => {
 
 /*
@@ -14397,10 +16556,7 @@ module.exports = dust;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/ebnf.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/ebnf.js ***!
-  \*********************************************************/
+/***/ 3039:
 /***/ ((module) => {
 
 /*
@@ -14460,10 +16616,7 @@ module.exports = ebnf;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/elixir.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/elixir.js ***!
-  \***********************************************************/
+/***/ 2543:
 /***/ ((module) => {
 
 /*
@@ -14749,10 +16902,7 @@ module.exports = elixir;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/elm.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/elm.js ***!
-  \********************************************************/
+/***/ 5658:
 /***/ ((module) => {
 
 /*
@@ -14902,10 +17052,7 @@ module.exports = elm;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/erb.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/erb.js ***!
-  \********************************************************/
+/***/ 2151:
 /***/ ((module) => {
 
 /*
@@ -14941,10 +17088,7 @@ module.exports = erb;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/erlang-repl.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/erlang-repl.js ***!
-  \****************************************************************/
+/***/ 2282:
 /***/ ((module) => {
 
 /*
@@ -15005,10 +17149,7 @@ module.exports = erlangRepl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/erlang.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/erlang.js ***!
-  \***********************************************************/
+/***/ 7569:
 /***/ ((module) => {
 
 /*
@@ -15206,10 +17347,7 @@ module.exports = erlang;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/excel.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/excel.js ***!
-  \**********************************************************/
+/***/ 5817:
 /***/ ((module) => {
 
 /*
@@ -15760,10 +17898,7 @@ module.exports = excel;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/fix.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/fix.js ***!
-  \********************************************************/
+/***/ 3146:
 /***/ ((module) => {
 
 /*
@@ -15809,10 +17944,7 @@ module.exports = fix;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/flix.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/flix.js ***!
-  \*********************************************************/
+/***/ 3090:
 /***/ ((module) => {
 
 /*
@@ -15898,10 +18030,7 @@ module.exports = flix;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/fortran.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/fortran.js ***!
-  \************************************************************/
+/***/ 3532:
 /***/ ((module) => {
 
 /*
@@ -16481,10 +18610,7 @@ module.exports = fortran;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/fsharp.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/fsharp.js ***!
-  \***********************************************************/
+/***/ 7506:
 /***/ ((module) => {
 
 /**
@@ -17117,10 +19243,7 @@ module.exports = fsharp;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/gams.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/gams.js ***!
-  \*********************************************************/
+/***/ 7903:
 /***/ ((module) => {
 
 /*
@@ -17308,10 +19431,7 @@ module.exports = gams;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/gauss.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/gauss.js ***!
-  \**********************************************************/
+/***/ 5004:
 /***/ ((module) => {
 
 /*
@@ -17624,10 +19744,7 @@ module.exports = gauss;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/gcode.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/gcode.js ***!
-  \**********************************************************/
+/***/ 1871:
 /***/ ((module) => {
 
 /*
@@ -17714,10 +19831,7 @@ module.exports = gcode;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/gherkin.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/gherkin.js ***!
-  \************************************************************/
+/***/ 6499:
 /***/ ((module) => {
 
 /*
@@ -17773,10 +19887,7 @@ module.exports = gherkin;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/glsl.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/glsl.js ***!
-  \*********************************************************/
+/***/ 1942:
 /***/ ((module) => {
 
 /*
@@ -17911,10 +20022,7 @@ module.exports = glsl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/gml.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/gml.js ***!
-  \********************************************************/
+/***/ 1921:
 /***/ ((module) => {
 
 /*
@@ -20737,10 +22845,7 @@ module.exports = gml;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/go.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/go.js ***!
-  \*******************************************************/
+/***/ 2399:
 /***/ ((module) => {
 
 /*
@@ -20888,10 +22993,7 @@ module.exports = go;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/golo.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/golo.js ***!
-  \*********************************************************/
+/***/ 9574:
 /***/ ((module) => {
 
 /*
@@ -20978,10 +23080,7 @@ module.exports = golo;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/gradle.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/gradle.js ***!
-  \***********************************************************/
+/***/ 9878:
 /***/ ((module) => {
 
 /*
@@ -21177,10 +23276,7 @@ module.exports = gradle;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/graphql.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/graphql.js ***!
-  \************************************************************/
+/***/ 1738:
 /***/ ((module) => {
 
 /*
@@ -21265,10 +23361,7 @@ module.exports = graphql;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/groovy.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/groovy.js ***!
-  \***********************************************************/
+/***/ 4658:
 /***/ ((module) => {
 
 /*
@@ -21463,10 +23556,7 @@ module.exports = groovy;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/haml.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/haml.js ***!
-  \*********************************************************/
+/***/ 1950:
 /***/ ((module) => {
 
 /*
@@ -21586,10 +23676,7 @@ module.exports = haml;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/handlebars.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/handlebars.js ***!
-  \***************************************************************/
+/***/ 1407:
 /***/ ((module) => {
 
 /*
@@ -21854,10 +23941,7 @@ module.exports = handlebars;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/haskell.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/haskell.js ***!
-  \************************************************************/
+/***/ 7077:
 /***/ ((module) => {
 
 /*
@@ -22056,10 +24140,7 @@ module.exports = haskell;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/haxe.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/haxe.js ***!
-  \*********************************************************/
+/***/ 2720:
 /***/ ((module) => {
 
 /*
@@ -22219,10 +24300,7 @@ module.exports = haxe;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/hsp.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/hsp.js ***!
-  \********************************************************/
+/***/ 9662:
 /***/ ((module) => {
 
 /*
@@ -22288,10 +24366,7 @@ module.exports = hsp;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/http.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/http.js ***!
-  \*********************************************************/
+/***/ 8937:
 /***/ ((module) => {
 
 /*
@@ -22395,10 +24470,7 @@ module.exports = http;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/hy.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/hy.js ***!
-  \*******************************************************/
+/***/ 9358:
 /***/ ((module) => {
 
 /*
@@ -22542,10 +24614,7 @@ module.exports = hy;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/inform7.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/inform7.js ***!
-  \************************************************************/
+/***/ 4458:
 /***/ ((module) => {
 
 /*
@@ -22621,10 +24690,7 @@ module.exports = inform7;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/ini.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/ini.js ***!
-  \********************************************************/
+/***/ 4762:
 /***/ ((module) => {
 
 /*
@@ -22752,10 +24818,7 @@ module.exports = ini;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/irpf90.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/irpf90.js ***!
-  \***********************************************************/
+/***/ 320:
 /***/ ((module) => {
 
 /*
@@ -22869,10 +24932,7 @@ module.exports = irpf90;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/isbl.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/isbl.js ***!
-  \*********************************************************/
+/***/ 4664:
 /***/ ((module) => {
 
 /*
@@ -26084,10 +28144,7 @@ module.exports = isbl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/java.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/java.js ***!
-  \*********************************************************/
+/***/ 8257:
 /***/ ((module) => {
 
 // https://docs.oracle.com/javase/specs/jls/se15/html/jls-3.html#jls-3.10
@@ -26382,10 +28439,7 @@ module.exports = java;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/javascript.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/javascript.js ***!
-  \***************************************************************/
+/***/ 978:
 /***/ ((module) => {
 
 const IDENT_RE = '[A-Za-z$_][0-9A-Za-z$_]*';
@@ -27141,10 +29195,7 @@ module.exports = javascript;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/jboss-cli.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/jboss-cli.js ***!
-  \**************************************************************/
+/***/ 4111:
 /***/ ((module) => {
 
 /*
@@ -27214,10 +29265,7 @@ module.exports = jbossCli;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/json.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/json.js ***!
-  \*********************************************************/
+/***/ 14:
 /***/ ((module) => {
 
 /*
@@ -27277,10 +29325,7 @@ module.exports = json;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/julia-repl.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/julia-repl.js ***!
-  \***************************************************************/
+/***/ 5850:
 /***/ ((module) => {
 
 /*
@@ -27337,10 +29382,7 @@ module.exports = juliaRepl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/julia.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/julia.js ***!
-  \**********************************************************/
+/***/ 4629:
 /***/ ((module) => {
 
 /*
@@ -27788,10 +29830,7 @@ module.exports = julia;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/kotlin.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/kotlin.js ***!
-  \***********************************************************/
+/***/ 5812:
 /***/ ((module) => {
 
 // https://docs.oracle.com/javase/specs/jls/se15/html/jls-3.html#jls-3.10
@@ -28083,10 +30122,7 @@ module.exports = kotlin;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/lasso.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/lasso.js ***!
-  \**********************************************************/
+/***/ 3530:
 /***/ ((module) => {
 
 /*
@@ -28263,10 +30299,7 @@ module.exports = lasso;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/latex.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/latex.js ***!
-  \**********************************************************/
+/***/ 7408:
 /***/ ((module) => {
 
 /*
@@ -28551,10 +30584,7 @@ module.exports = latex;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/ldif.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/ldif.js ***!
-  \*********************************************************/
+/***/ 7604:
 /***/ ((module) => {
 
 /*
@@ -28592,10 +30622,7 @@ module.exports = ldif;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/leaf.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/leaf.js ***!
-  \*********************************************************/
+/***/ 3961:
 /***/ ((module) => {
 
 /*
@@ -28651,10 +30678,7 @@ module.exports = leaf;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/less.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/less.js ***!
-  \*********************************************************/
+/***/ 4210:
 /***/ ((module) => {
 
 const MODES = (hljs) => {
@@ -29499,10 +31523,7 @@ module.exports = less;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/lisp.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/lisp.js ***!
-  \*********************************************************/
+/***/ 1943:
 /***/ ((module) => {
 
 /*
@@ -29648,10 +31669,7 @@ module.exports = lisp;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/livecodeserver.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/livecodeserver.js ***!
-  \*******************************************************************/
+/***/ 2299:
 /***/ ((module) => {
 
 /*
@@ -29831,10 +31849,7 @@ module.exports = livecodeserver;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/livescript.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/livescript.js ***!
-  \***************************************************************/
+/***/ 9735:
 /***/ ((module) => {
 
 const KEYWORDS = [
@@ -30218,10 +32233,7 @@ module.exports = livescript;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/llvm.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/llvm.js ***!
-  \*********************************************************/
+/***/ 4972:
 /***/ ((module) => {
 
 /*
@@ -30360,10 +32372,7 @@ module.exports = llvm;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/lsl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/lsl.js ***!
-  \********************************************************/
+/***/ 7034:
 /***/ ((module) => {
 
 /*
@@ -30446,10 +32455,7 @@ module.exports = lsl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/lua.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/lua.js ***!
-  \********************************************************/
+/***/ 4981:
 /***/ ((module) => {
 
 /*
@@ -30536,10 +32542,7 @@ module.exports = lua;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/makefile.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/makefile.js ***!
-  \*************************************************************/
+/***/ 8794:
 /***/ ((module) => {
 
 /*
@@ -30632,10 +32635,7 @@ module.exports = makefile;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/markdown.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/markdown.js ***!
-  \*************************************************************/
+/***/ 2003:
 /***/ ((module) => {
 
 /*
@@ -30883,10 +32883,7 @@ module.exports = markdown;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/mathematica.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/mathematica.js ***!
-  \****************************************************************/
+/***/ 8601:
 /***/ ((module) => {
 
 const SYSTEM_SYMBOLS = [
@@ -37642,10 +39639,7 @@ module.exports = mathematica;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/matlab.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/matlab.js ***!
-  \***********************************************************/
+/***/ 8009:
 /***/ ((module) => {
 
 /*
@@ -37759,10 +39753,7 @@ module.exports = matlab;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/maxima.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/maxima.js ***!
-  \***********************************************************/
+/***/ 7020:
 /***/ ((module) => {
 
 /*
@@ -38183,10 +40174,7 @@ module.exports = maxima;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/mel.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/mel.js ***!
-  \********************************************************/
+/***/ 7739:
 /***/ ((module) => {
 
 /*
@@ -38428,10 +40416,7 @@ module.exports = mel;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/mercury.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/mercury.js ***!
-  \************************************************************/
+/***/ 4261:
 /***/ ((module) => {
 
 /*
@@ -38545,10 +40530,7 @@ module.exports = mercury;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/mipsasm.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/mipsasm.js ***!
-  \************************************************************/
+/***/ 4807:
 /***/ ((module) => {
 
 /*
@@ -38659,10 +40641,7 @@ module.exports = mipsasm;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/mizar.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/mizar.js ***!
-  \**********************************************************/
+/***/ 9291:
 /***/ ((module) => {
 
 /*
@@ -38696,10 +40675,7 @@ module.exports = mizar;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/mojolicious.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/mojolicious.js ***!
-  \****************************************************************/
+/***/ 8895:
 /***/ ((module) => {
 
 /*
@@ -38742,10 +40718,7 @@ module.exports = mojolicious;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/monkey.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/monkey.js ***!
-  \***********************************************************/
+/***/ 9676:
 /***/ ((module) => {
 
 /*
@@ -38935,10 +40908,7 @@ module.exports = monkey;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/moonscript.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/moonscript.js ***!
-  \***************************************************************/
+/***/ 6486:
 /***/ ((module) => {
 
 /*
@@ -39086,10 +41056,7 @@ module.exports = moonscript;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/n1ql.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/n1ql.js ***!
-  \*********************************************************/
+/***/ 1414:
 /***/ ((module) => {
 
 /*
@@ -39460,10 +41427,7 @@ module.exports = n1ql;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/nestedtext.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/nestedtext.js ***!
-  \***************************************************************/
+/***/ 5384:
 /***/ ((module) => {
 
 /*
@@ -39553,10 +41517,7 @@ module.exports = nestedtext;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/nginx.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/nginx.js ***!
-  \**********************************************************/
+/***/ 4028:
 /***/ ((module) => {
 
 /*
@@ -39716,10 +41677,7 @@ module.exports = nginx;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/nim.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/nim.js ***!
-  \********************************************************/
+/***/ 5968:
 /***/ ((module) => {
 
 /*
@@ -39911,10 +41869,7 @@ module.exports = nim;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/nix.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/nix.js ***!
-  \********************************************************/
+/***/ 4802:
 /***/ ((module) => {
 
 /*
@@ -40015,10 +41970,7 @@ module.exports = nix;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/node-repl.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/node-repl.js ***!
-  \**************************************************************/
+/***/ 9609:
 /***/ ((module) => {
 
 /*
@@ -40058,10 +42010,7 @@ module.exports = nodeRepl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/nsis.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/nsis.js ***!
-  \*********************************************************/
+/***/ 9968:
 /***/ ((module) => {
 
 /*
@@ -40622,10 +42571,7 @@ module.exports = nsis;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/objectivec.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/objectivec.js ***!
-  \***************************************************************/
+/***/ 2446:
 /***/ ((module) => {
 
 /*
@@ -40885,10 +42831,7 @@ module.exports = objectivec;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/ocaml.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/ocaml.js ***!
-  \**********************************************************/
+/***/ 7552:
 /***/ ((module) => {
 
 /*
@@ -40978,10 +42921,7 @@ module.exports = ocaml;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/openscad.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/openscad.js ***!
-  \*************************************************************/
+/***/ 6277:
 /***/ ((module) => {
 
 /*
@@ -41065,10 +43005,7 @@ module.exports = openscad;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/oxygene.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/oxygene.js ***!
-  \************************************************************/
+/***/ 136:
 /***/ ((module) => {
 
 /*
@@ -41161,10 +43098,7 @@ module.exports = oxygene;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/parser3.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/parser3.js ***!
-  \************************************************************/
+/***/ 3412:
 /***/ ((module) => {
 
 /*
@@ -41226,10 +43160,7 @@ module.exports = parser3;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/perl.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/perl.js ***!
-  \*********************************************************/
+/***/ 2482:
 /***/ ((module) => {
 
 /*
@@ -41707,10 +43638,7 @@ module.exports = perl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/pf.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/pf.js ***!
-  \*******************************************************/
+/***/ 4485:
 /***/ ((module) => {
 
 /*
@@ -41777,10 +43705,7 @@ module.exports = pf;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/pgsql.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/pgsql.js ***!
-  \**********************************************************/
+/***/ 9814:
 /***/ ((module) => {
 
 /*
@@ -42311,10 +44236,7 @@ module.exports = pgsql;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/php-template.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/php-template.js ***!
-  \*****************************************************************/
+/***/ 5112:
 /***/ ((module) => {
 
 /*
@@ -42375,10 +44297,7 @@ module.exports = phpTemplate;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/php.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/php.js ***!
-  \********************************************************/
+/***/ 2656:
 /***/ ((module) => {
 
 /*
@@ -42989,10 +44908,7 @@ module.exports = php;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/plaintext.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/plaintext.js ***!
-  \**************************************************************/
+/***/ 2437:
 /***/ ((module) => {
 
 /*
@@ -43018,10 +44934,7 @@ module.exports = plaintext;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/pony.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/pony.js ***!
-  \*********************************************************/
+/***/ 6874:
 /***/ ((module) => {
 
 /*
@@ -43117,10 +45030,7 @@ module.exports = pony;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/powershell.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/powershell.js ***!
-  \***************************************************************/
+/***/ 5040:
 /***/ ((module) => {
 
 /*
@@ -43443,10 +45353,7 @@ module.exports = powershell;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/processing.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/processing.js ***!
-  \***************************************************************/
+/***/ 5371:
 /***/ ((module) => {
 
 /*
@@ -43887,10 +45794,7 @@ module.exports = processing;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/profile.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/profile.js ***!
-  \************************************************************/
+/***/ 3476:
 /***/ ((module) => {
 
 /*
@@ -43940,10 +45844,7 @@ module.exports = profile;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/prolog.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/prolog.js ***!
-  \***********************************************************/
+/***/ 3944:
 /***/ ((module) => {
 
 /*
@@ -44046,10 +45947,7 @@ module.exports = prolog;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/properties.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/properties.js ***!
-  \***************************************************************/
+/***/ 7546:
 /***/ ((module) => {
 
 /*
@@ -44124,10 +46022,7 @@ module.exports = properties;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/protobuf.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/protobuf.js ***!
-  \*************************************************************/
+/***/ 5559:
 /***/ ((module) => {
 
 /*
@@ -44212,10 +46107,7 @@ module.exports = protobuf;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/puppet.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/puppet.js ***!
-  \***********************************************************/
+/***/ 3867:
 /***/ ((module) => {
 
 /*
@@ -44368,10 +46260,7 @@ module.exports = puppet;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/purebasic.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/purebasic.js ***!
-  \**************************************************************/
+/***/ 2938:
 /***/ ((module) => {
 
 /*
@@ -44477,10 +46366,7 @@ module.exports = purebasic;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/python-repl.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/python-repl.js ***!
-  \****************************************************************/
+/***/ 3722:
 /***/ ((module) => {
 
 /*
@@ -44519,10 +46405,7 @@ module.exports = pythonRepl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/python.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/python.js ***!
-  \***********************************************************/
+/***/ 8245:
 /***/ ((module) => {
 
 /*
@@ -44963,10 +46846,7 @@ module.exports = python;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/q.js":
-/*!******************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/q.js ***!
-  \******************************************************/
+/***/ 2623:
 /***/ ((module) => {
 
 /*
@@ -45010,10 +46890,7 @@ module.exports = q;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/qml.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/qml.js ***!
-  \********************************************************/
+/***/ 3797:
 /***/ ((module) => {
 
 /*
@@ -45209,10 +47086,7 @@ module.exports = qml;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/r.js":
-/*!******************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/r.js ***!
-  \******************************************************/
+/***/ 4730:
 /***/ ((module) => {
 
 /*
@@ -45476,10 +47350,7 @@ module.exports = r;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/reasonml.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/reasonml.js ***!
-  \*************************************************************/
+/***/ 2318:
 /***/ ((module) => {
 
 /*
@@ -45794,10 +47665,7 @@ module.exports = reasonml;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/rib.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/rib.js ***!
-  \********************************************************/
+/***/ 4820:
 /***/ ((module) => {
 
 /*
@@ -45841,10 +47709,7 @@ module.exports = rib;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/roboconf.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/roboconf.js ***!
-  \*************************************************************/
+/***/ 1874:
 /***/ ((module) => {
 
 /*
@@ -45933,10 +47798,7 @@ module.exports = roboconf;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/routeros.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/routeros.js ***!
-  \*************************************************************/
+/***/ 4005:
 /***/ ((module) => {
 
 /*
@@ -46106,10 +47968,7 @@ module.exports = routeros;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/rsl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/rsl.js ***!
-  \********************************************************/
+/***/ 2852:
 /***/ ((module) => {
 
 /*
@@ -46265,10 +48124,7 @@ module.exports = rsl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/ruby.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/ruby.js ***!
-  \*********************************************************/
+/***/ 7905:
 /***/ ((module) => {
 
 /*
@@ -46723,10 +48579,7 @@ module.exports = ruby;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/ruleslanguage.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/ruleslanguage.js ***!
-  \******************************************************************/
+/***/ 2192:
 /***/ ((module) => {
 
 /*
@@ -46809,10 +48662,7 @@ module.exports = ruleslanguage;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/rust.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/rust.js ***!
-  \*********************************************************/
+/***/ 9880:
 /***/ ((module) => {
 
 /*
@@ -47123,10 +48973,7 @@ module.exports = rust;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/sas.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/sas.js ***!
-  \********************************************************/
+/***/ 3129:
 /***/ ((module) => {
 
 /*
@@ -47689,10 +49536,7 @@ module.exports = sas;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/scala.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/scala.js ***!
-  \**********************************************************/
+/***/ 729:
 /***/ ((module) => {
 
 /*
@@ -47876,10 +49720,7 @@ module.exports = scala;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/scheme.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/scheme.js ***!
-  \***********************************************************/
+/***/ 2254:
 /***/ ((module) => {
 
 /*
@@ -48082,10 +49923,7 @@ module.exports = scheme;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/scilab.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/scilab.js ***!
-  \***********************************************************/
+/***/ 5149:
 /***/ ((module) => {
 
 /*
@@ -48165,10 +50003,7 @@ module.exports = scilab;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/scss.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/scss.js ***!
-  \*********************************************************/
+/***/ 1062:
 /***/ ((module) => {
 
 const MODES = (hljs) => {
@@ -48902,10 +50737,7 @@ module.exports = scss;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/shell.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/shell.js ***!
-  \**********************************************************/
+/***/ 7874:
 /***/ ((module) => {
 
 /*
@@ -48945,10 +50777,7 @@ module.exports = shell;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/smali.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/smali.js ***!
-  \**********************************************************/
+/***/ 943:
 /***/ ((module) => {
 
 /*
@@ -49080,10 +50909,7 @@ module.exports = smali;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/smalltalk.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/smalltalk.js ***!
-  \**************************************************************/
+/***/ 7659:
 /***/ ((module) => {
 
 /*
@@ -49158,10 +50984,7 @@ module.exports = smalltalk;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/sml.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/sml.js ***!
-  \********************************************************/
+/***/ 5935:
 /***/ ((module) => {
 
 /*
@@ -49243,10 +51066,7 @@ module.exports = sml;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/sqf.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/sqf.js ***!
-  \********************************************************/
+/***/ 3677:
 /***/ ((module) => {
 
 /*
@@ -51784,10 +53604,7 @@ module.exports = sqf;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/sql.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/sql.js ***!
-  \********************************************************/
+/***/ 8935:
 /***/ ((module) => {
 
 /*
@@ -52476,10 +54293,7 @@ module.exports = sql;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/stan.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/stan.js ***!
-  \*********************************************************/
+/***/ 52:
 /***/ ((module) => {
 
 /*
@@ -52979,10 +54793,7 @@ module.exports = stan;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/stata.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/stata.js ***!
-  \**********************************************************/
+/***/ 454:
 /***/ ((module) => {
 
 /*
@@ -53042,10 +54853,7 @@ module.exports = stata;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/step21.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/step21.js ***!
-  \***********************************************************/
+/***/ 7022:
 /***/ ((module) => {
 
 /*
@@ -53118,10 +54926,7 @@ module.exports = step21;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/stylus.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/stylus.js ***!
-  \***********************************************************/
+/***/ 8688:
 /***/ ((module) => {
 
 const MODES = (hljs) => {
@@ -53915,10 +55720,7 @@ module.exports = stylus;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/subunit.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/subunit.js ***!
-  \************************************************************/
+/***/ 726:
 /***/ ((module) => {
 
 /*
@@ -53968,10 +55770,7 @@ module.exports = subunit;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/swift.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/swift.js ***!
-  \**********************************************************/
+/***/ 7690:
 /***/ ((module) => {
 
 /**
@@ -54838,10 +56637,7 @@ module.exports = swift;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/taggerscript.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/taggerscript.js ***!
-  \*****************************************************************/
+/***/ 5460:
 /***/ ((module) => {
 
 /*
@@ -54906,10 +56702,7 @@ module.exports = taggerscript;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/tap.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/tap.js ***!
-  \********************************************************/
+/***/ 422:
 /***/ ((module) => {
 
 /*
@@ -54963,10 +56756,7 @@ module.exports = tap;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/tcl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/tcl.js ***!
-  \********************************************************/
+/***/ 8158:
 /***/ ((module) => {
 
 /*
@@ -55163,10 +56953,7 @@ module.exports = tcl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/thrift.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/thrift.js ***!
-  \***********************************************************/
+/***/ 906:
 /***/ ((module) => {
 
 /*
@@ -55250,10 +57037,7 @@ module.exports = thrift;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/tp.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/tp.js ***!
-  \*******************************************************/
+/***/ 6123:
 /***/ ((module) => {
 
 /*
@@ -55431,10 +57215,7 @@ module.exports = tp;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/twig.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/twig.js ***!
-  \*********************************************************/
+/***/ 1973:
 /***/ ((module) => {
 
 /*
@@ -55701,10 +57482,7 @@ module.exports = twig;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/typescript.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/typescript.js ***!
-  \***************************************************************/
+/***/ 8987:
 /***/ ((module) => {
 
 const IDENT_RE = '[A-Za-z$_][0-9A-Za-z$_]*';
@@ -56571,10 +58349,7 @@ module.exports = typescript;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/vala.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/vala.js ***!
-  \*********************************************************/
+/***/ 1462:
 /***/ ((module) => {
 
 /*
@@ -56641,10 +58416,7 @@ module.exports = vala;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/vbnet.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/vbnet.js ***!
-  \**********************************************************/
+/***/ 7531:
 /***/ ((module) => {
 
 /*
@@ -56808,10 +58580,7 @@ module.exports = vbnet;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/vbscript-html.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/vbscript-html.js ***!
-  \******************************************************************/
+/***/ 8704:
 /***/ ((module) => {
 
 /*
@@ -56842,10 +58611,7 @@ module.exports = vbscriptHtml;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/vbscript.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/vbscript.js ***!
-  \*************************************************************/
+/***/ 4703:
 /***/ ((module) => {
 
 /*
@@ -57072,10 +58838,7 @@ module.exports = vbscript;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/verilog.js":
-/*!************************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/verilog.js ***!
-  \************************************************************/
+/***/ 4494:
 /***/ ((module) => {
 
 /*
@@ -57631,10 +59394,7 @@ module.exports = verilog;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/vhdl.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/vhdl.js ***!
-  \*********************************************************/
+/***/ 8110:
 /***/ ((module) => {
 
 /*
@@ -57856,10 +59616,7 @@ module.exports = vhdl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/vim.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/vim.js ***!
-  \********************************************************/
+/***/ 3638:
 /***/ ((module) => {
 
 /*
@@ -57995,10 +59752,7 @@ module.exports = vim;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/wasm.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/wasm.js ***!
-  \*********************************************************/
+/***/ 1533:
 /***/ ((module) => {
 
 /*
@@ -58144,10 +59898,7 @@ module.exports = wasm;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/wren.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/wren.js ***!
-  \*********************************************************/
+/***/ 8563:
 /***/ ((module) => {
 
 /*
@@ -58456,10 +60207,7 @@ module.exports = wren;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/x86asm.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/x86asm.js ***!
-  \***********************************************************/
+/***/ 9947:
 /***/ ((module) => {
 
 /*
@@ -58619,10 +60367,7 @@ module.exports = x86asm;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/xl.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/xl.js ***!
-  \*******************************************************/
+/***/ 9338:
 /***/ ((module) => {
 
 /*
@@ -58834,10 +60579,7 @@ module.exports = xl;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/xml.js":
-/*!********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/xml.js ***!
-  \********************************************************/
+/***/ 4610:
 /***/ ((module) => {
 
 /*
@@ -59085,10 +60827,7 @@ module.exports = xml;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/xquery.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/xquery.js ***!
-  \***********************************************************/
+/***/ 5595:
 /***/ ((module) => {
 
 /*
@@ -59454,10 +61193,7 @@ module.exports = xquery;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/yaml.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/yaml.js ***!
-  \*********************************************************/
+/***/ 1392:
 /***/ ((module) => {
 
 /*
@@ -59658,10 +61394,7 @@ module.exports = yaml;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/lib/languages/zephir.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/highlight.js/lib/languages/zephir.js ***!
-  \***********************************************************/
+/***/ 1021:
 /***/ ((module) => {
 
 /*
@@ -59796,2890 +61529,19 @@ module.exports = zephir;
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/es/index.js":
-/*!***********************************************!*\
-  !*** ./node_modules/highlight.js/es/index.js ***!
-  \***********************************************/
+/***/ 637:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "HighlightJS": () => (/* reexport default export from named module */ _lib_index_js__WEBPACK_IMPORTED_MODULE_0__),
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _lib_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../lib/index.js */ "./node_modules/highlight.js/lib/index.js");
+/* harmony import */ var _lib_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8128);
 // https://nodejs.org/api/packages.html#packages_writing_dual_packages_while_avoiding_or_minimizing_hazards
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_lib_index_js__WEBPACK_IMPORTED_MODULE_0__);
 
-
-/***/ }),
-
-/***/ "./node_modules/marked/lib/marked.esm.js":
-/*!***********************************************!*\
-  !*** ./node_modules/marked/lib/marked.esm.js ***!
-  \***********************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Lexer": () => (/* binding */ Lexer),
-/* harmony export */   "Parser": () => (/* binding */ Parser),
-/* harmony export */   "Renderer": () => (/* binding */ Renderer),
-/* harmony export */   "Slugger": () => (/* binding */ Slugger),
-/* harmony export */   "TextRenderer": () => (/* binding */ TextRenderer),
-/* harmony export */   "Tokenizer": () => (/* binding */ Tokenizer),
-/* harmony export */   "defaults": () => (/* binding */ defaults),
-/* harmony export */   "getDefaults": () => (/* binding */ getDefaults),
-/* harmony export */   "lexer": () => (/* binding */ lexer),
-/* harmony export */   "marked": () => (/* binding */ marked),
-/* harmony export */   "options": () => (/* binding */ options),
-/* harmony export */   "parse": () => (/* binding */ parse),
-/* harmony export */   "parseInline": () => (/* binding */ parseInline),
-/* harmony export */   "parser": () => (/* binding */ parser),
-/* harmony export */   "setOptions": () => (/* binding */ setOptions),
-/* harmony export */   "use": () => (/* binding */ use),
-/* harmony export */   "walkTokens": () => (/* binding */ walkTokens)
-/* harmony export */ });
-/**
- * marked v4.2.12 - a markdown parser
- * Copyright (c) 2011-2023, Christopher Jeffrey. (MIT Licensed)
- * https://github.com/markedjs/marked
- */
-
-/**
- * DO NOT EDIT THIS FILE
- * The code in this file is generated from files in ./src/
- */
-
-function getDefaults() {
-  return {
-    async: false,
-    baseUrl: null,
-    breaks: false,
-    extensions: null,
-    gfm: true,
-    headerIds: true,
-    headerPrefix: '',
-    highlight: null,
-    langPrefix: 'language-',
-    mangle: true,
-    pedantic: false,
-    renderer: null,
-    sanitize: false,
-    sanitizer: null,
-    silent: false,
-    smartypants: false,
-    tokenizer: null,
-    walkTokens: null,
-    xhtml: false
-  };
-}
-
-let defaults = getDefaults();
-
-function changeDefaults(newDefaults) {
-  defaults = newDefaults;
-}
-
-/**
- * Helpers
- */
-const escapeTest = /[&<>"']/;
-const escapeReplace = new RegExp(escapeTest.source, 'g');
-const escapeTestNoEncode = /[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/;
-const escapeReplaceNoEncode = new RegExp(escapeTestNoEncode.source, 'g');
-const escapeReplacements = {
-  '&': '&amp;',
-  '<': '&lt;',
-  '>': '&gt;',
-  '"': '&quot;',
-  "'": '&#39;'
-};
-const getEscapeReplacement = (ch) => escapeReplacements[ch];
-function escape(html, encode) {
-  if (encode) {
-    if (escapeTest.test(html)) {
-      return html.replace(escapeReplace, getEscapeReplacement);
-    }
-  } else {
-    if (escapeTestNoEncode.test(html)) {
-      return html.replace(escapeReplaceNoEncode, getEscapeReplacement);
-    }
-  }
-
-  return html;
-}
-
-const unescapeTest = /&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/ig;
-
-/**
- * @param {string} html
- */
-function unescape(html) {
-  // explicitly match decimal, hex, and named HTML entities
-  return html.replace(unescapeTest, (_, n) => {
-    n = n.toLowerCase();
-    if (n === 'colon') return ':';
-    if (n.charAt(0) === '#') {
-      return n.charAt(1) === 'x'
-        ? String.fromCharCode(parseInt(n.substring(2), 16))
-        : String.fromCharCode(+n.substring(1));
-    }
-    return '';
-  });
-}
-
-const caret = /(^|[^\[])\^/g;
-
-/**
- * @param {string | RegExp} regex
- * @param {string} opt
- */
-function edit(regex, opt) {
-  regex = typeof regex === 'string' ? regex : regex.source;
-  opt = opt || '';
-  const obj = {
-    replace: (name, val) => {
-      val = val.source || val;
-      val = val.replace(caret, '$1');
-      regex = regex.replace(name, val);
-      return obj;
-    },
-    getRegex: () => {
-      return new RegExp(regex, opt);
-    }
-  };
-  return obj;
-}
-
-const nonWordAndColonTest = /[^\w:]/g;
-const originIndependentUrl = /^$|^[a-z][a-z0-9+.-]*:|^[?#]/i;
-
-/**
- * @param {boolean} sanitize
- * @param {string} base
- * @param {string} href
- */
-function cleanUrl(sanitize, base, href) {
-  if (sanitize) {
-    let prot;
-    try {
-      prot = decodeURIComponent(unescape(href))
-        .replace(nonWordAndColonTest, '')
-        .toLowerCase();
-    } catch (e) {
-      return null;
-    }
-    if (prot.indexOf('javascript:') === 0 || prot.indexOf('vbscript:') === 0 || prot.indexOf('data:') === 0) {
-      return null;
-    }
-  }
-  if (base && !originIndependentUrl.test(href)) {
-    href = resolveUrl(base, href);
-  }
-  try {
-    href = encodeURI(href).replace(/%25/g, '%');
-  } catch (e) {
-    return null;
-  }
-  return href;
-}
-
-const baseUrls = {};
-const justDomain = /^[^:]+:\/*[^/]*$/;
-const protocol = /^([^:]+:)[\s\S]*$/;
-const domain = /^([^:]+:\/*[^/]*)[\s\S]*$/;
-
-/**
- * @param {string} base
- * @param {string} href
- */
-function resolveUrl(base, href) {
-  if (!baseUrls[' ' + base]) {
-    // we can ignore everything in base after the last slash of its path component,
-    // but we might need to add _that_
-    // https://tools.ietf.org/html/rfc3986#section-3
-    if (justDomain.test(base)) {
-      baseUrls[' ' + base] = base + '/';
-    } else {
-      baseUrls[' ' + base] = rtrim(base, '/', true);
-    }
-  }
-  base = baseUrls[' ' + base];
-  const relativeBase = base.indexOf(':') === -1;
-
-  if (href.substring(0, 2) === '//') {
-    if (relativeBase) {
-      return href;
-    }
-    return base.replace(protocol, '$1') + href;
-  } else if (href.charAt(0) === '/') {
-    if (relativeBase) {
-      return href;
-    }
-    return base.replace(domain, '$1') + href;
-  } else {
-    return base + href;
-  }
-}
-
-const noopTest = { exec: function noopTest() {} };
-
-function merge(obj) {
-  let i = 1,
-    target,
-    key;
-
-  for (; i < arguments.length; i++) {
-    target = arguments[i];
-    for (key in target) {
-      if (Object.prototype.hasOwnProperty.call(target, key)) {
-        obj[key] = target[key];
-      }
-    }
-  }
-
-  return obj;
-}
-
-function splitCells(tableRow, count) {
-  // ensure that every cell-delimiting pipe has a space
-  // before it to distinguish it from an escaped pipe
-  const row = tableRow.replace(/\|/g, (match, offset, str) => {
-      let escaped = false,
-        curr = offset;
-      while (--curr >= 0 && str[curr] === '\\') escaped = !escaped;
-      if (escaped) {
-        // odd number of slashes means | is escaped
-        // so we leave it alone
-        return '|';
-      } else {
-        // add space before unescaped |
-        return ' |';
-      }
-    }),
-    cells = row.split(/ \|/);
-  let i = 0;
-
-  // First/last cell in a row cannot be empty if it has no leading/trailing pipe
-  if (!cells[0].trim()) { cells.shift(); }
-  if (cells.length > 0 && !cells[cells.length - 1].trim()) { cells.pop(); }
-
-  if (cells.length > count) {
-    cells.splice(count);
-  } else {
-    while (cells.length < count) cells.push('');
-  }
-
-  for (; i < cells.length; i++) {
-    // leading or trailing whitespace is ignored per the gfm spec
-    cells[i] = cells[i].trim().replace(/\\\|/g, '|');
-  }
-  return cells;
-}
-
-/**
- * Remove trailing 'c's. Equivalent to str.replace(/c*$/, '').
- * /c*$/ is vulnerable to REDOS.
- *
- * @param {string} str
- * @param {string} c
- * @param {boolean} invert Remove suffix of non-c chars instead. Default falsey.
- */
-function rtrim(str, c, invert) {
-  const l = str.length;
-  if (l === 0) {
-    return '';
-  }
-
-  // Length of suffix matching the invert condition.
-  let suffLen = 0;
-
-  // Step left until we fail to match the invert condition.
-  while (suffLen < l) {
-    const currChar = str.charAt(l - suffLen - 1);
-    if (currChar === c && !invert) {
-      suffLen++;
-    } else if (currChar !== c && invert) {
-      suffLen++;
-    } else {
-      break;
-    }
-  }
-
-  return str.slice(0, l - suffLen);
-}
-
-function findClosingBracket(str, b) {
-  if (str.indexOf(b[1]) === -1) {
-    return -1;
-  }
-  const l = str.length;
-  let level = 0,
-    i = 0;
-  for (; i < l; i++) {
-    if (str[i] === '\\') {
-      i++;
-    } else if (str[i] === b[0]) {
-      level++;
-    } else if (str[i] === b[1]) {
-      level--;
-      if (level < 0) {
-        return i;
-      }
-    }
-  }
-  return -1;
-}
-
-function checkSanitizeDeprecation(opt) {
-  if (opt && opt.sanitize && !opt.silent) {
-    console.warn('marked(): sanitize and sanitizer parameters are deprecated since version 0.7.0, should not be used and will be removed in the future. Read more here: https://marked.js.org/#/USING_ADVANCED.md#options');
-  }
-}
-
-// copied from https://stackoverflow.com/a/5450113/806777
-/**
- * @param {string} pattern
- * @param {number} count
- */
-function repeatString(pattern, count) {
-  if (count < 1) {
-    return '';
-  }
-  let result = '';
-  while (count > 1) {
-    if (count & 1) {
-      result += pattern;
-    }
-    count >>= 1;
-    pattern += pattern;
-  }
-  return result + pattern;
-}
-
-function outputLink(cap, link, raw, lexer) {
-  const href = link.href;
-  const title = link.title ? escape(link.title) : null;
-  const text = cap[1].replace(/\\([\[\]])/g, '$1');
-
-  if (cap[0].charAt(0) !== '!') {
-    lexer.state.inLink = true;
-    const token = {
-      type: 'link',
-      raw,
-      href,
-      title,
-      text,
-      tokens: lexer.inlineTokens(text)
-    };
-    lexer.state.inLink = false;
-    return token;
-  }
-  return {
-    type: 'image',
-    raw,
-    href,
-    title,
-    text: escape(text)
-  };
-}
-
-function indentCodeCompensation(raw, text) {
-  const matchIndentToCode = raw.match(/^(\s+)(?:```)/);
-
-  if (matchIndentToCode === null) {
-    return text;
-  }
-
-  const indentToCode = matchIndentToCode[1];
-
-  return text
-    .split('\n')
-    .map(node => {
-      const matchIndentInNode = node.match(/^\s+/);
-      if (matchIndentInNode === null) {
-        return node;
-      }
-
-      const [indentInNode] = matchIndentInNode;
-
-      if (indentInNode.length >= indentToCode.length) {
-        return node.slice(indentToCode.length);
-      }
-
-      return node;
-    })
-    .join('\n');
-}
-
-/**
- * Tokenizer
- */
-class Tokenizer {
-  constructor(options) {
-    this.options = options || defaults;
-  }
-
-  space(src) {
-    const cap = this.rules.block.newline.exec(src);
-    if (cap && cap[0].length > 0) {
-      return {
-        type: 'space',
-        raw: cap[0]
-      };
-    }
-  }
-
-  code(src) {
-    const cap = this.rules.block.code.exec(src);
-    if (cap) {
-      const text = cap[0].replace(/^ {1,4}/gm, '');
-      return {
-        type: 'code',
-        raw: cap[0],
-        codeBlockStyle: 'indented',
-        text: !this.options.pedantic
-          ? rtrim(text, '\n')
-          : text
-      };
-    }
-  }
-
-  fences(src) {
-    const cap = this.rules.block.fences.exec(src);
-    if (cap) {
-      const raw = cap[0];
-      const text = indentCodeCompensation(raw, cap[3] || '');
-
-      return {
-        type: 'code',
-        raw,
-        lang: cap[2] ? cap[2].trim().replace(this.rules.inline._escapes, '$1') : cap[2],
-        text
-      };
-    }
-  }
-
-  heading(src) {
-    const cap = this.rules.block.heading.exec(src);
-    if (cap) {
-      let text = cap[2].trim();
-
-      // remove trailing #s
-      if (/#$/.test(text)) {
-        const trimmed = rtrim(text, '#');
-        if (this.options.pedantic) {
-          text = trimmed.trim();
-        } else if (!trimmed || / $/.test(trimmed)) {
-          // CommonMark requires space before trailing #s
-          text = trimmed.trim();
-        }
-      }
-
-      return {
-        type: 'heading',
-        raw: cap[0],
-        depth: cap[1].length,
-        text,
-        tokens: this.lexer.inline(text)
-      };
-    }
-  }
-
-  hr(src) {
-    const cap = this.rules.block.hr.exec(src);
-    if (cap) {
-      return {
-        type: 'hr',
-        raw: cap[0]
-      };
-    }
-  }
-
-  blockquote(src) {
-    const cap = this.rules.block.blockquote.exec(src);
-    if (cap) {
-      const text = cap[0].replace(/^ *>[ \t]?/gm, '');
-      const top = this.lexer.state.top;
-      this.lexer.state.top = true;
-      const tokens = this.lexer.blockTokens(text);
-      this.lexer.state.top = top;
-      return {
-        type: 'blockquote',
-        raw: cap[0],
-        tokens,
-        text
-      };
-    }
-  }
-
-  list(src) {
-    let cap = this.rules.block.list.exec(src);
-    if (cap) {
-      let raw, istask, ischecked, indent, i, blankLine, endsWithBlankLine,
-        line, nextLine, rawLine, itemContents, endEarly;
-
-      let bull = cap[1].trim();
-      const isordered = bull.length > 1;
-
-      const list = {
-        type: 'list',
-        raw: '',
-        ordered: isordered,
-        start: isordered ? +bull.slice(0, -1) : '',
-        loose: false,
-        items: []
-      };
-
-      bull = isordered ? `\\d{1,9}\\${bull.slice(-1)}` : `\\${bull}`;
-
-      if (this.options.pedantic) {
-        bull = isordered ? bull : '[*+-]';
-      }
-
-      // Get next list item
-      const itemRegex = new RegExp(`^( {0,3}${bull})((?:[\t ][^\\n]*)?(?:\\n|$))`);
-
-      // Check if current bullet point can start a new List Item
-      while (src) {
-        endEarly = false;
-        if (!(cap = itemRegex.exec(src))) {
-          break;
-        }
-
-        if (this.rules.block.hr.test(src)) { // End list if bullet was actually HR (possibly move into itemRegex?)
-          break;
-        }
-
-        raw = cap[0];
-        src = src.substring(raw.length);
-
-        line = cap[2].split('\n', 1)[0].replace(/^\t+/, (t) => ' '.repeat(3 * t.length));
-        nextLine = src.split('\n', 1)[0];
-
-        if (this.options.pedantic) {
-          indent = 2;
-          itemContents = line.trimLeft();
-        } else {
-          indent = cap[2].search(/[^ ]/); // Find first non-space char
-          indent = indent > 4 ? 1 : indent; // Treat indented code blocks (> 4 spaces) as having only 1 indent
-          itemContents = line.slice(indent);
-          indent += cap[1].length;
-        }
-
-        blankLine = false;
-
-        if (!line && /^ *$/.test(nextLine)) { // Items begin with at most one blank line
-          raw += nextLine + '\n';
-          src = src.substring(nextLine.length + 1);
-          endEarly = true;
-        }
-
-        if (!endEarly) {
-          const nextBulletRegex = new RegExp(`^ {0,${Math.min(3, indent - 1)}}(?:[*+-]|\\d{1,9}[.)])((?:[ \t][^\\n]*)?(?:\\n|$))`);
-          const hrRegex = new RegExp(`^ {0,${Math.min(3, indent - 1)}}((?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$)`);
-          const fencesBeginRegex = new RegExp(`^ {0,${Math.min(3, indent - 1)}}(?:\`\`\`|~~~)`);
-          const headingBeginRegex = new RegExp(`^ {0,${Math.min(3, indent - 1)}}#`);
-
-          // Check if following lines should be included in List Item
-          while (src) {
-            rawLine = src.split('\n', 1)[0];
-            nextLine = rawLine;
-
-            // Re-align to follow commonmark nesting rules
-            if (this.options.pedantic) {
-              nextLine = nextLine.replace(/^ {1,4}(?=( {4})*[^ ])/g, '  ');
-            }
-
-            // End list item if found code fences
-            if (fencesBeginRegex.test(nextLine)) {
-              break;
-            }
-
-            // End list item if found start of new heading
-            if (headingBeginRegex.test(nextLine)) {
-              break;
-            }
-
-            // End list item if found start of new bullet
-            if (nextBulletRegex.test(nextLine)) {
-              break;
-            }
-
-            // Horizontal rule found
-            if (hrRegex.test(src)) {
-              break;
-            }
-
-            if (nextLine.search(/[^ ]/) >= indent || !nextLine.trim()) { // Dedent if possible
-              itemContents += '\n' + nextLine.slice(indent);
-            } else {
-              // not enough indentation
-              if (blankLine) {
-                break;
-              }
-
-              // paragraph continuation unless last line was a different block level element
-              if (line.search(/[^ ]/) >= 4) { // indented code block
-                break;
-              }
-              if (fencesBeginRegex.test(line)) {
-                break;
-              }
-              if (headingBeginRegex.test(line)) {
-                break;
-              }
-              if (hrRegex.test(line)) {
-                break;
-              }
-
-              itemContents += '\n' + nextLine;
-            }
-
-            if (!blankLine && !nextLine.trim()) { // Check if current line is blank
-              blankLine = true;
-            }
-
-            raw += rawLine + '\n';
-            src = src.substring(rawLine.length + 1);
-            line = nextLine.slice(indent);
-          }
-        }
-
-        if (!list.loose) {
-          // If the previous item ended with a blank line, the list is loose
-          if (endsWithBlankLine) {
-            list.loose = true;
-          } else if (/\n *\n *$/.test(raw)) {
-            endsWithBlankLine = true;
-          }
-        }
-
-        // Check for task list items
-        if (this.options.gfm) {
-          istask = /^\[[ xX]\] /.exec(itemContents);
-          if (istask) {
-            ischecked = istask[0] !== '[ ] ';
-            itemContents = itemContents.replace(/^\[[ xX]\] +/, '');
-          }
-        }
-
-        list.items.push({
-          type: 'list_item',
-          raw,
-          task: !!istask,
-          checked: ischecked,
-          loose: false,
-          text: itemContents
-        });
-
-        list.raw += raw;
-      }
-
-      // Do not consume newlines at end of final item. Alternatively, make itemRegex *start* with any newlines to simplify/speed up endsWithBlankLine logic
-      list.items[list.items.length - 1].raw = raw.trimRight();
-      list.items[list.items.length - 1].text = itemContents.trimRight();
-      list.raw = list.raw.trimRight();
-
-      const l = list.items.length;
-
-      // Item child tokens handled here at end because we needed to have the final item to trim it first
-      for (i = 0; i < l; i++) {
-        this.lexer.state.top = false;
-        list.items[i].tokens = this.lexer.blockTokens(list.items[i].text, []);
-
-        if (!list.loose) {
-          // Check if list should be loose
-          const spacers = list.items[i].tokens.filter(t => t.type === 'space');
-          const hasMultipleLineBreaks = spacers.length > 0 && spacers.some(t => /\n.*\n/.test(t.raw));
-
-          list.loose = hasMultipleLineBreaks;
-        }
-      }
-
-      // Set all items to loose if list is loose
-      if (list.loose) {
-        for (i = 0; i < l; i++) {
-          list.items[i].loose = true;
-        }
-      }
-
-      return list;
-    }
-  }
-
-  html(src) {
-    const cap = this.rules.block.html.exec(src);
-    if (cap) {
-      const token = {
-        type: 'html',
-        raw: cap[0],
-        pre: !this.options.sanitizer
-          && (cap[1] === 'pre' || cap[1] === 'script' || cap[1] === 'style'),
-        text: cap[0]
-      };
-      if (this.options.sanitize) {
-        const text = this.options.sanitizer ? this.options.sanitizer(cap[0]) : escape(cap[0]);
-        token.type = 'paragraph';
-        token.text = text;
-        token.tokens = this.lexer.inline(text);
-      }
-      return token;
-    }
-  }
-
-  def(src) {
-    const cap = this.rules.block.def.exec(src);
-    if (cap) {
-      const tag = cap[1].toLowerCase().replace(/\s+/g, ' ');
-      const href = cap[2] ? cap[2].replace(/^<(.*)>$/, '$1').replace(this.rules.inline._escapes, '$1') : '';
-      const title = cap[3] ? cap[3].substring(1, cap[3].length - 1).replace(this.rules.inline._escapes, '$1') : cap[3];
-      return {
-        type: 'def',
-        tag,
-        raw: cap[0],
-        href,
-        title
-      };
-    }
-  }
-
-  table(src) {
-    const cap = this.rules.block.table.exec(src);
-    if (cap) {
-      const item = {
-        type: 'table',
-        header: splitCells(cap[1]).map(c => { return { text: c }; }),
-        align: cap[2].replace(/^ *|\| *$/g, '').split(/ *\| */),
-        rows: cap[3] && cap[3].trim() ? cap[3].replace(/\n[ \t]*$/, '').split('\n') : []
-      };
-
-      if (item.header.length === item.align.length) {
-        item.raw = cap[0];
-
-        let l = item.align.length;
-        let i, j, k, row;
-        for (i = 0; i < l; i++) {
-          if (/^ *-+: *$/.test(item.align[i])) {
-            item.align[i] = 'right';
-          } else if (/^ *:-+: *$/.test(item.align[i])) {
-            item.align[i] = 'center';
-          } else if (/^ *:-+ *$/.test(item.align[i])) {
-            item.align[i] = 'left';
-          } else {
-            item.align[i] = null;
-          }
-        }
-
-        l = item.rows.length;
-        for (i = 0; i < l; i++) {
-          item.rows[i] = splitCells(item.rows[i], item.header.length).map(c => { return { text: c }; });
-        }
-
-        // parse child tokens inside headers and cells
-
-        // header child tokens
-        l = item.header.length;
-        for (j = 0; j < l; j++) {
-          item.header[j].tokens = this.lexer.inline(item.header[j].text);
-        }
-
-        // cell child tokens
-        l = item.rows.length;
-        for (j = 0; j < l; j++) {
-          row = item.rows[j];
-          for (k = 0; k < row.length; k++) {
-            row[k].tokens = this.lexer.inline(row[k].text);
-          }
-        }
-
-        return item;
-      }
-    }
-  }
-
-  lheading(src) {
-    const cap = this.rules.block.lheading.exec(src);
-    if (cap) {
-      return {
-        type: 'heading',
-        raw: cap[0],
-        depth: cap[2].charAt(0) === '=' ? 1 : 2,
-        text: cap[1],
-        tokens: this.lexer.inline(cap[1])
-      };
-    }
-  }
-
-  paragraph(src) {
-    const cap = this.rules.block.paragraph.exec(src);
-    if (cap) {
-      const text = cap[1].charAt(cap[1].length - 1) === '\n'
-        ? cap[1].slice(0, -1)
-        : cap[1];
-      return {
-        type: 'paragraph',
-        raw: cap[0],
-        text,
-        tokens: this.lexer.inline(text)
-      };
-    }
-  }
-
-  text(src) {
-    const cap = this.rules.block.text.exec(src);
-    if (cap) {
-      return {
-        type: 'text',
-        raw: cap[0],
-        text: cap[0],
-        tokens: this.lexer.inline(cap[0])
-      };
-    }
-  }
-
-  escape(src) {
-    const cap = this.rules.inline.escape.exec(src);
-    if (cap) {
-      return {
-        type: 'escape',
-        raw: cap[0],
-        text: escape(cap[1])
-      };
-    }
-  }
-
-  tag(src) {
-    const cap = this.rules.inline.tag.exec(src);
-    if (cap) {
-      if (!this.lexer.state.inLink && /^<a /i.test(cap[0])) {
-        this.lexer.state.inLink = true;
-      } else if (this.lexer.state.inLink && /^<\/a>/i.test(cap[0])) {
-        this.lexer.state.inLink = false;
-      }
-      if (!this.lexer.state.inRawBlock && /^<(pre|code|kbd|script)(\s|>)/i.test(cap[0])) {
-        this.lexer.state.inRawBlock = true;
-      } else if (this.lexer.state.inRawBlock && /^<\/(pre|code|kbd|script)(\s|>)/i.test(cap[0])) {
-        this.lexer.state.inRawBlock = false;
-      }
-
-      return {
-        type: this.options.sanitize
-          ? 'text'
-          : 'html',
-        raw: cap[0],
-        inLink: this.lexer.state.inLink,
-        inRawBlock: this.lexer.state.inRawBlock,
-        text: this.options.sanitize
-          ? (this.options.sanitizer
-            ? this.options.sanitizer(cap[0])
-            : escape(cap[0]))
-          : cap[0]
-      };
-    }
-  }
-
-  link(src) {
-    const cap = this.rules.inline.link.exec(src);
-    if (cap) {
-      const trimmedUrl = cap[2].trim();
-      if (!this.options.pedantic && /^</.test(trimmedUrl)) {
-        // commonmark requires matching angle brackets
-        if (!(/>$/.test(trimmedUrl))) {
-          return;
-        }
-
-        // ending angle bracket cannot be escaped
-        const rtrimSlash = rtrim(trimmedUrl.slice(0, -1), '\\');
-        if ((trimmedUrl.length - rtrimSlash.length) % 2 === 0) {
-          return;
-        }
-      } else {
-        // find closing parenthesis
-        const lastParenIndex = findClosingBracket(cap[2], '()');
-        if (lastParenIndex > -1) {
-          const start = cap[0].indexOf('!') === 0 ? 5 : 4;
-          const linkLen = start + cap[1].length + lastParenIndex;
-          cap[2] = cap[2].substring(0, lastParenIndex);
-          cap[0] = cap[0].substring(0, linkLen).trim();
-          cap[3] = '';
-        }
-      }
-      let href = cap[2];
-      let title = '';
-      if (this.options.pedantic) {
-        // split pedantic href and title
-        const link = /^([^'"]*[^\s])\s+(['"])(.*)\2/.exec(href);
-
-        if (link) {
-          href = link[1];
-          title = link[3];
-        }
-      } else {
-        title = cap[3] ? cap[3].slice(1, -1) : '';
-      }
-
-      href = href.trim();
-      if (/^</.test(href)) {
-        if (this.options.pedantic && !(/>$/.test(trimmedUrl))) {
-          // pedantic allows starting angle bracket without ending angle bracket
-          href = href.slice(1);
-        } else {
-          href = href.slice(1, -1);
-        }
-      }
-      return outputLink(cap, {
-        href: href ? href.replace(this.rules.inline._escapes, '$1') : href,
-        title: title ? title.replace(this.rules.inline._escapes, '$1') : title
-      }, cap[0], this.lexer);
-    }
-  }
-
-  reflink(src, links) {
-    let cap;
-    if ((cap = this.rules.inline.reflink.exec(src))
-        || (cap = this.rules.inline.nolink.exec(src))) {
-      let link = (cap[2] || cap[1]).replace(/\s+/g, ' ');
-      link = links[link.toLowerCase()];
-      if (!link) {
-        const text = cap[0].charAt(0);
-        return {
-          type: 'text',
-          raw: text,
-          text
-        };
-      }
-      return outputLink(cap, link, cap[0], this.lexer);
-    }
-  }
-
-  emStrong(src, maskedSrc, prevChar = '') {
-    let match = this.rules.inline.emStrong.lDelim.exec(src);
-    if (!match) return;
-
-    // _ can't be between two alphanumerics. \p{L}\p{N} includes non-english alphabet/numbers as well
-    if (match[3] && prevChar.match(/[\p{L}\p{N}]/u)) return;
-
-    const nextChar = match[1] || match[2] || '';
-
-    if (!nextChar || (nextChar && (prevChar === '' || this.rules.inline.punctuation.exec(prevChar)))) {
-      const lLength = match[0].length - 1;
-      let rDelim, rLength, delimTotal = lLength, midDelimTotal = 0;
-
-      const endReg = match[0][0] === '*' ? this.rules.inline.emStrong.rDelimAst : this.rules.inline.emStrong.rDelimUnd;
-      endReg.lastIndex = 0;
-
-      // Clip maskedSrc to same section of string as src (move to lexer?)
-      maskedSrc = maskedSrc.slice(-1 * src.length + lLength);
-
-      while ((match = endReg.exec(maskedSrc)) != null) {
-        rDelim = match[1] || match[2] || match[3] || match[4] || match[5] || match[6];
-
-        if (!rDelim) continue; // skip single * in __abc*abc__
-
-        rLength = rDelim.length;
-
-        if (match[3] || match[4]) { // found another Left Delim
-          delimTotal += rLength;
-          continue;
-        } else if (match[5] || match[6]) { // either Left or Right Delim
-          if (lLength % 3 && !((lLength + rLength) % 3)) {
-            midDelimTotal += rLength;
-            continue; // CommonMark Emphasis Rules 9-10
-          }
-        }
-
-        delimTotal -= rLength;
-
-        if (delimTotal > 0) continue; // Haven't found enough closing delimiters
-
-        // Remove extra characters. *a*** -> *a*
-        rLength = Math.min(rLength, rLength + delimTotal + midDelimTotal);
-
-        const raw = src.slice(0, lLength + match.index + (match[0].length - rDelim.length) + rLength);
-
-        // Create `em` if smallest delimiter has odd char count. *a***
-        if (Math.min(lLength, rLength) % 2) {
-          const text = raw.slice(1, -1);
-          return {
-            type: 'em',
-            raw,
-            text,
-            tokens: this.lexer.inlineTokens(text)
-          };
-        }
-
-        // Create 'strong' if smallest delimiter has even char count. **a***
-        const text = raw.slice(2, -2);
-        return {
-          type: 'strong',
-          raw,
-          text,
-          tokens: this.lexer.inlineTokens(text)
-        };
-      }
-    }
-  }
-
-  codespan(src) {
-    const cap = this.rules.inline.code.exec(src);
-    if (cap) {
-      let text = cap[2].replace(/\n/g, ' ');
-      const hasNonSpaceChars = /[^ ]/.test(text);
-      const hasSpaceCharsOnBothEnds = /^ /.test(text) && / $/.test(text);
-      if (hasNonSpaceChars && hasSpaceCharsOnBothEnds) {
-        text = text.substring(1, text.length - 1);
-      }
-      text = escape(text, true);
-      return {
-        type: 'codespan',
-        raw: cap[0],
-        text
-      };
-    }
-  }
-
-  br(src) {
-    const cap = this.rules.inline.br.exec(src);
-    if (cap) {
-      return {
-        type: 'br',
-        raw: cap[0]
-      };
-    }
-  }
-
-  del(src) {
-    const cap = this.rules.inline.del.exec(src);
-    if (cap) {
-      return {
-        type: 'del',
-        raw: cap[0],
-        text: cap[2],
-        tokens: this.lexer.inlineTokens(cap[2])
-      };
-    }
-  }
-
-  autolink(src, mangle) {
-    const cap = this.rules.inline.autolink.exec(src);
-    if (cap) {
-      let text, href;
-      if (cap[2] === '@') {
-        text = escape(this.options.mangle ? mangle(cap[1]) : cap[1]);
-        href = 'mailto:' + text;
-      } else {
-        text = escape(cap[1]);
-        href = text;
-      }
-
-      return {
-        type: 'link',
-        raw: cap[0],
-        text,
-        href,
-        tokens: [
-          {
-            type: 'text',
-            raw: text,
-            text
-          }
-        ]
-      };
-    }
-  }
-
-  url(src, mangle) {
-    let cap;
-    if (cap = this.rules.inline.url.exec(src)) {
-      let text, href;
-      if (cap[2] === '@') {
-        text = escape(this.options.mangle ? mangle(cap[0]) : cap[0]);
-        href = 'mailto:' + text;
-      } else {
-        // do extended autolink path validation
-        let prevCapZero;
-        do {
-          prevCapZero = cap[0];
-          cap[0] = this.rules.inline._backpedal.exec(cap[0])[0];
-        } while (prevCapZero !== cap[0]);
-        text = escape(cap[0]);
-        if (cap[1] === 'www.') {
-          href = 'http://' + cap[0];
-        } else {
-          href = cap[0];
-        }
-      }
-      return {
-        type: 'link',
-        raw: cap[0],
-        text,
-        href,
-        tokens: [
-          {
-            type: 'text',
-            raw: text,
-            text
-          }
-        ]
-      };
-    }
-  }
-
-  inlineText(src, smartypants) {
-    const cap = this.rules.inline.text.exec(src);
-    if (cap) {
-      let text;
-      if (this.lexer.state.inRawBlock) {
-        text = this.options.sanitize ? (this.options.sanitizer ? this.options.sanitizer(cap[0]) : escape(cap[0])) : cap[0];
-      } else {
-        text = escape(this.options.smartypants ? smartypants(cap[0]) : cap[0]);
-      }
-      return {
-        type: 'text',
-        raw: cap[0],
-        text
-      };
-    }
-  }
-}
-
-/**
- * Block-Level Grammar
- */
-const block = {
-  newline: /^(?: *(?:\n|$))+/,
-  code: /^( {4}[^\n]+(?:\n(?: *(?:\n|$))*)?)+/,
-  fences: /^ {0,3}(`{3,}(?=[^`\n]*\n)|~{3,})([^\n]*)\n(?:|([\s\S]*?)\n)(?: {0,3}\1[~`]* *(?=\n|$)|$)/,
-  hr: /^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/,
-  heading: /^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/,
-  blockquote: /^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/,
-  list: /^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/,
-  html: '^ {0,3}(?:' // optional indentation
-    + '<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)' // (1)
-    + '|comment[^\\n]*(\\n+|$)' // (2)
-    + '|<\\?[\\s\\S]*?(?:\\?>\\n*|$)' // (3)
-    + '|<![A-Z][\\s\\S]*?(?:>\\n*|$)' // (4)
-    + '|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)' // (5)
-    + '|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n *)+\\n|$)' // (6)
-    + '|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$)' // (7) open tag
-    + '|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$)' // (7) closing tag
-    + ')',
-  def: /^ {0,3}\[(label)\]: *(?:\n *)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n *)?| *\n *)(title))? *(?:\n+|$)/,
-  table: noopTest,
-  lheading: /^((?:.|\n(?!\n))+?)\n {0,3}(=+|-+) *(?:\n+|$)/,
-  // regex template, placeholders will be replaced according to different paragraph
-  // interruption rules of commonmark and the original markdown spec:
-  _paragraph: /^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/,
-  text: /^[^\n]+/
-};
-
-block._label = /(?!\s*\])(?:\\.|[^\[\]\\])+/;
-block._title = /(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/;
-block.def = edit(block.def)
-  .replace('label', block._label)
-  .replace('title', block._title)
-  .getRegex();
-
-block.bullet = /(?:[*+-]|\d{1,9}[.)])/;
-block.listItemStart = edit(/^( *)(bull) */)
-  .replace('bull', block.bullet)
-  .getRegex();
-
-block.list = edit(block.list)
-  .replace(/bull/g, block.bullet)
-  .replace('hr', '\\n+(?=\\1?(?:(?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$))')
-  .replace('def', '\\n+(?=' + block.def.source + ')')
-  .getRegex();
-
-block._tag = 'address|article|aside|base|basefont|blockquote|body|caption'
-  + '|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption'
-  + '|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe'
-  + '|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option'
-  + '|p|param|section|source|summary|table|tbody|td|tfoot|th|thead|title|tr'
-  + '|track|ul';
-block._comment = /<!--(?!-?>)[\s\S]*?(?:-->|$)/;
-block.html = edit(block.html, 'i')
-  .replace('comment', block._comment)
-  .replace('tag', block._tag)
-  .replace('attribute', / +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/)
-  .getRegex();
-
-block.paragraph = edit(block._paragraph)
-  .replace('hr', block.hr)
-  .replace('heading', ' {0,3}#{1,6} ')
-  .replace('|lheading', '') // setex headings don't interrupt commonmark paragraphs
-  .replace('|table', '')
-  .replace('blockquote', ' {0,3}>')
-  .replace('fences', ' {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n')
-  .replace('list', ' {0,3}(?:[*+-]|1[.)]) ') // only lists starting from 1 can interrupt
-  .replace('html', '</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)')
-  .replace('tag', block._tag) // pars can be interrupted by type (6) html blocks
-  .getRegex();
-
-block.blockquote = edit(block.blockquote)
-  .replace('paragraph', block.paragraph)
-  .getRegex();
-
-/**
- * Normal Block Grammar
- */
-
-block.normal = merge({}, block);
-
-/**
- * GFM Block Grammar
- */
-
-block.gfm = merge({}, block.normal, {
-  table: '^ *([^\\n ].*\\|.*)\\n' // Header
-    + ' {0,3}(?:\\| *)?(:?-+:? *(?:\\| *:?-+:? *)*)(?:\\| *)?' // Align
-    + '(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)' // Cells
-});
-
-block.gfm.table = edit(block.gfm.table)
-  .replace('hr', block.hr)
-  .replace('heading', ' {0,3}#{1,6} ')
-  .replace('blockquote', ' {0,3}>')
-  .replace('code', ' {4}[^\\n]')
-  .replace('fences', ' {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n')
-  .replace('list', ' {0,3}(?:[*+-]|1[.)]) ') // only lists starting from 1 can interrupt
-  .replace('html', '</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)')
-  .replace('tag', block._tag) // tables can be interrupted by type (6) html blocks
-  .getRegex();
-
-block.gfm.paragraph = edit(block._paragraph)
-  .replace('hr', block.hr)
-  .replace('heading', ' {0,3}#{1,6} ')
-  .replace('|lheading', '') // setex headings don't interrupt commonmark paragraphs
-  .replace('table', block.gfm.table) // interrupt paragraphs with table
-  .replace('blockquote', ' {0,3}>')
-  .replace('fences', ' {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n')
-  .replace('list', ' {0,3}(?:[*+-]|1[.)]) ') // only lists starting from 1 can interrupt
-  .replace('html', '</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)')
-  .replace('tag', block._tag) // pars can be interrupted by type (6) html blocks
-  .getRegex();
-/**
- * Pedantic grammar (original John Gruber's loose markdown specification)
- */
-
-block.pedantic = merge({}, block.normal, {
-  html: edit(
-    '^ *(?:comment *(?:\\n|\\s*$)'
-    + '|<(tag)[\\s\\S]+?</\\1> *(?:\\n{2,}|\\s*$)' // closed tag
-    + '|<tag(?:"[^"]*"|\'[^\']*\'|\\s[^\'"/>\\s]*)*?/?> *(?:\\n{2,}|\\s*$))')
-    .replace('comment', block._comment)
-    .replace(/tag/g, '(?!(?:'
-      + 'a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub'
-      + '|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)'
-      + '\\b)\\w+(?!:|[^\\w\\s@]*@)\\b')
-    .getRegex(),
-  def: /^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/,
-  heading: /^(#{1,6})(.*)(?:\n+|$)/,
-  fences: noopTest, // fences not supported
-  lheading: /^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/,
-  paragraph: edit(block.normal._paragraph)
-    .replace('hr', block.hr)
-    .replace('heading', ' *#{1,6} *[^\n]')
-    .replace('lheading', block.lheading)
-    .replace('blockquote', ' {0,3}>')
-    .replace('|fences', '')
-    .replace('|list', '')
-    .replace('|html', '')
-    .getRegex()
-});
-
-/**
- * Inline-Level Grammar
- */
-const inline = {
-  escape: /^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/,
-  autolink: /^<(scheme:[^\s\x00-\x1f<>]*|email)>/,
-  url: noopTest,
-  tag: '^comment'
-    + '|^</[a-zA-Z][\\w:-]*\\s*>' // self-closing tag
-    + '|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>' // open tag
-    + '|^<\\?[\\s\\S]*?\\?>' // processing instruction, e.g. <?php ?>
-    + '|^<![a-zA-Z]+\\s[\\s\\S]*?>' // declaration, e.g. <!DOCTYPE html>
-    + '|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>', // CDATA section
-  link: /^!?\[(label)\]\(\s*(href)(?:\s+(title))?\s*\)/,
-  reflink: /^!?\[(label)\]\[(ref)\]/,
-  nolink: /^!?\[(ref)\](?:\[\])?/,
-  reflinkSearch: 'reflink|nolink(?!\\()',
-  emStrong: {
-    lDelim: /^(?:\*+(?:([punct_])|[^\s*]))|^_+(?:([punct*])|([^\s_]))/,
-    //        (1) and (2) can only be a Right Delimiter. (3) and (4) can only be Left.  (5) and (6) can be either Left or Right.
-    //          () Skip orphan inside strong                                      () Consume to delim     (1) #***                (2) a***#, a***                             (3) #***a, ***a                 (4) ***#              (5) #***#                 (6) a***a
-    rDelimAst: /^(?:[^_*\\]|\\.)*?\_\_(?:[^_*\\]|\\.)*?\*(?:[^_*\\]|\\.)*?(?=\_\_)|(?:[^*\\]|\\.)+(?=[^*])|[punct_](\*+)(?=[\s]|$)|(?:[^punct*_\s\\]|\\.)(\*+)(?=[punct_\s]|$)|[punct_\s](\*+)(?=[^punct*_\s])|[\s](\*+)(?=[punct_])|[punct_](\*+)(?=[punct_])|(?:[^punct*_\s\\]|\\.)(\*+)(?=[^punct*_\s])/,
-    rDelimUnd: /^(?:[^_*\\]|\\.)*?\*\*(?:[^_*\\]|\\.)*?\_(?:[^_*\\]|\\.)*?(?=\*\*)|(?:[^_\\]|\\.)+(?=[^_])|[punct*](\_+)(?=[\s]|$)|(?:[^punct*_\s\\]|\\.)(\_+)(?=[punct*\s]|$)|[punct*\s](\_+)(?=[^punct*_\s])|[\s](\_+)(?=[punct*])|[punct*](\_+)(?=[punct*])/ // ^- Not allowed for _
-  },
-  code: /^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/,
-  br: /^( {2,}|\\)\n(?!\s*$)/,
-  del: noopTest,
-  text: /^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/,
-  punctuation: /^([\spunctuation])/
-};
-
-// list of punctuation marks from CommonMark spec
-// without * and _ to handle the different emphasis markers * and _
-inline._punctuation = '!"#$%&\'()+\\-.,/:;<=>?@\\[\\]`^{|}~';
-inline.punctuation = edit(inline.punctuation).replace(/punctuation/g, inline._punctuation).getRegex();
-
-// sequences em should skip over [title](link), `code`, <html>
-inline.blockSkip = /\[[^\]]*?\]\([^\)]*?\)|`[^`]*?`|<[^>]*?>/g;
-// lookbehind is not available on Safari as of version 16
-// inline.escapedEmSt = /(?<=(?:^|[^\\)(?:\\[^])*)\\[*_]/g;
-inline.escapedEmSt = /(?:^|[^\\])(?:\\\\)*\\[*_]/g;
-
-inline._comment = edit(block._comment).replace('(?:-->|$)', '-->').getRegex();
-
-inline.emStrong.lDelim = edit(inline.emStrong.lDelim)
-  .replace(/punct/g, inline._punctuation)
-  .getRegex();
-
-inline.emStrong.rDelimAst = edit(inline.emStrong.rDelimAst, 'g')
-  .replace(/punct/g, inline._punctuation)
-  .getRegex();
-
-inline.emStrong.rDelimUnd = edit(inline.emStrong.rDelimUnd, 'g')
-  .replace(/punct/g, inline._punctuation)
-  .getRegex();
-
-inline._escapes = /\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/g;
-
-inline._scheme = /[a-zA-Z][a-zA-Z0-9+.-]{1,31}/;
-inline._email = /[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/;
-inline.autolink = edit(inline.autolink)
-  .replace('scheme', inline._scheme)
-  .replace('email', inline._email)
-  .getRegex();
-
-inline._attribute = /\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/;
-
-inline.tag = edit(inline.tag)
-  .replace('comment', inline._comment)
-  .replace('attribute', inline._attribute)
-  .getRegex();
-
-inline._label = /(?:\[(?:\\.|[^\[\]\\])*\]|\\.|`[^`]*`|[^\[\]\\`])*?/;
-inline._href = /<(?:\\.|[^\n<>\\])+>|[^\s\x00-\x1f]*/;
-inline._title = /"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/;
-
-inline.link = edit(inline.link)
-  .replace('label', inline._label)
-  .replace('href', inline._href)
-  .replace('title', inline._title)
-  .getRegex();
-
-inline.reflink = edit(inline.reflink)
-  .replace('label', inline._label)
-  .replace('ref', block._label)
-  .getRegex();
-
-inline.nolink = edit(inline.nolink)
-  .replace('ref', block._label)
-  .getRegex();
-
-inline.reflinkSearch = edit(inline.reflinkSearch, 'g')
-  .replace('reflink', inline.reflink)
-  .replace('nolink', inline.nolink)
-  .getRegex();
-
-/**
- * Normal Inline Grammar
- */
-
-inline.normal = merge({}, inline);
-
-/**
- * Pedantic Inline Grammar
- */
-
-inline.pedantic = merge({}, inline.normal, {
-  strong: {
-    start: /^__|\*\*/,
-    middle: /^__(?=\S)([\s\S]*?\S)__(?!_)|^\*\*(?=\S)([\s\S]*?\S)\*\*(?!\*)/,
-    endAst: /\*\*(?!\*)/g,
-    endUnd: /__(?!_)/g
-  },
-  em: {
-    start: /^_|\*/,
-    middle: /^()\*(?=\S)([\s\S]*?\S)\*(?!\*)|^_(?=\S)([\s\S]*?\S)_(?!_)/,
-    endAst: /\*(?!\*)/g,
-    endUnd: /_(?!_)/g
-  },
-  link: edit(/^!?\[(label)\]\((.*?)\)/)
-    .replace('label', inline._label)
-    .getRegex(),
-  reflink: edit(/^!?\[(label)\]\s*\[([^\]]*)\]/)
-    .replace('label', inline._label)
-    .getRegex()
-});
-
-/**
- * GFM Inline Grammar
- */
-
-inline.gfm = merge({}, inline.normal, {
-  escape: edit(inline.escape).replace('])', '~|])').getRegex(),
-  _extended_email: /[A-Za-z0-9._+-]+(@)[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![-_])/,
-  url: /^((?:ftp|https?):\/\/|www\.)(?:[a-zA-Z0-9\-]+\.?)+[^\s<]*|^email/,
-  _backpedal: /(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/,
-  del: /^(~~?)(?=[^\s~])([\s\S]*?[^\s~])\1(?=[^~]|$)/,
-  text: /^([`~]+|[^`~])(?:(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|https?:\/\/|ftp:\/\/|www\.|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)))/
-});
-
-inline.gfm.url = edit(inline.gfm.url, 'i')
-  .replace('email', inline.gfm._extended_email)
-  .getRegex();
-/**
- * GFM + Line Breaks Inline Grammar
- */
-
-inline.breaks = merge({}, inline.gfm, {
-  br: edit(inline.br).replace('{2,}', '*').getRegex(),
-  text: edit(inline.gfm.text)
-    .replace('\\b_', '\\b_| {2,}\\n')
-    .replace(/\{2,\}/g, '*')
-    .getRegex()
-});
-
-/**
- * smartypants text replacement
- * @param {string} text
- */
-function smartypants(text) {
-  return text
-    // em-dashes
-    .replace(/---/g, '\u2014')
-    // en-dashes
-    .replace(/--/g, '\u2013')
-    // opening singles
-    .replace(/(^|[-\u2014/(\[{"\s])'/g, '$1\u2018')
-    // closing singles & apostrophes
-    .replace(/'/g, '\u2019')
-    // opening doubles
-    .replace(/(^|[-\u2014/(\[{\u2018\s])"/g, '$1\u201c')
-    // closing doubles
-    .replace(/"/g, '\u201d')
-    // ellipses
-    .replace(/\.{3}/g, '\u2026');
-}
-
-/**
- * mangle email addresses
- * @param {string} text
- */
-function mangle(text) {
-  let out = '',
-    i,
-    ch;
-
-  const l = text.length;
-  for (i = 0; i < l; i++) {
-    ch = text.charCodeAt(i);
-    if (Math.random() > 0.5) {
-      ch = 'x' + ch.toString(16);
-    }
-    out += '&#' + ch + ';';
-  }
-
-  return out;
-}
-
-/**
- * Block Lexer
- */
-class Lexer {
-  constructor(options) {
-    this.tokens = [];
-    this.tokens.links = Object.create(null);
-    this.options = options || defaults;
-    this.options.tokenizer = this.options.tokenizer || new Tokenizer();
-    this.tokenizer = this.options.tokenizer;
-    this.tokenizer.options = this.options;
-    this.tokenizer.lexer = this;
-    this.inlineQueue = [];
-    this.state = {
-      inLink: false,
-      inRawBlock: false,
-      top: true
-    };
-
-    const rules = {
-      block: block.normal,
-      inline: inline.normal
-    };
-
-    if (this.options.pedantic) {
-      rules.block = block.pedantic;
-      rules.inline = inline.pedantic;
-    } else if (this.options.gfm) {
-      rules.block = block.gfm;
-      if (this.options.breaks) {
-        rules.inline = inline.breaks;
-      } else {
-        rules.inline = inline.gfm;
-      }
-    }
-    this.tokenizer.rules = rules;
-  }
-
-  /**
-   * Expose Rules
-   */
-  static get rules() {
-    return {
-      block,
-      inline
-    };
-  }
-
-  /**
-   * Static Lex Method
-   */
-  static lex(src, options) {
-    const lexer = new Lexer(options);
-    return lexer.lex(src);
-  }
-
-  /**
-   * Static Lex Inline Method
-   */
-  static lexInline(src, options) {
-    const lexer = new Lexer(options);
-    return lexer.inlineTokens(src);
-  }
-
-  /**
-   * Preprocessing
-   */
-  lex(src) {
-    src = src
-      .replace(/\r\n|\r/g, '\n');
-
-    this.blockTokens(src, this.tokens);
-
-    let next;
-    while (next = this.inlineQueue.shift()) {
-      this.inlineTokens(next.src, next.tokens);
-    }
-
-    return this.tokens;
-  }
-
-  /**
-   * Lexing
-   */
-  blockTokens(src, tokens = []) {
-    if (this.options.pedantic) {
-      src = src.replace(/\t/g, '    ').replace(/^ +$/gm, '');
-    } else {
-      src = src.replace(/^( *)(\t+)/gm, (_, leading, tabs) => {
-        return leading + '    '.repeat(tabs.length);
-      });
-    }
-
-    let token, lastToken, cutSrc, lastParagraphClipped;
-
-    while (src) {
-      if (this.options.extensions
-        && this.options.extensions.block
-        && this.options.extensions.block.some((extTokenizer) => {
-          if (token = extTokenizer.call({ lexer: this }, src, tokens)) {
-            src = src.substring(token.raw.length);
-            tokens.push(token);
-            return true;
-          }
-          return false;
-        })) {
-        continue;
-      }
-
-      // newline
-      if (token = this.tokenizer.space(src)) {
-        src = src.substring(token.raw.length);
-        if (token.raw.length === 1 && tokens.length > 0) {
-          // if there's a single \n as a spacer, it's terminating the last line,
-          // so move it there so that we don't get unecessary paragraph tags
-          tokens[tokens.length - 1].raw += '\n';
-        } else {
-          tokens.push(token);
-        }
-        continue;
-      }
-
-      // code
-      if (token = this.tokenizer.code(src)) {
-        src = src.substring(token.raw.length);
-        lastToken = tokens[tokens.length - 1];
-        // An indented code block cannot interrupt a paragraph.
-        if (lastToken && (lastToken.type === 'paragraph' || lastToken.type === 'text')) {
-          lastToken.raw += '\n' + token.raw;
-          lastToken.text += '\n' + token.text;
-          this.inlineQueue[this.inlineQueue.length - 1].src = lastToken.text;
-        } else {
-          tokens.push(token);
-        }
-        continue;
-      }
-
-      // fences
-      if (token = this.tokenizer.fences(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // heading
-      if (token = this.tokenizer.heading(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // hr
-      if (token = this.tokenizer.hr(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // blockquote
-      if (token = this.tokenizer.blockquote(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // list
-      if (token = this.tokenizer.list(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // html
-      if (token = this.tokenizer.html(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // def
-      if (token = this.tokenizer.def(src)) {
-        src = src.substring(token.raw.length);
-        lastToken = tokens[tokens.length - 1];
-        if (lastToken && (lastToken.type === 'paragraph' || lastToken.type === 'text')) {
-          lastToken.raw += '\n' + token.raw;
-          lastToken.text += '\n' + token.raw;
-          this.inlineQueue[this.inlineQueue.length - 1].src = lastToken.text;
-        } else if (!this.tokens.links[token.tag]) {
-          this.tokens.links[token.tag] = {
-            href: token.href,
-            title: token.title
-          };
-        }
-        continue;
-      }
-
-      // table (gfm)
-      if (token = this.tokenizer.table(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // lheading
-      if (token = this.tokenizer.lheading(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // top-level paragraph
-      // prevent paragraph consuming extensions by clipping 'src' to extension start
-      cutSrc = src;
-      if (this.options.extensions && this.options.extensions.startBlock) {
-        let startIndex = Infinity;
-        const tempSrc = src.slice(1);
-        let tempStart;
-        this.options.extensions.startBlock.forEach(function(getStartIndex) {
-          tempStart = getStartIndex.call({ lexer: this }, tempSrc);
-          if (typeof tempStart === 'number' && tempStart >= 0) { startIndex = Math.min(startIndex, tempStart); }
-        });
-        if (startIndex < Infinity && startIndex >= 0) {
-          cutSrc = src.substring(0, startIndex + 1);
-        }
-      }
-      if (this.state.top && (token = this.tokenizer.paragraph(cutSrc))) {
-        lastToken = tokens[tokens.length - 1];
-        if (lastParagraphClipped && lastToken.type === 'paragraph') {
-          lastToken.raw += '\n' + token.raw;
-          lastToken.text += '\n' + token.text;
-          this.inlineQueue.pop();
-          this.inlineQueue[this.inlineQueue.length - 1].src = lastToken.text;
-        } else {
-          tokens.push(token);
-        }
-        lastParagraphClipped = (cutSrc.length !== src.length);
-        src = src.substring(token.raw.length);
-        continue;
-      }
-
-      // text
-      if (token = this.tokenizer.text(src)) {
-        src = src.substring(token.raw.length);
-        lastToken = tokens[tokens.length - 1];
-        if (lastToken && lastToken.type === 'text') {
-          lastToken.raw += '\n' + token.raw;
-          lastToken.text += '\n' + token.text;
-          this.inlineQueue.pop();
-          this.inlineQueue[this.inlineQueue.length - 1].src = lastToken.text;
-        } else {
-          tokens.push(token);
-        }
-        continue;
-      }
-
-      if (src) {
-        const errMsg = 'Infinite loop on byte: ' + src.charCodeAt(0);
-        if (this.options.silent) {
-          console.error(errMsg);
-          break;
-        } else {
-          throw new Error(errMsg);
-        }
-      }
-    }
-
-    this.state.top = true;
-    return tokens;
-  }
-
-  inline(src, tokens = []) {
-    this.inlineQueue.push({ src, tokens });
-    return tokens;
-  }
-
-  /**
-   * Lexing/Compiling
-   */
-  inlineTokens(src, tokens = []) {
-    let token, lastToken, cutSrc;
-
-    // String with links masked to avoid interference with em and strong
-    let maskedSrc = src;
-    let match;
-    let keepPrevChar, prevChar;
-
-    // Mask out reflinks
-    if (this.tokens.links) {
-      const links = Object.keys(this.tokens.links);
-      if (links.length > 0) {
-        while ((match = this.tokenizer.rules.inline.reflinkSearch.exec(maskedSrc)) != null) {
-          if (links.includes(match[0].slice(match[0].lastIndexOf('[') + 1, -1))) {
-            maskedSrc = maskedSrc.slice(0, match.index) + '[' + repeatString('a', match[0].length - 2) + ']' + maskedSrc.slice(this.tokenizer.rules.inline.reflinkSearch.lastIndex);
-          }
-        }
-      }
-    }
-    // Mask out other blocks
-    while ((match = this.tokenizer.rules.inline.blockSkip.exec(maskedSrc)) != null) {
-      maskedSrc = maskedSrc.slice(0, match.index) + '[' + repeatString('a', match[0].length - 2) + ']' + maskedSrc.slice(this.tokenizer.rules.inline.blockSkip.lastIndex);
-    }
-
-    // Mask out escaped em & strong delimiters
-    while ((match = this.tokenizer.rules.inline.escapedEmSt.exec(maskedSrc)) != null) {
-      maskedSrc = maskedSrc.slice(0, match.index + match[0].length - 2) + '++' + maskedSrc.slice(this.tokenizer.rules.inline.escapedEmSt.lastIndex);
-      this.tokenizer.rules.inline.escapedEmSt.lastIndex--;
-    }
-
-    while (src) {
-      if (!keepPrevChar) {
-        prevChar = '';
-      }
-      keepPrevChar = false;
-
-      // extensions
-      if (this.options.extensions
-        && this.options.extensions.inline
-        && this.options.extensions.inline.some((extTokenizer) => {
-          if (token = extTokenizer.call({ lexer: this }, src, tokens)) {
-            src = src.substring(token.raw.length);
-            tokens.push(token);
-            return true;
-          }
-          return false;
-        })) {
-        continue;
-      }
-
-      // escape
-      if (token = this.tokenizer.escape(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // tag
-      if (token = this.tokenizer.tag(src)) {
-        src = src.substring(token.raw.length);
-        lastToken = tokens[tokens.length - 1];
-        if (lastToken && token.type === 'text' && lastToken.type === 'text') {
-          lastToken.raw += token.raw;
-          lastToken.text += token.text;
-        } else {
-          tokens.push(token);
-        }
-        continue;
-      }
-
-      // link
-      if (token = this.tokenizer.link(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // reflink, nolink
-      if (token = this.tokenizer.reflink(src, this.tokens.links)) {
-        src = src.substring(token.raw.length);
-        lastToken = tokens[tokens.length - 1];
-        if (lastToken && token.type === 'text' && lastToken.type === 'text') {
-          lastToken.raw += token.raw;
-          lastToken.text += token.text;
-        } else {
-          tokens.push(token);
-        }
-        continue;
-      }
-
-      // em & strong
-      if (token = this.tokenizer.emStrong(src, maskedSrc, prevChar)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // code
-      if (token = this.tokenizer.codespan(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // br
-      if (token = this.tokenizer.br(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // del (gfm)
-      if (token = this.tokenizer.del(src)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // autolink
-      if (token = this.tokenizer.autolink(src, mangle)) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // url (gfm)
-      if (!this.state.inLink && (token = this.tokenizer.url(src, mangle))) {
-        src = src.substring(token.raw.length);
-        tokens.push(token);
-        continue;
-      }
-
-      // text
-      // prevent inlineText consuming extensions by clipping 'src' to extension start
-      cutSrc = src;
-      if (this.options.extensions && this.options.extensions.startInline) {
-        let startIndex = Infinity;
-        const tempSrc = src.slice(1);
-        let tempStart;
-        this.options.extensions.startInline.forEach(function(getStartIndex) {
-          tempStart = getStartIndex.call({ lexer: this }, tempSrc);
-          if (typeof tempStart === 'number' && tempStart >= 0) { startIndex = Math.min(startIndex, tempStart); }
-        });
-        if (startIndex < Infinity && startIndex >= 0) {
-          cutSrc = src.substring(0, startIndex + 1);
-        }
-      }
-      if (token = this.tokenizer.inlineText(cutSrc, smartypants)) {
-        src = src.substring(token.raw.length);
-        if (token.raw.slice(-1) !== '_') { // Track prevChar before string of ____ started
-          prevChar = token.raw.slice(-1);
-        }
-        keepPrevChar = true;
-        lastToken = tokens[tokens.length - 1];
-        if (lastToken && lastToken.type === 'text') {
-          lastToken.raw += token.raw;
-          lastToken.text += token.text;
-        } else {
-          tokens.push(token);
-        }
-        continue;
-      }
-
-      if (src) {
-        const errMsg = 'Infinite loop on byte: ' + src.charCodeAt(0);
-        if (this.options.silent) {
-          console.error(errMsg);
-          break;
-        } else {
-          throw new Error(errMsg);
-        }
-      }
-    }
-
-    return tokens;
-  }
-}
-
-/**
- * Renderer
- */
-class Renderer {
-  constructor(options) {
-    this.options = options || defaults;
-  }
-
-  code(code, infostring, escaped) {
-    const lang = (infostring || '').match(/\S*/)[0];
-    if (this.options.highlight) {
-      const out = this.options.highlight(code, lang);
-      if (out != null && out !== code) {
-        escaped = true;
-        code = out;
-      }
-    }
-
-    code = code.replace(/\n$/, '') + '\n';
-
-    if (!lang) {
-      return '<pre><code>'
-        + (escaped ? code : escape(code, true))
-        + '</code></pre>\n';
-    }
-
-    return '<pre><code class="'
-      + this.options.langPrefix
-      + escape(lang)
-      + '">'
-      + (escaped ? code : escape(code, true))
-      + '</code></pre>\n';
-  }
-
-  /**
-   * @param {string} quote
-   */
-  blockquote(quote) {
-    return `<blockquote>\n${quote}</blockquote>\n`;
-  }
-
-  html(html) {
-    return html;
-  }
-
-  /**
-   * @param {string} text
-   * @param {string} level
-   * @param {string} raw
-   * @param {any} slugger
-   */
-  heading(text, level, raw, slugger) {
-    if (this.options.headerIds) {
-      const id = this.options.headerPrefix + slugger.slug(raw);
-      return `<h${level} id="${id}">${text}</h${level}>\n`;
-    }
-
-    // ignore IDs
-    return `<h${level}>${text}</h${level}>\n`;
-  }
-
-  hr() {
-    return this.options.xhtml ? '<hr/>\n' : '<hr>\n';
-  }
-
-  list(body, ordered, start) {
-    const type = ordered ? 'ol' : 'ul',
-      startatt = (ordered && start !== 1) ? (' start="' + start + '"') : '';
-    return '<' + type + startatt + '>\n' + body + '</' + type + '>\n';
-  }
-
-  /**
-   * @param {string} text
-   */
-  listitem(text) {
-    return `<li>${text}</li>\n`;
-  }
-
-  checkbox(checked) {
-    return '<input '
-      + (checked ? 'checked="" ' : '')
-      + 'disabled="" type="checkbox"'
-      + (this.options.xhtml ? ' /' : '')
-      + '> ';
-  }
-
-  /**
-   * @param {string} text
-   */
-  paragraph(text) {
-    return `<p>${text}</p>\n`;
-  }
-
-  /**
-   * @param {string} header
-   * @param {string} body
-   */
-  table(header, body) {
-    if (body) body = `<tbody>${body}</tbody>`;
-
-    return '<table>\n'
-      + '<thead>\n'
-      + header
-      + '</thead>\n'
-      + body
-      + '</table>\n';
-  }
-
-  /**
-   * @param {string} content
-   */
-  tablerow(content) {
-    return `<tr>\n${content}</tr>\n`;
-  }
-
-  tablecell(content, flags) {
-    const type = flags.header ? 'th' : 'td';
-    const tag = flags.align
-      ? `<${type} align="${flags.align}">`
-      : `<${type}>`;
-    return tag + content + `</${type}>\n`;
-  }
-
-  /**
-   * span level renderer
-   * @param {string} text
-   */
-  strong(text) {
-    return `<strong>${text}</strong>`;
-  }
-
-  /**
-   * @param {string} text
-   */
-  em(text) {
-    return `<em>${text}</em>`;
-  }
-
-  /**
-   * @param {string} text
-   */
-  codespan(text) {
-    return `<code>${text}</code>`;
-  }
-
-  br() {
-    return this.options.xhtml ? '<br/>' : '<br>';
-  }
-
-  /**
-   * @param {string} text
-   */
-  del(text) {
-    return `<del>${text}</del>`;
-  }
-
-  /**
-   * @param {string} href
-   * @param {string} title
-   * @param {string} text
-   */
-  link(href, title, text) {
-    href = cleanUrl(this.options.sanitize, this.options.baseUrl, href);
-    if (href === null) {
-      return text;
-    }
-    let out = '<a href="' + href + '"';
-    if (title) {
-      out += ' title="' + title + '"';
-    }
-    out += '>' + text + '</a>';
-    return out;
-  }
-
-  /**
-   * @param {string} href
-   * @param {string} title
-   * @param {string} text
-   */
-  image(href, title, text) {
-    href = cleanUrl(this.options.sanitize, this.options.baseUrl, href);
-    if (href === null) {
-      return text;
-    }
-
-    let out = `<img src="${href}" alt="${text}"`;
-    if (title) {
-      out += ` title="${title}"`;
-    }
-    out += this.options.xhtml ? '/>' : '>';
-    return out;
-  }
-
-  text(text) {
-    return text;
-  }
-}
-
-/**
- * TextRenderer
- * returns only the textual part of the token
- */
-class TextRenderer {
-  // no need for block level renderers
-  strong(text) {
-    return text;
-  }
-
-  em(text) {
-    return text;
-  }
-
-  codespan(text) {
-    return text;
-  }
-
-  del(text) {
-    return text;
-  }
-
-  html(text) {
-    return text;
-  }
-
-  text(text) {
-    return text;
-  }
-
-  link(href, title, text) {
-    return '' + text;
-  }
-
-  image(href, title, text) {
-    return '' + text;
-  }
-
-  br() {
-    return '';
-  }
-}
-
-/**
- * Slugger generates header id
- */
-class Slugger {
-  constructor() {
-    this.seen = {};
-  }
-
-  /**
-   * @param {string} value
-   */
-  serialize(value) {
-    return value
-      .toLowerCase()
-      .trim()
-      // remove html tags
-      .replace(/<[!\/a-z].*?>/ig, '')
-      // remove unwanted chars
-      .replace(/[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,./:;<=>?@[\]^`{|}~]/g, '')
-      .replace(/\s/g, '-');
-  }
-
-  /**
-   * Finds the next safe (unique) slug to use
-   * @param {string} originalSlug
-   * @param {boolean} isDryRun
-   */
-  getNextSafeSlug(originalSlug, isDryRun) {
-    let slug = originalSlug;
-    let occurenceAccumulator = 0;
-    if (this.seen.hasOwnProperty(slug)) {
-      occurenceAccumulator = this.seen[originalSlug];
-      do {
-        occurenceAccumulator++;
-        slug = originalSlug + '-' + occurenceAccumulator;
-      } while (this.seen.hasOwnProperty(slug));
-    }
-    if (!isDryRun) {
-      this.seen[originalSlug] = occurenceAccumulator;
-      this.seen[slug] = 0;
-    }
-    return slug;
-  }
-
-  /**
-   * Convert string to unique id
-   * @param {object} [options]
-   * @param {boolean} [options.dryrun] Generates the next unique slug without
-   * updating the internal accumulator.
-   */
-  slug(value, options = {}) {
-    const slug = this.serialize(value);
-    return this.getNextSafeSlug(slug, options.dryrun);
-  }
-}
-
-/**
- * Parsing & Compiling
- */
-class Parser {
-  constructor(options) {
-    this.options = options || defaults;
-    this.options.renderer = this.options.renderer || new Renderer();
-    this.renderer = this.options.renderer;
-    this.renderer.options = this.options;
-    this.textRenderer = new TextRenderer();
-    this.slugger = new Slugger();
-  }
-
-  /**
-   * Static Parse Method
-   */
-  static parse(tokens, options) {
-    const parser = new Parser(options);
-    return parser.parse(tokens);
-  }
-
-  /**
-   * Static Parse Inline Method
-   */
-  static parseInline(tokens, options) {
-    const parser = new Parser(options);
-    return parser.parseInline(tokens);
-  }
-
-  /**
-   * Parse Loop
-   */
-  parse(tokens, top = true) {
-    let out = '',
-      i,
-      j,
-      k,
-      l2,
-      l3,
-      row,
-      cell,
-      header,
-      body,
-      token,
-      ordered,
-      start,
-      loose,
-      itemBody,
-      item,
-      checked,
-      task,
-      checkbox,
-      ret;
-
-    const l = tokens.length;
-    for (i = 0; i < l; i++) {
-      token = tokens[i];
-
-      // Run any renderer extensions
-      if (this.options.extensions && this.options.extensions.renderers && this.options.extensions.renderers[token.type]) {
-        ret = this.options.extensions.renderers[token.type].call({ parser: this }, token);
-        if (ret !== false || !['space', 'hr', 'heading', 'code', 'table', 'blockquote', 'list', 'html', 'paragraph', 'text'].includes(token.type)) {
-          out += ret || '';
-          continue;
-        }
-      }
-
-      switch (token.type) {
-        case 'space': {
-          continue;
-        }
-        case 'hr': {
-          out += this.renderer.hr();
-          continue;
-        }
-        case 'heading': {
-          out += this.renderer.heading(
-            this.parseInline(token.tokens),
-            token.depth,
-            unescape(this.parseInline(token.tokens, this.textRenderer)),
-            this.slugger);
-          continue;
-        }
-        case 'code': {
-          out += this.renderer.code(token.text,
-            token.lang,
-            token.escaped);
-          continue;
-        }
-        case 'table': {
-          header = '';
-
-          // header
-          cell = '';
-          l2 = token.header.length;
-          for (j = 0; j < l2; j++) {
-            cell += this.renderer.tablecell(
-              this.parseInline(token.header[j].tokens),
-              { header: true, align: token.align[j] }
-            );
-          }
-          header += this.renderer.tablerow(cell);
-
-          body = '';
-          l2 = token.rows.length;
-          for (j = 0; j < l2; j++) {
-            row = token.rows[j];
-
-            cell = '';
-            l3 = row.length;
-            for (k = 0; k < l3; k++) {
-              cell += this.renderer.tablecell(
-                this.parseInline(row[k].tokens),
-                { header: false, align: token.align[k] }
-              );
-            }
-
-            body += this.renderer.tablerow(cell);
-          }
-          out += this.renderer.table(header, body);
-          continue;
-        }
-        case 'blockquote': {
-          body = this.parse(token.tokens);
-          out += this.renderer.blockquote(body);
-          continue;
-        }
-        case 'list': {
-          ordered = token.ordered;
-          start = token.start;
-          loose = token.loose;
-          l2 = token.items.length;
-
-          body = '';
-          for (j = 0; j < l2; j++) {
-            item = token.items[j];
-            checked = item.checked;
-            task = item.task;
-
-            itemBody = '';
-            if (item.task) {
-              checkbox = this.renderer.checkbox(checked);
-              if (loose) {
-                if (item.tokens.length > 0 && item.tokens[0].type === 'paragraph') {
-                  item.tokens[0].text = checkbox + ' ' + item.tokens[0].text;
-                  if (item.tokens[0].tokens && item.tokens[0].tokens.length > 0 && item.tokens[0].tokens[0].type === 'text') {
-                    item.tokens[0].tokens[0].text = checkbox + ' ' + item.tokens[0].tokens[0].text;
-                  }
-                } else {
-                  item.tokens.unshift({
-                    type: 'text',
-                    text: checkbox
-                  });
-                }
-              } else {
-                itemBody += checkbox;
-              }
-            }
-
-            itemBody += this.parse(item.tokens, loose);
-            body += this.renderer.listitem(itemBody, task, checked);
-          }
-
-          out += this.renderer.list(body, ordered, start);
-          continue;
-        }
-        case 'html': {
-          // TODO parse inline content if parameter markdown=1
-          out += this.renderer.html(token.text);
-          continue;
-        }
-        case 'paragraph': {
-          out += this.renderer.paragraph(this.parseInline(token.tokens));
-          continue;
-        }
-        case 'text': {
-          body = token.tokens ? this.parseInline(token.tokens) : token.text;
-          while (i + 1 < l && tokens[i + 1].type === 'text') {
-            token = tokens[++i];
-            body += '\n' + (token.tokens ? this.parseInline(token.tokens) : token.text);
-          }
-          out += top ? this.renderer.paragraph(body) : body;
-          continue;
-        }
-
-        default: {
-          const errMsg = 'Token with "' + token.type + '" type was not found.';
-          if (this.options.silent) {
-            console.error(errMsg);
-            return;
-          } else {
-            throw new Error(errMsg);
-          }
-        }
-      }
-    }
-
-    return out;
-  }
-
-  /**
-   * Parse Inline Tokens
-   */
-  parseInline(tokens, renderer) {
-    renderer = renderer || this.renderer;
-    let out = '',
-      i,
-      token,
-      ret;
-
-    const l = tokens.length;
-    for (i = 0; i < l; i++) {
-      token = tokens[i];
-
-      // Run any renderer extensions
-      if (this.options.extensions && this.options.extensions.renderers && this.options.extensions.renderers[token.type]) {
-        ret = this.options.extensions.renderers[token.type].call({ parser: this }, token);
-        if (ret !== false || !['escape', 'html', 'link', 'image', 'strong', 'em', 'codespan', 'br', 'del', 'text'].includes(token.type)) {
-          out += ret || '';
-          continue;
-        }
-      }
-
-      switch (token.type) {
-        case 'escape': {
-          out += renderer.text(token.text);
-          break;
-        }
-        case 'html': {
-          out += renderer.html(token.text);
-          break;
-        }
-        case 'link': {
-          out += renderer.link(token.href, token.title, this.parseInline(token.tokens, renderer));
-          break;
-        }
-        case 'image': {
-          out += renderer.image(token.href, token.title, token.text);
-          break;
-        }
-        case 'strong': {
-          out += renderer.strong(this.parseInline(token.tokens, renderer));
-          break;
-        }
-        case 'em': {
-          out += renderer.em(this.parseInline(token.tokens, renderer));
-          break;
-        }
-        case 'codespan': {
-          out += renderer.codespan(token.text);
-          break;
-        }
-        case 'br': {
-          out += renderer.br();
-          break;
-        }
-        case 'del': {
-          out += renderer.del(this.parseInline(token.tokens, renderer));
-          break;
-        }
-        case 'text': {
-          out += renderer.text(token.text);
-          break;
-        }
-        default: {
-          const errMsg = 'Token with "' + token.type + '" type was not found.';
-          if (this.options.silent) {
-            console.error(errMsg);
-            return;
-          } else {
-            throw new Error(errMsg);
-          }
-        }
-      }
-    }
-    return out;
-  }
-}
-
-/**
- * Marked
- */
-function marked(src, opt, callback) {
-  // throw error in case of non string input
-  if (typeof src === 'undefined' || src === null) {
-    throw new Error('marked(): input parameter is undefined or null');
-  }
-  if (typeof src !== 'string') {
-    throw new Error('marked(): input parameter is of type '
-      + Object.prototype.toString.call(src) + ', string expected');
-  }
-
-  if (typeof opt === 'function') {
-    callback = opt;
-    opt = null;
-  }
-
-  opt = merge({}, marked.defaults, opt || {});
-  checkSanitizeDeprecation(opt);
-
-  if (callback) {
-    const highlight = opt.highlight;
-    let tokens;
-
-    try {
-      tokens = Lexer.lex(src, opt);
-    } catch (e) {
-      return callback(e);
-    }
-
-    const done = function(err) {
-      let out;
-
-      if (!err) {
-        try {
-          if (opt.walkTokens) {
-            marked.walkTokens(tokens, opt.walkTokens);
-          }
-          out = Parser.parse(tokens, opt);
-        } catch (e) {
-          err = e;
-        }
-      }
-
-      opt.highlight = highlight;
-
-      return err
-        ? callback(err)
-        : callback(null, out);
-    };
-
-    if (!highlight || highlight.length < 3) {
-      return done();
-    }
-
-    delete opt.highlight;
-
-    if (!tokens.length) return done();
-
-    let pending = 0;
-    marked.walkTokens(tokens, function(token) {
-      if (token.type === 'code') {
-        pending++;
-        setTimeout(() => {
-          highlight(token.text, token.lang, function(err, code) {
-            if (err) {
-              return done(err);
-            }
-            if (code != null && code !== token.text) {
-              token.text = code;
-              token.escaped = true;
-            }
-
-            pending--;
-            if (pending === 0) {
-              done();
-            }
-          });
-        }, 0);
-      }
-    });
-
-    if (pending === 0) {
-      done();
-    }
-
-    return;
-  }
-
-  function onError(e) {
-    e.message += '\nPlease report this to https://github.com/markedjs/marked.';
-    if (opt.silent) {
-      return '<p>An error occurred:</p><pre>'
-        + escape(e.message + '', true)
-        + '</pre>';
-    }
-    throw e;
-  }
-
-  try {
-    const tokens = Lexer.lex(src, opt);
-    if (opt.walkTokens) {
-      if (opt.async) {
-        return Promise.all(marked.walkTokens(tokens, opt.walkTokens))
-          .then(() => {
-            return Parser.parse(tokens, opt);
-          })
-          .catch(onError);
-      }
-      marked.walkTokens(tokens, opt.walkTokens);
-    }
-    return Parser.parse(tokens, opt);
-  } catch (e) {
-    onError(e);
-  }
-}
-
-/**
- * Options
- */
-
-marked.options =
-marked.setOptions = function(opt) {
-  merge(marked.defaults, opt);
-  changeDefaults(marked.defaults);
-  return marked;
-};
-
-marked.getDefaults = getDefaults;
-
-marked.defaults = defaults;
-
-/**
- * Use Extension
- */
-
-marked.use = function(...args) {
-  const extensions = marked.defaults.extensions || { renderers: {}, childTokens: {} };
-
-  args.forEach((pack) => {
-    // copy options to new object
-    const opts = merge({}, pack);
-
-    // set async to true if it was set to true before
-    opts.async = marked.defaults.async || opts.async;
-
-    // ==-- Parse "addon" extensions --== //
-    if (pack.extensions) {
-      pack.extensions.forEach((ext) => {
-        if (!ext.name) {
-          throw new Error('extension name required');
-        }
-        if (ext.renderer) { // Renderer extensions
-          const prevRenderer = extensions.renderers[ext.name];
-          if (prevRenderer) {
-            // Replace extension with func to run new extension but fall back if false
-            extensions.renderers[ext.name] = function(...args) {
-              let ret = ext.renderer.apply(this, args);
-              if (ret === false) {
-                ret = prevRenderer.apply(this, args);
-              }
-              return ret;
-            };
-          } else {
-            extensions.renderers[ext.name] = ext.renderer;
-          }
-        }
-        if (ext.tokenizer) { // Tokenizer Extensions
-          if (!ext.level || (ext.level !== 'block' && ext.level !== 'inline')) {
-            throw new Error("extension level must be 'block' or 'inline'");
-          }
-          if (extensions[ext.level]) {
-            extensions[ext.level].unshift(ext.tokenizer);
-          } else {
-            extensions[ext.level] = [ext.tokenizer];
-          }
-          if (ext.start) { // Function to check for start of token
-            if (ext.level === 'block') {
-              if (extensions.startBlock) {
-                extensions.startBlock.push(ext.start);
-              } else {
-                extensions.startBlock = [ext.start];
-              }
-            } else if (ext.level === 'inline') {
-              if (extensions.startInline) {
-                extensions.startInline.push(ext.start);
-              } else {
-                extensions.startInline = [ext.start];
-              }
-            }
-          }
-        }
-        if (ext.childTokens) { // Child tokens to be visited by walkTokens
-          extensions.childTokens[ext.name] = ext.childTokens;
-        }
-      });
-      opts.extensions = extensions;
-    }
-
-    // ==-- Parse "overwrite" extensions --== //
-    if (pack.renderer) {
-      const renderer = marked.defaults.renderer || new Renderer();
-      for (const prop in pack.renderer) {
-        const prevRenderer = renderer[prop];
-        // Replace renderer with func to run extension, but fall back if false
-        renderer[prop] = (...args) => {
-          let ret = pack.renderer[prop].apply(renderer, args);
-          if (ret === false) {
-            ret = prevRenderer.apply(renderer, args);
-          }
-          return ret;
-        };
-      }
-      opts.renderer = renderer;
-    }
-    if (pack.tokenizer) {
-      const tokenizer = marked.defaults.tokenizer || new Tokenizer();
-      for (const prop in pack.tokenizer) {
-        const prevTokenizer = tokenizer[prop];
-        // Replace tokenizer with func to run extension, but fall back if false
-        tokenizer[prop] = (...args) => {
-          let ret = pack.tokenizer[prop].apply(tokenizer, args);
-          if (ret === false) {
-            ret = prevTokenizer.apply(tokenizer, args);
-          }
-          return ret;
-        };
-      }
-      opts.tokenizer = tokenizer;
-    }
-
-    // ==-- Parse WalkTokens extensions --== //
-    if (pack.walkTokens) {
-      const walkTokens = marked.defaults.walkTokens;
-      opts.walkTokens = function(token) {
-        let values = [];
-        values.push(pack.walkTokens.call(this, token));
-        if (walkTokens) {
-          values = values.concat(walkTokens.call(this, token));
-        }
-        return values;
-      };
-    }
-
-    marked.setOptions(opts);
-  });
-};
-
-/**
- * Run callback for every token
- */
-
-marked.walkTokens = function(tokens, callback) {
-  let values = [];
-  for (const token of tokens) {
-    values = values.concat(callback.call(marked, token));
-    switch (token.type) {
-      case 'table': {
-        for (const cell of token.header) {
-          values = values.concat(marked.walkTokens(cell.tokens, callback));
-        }
-        for (const row of token.rows) {
-          for (const cell of row) {
-            values = values.concat(marked.walkTokens(cell.tokens, callback));
-          }
-        }
-        break;
-      }
-      case 'list': {
-        values = values.concat(marked.walkTokens(token.items, callback));
-        break;
-      }
-      default: {
-        if (marked.defaults.extensions && marked.defaults.extensions.childTokens && marked.defaults.extensions.childTokens[token.type]) { // Walk any extensions
-          marked.defaults.extensions.childTokens[token.type].forEach(function(childTokens) {
-            values = values.concat(marked.walkTokens(token[childTokens], callback));
-          });
-        } else if (token.tokens) {
-          values = values.concat(marked.walkTokens(token.tokens, callback));
-        }
-      }
-    }
-  }
-  return values;
-};
-
-/**
- * Parse Inline
- * @param {string} src
- */
-marked.parseInline = function(src, opt) {
-  // throw error in case of non string input
-  if (typeof src === 'undefined' || src === null) {
-    throw new Error('marked.parseInline(): input parameter is undefined or null');
-  }
-  if (typeof src !== 'string') {
-    throw new Error('marked.parseInline(): input parameter is of type '
-      + Object.prototype.toString.call(src) + ', string expected');
-  }
-
-  opt = merge({}, marked.defaults, opt || {});
-  checkSanitizeDeprecation(opt);
-
-  try {
-    const tokens = Lexer.lexInline(src, opt);
-    if (opt.walkTokens) {
-      marked.walkTokens(tokens, opt.walkTokens);
-    }
-    return Parser.parseInline(tokens, opt);
-  } catch (e) {
-    e.message += '\nPlease report this to https://github.com/markedjs/marked.';
-    if (opt.silent) {
-      return '<p>An error occurred:</p><pre>'
-        + escape(e.message + '', true)
-        + '</pre>';
-    }
-    throw e;
-  }
-};
-
-/**
- * Expose
- */
-marked.Parser = Parser;
-marked.parser = Parser.parse;
-marked.Renderer = Renderer;
-marked.TextRenderer = TextRenderer;
-marked.Lexer = Lexer;
-marked.lexer = Lexer.lex;
-marked.Tokenizer = Tokenizer;
-marked.Slugger = Slugger;
-marked.parse = marked;
-
-const options = marked.options;
-const setOptions = marked.setOptions;
-const use = marked.use;
-const walkTokens = marked.walkTokens;
-const parseInline = marked.parseInline;
-const parse = marked;
-const parser = Parser.parse;
-const lexer = Lexer.lex;
-
-
-
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/1947816842.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/1947816842.json ***!
-  \***********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Dennis Dickson","menuLinks":[{"name":"portfolio","link":"/"},{"name":"about/info.","link":"/about"},{"name":"resume/CV","link":"resume.pdf"},{"name":"shots/pixels","link":"/pixels"},{"name":"blog/writing","link":"/writing"}]}}}}');
 
 /***/ })
 

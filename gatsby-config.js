@@ -31,9 +31,7 @@ module.exports = {
     "gatsby-plugin-dark-mode",
     "gatsby-plugin-postcss",
     "gatsby-plugin-netlify-cms",
-    "gatsby-plugin-google-gtag",
     "gatsby-plugin-image",
-    "gatsby-plugin-sitemap",
     "gatsby-plugin-catch-links", 
     {
       resolve: `gatsby-source-filesystem`,
