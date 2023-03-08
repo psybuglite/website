@@ -13,15 +13,25 @@ const Writing = () => {
     <>
       <Layout>
         <main className="w-full">
-          <section className="grid grid-cols-5 border-b-2 border-[#323232] mb-24 pb-24 gap-16 max-w-[1080px] pt-32 mx-auto">
-            <h2 className="text-[28px]">Writing</h2>
-            <div className="wrapper">
+          <section className="border-b-2 border-[#323232] pb-24 max-w-[1080px] pt-32 mx-auto">
+            <h2 className="text-[52px]">Writing</h2>
+            <p className="max-w-3xl py-3">Articles on design and engineering.</p>
+            <div className="pt-12">
               <ul className="none">
-                <li className="article article-item wrapper-y mb-2">
-                  <Link to="" className="link article-link">
-                    <h3 className="mt-0 largetext co-white"></h3>
+                <li className="mb-4 py-4">
+                  <Link to="/writing/window-document-not-defined-gatsby-build" className="">
+                    <h3 className="text-[24px] link">How to fix 'document not defined' in Gatsby Build</h3>
                   </Link>
-                  <span className="ff-aquire co-white"></span>
+                  <p className="my-4 max-w-2xl">The error <span className="small-code">`document is not defined`</span> or <span className="small-code">`window is not defined`</span>window is not defined you see when building a gatsby project is as a result of gatsby attempting to query the DOM on the server as it is server-side rendering.</p>
+                </li>
+                <li className="mb-4 py-4">
+                  <Link to="/writing/how-to-setup-react-project-on-a-virtual-private-server" className="">
+                    <h3 className="text-[24px] link"> How to Set Up React Project on a Virtual Server</h3>
+                  </Link>
+                  <p className="my-4 max-w-2xl">So, you&#39;ve finished building up the UI for your React project
+              and you want to host it up on a remote machine. In this article,
+              we&#39;ll be using Google Cloud Platform to host our sample React
+              website.</p>
                 </li>
               </ul>
             </div>

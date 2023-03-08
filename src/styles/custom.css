@@ -60,3 +60,7 @@ body.dark {
   color: #fff;
   border-radius: 4px;
 }
+
+.link {
+  text-decoration: underline;
+}
