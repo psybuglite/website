@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 const Footer = () => (
-  <footer className="w-full">
+  <footer className="w-full px-4">
     <div className="flex pt-16 justify-center">
       <Link to="/">
         <span className="logo">
@@ -22,7 +22,7 @@ const Footer = () => (
         </span>
       </Link>
     </div>
-    <div className="w-[1392px] mx-auto flex justify-center py-4">
+    <div className="max-w-[1392px] mx-auto flex justify-center py-4">
       <div className="flex flex-col justify-center dark:text-[#eee]">
         <p className="py-2 text-center">Lets Talk</p>
         <a
@@ -165,7 +165,7 @@ const Footer = () => (
         </span>
       </span>
     </div>
-    <div className="w-[1392px] text-[12px] mx-auto dark:text-[#eee] flex justify-between py-4">
+    <div className="max-w-[1392px] text-[12px] mx-auto dark:text-[#eee] md:flex justify-between py-4">
       <div className="flex">
         <p>This site is built with</p>
         <div className="mx-1 flex items-center">
@@ -268,7 +268,7 @@ const Footer = () => (
         </div>
         <p>.</p>
       </div>
-      <p>Dennis Tamunotonye Dickson © 2023</p>
+      <p className="mt-4 md:mt-0">Dennis Tamunotonye Dickson © 2023</p>
     </div>
   </footer>
 );

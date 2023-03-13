@@ -29,8 +29,9 @@ body.dark {
   fill: black;
 }
 
-.bg-black.bg-active {
+.bg-transparent.bg-active {
   background-color: #DC5132;
+  color: white;
 }
 
 @media (prefers-color-scheme: dark) {

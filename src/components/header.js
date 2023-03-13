@@ -7,13 +7,12 @@ const Header = ({ menuLinks }) => {
   useEffect(() => {
 
 
-
   },[]);
 
   return (
 
-  <header className="w-full fixed">
-    <div className="w-[1392px] mx-auto flex justify-between items-start py-4">
+  <header className="w-full fixed px-4">
+    <div className="max-w-[1392px] mx-auto flex justify-between items-start py-4">
       <>
         <Link to="/">
           <span className="logo">
@@ -27,7 +26,7 @@ const Header = ({ menuLinks }) => {
         <ul className="flex flex-col items-end">
           {menuLinks.map((link) => (
             <li key={link.name} className="py-2 rounded-full dark:text-[#eee]">
-              <Link to={link.link} className="py-2 px-4 rounded-full bg-black text-white hover:bg-[#DC5132]" activeClassName="bg-active">
+              <Link to={link.link} className="py-2 px-4 rounded-full text-[14px] border border-[#212121] bg-transparent text-[#212121] hover:bg-[#DC5132] hover:text-white" activeClassName="bg-active">
                 {link.name}
               </Link>
             </li>

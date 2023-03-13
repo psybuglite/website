@@ -12,10 +12,10 @@ const Writing = () => {
   return (
     <>
       <Layout>
-        <main className="w-full">
+        <main className="w-full px-4">
           <section className="border-b-2 border-[#323232] pb-24 max-w-[1080px] pt-32 mx-auto">
             <h2 className="text-[52px]">Writing</h2>
-            <p className="max-w-3xl py-3">Articles on design and engineering.</p>
+            <p className="max-w-3xl py-3">Articles on design engineering covering project case studies, thought process, front-end strategy, techniques and best practices, focused on HTML, CSS, SVG, accessiblity, and everything in between.</p>
             <div className="pt-12">
               <ul className="none">
                 <li className="mb-4 py-4">

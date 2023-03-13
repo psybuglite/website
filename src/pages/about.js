@@ -16,11 +16,7 @@ const About = () => {
           <div className="col-span-3">
             <h2 className="text-[55px] font-bold mb-4"> Dennis Tamunotonye Dickson</h2>
             <p className="py-2">
-              I build digital experiences. I focus on UX Design, UI Design, and UI Development. I’m passionate about growth design, accessibility, and usability of digital products.
-            </p>
-            <p className="py-2">
-            I am a UX Designer and Developer with more than 4 years of experience in User Experience Design, User Interface Design, and User Interface Development. I have experience with frontend languages like Javascript, CSS, and HTML - which I used to build this website. 
-            
+              I build digital experiences. I specialize in Web Design, UX / UI, Webflow, and Front End Development.
             </p>
             <p className="py-2">
               I enjoy working as part of a team in a collaborative, team-centered environment with opportunities to learn and grow. I love to contribute and collaborate to solve problems. 

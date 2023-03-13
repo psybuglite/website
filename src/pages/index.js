@@ -8,8 +8,8 @@ import board from "../images/board.png";
 const IndexPage = () => {
   return (
     <Layout>
-      <main className="w-full">
-        <section className="grid grid-cols-3 gap-8 max-w-[1080px] pt-32 mx-auto">
+      <main className="w-full px-4">
+        <section className="grid md:grid-cols-3 gap-8 max-w-[1080px] pt-32 mx-auto">
           <div>
             <div className="w-full -mt-12 bg-blue-200 h-[160px] rounded-xl ">
               <img src={portrait} alt="portrait" className="w-full h-full rounded-xl  object-cover" />
