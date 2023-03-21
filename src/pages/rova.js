@@ -190,6 +190,15 @@ const Rova = () => {
         </div>
         <div className="bg-[#cccccc] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
         </div>
+        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#999999] dark:border-[#444444] px-4 py-16">
+          <div className="col-span-2 pt-8">
+            <h1 className="cursive text-[14px] md:text-[16px]">Final Thoughts</h1>
+          </div>
+          <div className="col-span-3 pt-8">
+            <p className="pb-6 font-semibold">"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green."</p>
+            <p className="pb-6 italic text-gray-500">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+          </div>
+        </section>
       </main>
       <Footer />
     </CaseStudy>
