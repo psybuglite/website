@@ -115,12 +115,12 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().c
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "flex flex-col justify-center dark:text-[#eee]"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-  className: "py-2 text-center"
-}, "Thanks for checking out my portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  className: "py-2 text-center max-w-lg mx-auto"
+}, "Thank you for your interest in my portfolio. If you would like to discuss more, share feedback, or ask any questions, I\u2019m just one click away!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
   className: "py-2 text-center"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "mailto:dennistdickson@gmail.com",
-  className: "flex email underline"
+  className: "flex email mx-auto underline"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
   className: "mr-2"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
@@ -320,7 +320,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().c
   fill: "black",
   "fill-opacity": "0.85"
 })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "mx-0 mt-4 md:mt-0 md:mx-4 flex flex-1 h-[1px] bg-blue-500"
+  className: "mx-0 mt-4 md:mt-0 md:mx-4 flex flex-1 h-[1px] bg-[#999999] dark:bg-[#444444]"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
   className: "mt-4 md:mt-0"
 }, "Dennis Tamunotonye Dickson \xA9 2023")));
@@ -375,10 +375,10 @@ const Header = ({
     className: "py-2.5 rounded-full dark:text-[#eee]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: link.link,
-    className: "py-2 px-4 rounded-full border border-[#212121] dark:border-[#444444] bg-transparent text-[#212121] dark:text-[#cccccc] hover:border-[#DC5132] hover:bg-[#DC5132] hover:text-white",
+    className: "py-2 px-4 rounded-full border border-[#999999] dark:border-[#444444] bg-transparent text-[#444444] dark:text-[#cccccc] hover:border-[#DC5132] hover:bg-[#DC5132] hover:text-white",
     activeClassName: "bg-active"
   }, link.name))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-    className: "mr-2 mt-2 bg-black dark:bg-white rounded-full"
+    className: "mr-2 px-2 mt-2 hover:cursor-pointer bg-black dark:bg-white rounded-full"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_dark_mode__WEBPACK_IMPORTED_MODULE_2__.ThemeToggler, null, ({
     theme,
     toggleTheme
@@ -519,77 +519,118 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
-/* harmony import */ var _images_home_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/home.png */ "./src/images/home.png");
-/* harmony import */ var _images_board_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/board.png */ "./src/images/board.png");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _images_home_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/home.png */ "./src/images/home.png");
+/* harmony import */ var _images_board_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/board.png */ "./src/images/board.png");
+/* harmony import */ var _images_portrait_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/portrait.jpg */ "./src/images/portrait.jpg");
+
+
 
 
 
 
 const IndexPage = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     className: "w-full px-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "max-w-[1080px] py-4 pt-36 mx-auto"
+    className: "max-w-[1080px] py-4 pt-36 md:flex items-center mx-auto"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "mx-12 mb-8 md:mb-0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: _images_portrait_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+    alt: "portrait",
+    className: "w-[100px] h-[100px] rounded-full object-cover"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "max-w-[600px]"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "My name is Dennis, and I\u2019m a designer from Nigeria \uD83C\uDDF3\uD83C\uDDEC."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I have been designing for 5+ years, and worked for 3 financial institutions and 4 start-ups."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "max-w-[1080px] py-4 mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "text-[60px] md:text-[100px] font-bold pt-12"
-  }, "Work "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "bg-[#a231a4] dark:bg-[#926893] my-8 p-4 rounded-xl h-[480px] relative"
+    className: "text-[44px] md:text-[52px] font-semibold cursive pt-12"
+  }, "Work "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "rova",
+    className: "block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 p-4 rounded-xl min-h-[250px] relative"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "text-white"
+    className: "text-[#212121] dark:text-[#dddddd]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute top-6 left-6 font-bold"
+    className: " text-[14px] absolute top-6 left-6 font-semibold"
   }, "ROVA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute bottom-6 left-6"
+    className: " text-[14px] absolute bottom-6 left-6 font-semibold"
   }, "Strategy, UX, UI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute bottom-6 right-6"
+    className: " text-[14px] absolute bottom-6 right-6 font-semibold"
   }, "2021 (Ongoing)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _images_home_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+    src: _images_home_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "home",
-    className: "h-full mx-auto"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "bg-[#0F52BA] my-8 p-4 rounded-xl h-[480px] relative"
+    className: "h-full max-h-[480px] mx-auto"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "rova",
+    className: "block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 p-4 rounded-xl min-h-[250px] relative"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "text-white"
+    className: "text-[#212121] dark:text-[#dddddd]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute top-6 left-6 font-bold"
+    className: " text-[14px] absolute top-6 left-6 font-semibold"
   }, "PRODEVS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute bottom-6 left-6"
+    className: " text-[14px] absolute bottom-6 left-6 font-semibold"
   }, "Strategy, WEB, UI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute bottom-6 right-6"
+    className: " text-[14px] absolute bottom-6 right-6 font-semibold"
   }, "2019")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _images_board_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+    src: _images_board_png__WEBPACK_IMPORTED_MODULE_4__["default"],
     alt: "board",
-    className: "h-full mx-auto"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "bg-[#800083] my-8 p-4 rounded-xl h-[480px] relative"
+    className: "h-full max-h-[500px] mx-auto"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "rova",
+    className: "block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 p-4 rounded-xl min-h-[250px] relative"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "text-white"
+    className: "text-[#212121] dark:text-[#dddddd]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute top-6 left-6 font-bold"
+    className: " text-[14px] absolute top-6 left-6 font-semibold"
   }, "PAYFLOW"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute bottom-6 left-6"
+    className: " text-[14px] absolute bottom-6 left-6 font-semibold"
   }, "Strategy, UX, UI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute bottom-6 right-6"
+    className: " text-[14px] absolute bottom-6 right-6 font-semibold"
   }, "2021")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _images_home_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+    src: _images_home_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "home",
-    className: "h-full mx-auto"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "bg-[#800083] my-8 p-4 rounded-xl h-[480px] relative"
+    className: "h-full max-h-[480px] mx-auto"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "rova",
+    className: "block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 p-4 rounded-xl min-h-[250px] relative"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "text-white"
+    className: "text-[#212121] dark:text-[#dddddd]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute top-6 left-6 font-bold"
+    className: " text-[14px] absolute top-6 left-6 font-semibold"
   }, "ZOAFIA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute bottom-6 left-6"
+    className: " text-[14px] absolute bottom-6 left-6 font-semibold"
   }, "Strategy, UX, UI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: " text-[14px] absolute bottom-6 right-6"
+    className: " text-[14px] absolute bottom-6 right-6 font-semibold"
   }, "2021")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _images_board_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+    src: _images_board_png__WEBPACK_IMPORTED_MODULE_4__["default"],
     alt: "board",
-    className: "h-full mx-auto"
-  })))));
+    className: "h-full max-h-[500px] mx-auto"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "max-w-[1080px] md:grid grid-cols-2 mx-auto gap-8 py-24"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: ""
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "font-semibold text-[32px] cursive pb-4"
+  }, "Publications"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I often write about project case studies, tutorials, and articles on all things front-end design engineering."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "py-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
+    className: "font-semibold text-[18px]"
+  }, "Recent Articles"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/writing/",
+    className: "underline inline-block py-2"
+  }, "How to fix 'document not defined' in Gatsby Build"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/writing/",
+    className: "underline inline-block py-2"
+  }, "How to Set Up React Project on a Virtual Server")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "my-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/writing",
+    className: "underline"
+  }, "See all articles"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "bg-black rounded-xl"
+  }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Home Page");
@@ -607,7 +648,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/board-aba06f55108c160adf8d5f88be93a772.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/board-fe7a0d2dda27b7338c4e86b77817682e.png");
 
 /***/ }),
 
@@ -622,7 +663,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/home-ebb53890ce0c5249b4fb9d11e10257f5.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/home-3e27572c6fdb87af306ad667ff79985c.png");
+
+/***/ }),
+
+/***/ "./src/images/portrait.jpg":
+/*!*********************************!*\
+  !*** ./src/images/portrait.jpg ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/portrait-dd528fb423959a7ad5938460c6d00612.jpg");
 
 /***/ }),
 
@@ -714,7 +770,7 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Dennis Dickson","menuLinks":[{"name":"portfolio","link":"/"},{"name":"about/info.","link":"/about"},{"name":"shots/pixels","link":"/pixels"},{"name":"blog/writing","link":"/writing"}]}}}}');
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Dennis Dickson","menuLinks":[{"name":"portfolio","link":"/"},{"name":"about/info.","link":"/about"},{"name":"shots/pixels","link":"/pixels"}]}}}}');
 
 /***/ })
 

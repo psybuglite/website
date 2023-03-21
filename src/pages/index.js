@@ -11,8 +11,114 @@ const IndexPage = () => {
     <Layout>
       <main className="w-full px-4">
         <section className="max-w-[1080px] py-4 pt-36 md:flex items-center mx-auto">
-          <div className="mx-12 mb-8 md:mb-0">
+          <div className="ml-8 mr-12 my-12 md:my-0 w-[100px] h-[100px] relative">
             <img src={portrait} alt="portrait" className="w-[100px] h-[100px] rounded-full object-cover" />
+            {/* <div className="warp absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-150%]" aria-labelledby="warp-label">
+              <span id="warp-label" class="warp__placeholder">
+                  DESIGN. CODE. WRITE. TEACH.
+              </span>
+      
+              <span aria-role="presentation">
+                  <span class="warp__0">
+                      D
+                  </span>
+                  <span class="warp__1">
+                      E
+                  </span>
+                  <span class="warp__2">
+                      S
+                  </span>
+                  <span class="warp__3">
+                      I
+                  </span>
+                  <span class="warp__4">
+                      G
+                  </span>
+                  <span class="warp__5">
+                      N
+                  </span>
+                  <span class="warp__6">
+                      .
+                  </span>
+                  <span class="warp__7">
+                      
+                  </span>
+                  <span class="warp__8">
+                      C
+                  </span>
+                  <span class="warp__9">
+                      O
+                  </span>
+                  <span class="warp__10">
+                      D
+                  </span>
+                  <span class="warp__11">
+                      E
+                  </span>
+                  <span class="warp__12">
+                      .
+                  </span>
+                  <span class="warp__13">
+                      
+                  </span>
+                  <span class="warp__14">
+                      W
+                  </span>
+                  <span class="warp__15">
+                      R
+                  </span>
+                  <span class="warp__16">
+                      I
+                  </span>
+                  <span class="warp__17">
+                      T
+                  </span>
+                  <span class="warp__18">
+                      E
+                  </span>
+                  <span class="warp__19">
+                      .
+                  </span>
+                  <span class="warp__20">
+                      
+                  </span>
+                  <span class="warp__21">
+                      T
+                  </span>
+                  <span class="warp__22">
+                      E
+                  </span>
+                  <span class="warp__23">
+                      A
+                  </span>
+                  <span class="warp__24">
+                      C
+                  </span>
+                  <span class="warp__25">
+                      H
+                  </span>
+                  <span class="warp__26">
+                      .
+                  </span>
+              </span>
+            </div> */}
+            <span className=" w-[150px] absolute z-10 h-[150px] top-[5px] left-[5px] translate-x-[-50%] translate-y-[-50%]">
+              <svg width={240} height={240} className="spin animate-pulse duration-150">
+                <defs>
+                  <path id="MyPath"
+                        d="
+                        M 60, 120
+                        a 60, 60 0 1,1 120,0
+                        a 60, 60 0 1,1 -120,0
+                      " />
+                </defs>
+                <text font-family="Montserrat" font-size="23" fill="#DC5132" stroke="rgb(237,125,49)">
+                  <textPath href="#MyPath">
+                      DESIGN.  CODE.  WRITE.  TEACH.
+                  </textPath>
+                </text>
+              </svg>
+            </span>
           </div>
           <div className="max-w-[600px]">
             <p>My name is Dennis, and I’m a designer from Nigeria 🇳🇬.
@@ -32,7 +138,7 @@ const IndexPage = () => {
             </div>
               <img src={home} alt="home" className="h-full max-h-[480px] mx-auto" />        
             </Link>
-          <Link to="rova" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 p-4 rounded-xl min-h-[250px] relative">
+          <Link to="rova" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 py-12 px-4 rounded-xl min-h-[250px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <span className=" text-[14px] absolute top-6 left-6 font-semibold">PRODEVS</span>
               <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, WEB, UI</span>
@@ -48,7 +154,7 @@ const IndexPage = () => {
             </div>
               <img src={home} alt="home" className="h-full max-h-[480px] mx-auto" />          
             </Link>
-          <Link to="rova" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 p-4 rounded-xl min-h-[250px] relative">
+          <Link to="rova" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 py-12 px-4 rounded-xl min-h-[250px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <span className=" text-[14px] absolute top-6 left-6 font-semibold">ZOAFIA</span>
               <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, UX, UI</span>
@@ -58,7 +164,7 @@ const IndexPage = () => {
             </Link>
         </section>
 
-        <section className="max-w-[1080px] md:grid grid-cols-2 mx-auto gap-8 py-24">
+        <section className="max-w-[1080px] md:grid grid-cols-2 mx-auto gap-8 py-24 border-b border-[#999999] dark:border-[#444444]">
           <div className="">
             <h2 className="font-semibold text-[32px] cursive pb-4">Publications</h2>
             <p>

@@ -10,9 +10,9 @@ const Rova = () => {
   return (
     <CaseStudy>
       <main className="w-full">
-        <section className="">
+        <section className="backdrop-blur sticky z-10 top-0 border-b border-[#999999] dark:border-[#444444]">
           <nav className="flex items-center justify-between">
-            <Link to="/" className="p-4 md:h-[80px] r-[1px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-r border-[#999999] dark:border-[#444444]">Portfolio</Link>
+            <Link to="/" className="p-4 font-semibold md:h-[80px] r-[1px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-r border-[#999999] dark:border-[#444444]">Portfolio</Link>
 
             <div className="px-2 bg-black dark:bg-white rounded-full">
               <ThemeToggler>
@@ -64,17 +64,14 @@ const Rova = () => {
               </ThemeToggler>
             </div>
 
-            <Link to="/" className="p-4 md:h-[80px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-l border-[#999999] dark:border-[#444444]">View</Link>
+            <Link to="/" className="p-4 font-semibold md:h-[80px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-l border-[#999999] dark:border-[#444444]">View</Link>
           </nav>
         </section>
 
-        <div className="bg-[#999999] dark:bg-[#444444] h-[1px]">
-        </div>
-
         <section className="max-w-[1080px] mx-auto border-r border-l border-[#999999] dark:border-[#444444] px-4 py-12">
-          <h1 className="cursive text-[38px] md:text-[52px]">ROVA : Borderless Banking</h1>
+          <h1 className="cursive text-[32px] md:text-[52px]">ROVA : Borderless Banking</h1>
           <div className="md:grid grid-cols-2">
-            <div className="pt-8">
+            <div className="pt-8 txt-[14px]">
               <div className="grid grid-cols-3 py-2">
                 <p className="font-semibold">Role</p>
                 <p className="col-span-2">Product Designer, Strategy, UX, UI</p>
@@ -100,7 +97,7 @@ const Rova = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">ROVA allows its customers to manage their money, exchange international currencies, bills and savings from their phone.</p>
-            <p className="pb-6 italic text-gray-500">I worked as part of a team of engineers, other designers, and other managerial staff. I primarily reported to the chief product officer, and occasionally to the product managers.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">I worked as part of a team of engineers, other designers, and other managerial staff. I primarily reported to the chief product officer, and occasionally to the product managers.</p>
           </div>
         </section>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#999999] dark:border-[#444444] px-4 py-16">
@@ -109,7 +106,7 @@ const Rova = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">ROVA allows its customers to manage their money, exchange international currencies, bills and savings from their  phone.</p>
-            <p className="pb-6 italic text-gray-500">Key focus was centered around design systems, organisation and planning, and visual designs.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">Key focus was centered around design systems, organisation and planning, and visual designs.</p>
           </div>
         </section>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#999999] dark:border-[#444444] px-4 py-16">
@@ -118,7 +115,7 @@ const Rova = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">We started with user research and strategy workshops, building a solid understanding of the pain points of frequent travellers to multiple countries,  as well as opportunities, and goals.</p>
-            <p className="pb-6 italic text-gray-500">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
           </div>
         </section>
         <div className="bg-[#cccccc] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
@@ -131,7 +128,7 @@ const Rova = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green."</p>
-            <p className="pb-6 italic text-gray-500">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
           </div>
         </section>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#999999] dark:border-[#444444] px-4 py-16">
@@ -140,7 +137,7 @@ const Rova = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green."</p>
-            <p className="pb-6 italic text-gray-500">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
           </div>
         </section>
         <div className="bg-[#cccccc] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
@@ -153,7 +150,7 @@ const Rova = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green."</p>
-            <p className="pb-6 italic text-gray-500">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
           </div>
         </section>
         <div className="bg-[#cccccc] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
@@ -166,7 +163,7 @@ const Rova = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green."</p>
-            <p className="pb-6 italic text-gray-500">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
           </div>
         </section>
         <div className="bg-[#cccccc] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
@@ -179,7 +176,7 @@ const Rova = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green."</p>
-            <p className="pb-6 italic text-gray-500">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
           </div>
         </section>
         <div className="bg-[#cccccc] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
@@ -196,7 +193,7 @@ const Rova = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green."</p>
-            <p className="pb-6 italic text-gray-500">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
           </div>
         </section>
       </main>

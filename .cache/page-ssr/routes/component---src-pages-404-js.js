@@ -115,12 +115,12 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().c
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "flex flex-col justify-center dark:text-[#eee]"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-  className: "py-2 text-center"
-}, "Thanks for checking out my portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  className: "py-2 text-center max-w-lg mx-auto"
+}, "Thank you for your interest in my portfolio. If you would like to discuss more, share feedback, or ask any questions, I\u2019m just one click away!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
   className: "py-2 text-center"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "mailto:dennistdickson@gmail.com",
-  className: "flex email underline"
+  className: "flex email mx-auto underline"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
   className: "mr-2"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
@@ -320,7 +320,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().c
   fill: "black",
   "fill-opacity": "0.85"
 })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "mx-0 mt-4 md:mt-0 md:mx-4 flex flex-1 h-[1px] bg-blue-500"
+  className: "mx-0 mt-4 md:mt-0 md:mx-4 flex flex-1 h-[1px] bg-[#999999] dark:bg-[#444444]"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
   className: "mt-4 md:mt-0"
 }, "Dennis Tamunotonye Dickson \xA9 2023")));
@@ -375,10 +375,10 @@ const Header = ({
     className: "py-2.5 rounded-full dark:text-[#eee]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: link.link,
-    className: "py-2 px-4 rounded-full border border-[#212121] dark:border-[#444444] bg-transparent text-[#212121] dark:text-[#cccccc] hover:border-[#DC5132] hover:bg-[#DC5132] hover:text-white",
+    className: "py-2 px-4 rounded-full border border-[#999999] dark:border-[#444444] bg-transparent text-[#444444] dark:text-[#cccccc] hover:border-[#DC5132] hover:bg-[#DC5132] hover:text-white",
     activeClassName: "bg-active"
   }, link.name))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-    className: "mr-2 mt-2 bg-black dark:bg-white rounded-full"
+    className: "mr-2 px-2 mt-2 hover:cursor-pointer bg-black dark:bg-white rounded-full"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_dark_mode__WEBPACK_IMPORTED_MODULE_2__.ThemeToggler, null, ({
     theme,
     toggleTheme
@@ -622,7 +622,7 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Dennis Dickson","menuLinks":[{"name":"portfolio","link":"/"},{"name":"about/info.","link":"/about"},{"name":"shots/pixels","link":"/pixels"},{"name":"blog/writing","link":"/writing"}]}}}}');
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Dennis Dickson","menuLinks":[{"name":"portfolio","link":"/"},{"name":"about/info.","link":"/about"},{"name":"shots/pixels","link":"/pixels"}]}}}}');
 
 /***/ })
 

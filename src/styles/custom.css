@@ -70,3 +70,19 @@ body.dark {
 .cursive {
   font-family: 'Cinzel Decorative', cursive;
 }
+
+
+/* Warp Text */
+
+.spin {
+  animation: spinit 10s linear infinite;
+}
+
+@keyframes spinit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

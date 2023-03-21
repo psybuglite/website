@@ -115,12 +115,12 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().c
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "flex flex-col justify-center dark:text-[#eee]"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-  className: "py-2 text-center"
-}, "Thanks for checking out my portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  className: "py-2 text-center max-w-lg mx-auto"
+}, "Thank you for your interest in my portfolio. If you would like to discuss more, share feedback, or ask any questions, I\u2019m just one click away!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
   className: "py-2 text-center"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "mailto:dennistdickson@gmail.com",
-  className: "flex email underline"
+  className: "flex email mx-auto underline"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
   className: "mr-2"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
@@ -320,7 +320,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().c
   fill: "black",
   "fill-opacity": "0.85"
 })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "mx-0 mt-4 md:mt-0 md:mx-4 flex flex-1 h-[1px] bg-blue-500"
+  className: "mx-0 mt-4 md:mt-0 md:mx-4 flex flex-1 h-[1px] bg-[#999999] dark:bg-[#444444]"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
   className: "mt-4 md:mt-0"
 }, "Dennis Tamunotonye Dickson \xA9 2023")));
@@ -375,10 +375,10 @@ const Header = ({
     className: "py-2.5 rounded-full dark:text-[#eee]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: link.link,
-    className: "py-2 px-4 rounded-full border border-[#212121] dark:border-[#444444] bg-transparent text-[#212121] dark:text-[#cccccc] hover:border-[#DC5132] hover:bg-[#DC5132] hover:text-white",
+    className: "py-2 px-4 rounded-full border border-[#999999] dark:border-[#444444] bg-transparent text-[#444444] dark:text-[#cccccc] hover:border-[#DC5132] hover:bg-[#DC5132] hover:text-white",
     activeClassName: "bg-active"
   }, link.name))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-    className: "mr-2 mt-2 bg-black dark:bg-white rounded-full"
+    className: "mr-2 px-2 mt-2 hover:cursor-pointer bg-black dark:bg-white rounded-full"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_dark_mode__WEBPACK_IMPORTED_MODULE_2__.ThemeToggler, null, ({
     theme,
     toggleTheme
@@ -529,7 +529,7 @@ const About = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "md:grid md:grid-cols-5 border-b-2 border-[#323232] mb-24 pb-24 gap-16 max-w-[1080px] pt-32 mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "col-span-2"
+    className: "col-span-2 pb-8"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "w-full -mt-12 bg-blue-200 md:h-[500px] h-[260px] rounded-xl "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
@@ -539,17 +539,26 @@ const About = () => {
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-span-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "md:text-[55px] text-[42px] font-bold my-4"
+    className: "md:text-[48px] text-[32px] font-semibold cursive mb-4"
   }, " Dennis Tamunotonye Dickson"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "py-2"
   }, "I build digital experiences. I specialize in Web Design, UX / UI, Webflow, and Front End Development."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "py-2"
-  }, "I enjoy working as part of a team in a collaborative, team-centered environment with opportunities to learn and grow. I love to contribute and collaborate to solve problems."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "max-w-[1080px] border-b-2 border-[#323232] mb-24 pb-24 py-4 mx-auto grid grid-cols-5 items-start gap-16"
+  }, "I enjoy working as part of a team in a collaborative, team-centered environment with opportunities to learn and grow. I love to contribute and collaborate to solve problems."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mt-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    target: "_blank",
+    rel: "noreferrer",
+    href: "https://drive.google.com/file/d/1S4pKsXHnEhIIoUOFdBw1JW9Amja2gWA_/view?usp=sharing",
+    className: ""
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "border border-[#323232] rounded-sm px-6 py-2"
+  }, "View Resume"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "max-w-[1080px] border-b-2 border-[#323232] mb-24 pb-24 py-4 mx-auto md:grid grid-cols-5 items-start gap-16"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-span-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "font-bold"
+    className: "font-semibold"
   }, "Clients / Projects")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-span-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
@@ -569,11 +578,11 @@ const About = () => {
   }, "Clinq Gold"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "text-[56px]"
   }, "Zoafia"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "max-w-[1080px] border-b-2 border-[#323232] mb-24 pb-24 py-4 mx-auto grid grid-cols-5 items-start gap-16"
+    className: "max-w-[1080px] border-b-2 border-[#323232] mb-24 pb-24 py-4 mx-auto md:grid grid-cols-5 items-start gap-16"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-span-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "font-bold"
+    className: "font-semibold"
   }, "Experience / History")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-span-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -617,11 +626,11 @@ const About = () => {
   }, "Rudigo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "text-[16px]"
   }, "Frontend Intern")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "max-w-[1080px] border-b-2 border-[#323232] mb-24 pb-24 py-4 mx-auto grid grid-cols-5 items-start gap-16"
+    className: "max-w-[1080px] border-b-2 border-[#323232] mb-24 pb-24 py-4 mx-auto md:grid grid-cols-5 items-start gap-16"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-span-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "font-bold"
+    className: "font-semibold"
   }, "Skills / Tools")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-span-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -629,23 +638,23 @@ const About = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: ""
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "pb-4 mt-0 text-[18px] font-bold"
+    className: "pb-4 mt-0 text-[18px] font-semibold"
   }, "UX"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "User Research"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "User Flows"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Design Systems"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Journey Mapping"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Information Architechture"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Wireframes"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Visual Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Prototyping"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "User Testing"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: ""
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "pb-4 mt-0 text-[18px] font-bold"
+    className: "pb-4 mt-0 text-[18px] font-semibold"
   }, "Tools"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Figma"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Adobe Suite"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Sketch"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Whimsical"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Miro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Balsamiq"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Maze"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Useberry"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: ""
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "pb-4 mt-0 text-[18px] font-bold"
+    className: "pb-4 mt-0 text-[18px] font-semibold"
   }, "UX"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "HTML/CSS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Gatsby.js"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Next.js"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "WordPress"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Webflow"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: ""
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "pb-4 mt-0 text-[18px] font-bold"
+    className: "pb-4 mt-0 text-[18px] font-semibold"
   }, "Analytics"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Hotjar"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Mixpanel"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Google Analytics"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: ""
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "pb-4 mt-0 text-[18px] font-bold"
+    className: "pb-4 mt-0 text-[18px] font-semibold"
   }, "Management"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Jira"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Trello"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Asana"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Notion"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Google Suite"))))))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
@@ -755,7 +764,7 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Dennis Dickson","menuLinks":[{"name":"portfolio","link":"/"},{"name":"about/info.","link":"/about"},{"name":"shots/pixels","link":"/pixels"},{"name":"blog/writing","link":"/writing"}]}}}}');
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Dennis Dickson","menuLinks":[{"name":"portfolio","link":"/"},{"name":"about/info.","link":"/about"},{"name":"shots/pixels","link":"/pixels"}]}}}}');
 
 /***/ })
 
