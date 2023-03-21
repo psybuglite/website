@@ -93,7 +93,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
-  className: "w-full"
+  className: "w-full px-4"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "flex pt-16 justify-center"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
@@ -111,12 +111,14 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().c
   "clip-rule": "evenodd",
   d: "M23.5553 0.760654C21.4018 0.37215 19.1986 0.339595 17.0368 0.662991V43.8158H15.5553V0.942056C13.2266 1.47234 10.9718 2.42491 8.90877 3.79977C3.3432 7.50881 0 13.7544 0 20.4426V74.3661C0 81.0544 3.3432 87.2999 8.90877 91.009C15.6255 95.4852 24.3745 95.4852 31.0912 91.009C36.6568 87.2999 40 81.0544 40 74.3661L40 20.4426C40 13.7544 36.6568 7.50882 31.0912 3.79977C29.2035 2.54176 27.1553 1.6373 25.0368 1.0864V43.7996H23.5553V0.760654ZM10.5745 70.3153V60.4477C12.1249 60.2356 14.0684 60.2437 15.6817 60.7962C16.6292 61.1207 17.4126 61.6151 17.9599 62.3133C18.4989 63.0008 18.8739 63.9674 18.8739 65.3623C18.8739 67.1709 19.3706 68.6251 20.2479 69.7441C21.1169 70.8524 22.2947 71.5502 23.5262 71.972C25.9554 72.8039 28.7841 72.6303 30.6339 72.244L31.4932 72.0646V71.1869V59.5378V58.6546L30.6275 58.4793C29.3098 58.2124 27.4135 58.1179 25.6537 58.3272C24.7701 58.4323 23.8813 58.6185 23.0976 58.9208C22.3263 59.2183 21.5658 59.6633 21.0528 60.3434L22.7772 61.6442C22.9522 61.4122 23.2984 61.1584 23.8749 60.9361C24.4392 60.7184 25.1395 60.5636 25.9088 60.4721C27.0849 60.3322 28.3297 60.3506 29.3332 60.4636V70.277C27.7828 70.4891 25.8393 70.481 24.226 69.9285C23.2785 69.604 22.4951 69.1095 21.9478 68.4114C21.4088 67.7239 21.0339 66.7572 21.0339 65.3623C21.0339 63.5537 20.5372 62.0996 19.6598 60.9806C18.7908 59.8722 17.613 59.1744 16.3815 58.7527C13.9523 57.9207 11.1236 58.0943 9.27376 58.4806L8.41453 58.66V59.5378V71.1869V72.0321L9.23506 72.2352C14.2746 73.4825 17.6224 71.7597 18.7963 70.4523L17.1891 69.0092C16.6565 69.6024 14.4404 71.022 10.5745 70.3153Z"
 }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "w-[1392px] mx-auto flex justify-center py-4"
+  className: "max-w-[1392px] mx-auto flex justify-center py-4"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "flex flex-col justify-center dark:text-[#eee]"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
   className: "py-2 text-center"
-}, "Lets Talk"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+}, "Thanks for checking out my portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  className: "py-2 text-center"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "mailto:dennistdickson@gmail.com",
   className: "flex email underline"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
@@ -231,7 +233,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().c
   "stroke-linecap": "round",
   "stroke-linejoin": "round"
 }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "w-[1392px] text-[12px] mx-auto dark:text-[#eee] flex justify-between py-4"
+  className: "max-w-[1392px] text-[12px] mx-auto dark:text-[#eee] md:flex justify-between items-center py-4"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "flex"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "This site is built with"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -317,7 +319,11 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().c
   d: "M1.35766 2.84672L1.40146 3.59124C1.88321 3.0219 2.54015 2.71533 3.28467 2.71533C4.64234 2.71533 5.34306 3.50365 5.34306 5.0365V9.32847H3.94161V5.12409C3.94161 4.68613 3.85402 4.42336 3.67883 4.24817C3.50365 4.0292 3.24088 3.89781 2.80292 3.89781C2.23358 3.89781 1.79562 4.16058 1.48905 4.72993V9.32847H0V2.84672H1.35766ZM9.67883 9.41606C8.80292 9.41606 8.0146 9.15328 7.48905 8.54015C6.87591 7.9708 6.61314 7.22628 6.61314 6.26277V6.08759C6.61314 5.43066 6.70073 4.86131 6.9635 4.33577C7.18425 3.8485 7.54188 3.43591 7.99286 3.14821C8.44385 2.86051 8.96874 2.71011 9.50365 2.71533C10.3796 2.71533 11.0803 3.0219 11.562 3.59124C12.0831 4.26618 12.347 5.10449 12.3066 5.9562V6.52555H8.05839C8.10219 7.09489 8.27737 7.48905 8.58394 7.83942C8.89051 8.14598 9.28467 8.27737 9.76642 8.27737C10.4234 8.27737 10.9927 8.0146 11.3869 7.48905L12.1752 8.23358C11.9204 8.60738 11.5734 8.90909 11.1679 9.10949C10.7299 9.32847 10.2482 9.45985 9.67883 9.45985V9.41606ZM9.50365 3.94161C9.10949 3.94161 8.80292 4.07299 8.54015 4.37956C8.28924 4.70997 8.13736 5.10486 8.10219 5.51825H10.8613V5.43066C10.8687 5.01643 10.7291 4.61298 10.4672 4.29197C10.2482 4.07299 9.9416 3.94161 9.50365 3.94161ZM15.2409 1.31387V2.89051H16.3796V3.94161H15.2409V7.53285C15.2409 7.79562 15.2847 7.9708 15.3723 8.05839C15.5036 8.18978 15.6788 8.23358 15.8978 8.23358L16.4234 8.18978V9.28467C16.1117 9.38679 15.7875 9.44573 15.4599 9.45985C14.365 9.45985 13.7956 8.84671 13.7956 7.57664V3.94161H12.7007V2.84672H13.7518V1.27007H15.1971L15.2409 1.31387ZM19.0511 9.37226H17.6058V0.175183H19.0511V9.37226ZM22.1606 9.37226H20.7153V2.84672H22.1606V9.32847V9.37226ZM20.6277 1.22628C20.6277 0.963504 20.7153 0.788321 20.8467 0.656934C20.9781 0.481752 21.1971 0.437956 21.4599 0.437956C21.7226 0.437956 21.8978 0.481752 22.073 0.656934C22.2044 0.788321 22.292 0.963504 22.292 1.22628C22.292 1.44526 22.2044 1.62044 22.073 1.75182C21.9416 1.88321 21.7226 1.9708 21.4599 1.9708C21.1971 1.9708 21.0219 1.88321 20.8467 1.75182C20.7153 1.62044 20.6277 1.44526 20.6277 1.22628ZM24.2628 9.37226V3.94161H23.2993V2.84672H24.2628V2.23358C24.2628 1.53285 24.4818 0.963504 24.8759 0.569343C25.2701 0.175183 25.8394 0 26.5401 0C26.8029 0 27.0657 -8.48387e-08 27.3723 0.0875912L27.3285 1.22628C27.1392 1.20725 26.9484 1.20725 26.7591 1.22628C26.0584 1.22628 25.708 1.53285 25.708 2.27737V2.84672H27.0219V3.94161H25.708V9.32847H24.2628V9.37226ZM30.3942 7.27007L31.708 2.89051H33.2409L30.6569 10.3358C30.2628 11.4307 29.6058 12 28.6423 12C28.4039 11.9882 28.1681 11.944 27.9416 11.8686V10.7299H28.2482C28.5985 10.7299 28.8613 10.7299 29.0803 10.5547C29.2902 10.3858 29.4431 10.1565 29.5182 9.89781L29.6934 9.32847L27.4161 2.89051H28.9927L30.3942 7.27007Z",
   fill: "black",
   "fill-opacity": "0.85"
-})))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Dennis Tamunotonye Dickson \xA9 2023")));
+})))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+  className: "mx-0 mt-4 md:mt-0 md:mx-4 flex flex-1 h-[1px] bg-blue-500"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  className: "mt-4 md:mt-0"
+}, "Dennis Tamunotonye Dickson \xA9 2023")));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 
 /***/ }),
@@ -345,9 +351,9 @@ const Header = ({
 }) => {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {}, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
-    className: "w-full fixed"
+    className: "w-full md:fixed absolute top-0 left-0 px-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "w-[1392px] mx-auto flex justify-between items-start py-4"
+    className: "max-w-[1392px] mx-auto flex justify-between items-start py-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
@@ -366,10 +372,10 @@ const Header = ({
     className: "flex flex-col items-end"
   }, menuLinks.map(link => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     key: link.name,
-    className: "py-2 rounded-full dark:text-[#eee]"
+    className: "py-2.5 rounded-full dark:text-[#eee]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: link.link,
-    className: "py-2 px-4 rounded-full bg-black text-white hover:bg-[#DC5132]",
+    className: "py-2 px-4 rounded-full border border-[#212121] dark:border-[#444444] bg-transparent text-[#212121] dark:text-[#cccccc] hover:border-[#DC5132] hover:bg-[#DC5132] hover:text-white",
     activeClassName: "bg-active"
   }, link.name))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "mr-2 mt-2 bg-black dark:bg-white rounded-full"
@@ -514,33 +520,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
-/* harmony import */ var _images_portrait_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/portrait.jpg */ "./src/images/portrait.jpg");
-/* harmony import */ var _images_home_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/home.png */ "./src/images/home.png");
-/* harmony import */ var _images_board_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/board.png */ "./src/images/board.png");
-
+/* harmony import */ var _images_home_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/home.png */ "./src/images/home.png");
+/* harmony import */ var _images_board_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/board.png */ "./src/images/board.png");
 
 
 
 
 const IndexPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
-    className: "w-full"
+    className: "w-full px-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "grid grid-cols-3 gap-8 max-w-[1080px] pt-32 mx-auto"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "w-full -mt-12 bg-blue-200 h-[160px] rounded-xl "
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _images_portrait_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
-    alt: "portrait",
-    className: "w-full h-full rounded-xl  object-cover"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-span-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: "text-[25px] mb-4"
-  }, "Hello. I\u2019m Dennis. \uD83D\uDC4B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I build digital experiences. I focus on UX Design, UI Design, and UI Development. I\u2019m passionate about growth design, accessibility, and usability of digital products."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "max-w-[1080px] py-4 mx-auto"
+    className: "max-w-[1080px] py-4 pt-36 mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "text-[55px] font-bold pt-12"
+    className: "text-[60px] md:text-[100px] font-bold pt-12"
   }, "Work "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "bg-[#a231a4] dark:bg-[#926893] my-8 p-4 rounded-xl h-[480px] relative"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -552,7 +544,7 @@ const IndexPage = () => {
   }, "Strategy, UX, UI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: " text-[14px] absolute bottom-6 right-6"
   }, "2021 (Ongoing)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _images_home_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+    src: _images_home_png__WEBPACK_IMPORTED_MODULE_2__["default"],
     alt: "home",
     className: "h-full mx-auto"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -566,7 +558,7 @@ const IndexPage = () => {
   }, "Strategy, WEB, UI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: " text-[14px] absolute bottom-6 right-6"
   }, "2019")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _images_board_png__WEBPACK_IMPORTED_MODULE_4__["default"],
+    src: _images_board_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "board",
     className: "h-full mx-auto"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -580,7 +572,7 @@ const IndexPage = () => {
   }, "Strategy, UX, UI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: " text-[14px] absolute bottom-6 right-6"
   }, "2021")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _images_home_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+    src: _images_home_png__WEBPACK_IMPORTED_MODULE_2__["default"],
     alt: "home",
     className: "h-full mx-auto"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -594,7 +586,7 @@ const IndexPage = () => {
   }, "Strategy, UX, UI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: " text-[14px] absolute bottom-6 right-6"
   }, "2021")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _images_board_png__WEBPACK_IMPORTED_MODULE_4__["default"],
+    src: _images_board_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "board",
     className: "h-full mx-auto"
   })))));
@@ -631,21 +623,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/home-ebb53890ce0c5249b4fb9d11e10257f5.png");
-
-/***/ }),
-
-/***/ "./src/images/portrait.jpg":
-/*!*********************************!*\
-  !*** ./src/images/portrait.jpg ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/portrait-dd528fb423959a7ad5938460c6d00612.jpg");
 
 /***/ }),
 
@@ -737,7 +714,7 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Dennis Dickson","menuLinks":[{"name":"portfolio","link":"/"},{"name":"about/info.","link":"/about"},{"name":"resume/CV","link":"resume.pdf"},{"name":"shots/pixels","link":"/pixels"},{"name":"blog/writing","link":"/writing"}]}}}}');
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Dennis Dickson","menuLinks":[{"name":"portfolio","link":"/"},{"name":"about/info.","link":"/about"},{"name":"shots/pixels","link":"/pixels"},{"name":"blog/writing","link":"/writing"}]}}}}');
 
 /***/ })
 

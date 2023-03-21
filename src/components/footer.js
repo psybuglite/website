@@ -24,10 +24,11 @@ const Footer = () => (
     </div>
     <div className="max-w-[1392px] mx-auto flex justify-center py-4">
       <div className="flex flex-col justify-center dark:text-[#eee]">
-        <p className="py-2 text-center">Lets Talk</p>
+        <p className="py-2 text-center max-w-lg mx-auto">Thank you for your interest in my portfolio. If you would like to discuss more, share feedback, or ask any questions, I’m just one click away!</p>
+        <p className="py-2 text-center"></p>
         <a
           href="mailto:dennistdickson@gmail.com"
-          className="flex email underline"
+          className="flex email mx-auto underline"
         >
           <span className="mr-2">
             <svg
@@ -165,7 +166,7 @@ const Footer = () => (
         </span>
       </span>
     </div>
-    <div className="max-w-[1392px] text-[12px] mx-auto dark:text-[#eee] md:flex justify-between py-4">
+    <div className="max-w-[1392px] text-[12px] mx-auto dark:text-[#eee] md:flex justify-between items-center py-4">
       <div className="flex">
         <p>This site is built with</p>
         <div className="mx-1 flex items-center">
@@ -268,6 +269,7 @@ const Footer = () => (
         </div>
         <p>.</p>
       </div>
+      <span className="mx-0 mt-4 md:mt-0 md:mx-4 flex flex-1 h-[1px] bg-[#999999] dark:bg-[#444444]"></span>
       <p className="mt-4 md:mt-0">Dennis Tamunotonye Dickson © 2023</p>
     </div>
   </footer>

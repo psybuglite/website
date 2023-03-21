@@ -11,7 +11,7 @@ const Header = ({ menuLinks }) => {
 
   return (
 
-  <header className="w-full fixed px-4">
+  <header className="w-full md:fixed absolute top-0 left-0 px-4">
     <div className="max-w-[1392px] mx-auto flex justify-between items-start py-4">
       <>
         <Link to="/">
@@ -25,13 +25,13 @@ const Header = ({ menuLinks }) => {
       <nav>
         <ul className="flex flex-col items-end">
           {menuLinks.map((link) => (
-            <li key={link.name} className="py-2 rounded-full dark:text-[#eee]">
-              <Link to={link.link} className="py-2 px-4 rounded-full text-[14px] border border-[#212121] bg-transparent text-[#212121] hover:bg-[#DC5132] hover:text-white" activeClassName="bg-active">
+            <li key={link.name} className="py-2.5 rounded-full dark:text-[#eee]">
+              <Link to={link.link} className="py-2 px-4 rounded-full border border-[#999999] dark:border-[#444444] bg-transparent text-[#444444] dark:text-[#cccccc] hover:border-[#DC5132] hover:bg-[#DC5132] hover:text-white" activeClassName="bg-active">
                 {link.name}
               </Link>
             </li>
           ))}
-          <li className="mr-2 mt-2 bg-black dark:bg-white rounded-full">
+          <li className="mr-2 px-2 mt-2 hover:cursor-pointer bg-black dark:bg-white rounded-full">
             <ThemeToggler>
               {({ theme, toggleTheme }) => (
                 <label className="relative cursor-pointer block p-3 ">

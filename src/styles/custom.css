@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
 
 body {
@@ -32,6 +32,7 @@ body.dark {
 .bg-transparent.bg-active {
   background-color: #DC5132;
   color: white;
+  border-color: #DC5132;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -64,4 +65,8 @@ body.dark {
 
 .link {
   text-decoration: underline;
+}
+
+.cursive {
+  font-family: 'Cinzel Decorative', cursive;
 }

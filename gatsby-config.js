@@ -14,16 +14,8 @@ module.exports = {
         link: "/about",
       },
       {
-        name: "resume/CV",
-        link: "resume.pdf",
-      },
-      {
         name: "shots/pixels",
         link: "/pixels",
-      },
-      {
-        name: "blog/writing",
-        link: "/writing",
       },
     ],
   },
