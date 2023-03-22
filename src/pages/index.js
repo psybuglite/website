@@ -25,7 +25,7 @@ const IndexPage = () => {
                               "
                   />
                 </defs>
-                <text fontFamily={"Garamond"} fontSize={23.6} fill={"#aaaaaa"} stroke={"#aaaaaa"}>
+                <text fontFamily={"serif"} fontSize={23.6} fill={"#aaaaaa"} stroke={"#aaaaaa"}>
                   <textPath href="#MyPath">.DESIGN. .CODE. .WRITE. .TEACH.</textPath>
                 </text>
               </svg>

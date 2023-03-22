@@ -11,6 +11,7 @@ const Footer = () => (
               height={95}
               viewBox="0 0 40 95"
               fill="none"
+              className="dark:fill-white fill-black"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
