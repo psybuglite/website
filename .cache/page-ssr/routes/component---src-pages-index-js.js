@@ -536,12 +536,28 @@ const IndexPage = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
     className: "max-w-[1080px] py-4 pt-36 md:flex items-center mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "mx-12 mb-8 md:mb-0"
+    className: "ml-8 mr-12 my-12 md:my-0 w-[100px] h-[100px] relative"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _images_portrait_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
     alt: "portrait",
     className: "w-[100px] h-[100px] rounded-full object-cover"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: " w-[150px] absolute z-10 h-[150px] top-[5px] left-[5px] translate-x-[-50%] translate-y-[-50%]"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    width: 240,
+    height: 240,
+    className: "spin animate-pulse duration-150"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "MyPath",
+    d: " M 60, 120 a 60, 60 0 1,1 120,0 a 60, 60 0 1,1 -120,0 "
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("text", {
+    "font-family": "Montserrat",
+    "font-size": "23",
+    fill: "#DC5132",
+    stroke: "rgb(237,125,49)"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textPath", {
+    href: "#MyPath"
+  }, "DESIGN.  CODE.  WRITE.  TEACH."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "max-w-[600px]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "My name is Dennis, and I\u2019m a designer from Nigeria \uD83C\uDDF3\uD83C\uDDEC."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I have been designing for 5+ years, and worked for 3 financial institutions and 4 start-ups."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
     className: "max-w-[1080px] py-4 mx-auto"
@@ -564,7 +580,7 @@ const IndexPage = () => {
     className: "h-full max-h-[480px] mx-auto"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "rova",
-    className: "block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 p-4 rounded-xl min-h-[250px] relative"
+    className: "block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 py-12 px-4 rounded-xl min-h-[250px] relative"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "text-[#212121] dark:text-[#dddddd]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -594,7 +610,7 @@ const IndexPage = () => {
     className: "h-full max-h-[480px] mx-auto"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "rova",
-    className: "block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 p-4 rounded-xl min-h-[250px] relative"
+    className: "block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 py-12 px-4 rounded-xl min-h-[250px] relative"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "text-[#212121] dark:text-[#dddddd]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -608,7 +624,7 @@ const IndexPage = () => {
     alt: "board",
     className: "h-full max-h-[500px] mx-auto"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "max-w-[1080px] md:grid grid-cols-2 mx-auto gap-8 py-24"
+    className: "max-w-[1080px] md:grid grid-cols-2 mx-auto gap-8 py-24 border-b border-[#999999] dark:border-[#444444]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: ""
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {

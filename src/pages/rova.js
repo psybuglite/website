@@ -105,8 +105,8 @@ const Rova = () => {
             <h1 className="cursive text-[14px] md:text-[16px]">Responsibilities & Business Goals</h1>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">ROVA allows its customers to manage their money, exchange international currencies, bills and savings from their  phone.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">Key focus was centered around design systems, organisation and planning, and visual designs.</p>
+            <p className="pb-6 font-semibold">During my time working on the ROAVA project, my focus was centered around design systems, organisation and planning, and visual designs.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">Other designers were involved in the project alongside me.</p>
           </div>
         </section>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#999999] dark:border-[#444444] px-4 py-16">

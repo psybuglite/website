@@ -377,12 +377,12 @@ const Rova = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_case_study__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
     className: "w-full"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "sticky top-0"
+    className: "backdrop-blur sticky z-10 top-0 border-b border-[#999999] dark:border-[#444444]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
     className: "flex items-center justify-between"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/",
-    className: "p-4 md:h-[80px] r-[1px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-r border-[#999999] dark:border-[#444444]"
+    className: "p-4 font-semibold md:h-[80px] r-[1px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-r border-[#999999] dark:border-[#444444]"
   }, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "px-2 bg-black dark:bg-white rounded-full"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_dark_mode_ThemeToggler__WEBPACK_IMPORTED_MODULE_4__["default"], null, ({
@@ -463,17 +463,15 @@ const Rova = () => {
     fill: "white"
   })))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/",
-    className: "p-4 md:h-[80px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-l border-[#999999] dark:border-[#444444]"
-  }, "View"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "bg-[#999999] dark:bg-[#444444] h-[1px]"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "p-4 font-semibold md:h-[80px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-l border-[#999999] dark:border-[#444444]"
+  }, "View"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "max-w-[1080px] mx-auto border-r border-l border-[#999999] dark:border-[#444444] px-4 py-12"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-    className: "cursive text-[38px] md:text-[52px]"
+    className: "cursive text-[32px] md:text-[52px]"
   }, "ROVA : Borderless Banking"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "md:grid grid-cols-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "pt-8"
+    className: "pt-8 txt-[14px]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "grid grid-cols-3 py-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
@@ -505,7 +503,7 @@ const Rova = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "pb-6 font-semibold"
   }, "ROVA allows its customers to manage their money, exchange international currencies, bills and savings from their phone."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "pb-6 italic text-gray-500"
+    className: "pb-6 italic text-gray-700 dark:text-gray-400"
   }, "I worked as part of a team of engineers, other designers, and other managerial staff. I primarily reported to the chief product officer, and occasionally to the product managers."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#999999] dark:border-[#444444] px-4 py-16"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -517,7 +515,7 @@ const Rova = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "pb-6 font-semibold"
   }, "ROVA allows its customers to manage their money, exchange international currencies, bills and savings from their  phone."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "pb-6 italic text-gray-500"
+    className: "pb-6 italic text-gray-700 dark:text-gray-400"
   }, "Key focus was centered around design systems, organisation and planning, and visual designs."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#999999] dark:border-[#444444] px-4 py-16"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -529,7 +527,7 @@ const Rova = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "pb-6 font-semibold"
   }, "We started with user research and strategy workshops, building a solid understanding of the pain points of frequent travellers to multiple countries,  as well as opportunities, and goals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "pb-6 italic text-gray-500"
+    className: "pb-6 italic text-gray-700 dark:text-gray-400"
   }, "With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. ."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bg-[#cccccc] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -545,7 +543,7 @@ const Rova = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "pb-6 font-semibold"
   }, "\"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green.\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "pb-6 italic text-gray-500"
+    className: "pb-6 italic text-gray-700 dark:text-gray-400"
   }, "With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. ."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#999999] dark:border-[#444444] px-4 py-16"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -557,7 +555,7 @@ const Rova = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "pb-6 font-semibold"
   }, "\"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green.\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "pb-6 italic text-gray-500"
+    className: "pb-6 italic text-gray-700 dark:text-gray-400"
   }, "With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. ."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bg-[#cccccc] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -573,7 +571,7 @@ const Rova = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "pb-6 font-semibold"
   }, "\"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green.\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "pb-6 italic text-gray-500"
+    className: "pb-6 italic text-gray-700 dark:text-gray-400"
   }, "With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. ."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bg-[#cccccc] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -589,7 +587,7 @@ const Rova = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "pb-6 font-semibold"
   }, "\"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green.\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "pb-6 italic text-gray-500"
+    className: "pb-6 italic text-gray-700 dark:text-gray-400"
   }, "With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. ."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bg-[#cccccc] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -605,7 +603,7 @@ const Rova = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "pb-6 font-semibold"
   }, "\"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green.\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "pb-6 italic text-gray-500"
+    className: "pb-6 italic text-gray-700 dark:text-gray-400"
   }, "With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. ."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bg-[#cccccc] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -625,7 +623,7 @@ const Rova = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "pb-6 font-semibold"
   }, "\"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green.\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "pb-6 italic text-gray-500"
+    className: "pb-6 italic text-gray-700 dark:text-gray-400"
   }, "With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Rova);
