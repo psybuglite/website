@@ -14,19 +14,19 @@ const IndexPage = () => {
           <div className="ml-8 mr-12 my-12 md:my-0 w-[100px] h-[100px] relative">
             <img src={portrait} alt="portrait" className="w-[100px] h-[100px] rounded-full object-cover" />
             <span className=" w-[150px] absolute z-10 h-[150px] top-[5px] left-[5px] translate-x-[-50%] translate-y-[-50%]">
-              <svg width={240} height={240} className="spin animate-pulse duration-150">
+              <svg width={240} height={240} className={"spin animate-pulse duration-150"}>
                 <defs>
-                  <path id="MyPath"
-                        d="
-                        M 60, 120
-                        a 60, 60 0 1,1 120,0
-                        a 60, 60 0 1,1 -120,0
-                      " />
+                  <path
+                    id="MyPath"
+                    d="
+                                M 60, 120
+                                a 60, 60 0 1,1 120,0
+                                a 60, 60 0 1,1 -120,0
+                              "
+                  />
                 </defs>
-                <text font-family="Montserrat" font-size="23" fill="#DC5132" stroke="rgb(237,125,49)">
-                  <textPath href="#MyPath">
-                      DESIGN.  CODE.  WRITE.  TEACH.
-                  </textPath>
+                <text fontFamily={"Garamond"} fontSize={23.6} fill={"#aaaaaa"} stroke={"#aaaaaa"}>
+                  <textPath href="#MyPath">.DESIGN. .CODE. .WRITE. .TEACH.</textPath>
                 </text>
               </svg>
             </span>

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');
 
 body {
   --bg: #E4E4E4;
@@ -25,7 +24,7 @@ body.dark {
 }
 
 
-.logo svg path {
+.logo-svg path {
   fill: black;
 }
 
@@ -36,7 +35,7 @@ body.dark {
 }
 
 @media (prefers-color-scheme: dark) {
-  body.dark .logo svg path { 
+  body.dark .logo-svg path { 
     fill: white; 
   }
   body.dark footer .link-arrow svg path { 
@@ -68,7 +67,7 @@ body.dark {
 }
 
 .cursive {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 
