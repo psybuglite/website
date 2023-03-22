@@ -4,8 +4,6 @@
 # here but we recommend using the Netlify UI for sensitive
 # values to keep them out of your source repository.
 [context.production]
-  publish = "output/"
-  command = "make publish"
   environment = { NODE_VERSION = "18.0.0" }
 
 # Here is an example of how to define context-specific
