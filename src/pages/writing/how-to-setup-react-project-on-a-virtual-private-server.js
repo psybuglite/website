@@ -11,8 +11,8 @@ const VirtualServer = () => {
   return (
     <Layout>
       <main className="w-full">
-        <section className="pt-32">
-          <div className="border-b-2 relative border-[#323232] pb-24 gap-16 max-w-[780px] mx-auto">
+        <section className="pt-64">
+          <div className="border-b-2 relative border-[#323232] pb-24 px-4 gap-16 max-w-[780px] mx-auto">
             
             <div className="mb-8">
               <h2 className="text-[32px]">
@@ -26,14 +26,14 @@ const VirtualServer = () => {
                 we&#39;ll be using Google Cloud Platform to host our sample React
                 website.
               </p>
-              <h2 className="py-4 text-[20px] font-bold" id="step-1-ssh-into-your-virtual-private-server">
+              <h2 className="py-4 text-[20px] font-semibold" id="step-1-ssh-into-your-virtual-private-server">
                 Step 1: SSH into your virtual private server
               </h2>
               <p className="py-4">
-                Build your React website using <code>npm build</code> and upload
+                Build your React website using <span className="small-code"><code>npm build</code></span> and upload
                 the code to your preferred git repository.
               </p>
-              <h2 className="py-4 text-[20px] font-bold" id="step-2-ssh-into-your-virtual-private-server">
+              <h2 className="py-4 text-[20px] font-semibold" id="step-2-ssh-into-your-virtual-private-server">
                 Step 2: SSH into your virtual private server
               </h2>
               <p className="py-4">Log in to your virtual private server</p>
@@ -61,7 +61,7 @@ const VirtualServer = () => {
                   <span class="hljs-keyword">1</span>
                 </code>
               </pre>
-              <h2 className="py-4 text-[20px] font-bold" id="step-3-install-apache">Step 3: Install Apache</h2>
+              <h2 className="py-4 text-[20px] font-semibold" id="step-3-install-apache">Step 3: Install Apache</h2>
               <pre>
                 <code class="lang-bash">
                   sudo apt-<span class="hljs-built_in">get</span>{" "}
@@ -73,7 +73,7 @@ const VirtualServer = () => {
                 At this point, if you go to your IP address, you should be able to
                 see Apache2 Debian Default Page.
               </p>
-              <h2 className="py-4 text-[20px] font-bold" id="step-4-install-git-and-clone-your-react-project">
+              <h2 className="py-4 text-[20px] font-semibold" id="step-4-install-git-and-clone-your-react-project">
                 Step 4: Install git and clone your React Project
               </h2>
               <p className="py-4">
@@ -92,7 +92,7 @@ const VirtualServer = () => {
                   <span class="hljs-title">&lt;git</span> repository&gt;
                 </code>
               </pre>
-              <h2 className="py-4 text-[20px] font-bold" id="step-5-copy-the-react-build-into-the-web-server-directory">
+              <h2 className="py-4 text-[20px] font-semibold" id="step-5-copy-the-react-build-into-the-web-server-directory">
                 Step 5: Copy the React build into the web server directory
               </h2>
               <p className="py-4">

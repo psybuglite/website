@@ -54,7 +54,7 @@ const Article = () => {
   return (
     <Layout>
       <main className="w-full">
-        <section className="border-b-2 border-[#323232] gap-16 max-w-[780px] pt-32 mx-auto">
+        <section className="border-b-2 border-[#323232] px-4 gap-16 max-w-[780px] pt-64 mx-auto">
           <div className=""></div>
           <div className="mb-8">
               <h2 className="text-[32px]">
@@ -63,7 +63,7 @@ const Article = () => {
           </div>
           <article className="wrapper-y will-grow articletext article-content">
             <p className="py-4">
-              The error <span className="small-code">`document is not defined`</span> or <span className="small-code">`window is not defined`</span>window is not defined you see when building a gatsby project is as a result of gatsby attempting to query the DOM on the server as it is server-side rendering. This can occur either when you're trying to manipulate or query the DOM.
+              The error <span className="small-code">`document is not defined`</span> or <span className="small-code">`window is not defined`</span> you see when building a gatsby project is as a result of gatsby attempting to query the DOM on the server as it is server-side rendering. This can occur either when you're trying to manipulate or query the DOM.
             </p>
 
             <p className="py-4">

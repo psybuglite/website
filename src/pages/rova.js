@@ -116,21 +116,21 @@ const Rova = () => {
           </nav>
         </section>
 
-        <section className="max-w-[1080px] mx-auto border-r border-l border-[#999999] dark:border-[#444444] px-4 py-12">
+        <section className="max-w-[1080px] mx-auto md:border-r md:border-l border-[#999999] dark:border-[#444444] px-4 py-12">
           <h1 className="cursive text-[32px] md:text-[52px]">ROVA : Borderless Banking</h1>
           <div className="md:grid grid-cols-2">
             <div className="pt-8 txt-[14px]">
               <div className="grid grid-cols-3 py-2">
                 <p className="font-semibold">Role</p>
-                <p className="col-span-2">Product Designer, Strategy, UX, UI</p>
+                <p className="col-span-2 italic">Product Designer</p>
               </div>
               <div className="grid grid-cols-3 py-2">
                 <p className="font-semibold">Of Interest</p>
-                <p className="col-span-2">Ongoing project with testing and refinement.</p>
+                <p className="col-span-2 italic">Ongoing project</p>
               </div>
               <div className="grid grid-cols-3 py-2">
                 <p className="font-semibold">Year</p>
-                <p className="col-span-2">2021 - Ongoing</p>
+                <p className="col-span-2 italic">2021 - Ongoing</p>
               </div>
             </div>
           </div>
