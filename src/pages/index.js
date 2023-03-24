@@ -45,7 +45,7 @@ const IndexPage = () => {
             <div className="text-[#212121] dark:text-[#dddddd]">
               <span className=" text-[14px] absolute top-6 left-6 font-semibold">ROVA</span>
               <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, UX, UI</span>
-              <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021 (Ongoing)</span>
+              <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021</span>
             </div>
               <img src={home} alt="home" className="h-full max-h-[480px] mx-auto" />        
             </Link>
@@ -77,7 +77,7 @@ const IndexPage = () => {
 
         <section className="max-w-[1080px] md:grid grid-cols-2 mx-auto gap-8 py-24 border-b border-[#999999] dark:border-[#444444]">
           <div className="">
-            <h2 className="font-semibold text-[32px] cursive pb-4">Publications</h2>
+            <h2 className="font-semibold text-[44px] md:text-[52px] cursive pb-4">Publications</h2>
             <p>
             I often write about project case studies, tutorials, and articles on all things front-end design engineering.
             </p>

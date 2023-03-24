@@ -13,10 +13,6 @@ module.exports = {
         name: "about/info.",
         link: "/about",
       },
-      {
-        name: "shots/pixels",
-        link: "/pixels",
-      },
     ],
   },
   plugins: [

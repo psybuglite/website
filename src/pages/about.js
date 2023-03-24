@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Layout>
       <main className="w-full px-4 pt-48 md:pt-32">
-        <section className="md:grid md:grid-cols-5 border-b-2 border-[#323232] mb-24 pb-24 gap-16 max-w-[1080px] pt-32 mx-auto">
+        <section className="md:grid md:grid-cols-5 border-b-2 border-[#cccccc] mb-24 pb-24 gap-16 max-w-[1080px] pt-32 mx-auto">
           <div className="col-span-2 pb-8">
             <div className="w-full -mt-12 bg-blue-200 md:h-[500px] h-[260px] rounded-xl ">
               <img src={portrait} alt="portrait" className="w-full h-full rounded-xl  object-cover" />
