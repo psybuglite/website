@@ -2,9 +2,12 @@ import React from "react"
 import { Link } from "gatsby";
 import CaseStudy from "../components/case-study";
 import ThemeToggler from "gatsby-plugin-dark-mode/ThemeToggler";
-// import hauserLogin from "../images/shots/hauser-login.png";
+import roavaAccount from "../images/roava/roava-account.png";
+import roavaSavings from "../images/roava/roava-savings.png";
+import roavaBrandCollage from "../images/roava/roava-brand-collage.png";
+import roavaBrandIcons from "../images/roava/roava-brand-icons.png";
 
-const Rova = () => {
+const Roava = () => {
 
   return (
     <CaseStudy>
@@ -116,7 +119,7 @@ const Rova = () => {
         </section>
 
         <section className="max-w-[1080px] mx-auto md:border-r md:border-l border-[#cccccc] dark:border-[#444444] px-4 py-12">
-          <h1 className="cursive text-[32px] md:text-[52px]">ROVA : Borderless Banking</h1>
+          <h1 className="cursive text-[32px] md:text-[52px]">ROAVA : Borderless Banking</h1>
           <div className="md:grid grid-cols-2">
             <div className="pt-8 txt-[14px]">
               <div className="md:grid grid-cols-3 py-2">
@@ -144,7 +147,7 @@ const Rova = () => {
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">1.1 Overview</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">ROVA allows its customers to manage their money, exchange international currencies, bills and savings from their phone.</p>
+            <p className="pb-6 font-semibold">ROaVA allows its customers to manage their money, exchange international currencies, bills and savings from their phone.</p>
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">I worked as part of a team of engineers, other designers, and other managerial staff. I primarily reported to the Chief Product Officer, and the product managers.</p>
           </div>
         </section>
@@ -194,8 +197,8 @@ const Rova = () => {
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">4.1 User Flows and User Journeys</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green."</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 font-semibold">"We first aimed for security and ease of use. The complexity of identity verification befor gaining access to the core features of the app was paramount."</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">The app should take new sign ups through a clearly detailed walkthrough of what to expect during the verification process.</p>
           </div>
         </section>
         <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
@@ -206,12 +209,14 @@ const Rova = () => {
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">5.1 Branding, Style, and Design System</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green."</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 font-semibold">Our goal was to use a brand style that enhanced the reliability of the Roava application for users in different corners of the world.</p>
           </div>
         </section>
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
-          brand guide | style guide
+        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
+        <img src={roavaBrandIcons} alt="" className="w-full h-full object-cover" />
+        </div>
+        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
+          <img src={roavaBrandCollage} alt="" className="w-full h-full object-cover" />
         </div>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
@@ -228,7 +233,7 @@ const Rova = () => {
         <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
           wireframes
         </div>
-        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
+        <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">7.1 User Interface & Prototype</h3>
           </div>
@@ -237,11 +242,27 @@ const Rova = () => {
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">A design system was created to facilitate quick changes to the designs as new observations were made and business crit .</p>
           </div>
         </section>
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
-          mockups
+        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
+          <div>
+            <img src={roavaSavings} alt="" className="w-full" />
+          </div>
+          <div>
+            <img src={roavaAccount} alt="" className="w-full" />
+          </div>
+          <div>
+            <img src={roavaAccount} alt="" className="w-full" />
+          </div>
         </div>
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
-          mockups
+        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
+          <div>
+            <img src={roavaSavings} alt="" className="w-full" />
+          </div>
+          <div>
+            <img src={roavaAccount} alt="" className="w-full" />
+          </div>
+          <div>
+            <img src={roavaAccount} alt="" className="w-full" />
+          </div>
         </div>
         <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
           prototype | animated
@@ -276,13 +297,12 @@ const Rova = () => {
           </div>
         </section>
         <section className="p-4">
-
-          <Link to="/rova" className="max-w-[1080px] block mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
-            <div className="col-span-2 pt-8">
+          <Link to="/roava" className="max-w-[1080px] block mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
+            <div className="col-span-2 pt-4">
               <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">Next Project:</h3>
             </div>
-            <div className="col-span-3 py-8 flex justify-between items-center">
-              <p className="font-semibold">Payflow.</p>
+            <div className="col-span-3 py-4 flex justify-between items-center">
+              <p className="font-semibold text-[16px] md:text-[18px]">Payflow.</p>
               <span>
                 <svg
                   width={25}
@@ -318,4 +338,4 @@ const Rova = () => {
   )
 }
 
-export default Rova
+export default Roava
