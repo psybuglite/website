@@ -6,6 +6,9 @@ import roavaAccount from "../images/roava/roava-account.png";
 import roavaSavings from "../images/roava/roava-savings.png";
 import roavaBrandCollage from "../images/roava/roava-brand-collage.png";
 import roavaBrandIcons from "../images/roava/roava-brand-icons.png";
+import roavaWireframes from "../images/roava/roava-wireframes.png";
+import roavaIa from "../images/roava/roava-ia.png";
+import roavaPersona from "../images/roava/roava-persona.png";
 
 const Roava = () => {
 
@@ -118,7 +121,7 @@ const Roava = () => {
           </nav>
         </section>
 
-        <section className="max-w-[1080px] mx-auto md:border-r md:border-l border-[#cccccc] dark:border-[#444444] px-4 py-12">
+        <section className="max-w-[1080px] mx-auto px-4 py-12">
           <h1 className="cursive text-[32px] md:text-[52px]">ROAVA : Borderless Banking</h1>
           <div className="md:grid grid-cols-2">
             <div className="pt-8 txt-[14px]">
@@ -138,7 +141,7 @@ const Roava = () => {
           </div>
         </section>
 
-        <div className="bg-[#dddddd] dark:bg-[#444444] h-[400px]">
+        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] h-[400px]">
           banner area | style guide | mockup
         </div>
 
@@ -178,8 +181,8 @@ const Roava = () => {
           </div>
         </section>
 
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
-          user persona 
+        <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
+          <img src={roavaPersona} alt="" className="w-full h-full object-cover" />
         </div>
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
@@ -194,15 +197,15 @@ const Roava = () => {
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">4.1 User Flows and User Journeys</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">4.1 IA & User Flows</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">"We first aimed for security and ease of use. The complexity of identity verification befor gaining access to the core features of the app was paramount."</p>
+            <p className="pb-6 font-semibold">We aimed for security and ease of onboarding new users. The complexity of identity verification before gaining access to the core features of the app cannot be simply overlooked for a financial application.</p>
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">The app should take new sign ups through a clearly detailed walkthrough of what to expect during the verification process.</p>
           </div>
         </section>
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
-          user journey table
+        <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
+          <img src={roavaIa} alt="" className="w-full h-full object-cover" />
         </div>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
@@ -227,11 +230,8 @@ const Roava = () => {
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">Noting all drop-off points during the use of the mobile app was important for subsequent changes to the design.</p>
           </div>
         </section>
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
-          sketches
-        </div>
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
-          wireframes
+        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
+          <img src={roavaWireframes} alt="" className="w-full h-full object-cover" />
         </div>
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
@@ -264,12 +264,9 @@ const Roava = () => {
             <img src={roavaAccount} alt="" className="w-full" />
           </div>
         </div>
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 h-[400px]">
-          prototype | animated
-        </div>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">8.1 Final Thoughts</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">8.1 Conclucion</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">Validated all design assumptions and compare them with the expectations from the stakeholders.</p>

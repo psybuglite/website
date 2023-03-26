@@ -48,15 +48,15 @@ const IndexPage = () => {
               <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, UX, UI</span>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021</span>
             </div>
-              <img src={roavaSavings} alt="home" className="h-full max-h-[480px] mx-auto" />        
-            </Link>
+              <img src={roavaSavings} alt="home" className="max-h-[380px] mx-auto" />        
+          </Link>
           <Link to="/roava" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 py-12 px-4 rounded-xl min-h-[250px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <span className=" text-[14px] absolute top-6 left-6 font-semibold">PRODEVS</span>
               <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, WEB, UI</span>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2019</span>
             </div>
-              <img src={board} alt="board" className="h-full max-h-[500px] mx-auto" />          
+              <img src={board} alt="board" className="max-h-[500px] mx-auto" />          
             </Link>
           <Link to="/roava" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 p-4 rounded-xl min-h-[250px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
@@ -64,7 +64,7 @@ const IndexPage = () => {
               <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, UX, UI</span>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021</span>
             </div>
-              <img src={home} alt="home" className="h-full max-h-[480px] mx-auto" />          
+              <img src={home} alt="home" className="max-h-[480px] mx-auto" />          
             </Link>
           <Link to="/roava" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 py-12 px-4 rounded-xl min-h-[250px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
@@ -72,7 +72,7 @@ const IndexPage = () => {
               <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, UX, UI</span>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021</span>
             </div>
-              <img src={board} alt="board" className="h-full max-h-[500px] mx-auto" />          
+              <img src={board} alt="board" className="max-h-[500px] mx-auto" />          
             </Link>
         </section>
 
