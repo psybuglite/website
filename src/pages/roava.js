@@ -2,13 +2,16 @@ import React from "react"
 import { Link } from "gatsby";
 import CaseStudy from "../components/case-study";
 import ThemeToggler from "gatsby-plugin-dark-mode/ThemeToggler";
-import roavaAccount from "../images/roava/roava-account.png";
+import roavaReceipt from "../images/roava/roava-receipt.png";
+import roavaPayment from "../images/roava/roava-payment.png";
 import roavaSavings from "../images/roava/roava-savings.png";
 import roavaBrandCollage from "../images/roava/roava-brand-collage.png";
 import roavaBrandIcons from "../images/roava/roava-brand-icons.png";
+import roavaStyle from "../images/roava/roava-style.png";
 import roavaWireframes from "../images/roava/roava-wireframes.png";
 import roavaIa from "../images/roava/roava-ia.png";
 import roavaPersona from "../images/roava/roava-persona.png";
+import roavaScreens from "../images/roava/roava-screens.png";
 
 const Roava = () => {
 
@@ -122,7 +125,7 @@ const Roava = () => {
         </section>
 
         <section className="max-w-[1080px] mx-auto px-4 py-12">
-          <h1 className="cursive text-[32px] md:text-[52px]">ROAVA : Borderless Banking</h1>
+          <h1 className="cursive text-[32px] md:text-[52px]">ROAVA</h1>
           <div className="md:grid grid-cols-2">
             <div className="pt-8 txt-[14px]">
               <div className="md:grid grid-cols-3 py-2">
@@ -221,6 +224,9 @@ const Roava = () => {
         <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
           <img src={roavaBrandCollage} alt="" className="w-full h-full object-cover" />
         </div>
+        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
+          <img src={roavaStyle} alt="" className="w-full h-full object-cover" />
+        </div>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">6.1 Wireframing and Feedback</h3>
@@ -247,26 +253,18 @@ const Roava = () => {
             <img src={roavaSavings} alt="" className="w-full" />
           </div>
           <div>
-            <img src={roavaAccount} alt="" className="w-full" />
+            <img src={roavaReceipt} alt="" className="w-full" />
           </div>
           <div>
-            <img src={roavaAccount} alt="" className="w-full" />
+            <img src={roavaPayment} alt="" className="w-full" />
           </div>
         </div>
-        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
-          <div>
-            <img src={roavaSavings} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={roavaAccount} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={roavaAccount} alt="" className="w-full" />
-          </div>
+        <div className="max-w-[1080px] mx-auto my-4">
+          <img src={roavaScreens} alt="" className="w-full h-full object-cover" />
         </div>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">8.1 Conclucion</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">8.1 Conclusion</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">Validated all design assumptions and compare them with the expectations from the stakeholders.</p>
