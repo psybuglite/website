@@ -245,7 +245,7 @@ const Roava = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">Communication, testing, and feedback with management resulted in a reduction in the number of user journeys and features that were given different priorities.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">A design system was created to facilitate quick changes to the designs as new observations were made and business crit .</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">A design system was created to facilitate quick changes to the designs as new observations were made and business-critical changes could be quickly adapted.</p>
           </div>
         </section>
         <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
