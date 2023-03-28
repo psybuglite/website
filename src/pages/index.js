@@ -13,9 +13,11 @@ const IndexPage = () => {
       <main className="w-full px-4">
         <section className="max-w-[1080px] py-4 pt-36 md:flex items-center mx-auto">
           <div className="ml-8 mr-12 my-12 md:my-0 w-[100px] h-[100px] relative">
-            <img src={portrait} alt="portrait" className="w-[100px] h-[100px] rounded-full object-cover" />
+            <Link to="/about" className="relative z-20">
+              <img src={portrait} alt="portrait" className="w-[100px] h-[100px] rounded-full object-cover hover:p-1" />
+            </Link>
             <span className=" w-[150px] absolute z-10 h-[150px] top-[5px] left-[5px] translate-x-[-50%] translate-y-[-50%]">
-              <svg width={240} height={240} className={"spin animate-pulse duration-150"}>
+              <svg width={240} height={240} className={"spin animate-pulse duration-150 fill-slate-400 hover:fill-orange-500"}>
                 <defs>
                   <path
                     id="MyPath"
@@ -26,7 +28,7 @@ const IndexPage = () => {
                               "
                   />
                 </defs>
-                <text fontFamily={"serif"} fontSize={23.6} fill={"#aaaaaa"} stroke={"#aaaaaa"}>
+                <text fontFamily={"serif"} fontSize={23.6}>
                   <textPath href="#MyPath">.DESIGN. .CODE. .WRITE. .TEACH.</textPath>
                 </text>
               </svg>

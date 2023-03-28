@@ -126,8 +126,8 @@ const Roava = () => {
 
         <section className="max-w-[1080px] mx-auto px-4 py-12">
           <h1 className="cursive text-[32px] md:text-[52px]">ROAVA</h1>
-          <div className="md:grid grid-cols-2">
-            <div className="pt-8 txt-[14px]">
+          <div className="md:grid grid-cols-3">
+            <div className="pt-8 txt-[14px] col-span-2">
               <div className="md:grid grid-cols-3 py-2">
                 <p className="font-semibold">Role</p>
                 <p className="col-span-2 italic">Product Designer</p>
@@ -153,7 +153,7 @@ const Roava = () => {
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">1.1 Overview</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">ROaVA allows its customers to manage their money, exchange international currencies, bills and savings from their phone.</p>
+            <p className="pb-6 font-semibold">ROAVA allows its customers to manage their money, exchange international currencies, bills and savings from their phone.</p>
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">I worked as part of a team of engineers, other designers, and other managerial staff. I primarily reported to the Chief Product Officer, and the product managers.</p>
           </div>
         </section>
@@ -178,9 +178,9 @@ const Roava = () => {
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">— Participants had difficulty interpreting the flow of information from one end of the application to the next.</p>
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">
-— User Journeys without a clear direction presented a challange for users to move from screen to screen.</p>
+              — User Journeys without a clear direction presented a challange for users to move from screen to screen.</p>
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">
-— Failure to properly manage excpectation of users lead to dissatisfaction and confusion and user’ interaction on the app..</p>
+              — Failure to properly manage excpectation of users lead to dissatisfaction and confusion and user’ interaction on the app.</p>
           </div>
         </section>
 
@@ -193,7 +193,7 @@ const Roava = () => {
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">3.1 Product Direction</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">"Make it so easy to order, that while browsing our lifestyle content, I can buy a phone case at a red light before it turns green."</p>
+            <p className="pb-6 font-semibold">Simplifying the ease of creating an account despite the financial regulatory requirements for the app was a vital part of the user's onboarding, without which, access to the core application features would not be granted.</p>
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
           </div>
         </section>
