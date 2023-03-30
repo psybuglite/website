@@ -11,6 +11,7 @@ import roavaStyle from "../images/roava/roava-style.png";
 import roavaWireframes from "../images/roava/roava-wireframes.png";
 import roavaIa from "../images/roava/roava-ia.png";
 import roavaPersona from "../images/roava/roava-persona.png";
+import roavaBanner from "../images/roava/roava-banner.png";
 import roavaScreens from "../images/roava/roava-screens.png";
 
 const Roava = () => {
@@ -144,8 +145,8 @@ const Roava = () => {
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] h-[400px]">
-          banner area | style guide | mockup
+        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] min-h-[400px]">
+          <img src={roavaBanner} alt="" className="w-full h-full object-cover" />
         </div>
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
