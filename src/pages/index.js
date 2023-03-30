@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import home from "../images/home.png";
-import roavaSavings from "../images/roava/roava-savings.png";
+import roavaBanner from "../images/roava/roava-banner.png";
 import board from "../images/board.png";
 import portrait from "../images/portrait.jpg";
 
@@ -44,38 +44,28 @@ const IndexPage = () => {
         </section>
         <section className="max-w-[1080px] py-4 mx-auto">
           <h1 className="text-[44px] md:text-[52px] font-semibold cursive pt-12">Work </h1>
-          <Link to="/roava" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 px-4 py-16 rounded-xl min-h-[250px] relative">
+          <Link to="/roava" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 px-4 py-12 hover:scale-[0.98] md:py-2 rounded-xl min-h-[500px] md:h-[300px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
-              <span className=" text-[14px] absolute top-6 left-6 font-semibold">ROAVA</span>
-              <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, UX, UI</span>
+              <div className=" text-[14px] absolute top-6 left-6 font-semibold">
+                <span className="">ROAVA</span> <br/>
+                <span className="italic font-normal">Fintech</span>
+              </div>
+              <div className=" text-[14px] absolute bottom-6 left-6 font-semibold">
+                <span className="">Role: <em className="font-normal">Product Designer</em> </span><br/>
+                <span className="font-normal">Strategy, UX, UI</span>
+              </div>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021</span>
             </div>
-              <img src={roavaSavings} alt="home" className="max-h-[380px] mx-auto" />        
+              <img src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />        
           </Link>
-          <Link to="/roava" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 py-12 px-4 rounded-xl min-h-[250px] relative">
+          <Link to="/rei" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 py-12 px-4 rounded-xl min-h-[250px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <span className=" text-[14px] absolute top-6 left-6 font-semibold">PRODEVS</span>
               <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, WEB, UI</span>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2019</span>
             </div>
               <img src={board} alt="board" className="max-h-[500px] mx-auto" />          
-            </Link>
-          <Link to="/roava" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 p-4 rounded-xl min-h-[250px] relative">
-            <div className="text-[#212121] dark:text-[#dddddd]">
-              <span className=" text-[14px] absolute top-6 left-6 font-semibold">PAYFLOW</span>
-              <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, UX, UI</span>
-              <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021</span>
-            </div>
-              <img src={home} alt="home" className="max-h-[480px] mx-auto" />          
-            </Link>
-          <Link to="/roava" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 py-12 px-4 rounded-xl min-h-[250px] relative">
-            <div className="text-[#212121] dark:text-[#dddddd]">
-              <span className=" text-[14px] absolute top-6 left-6 font-semibold">ZOAFIA</span>
-              <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, UX, UI</span>
-              <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021</span>
-            </div>
-              <img src={board} alt="board" className="max-h-[500px] mx-auto" />          
-            </Link>
+          </Link>
         </section>
 
         <section className="max-w-[1080px] md:grid grid-cols-2 mx-auto gap-8 py-24 border-b border-[#999999] dark:border-[#444444]">
