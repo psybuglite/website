@@ -134,7 +134,7 @@ const Roava = () => {
                 <p className="col-span-2 italic">Product Designer</p>
               </div>
               <div className="md:grid grid-cols-3 py-2">
-                <p className="font-semibold">Of Interest</p>
+                <p className="font-semibold">Details</p>
                 <p className="col-span-2 italic">Mobile finance experience for iOS and Android</p>
               </div>
               <div className="md:grid grid-cols-3 py-2">
@@ -145,8 +145,8 @@ const Roava = () => {
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] min-h-[400px]">
-          <img src={roavaBanner} alt="" className="w-full h-full object-cover" />
+        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] min-h-[500px]">
+          <img src={roavaBanner} alt="" className="h-[500px] md:h-full object-cover" />
         </div>
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
