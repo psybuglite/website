@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
-import home from "../images/home.png";
 import roavaBanner from "../images/roava/roava-banner.png";
 import board from "../images/board.png";
 import portrait from "../images/portrait.jpg";
@@ -44,7 +43,7 @@ const IndexPage = () => {
         </section>
         <section className="max-w-[1080px] py-4 mx-auto">
           <h1 className="text-[44px] md:text-[52px] font-semibold cursive pt-12">Work </h1>
-          <Link to="/roava" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 px-4 py-12 hover:scale-[0.98] md:py-2 rounded-xl min-h-[500px] md:h-[300px] relative">
+          <Link to="/roava" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 px-4 py-12 hover:scale-[0.98] md:py-2 rounded-xl min-h-[500px] md:h-[300px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <div className=" text-[14px] absolute top-6 left-6 font-semibold">
                 <span className="">ROAVA</span> <br/>

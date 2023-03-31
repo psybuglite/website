@@ -85,3 +85,19 @@ body.dark {
     transform: rotate(360deg);
   }
 }
+
+
+.item-areas {
+  width: 56%;
+  overflow: visible;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.logo-svg-side {
+  stroke: #fff;
+  stroke-width: 0.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}

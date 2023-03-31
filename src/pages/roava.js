@@ -145,7 +145,7 @@ const Roava = () => {
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] min-h-[500px]">
+        <div className="max-w-[1080px] mx-auto bg-[#eeeeee] dark:bg-[#212121] min-h-[500px]">
           <img src={roavaBanner} alt="" className="h-[500px] md:h-full object-cover" />
         </div>
 
