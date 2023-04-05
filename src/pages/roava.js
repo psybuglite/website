@@ -293,12 +293,12 @@ const Roava = () => {
           </div>
         </section>
         <section className="p-4">
-          <Link to="/roava" className="max-w-[1080px] block mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
+          <Link to="/zoafia" className="max-w-[1080px] block mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
             <div className="col-span-2 pt-4">
               <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">Next Project:</h3>
             </div>
             <div className="col-span-3 py-4 flex justify-between items-center">
-              <p className="font-semibold text-[16px] md:text-[18px]">Payflow.</p>
+              <p className="font-semibold text-[16px] md:text-[18px]">ZOAFIA</p>
               <span>
                 <svg
                   width={25}

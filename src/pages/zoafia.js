@@ -14,7 +14,7 @@ import roavaPersona from "../images/roava/roava-persona.png";
 import roavaBanner from "../images/roava/roava-banner.png";
 import roavaScreens from "../images/roava/roava-screens.png";
 
-const Roava = () => {
+const Zoafia = () => {
 
   return (
     <CaseStudy>
@@ -283,12 +283,8 @@ const Roava = () => {
               <p className="col-span-2 italic"> Content Strategy, UX, UI,</p>
             </div>
             <div className="md:grid grid-cols-3 py-2">
-              <p className="font-semibold">Sam Aofolaju</p>
-              <p className="col-span-2 italic">Chief Product Oficer, Product Strategy</p>
-            </div>
-            <div className="md:grid grid-cols-3 py-2">
-              <p className="font-semibold">Cuberto</p>
-              <p className="col-span-2 italic">Branding</p>
+              <p className="font-semibold">Iyke Owoh</p>
+              <p className="col-span-2 italic">Development</p>
             </div>
           </div>
         </section>
@@ -298,7 +294,7 @@ const Roava = () => {
               <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">Next Project:</h3>
             </div>
             <div className="col-span-3 py-4 flex justify-between items-center">
-              <p className="font-semibold text-[16px] md:text-[18px]">Payflow.</p>
+              <p className="font-semibold text-[16px] md:text-[18px]">Roava.</p>
               <span>
                 <svg
                   width={25}
@@ -334,4 +330,4 @@ const Roava = () => {
   )
 }
 
-export default Roava
+export default Zoafia

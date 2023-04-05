@@ -51,19 +51,26 @@ const IndexPage = () => {
               </div>
               <div className=" text-[14px] absolute bottom-6 left-6 font-semibold">
                 <span className="">Role: <em className="font-normal">Product Designer</em> </span><br/>
-                <span className="font-normal">Strategy, UX, UI</span>
+                <span className="font-normal">IA, UX, UI, Testing</span>
               </div>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021</span>
             </div>
               <img src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />        
           </Link>
-          <Link to="/rei" className="block hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 py-12 px-4 rounded-xl min-h-[250px] relative">
+
+          <Link to="/roava" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 px-4 py-12 hover:scale-[0.98] md:py-2 rounded-xl min-h-[500px] md:h-[300px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
-              <span className=" text-[14px] absolute top-6 left-6 font-semibold">PRODEVS</span>
-              <span className=" text-[14px] absolute bottom-6 left-6 font-semibold">Strategy, WEB, UI</span>
-              <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2019</span>
+              <div className=" text-[14px] absolute top-6 left-6 font-semibold">
+                <span className="">ZOAFIA Inventory</span> <br/>
+                <span className="italic font-normal">E-commerce</span>
+              </div>
+              <div className=" text-[14px] absolute bottom-6 left-6 font-semibold">
+                <span className="">Role: <em className="font-normal">Product Designer</em> </span><br/>
+                <span className="font-normal">UX Strategy, UX, UI</span>
+              </div>
+              <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2022 (ongoing)</span>
             </div>
-              <img src={board} alt="board" className="max-h-[500px] mx-auto" />          
+              <img src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />        
           </Link>
         </section>
 
