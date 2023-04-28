@@ -14,7 +14,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-span-3">
-            <h2 className="md:text-[48px] text-[32px] font-semibold cursive mb-4"> Dennis Tamunotonye Dickson</h2>
+            <h2 className="md:text-[54px] text-[32px] font-semibold cursive mb-4"> Dennis Tamunotonye Dickson</h2>
             <p className="py-2">
               I build digital experiences. I specialize in Web Design, UX / UI, Webflow, and Front End Development.
             </p>
@@ -23,7 +23,7 @@ const About = () => {
             </p>
             <div className="mt-8">
               <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1S4pKsXHnEhIIoUOFdBw1JW9Amja2gWA_/view?usp=sharing" className="">
-                <button className="border border-[#323232] rounded-sm px-6 py-2">View Resume</button>
+                <button className="border border-[#323232] rounded-full px-6 py-2">View Resume</button>
               </a>
             </div>
           </div>
@@ -57,7 +57,7 @@ const About = () => {
             </div>
             <div className="grid grid-cols-3 py-4">
               <p className="text-[16px]">Dec. ‘20  –  June ‘21</p>
-              <p className="text-[16px]">Rova</p>
+              <p className="text-[16px]">Roava</p>
               <p className="text-[16px]">Product Designer</p>
             </div>
             <div className="grid grid-cols-3 py-4">
@@ -112,7 +112,7 @@ const About = () => {
                 </ul>
               </div>
               <div className="">
-                <h3 className="pb-4 mt-0 text-[18px] font-semibold">UX</h3>
+                <h3 className="pb-4 mt-0 text-[18px] font-semibold">Development</h3>
                 <ul>
                   <li>HTML/CSS</li>
                   <li>JavaScript</li>

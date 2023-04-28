@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import roavaBanner from "../images/roava/roava-banner.png";
-import board from "../images/board.png";
+import zoafiaBanner from "../images/zoafia/zoafia-banner.png";
 import portrait from "../images/portrait.jpg";
 
 
@@ -34,10 +34,8 @@ const IndexPage = () => {
             </span>
           </div>
           <div className="max-w-[600px]">
-            <p>My name is Dennis, and I’m a designer from Nigeria 🇳🇬.
-            </p>
-            <p>
-            I have been designing for 5+ years, and worked for 3 financial institutions and 4 start-ups.
+            <p>My name is Dennis, and I design user interfaces for mobile and web applications. 
+            I have been designing for 5+ years, and worked for 3 financial institutions and 4 start-ups. By designing and teaching, I strive to create impactful work that resonates with people.
             </p>
           </div>
         </section>
@@ -58,7 +56,7 @@ const IndexPage = () => {
               <img src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />        
           </Link>
 
-          <Link to="/roava" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 px-4 py-12 hover:scale-[0.98] md:py-2 rounded-xl min-h-[500px] md:h-[300px] relative">
+          <Link to="/zoafia" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-16 px-4 py-12 hover:scale-[0.98] md:py-2 rounded-xl min-h-[500px] md:h-[300px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <div className=" text-[14px] absolute top-6 left-6 font-semibold">
                 <span className="">ZOAFIA Inventory</span> <br/>
@@ -70,7 +68,7 @@ const IndexPage = () => {
               </div>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2022 (ongoing)</span>
             </div>
-              <img src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />        
+              <img src={zoafiaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />        
           </Link>
         </section>
 

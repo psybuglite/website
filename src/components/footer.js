@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
 
+const d = new Date();
+let year = d.getFullYear();
+
 const Footer = () => (
   <footer className="w-full px-4">
     <div className="flex pt-16 justify-center">
@@ -293,7 +296,7 @@ const Footer = () => (
         <p>.</p>
       </div>
       <span className="mx-0 mt-4 md:mt-0 md:mx-4 flex flex-1 h-[1px] bg-[#999999] dark:bg-[#444444]"></span>
-      <p className="mt-4 md:mt-0">Dennis Tamunotonye Dickson © 2023</p>
+      <p className="mt-4 md:mt-0">Dennis Tamunotonye Dickson © 2016 - {year}</p>
     </div>
   </footer>
 );

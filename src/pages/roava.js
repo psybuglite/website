@@ -195,7 +195,7 @@ const Roava = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">Simplifying the ease of creating an account despite the financial regulatory requirements for the app was a vital part of the user's onboarding, without which, access to the core application features would not be granted.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start.</p>
           </div>
         </section>
 
@@ -233,7 +233,7 @@ const Roava = () => {
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">6.1 Wireframing and Feedback</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">Making the entire application the least complicated it could meant breaking all the journeys into smaller, independent, and self-contained bits. Noting all drop-off points was important for </p>
+            <p className="pb-6 font-semibold">Making the entire application the least complicated it could meant breaking all the journeys into smaller, independent, and self-contained bits. </p>
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">Noting all drop-off points during the use of the mobile app was important for subsequent changes to the design.</p>
           </div>
         </section>

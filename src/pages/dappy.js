@@ -9,13 +9,12 @@ import roavaBrandCollage from "../images/roava/roava-brand-collage.png";
 import roavaBrandIcons from "../images/roava/roava-brand-icons.png";
 import roavaStyle from "../images/roava/roava-style.png";
 import roavaWireframes from "../images/roava/roava-wireframes.png";
-import device from "../images/zoafia/device.png";
-import zoafiaMindmap from "../images/zoafia/zoafia-mindmap.jpg";
-import zoafiaBanner from "../images/zoafia/zoafia-banner.png";
+import roavaIa from "../images/roava/roava-ia.png";
 import roavaPersona from "../images/roava/roava-persona.png";
+import roavaBanner from "../images/roava/roava-banner.png";
 import roavaScreens from "../images/roava/roava-screens.png";
 
-const Zoafia = () => {
+const Roava = () => {
 
   return (
     <CaseStudy>
@@ -127,7 +126,7 @@ const Zoafia = () => {
         </section>
 
         <section className="max-w-[1080px] mx-auto px-4 py-12">
-          <h1 className="cursive text-[32px] md:text-[52px]">Zoafia</h1>
+          <h1 className="cursive text-[32px] md:text-[52px]">ROAVA</h1>
           <div className="md:grid grid-cols-3">
             <div className="pt-8 txt-[14px] col-span-2">
               <div className="md:grid grid-cols-3 py-2">
@@ -136,18 +135,18 @@ const Zoafia = () => {
               </div>
               <div className="md:grid grid-cols-3 py-2">
                 <p className="font-semibold">Details</p>
-                <p className="col-span-2 italic">A mobile application for managing e-commerce inventory, sales, shops, and staff.</p>
+                <p className="col-span-2 italic">Mobile finance experience for iOS and Android</p>
               </div>
               <div className="md:grid grid-cols-3 py-2">
                 <p className="font-semibold">Year</p>
-                <p className="col-span-2 italic">2022 (ongoing)</p>
+                <p className="col-span-2 italic">2021</p>
               </div>
             </div>
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] min-h-[500px]">
-          <img src={zoafiaBanner} alt="" className="h-[500px] md:h-full object-cover" />
+        <div className="max-w-[1080px] mx-auto bg-[#eeeeee] dark:bg-[#212121] min-h-[500px]">
+          <img src={roavaBanner} alt="" className="h-[500px] md:h-full object-cover" />
         </div>
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
@@ -155,8 +154,8 @@ const Zoafia = () => {
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">1.1 Overview</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">Zoafia provides a user-friendly platform for shop and business owners to effectively manage their sales recording, inventory tracking, and product distribution across multiple shops. The platform also enables designated staff members to carry out authorized tasks, such as making sales, in accordance with their assigned permissions.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">As the designer of this project, I collaborate with a sole developer to oversee the application's development.</p>
+            <p className="pb-6 font-semibold">ROAVA allows its customers to manage their money, exchange international currencies, bills and savings from their phone.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">I worked as part of a team of engineers, other designers, and other managerial staff. I primarily reported to the Chief Product Officer, and the product managers.</p>
           </div>
         </section>
 
@@ -165,94 +164,91 @@ const Zoafia = () => {
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">1.2 Responsibilities & Business Goals</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">In my role as a lead product designer, I collaborated with my colleague to identify and prioritize essential features for various user groups which we classified into three(3); Owners, Managers, and Sales Representatives. Through a Design Thinking session, we worked together as a team to discuss the specifics and chart out crucial user pathways and functionalities through User Journey Mapping.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">Our objective was to develop a mobile application that would enhance the website portal designed for shop owners to showcase their products. In addition to that, the mobile app provided a novel feature of assigning managerial and sales duties to newly onboarded staff within the same business.</p>
+            <p className="pb-6 font-semibold">During my time working on the ROAVA project, my focus was centered around design systems, organisation and planning, and visual designs.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">Design a mobile experience for customers to send and receive payments in multiple currencies, manage international commitments or support their travelling lifestyle without the restrictions of regular banking. The customers would also get real-time notifications when they spend funds or get paid. Savings vaults, fixed term deposit accounts offering high interest, should also be made available to all users.</p>
           </div>
         </section>
 
-        <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
+        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">4.1 User Persona</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">2.1 User Research</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">Zoafia is designed for individuals and businesses seeking to establish and manage their online stores without requiring extensive technical knowledge of website development or coding. The platform caters to a diverse user base that includes first-time entrepreneurs, as well as established businesses with more sophisticated e-commerce requirements.</p>
+            <p className="pb-6 font-semibold">We started with user research and strategy workshops, building a solid understanding of the pain points of frequent travellers to multiple countries,  as well as opportunities, and goals.</p>
+            <p className="pb-6 font-semibold italic">Initial Findings</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">— Participants had difficulty interpreting the flow of information from one end of the application to the next.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">
+              — User Journeys without a clear direction presented a challange for users to move from screen to screen.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">
+              — Failure to properly manage excpectation of users lead to dissatisfaction and confusion and user’ interaction on the app.</p>
           </div>
         </section>
+
         <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
           <img src={roavaPersona} alt="" className="w-full h-full object-cover" />
         </div>
-        
+
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">2.1 User Flows and IA</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">3.1 Product Direction</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">To ensure that our mobile application design meets the diverse needs of our user base, we created a comprehensive user journey map that focuses on three primary user groups: Owners, Managers, and Sales People. This approach allowed us to identify specific requirements, preferences, and pain points for each user group and tailor our design accordingly...</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">— Owners are primarily concerned with managing inventory and monitoring sales performance, while Sales People focused on making sales and receiving commissions.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">
-              — Managers have a more diverse set of responsibilities, ranging from overseeing staff to managing inventory levels.</p>
+            <p className="pb-6 font-semibold">Simplifying the ease of creating an account despite the financial regulatory requirements for the app was a vital part of the user's onboarding, without which, access to the core application features would not be granted.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
           </div>
         </section>
 
+        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
+          <div className="col-span-2 pt-8">
+            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">4.1 IA & User Flows</h3>
+          </div>
+          <div className="col-span-3 pt-8">
+            <p className="pb-6 font-semibold">We aimed for security and ease of onboarding new users. The complexity of identity verification before gaining access to the core features of the app cannot be simply overlooked for a financial application.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">The app should take new sign ups through a clearly detailed walkthrough of what to expect during the verification process.</p>
+          </div>
+        </section>
         <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
-          <img src={zoafiaMindmap} alt="" className="w-full h-full object-cover" />
-        </div> 
-
+          <img src={roavaIa} alt="" className="w-full h-full object-cover" />
+        </div>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">5.1 Style Guide</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">5.1 Branding, Style, and Design System</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">We utilised a UI style guide that improved the dependability of the Zoafia e-commerce application for shop and business owners, specifically pertaining to their needs for inventory and staff management.</p>
+            <p className="pb-6 font-semibold">Our goal was to use a brand style that enhanced the reliability of the Roava application for users in different corners of the world.</p>
           </div>
         </section>
-        
+        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
+        <img src={roavaBrandIcons} alt="" className="w-full h-full object-cover" />
+        </div>
         <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
           <img src={roavaBrandCollage} alt="" className="w-full h-full object-cover" />
         </div>
         <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
           <img src={roavaStyle} alt="" className="w-full h-full object-cover" />
         </div>
-
-        <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
+        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">6.1 Wireframing and Feedback</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">To simplify the entire application, we broke down all the user journeys into smaller, self-contained segments. To conceptualize and refine our ideas, we utilized wireframes and focused on essential functionality.</p>
+            <p className="pb-6 font-semibold">Making the entire application the least complicated it could meant breaking all the journeys into smaller, independent, and self-contained bits. Noting all drop-off points was important for </p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">Noting all drop-off points during the use of the mobile app was important for subsequent changes to the design.</p>
           </div>
         </section>
-        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
-          <div>
-            <img src={device} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={device} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={device} alt="" className="w-full" />
-          </div>
+        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
+          <img src={roavaWireframes} alt="" className="w-full h-full object-cover" />
         </div>
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">7.1 User Interface & Prototype</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">At Zoafia, we follow a mostly lean design approach, which allows us to swiftly begin developing interfaces while simultaneously making decisions about the product's direction and feature adjustments due to our lightweight design philosophy.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">The design system used was made to enable speedy modifications to the designs in response to new observations and critical business changes.</p>
+            <p className="pb-6 font-semibold">Communication, testing, and feedback with management resulted in a reduction in the number of user journeys and features that were given different priorities.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">A design system was created to facilitate quick changes to the designs as new observations were made and business-critical changes could be quickly adapted.</p>
           </div>
         </section>
-        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
-          <div>
-            <img src={roavaSavings} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={roavaReceipt} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={roavaPayment} alt="" className="w-full" />
-          </div>
-        </div>
         <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
           <div>
             <img src={roavaSavings} alt="" className="w-full" />
@@ -269,10 +265,11 @@ const Zoafia = () => {
         </div>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">8.1 CLOSING THOUGHTS</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">8.1 Conclusion</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">Since its launch, Zoafia has undergone numerous updates and has been adopted by thousands of businesses. We are currently exploring the possibility of adding additional features to the mobile application.</p>
+            <p className="pb-6 font-semibold">Validated all design assumptions and compare them with the expectations from the stakeholders.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">To get an accurate evaluation of what the stakeholder thought, I invited the business managing director representing the stakeholders for usability testing. I also invited and got feedback  from end-users to validate the design decisions we implemented in our prototypes.</p>
           </div>
         </section>
 
@@ -286,18 +283,22 @@ const Zoafia = () => {
               <p className="col-span-2 italic"> Content Strategy, UX, UI,</p>
             </div>
             <div className="md:grid grid-cols-3 py-2">
-              <p className="font-semibold">Iyke Owoh</p>
-              <p className="col-span-2 italic">Development</p>
+              <p className="font-semibold">Sam Aofolaju</p>
+              <p className="col-span-2 italic">Chief Product Oficer, Product Strategy</p>
+            </div>
+            <div className="md:grid grid-cols-3 py-2">
+              <p className="font-semibold">Cuberto</p>
+              <p className="col-span-2 italic">Branding</p>
             </div>
           </div>
         </section>
         <section className="p-4">
-          <Link to="/roava" className="max-w-[1080px] block mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
+          <Link to="/zoafia" className="max-w-[1080px] block mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
             <div className="col-span-2 pt-4">
               <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">Next Project:</h3>
             </div>
             <div className="col-span-3 py-4 flex justify-between items-center">
-              <p className="font-semibold text-[16px] md:text-[18px]">Dappy.</p>
+              <p className="font-semibold text-[16px] md:text-[18px]">ZOAFIA</p>
               <span>
                 <svg
                   width={25}
@@ -333,4 +334,4 @@ const Zoafia = () => {
   )
 }
 
-export default Zoafia
+export default Roava
