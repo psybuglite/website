@@ -181,7 +181,7 @@ const Roava = () => {
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">
               — User Journeys without a clear direction presented a challange for users to move from screen to screen.</p>
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">
-              — Failure to properly manage excpectation of users lead to dissatisfaction and confusion and user’ interaction on the app.</p>
+              — Failure to properly manage excpectation of users lead to dissatisfaction and confusion and user’s interaction on the app.</p>
           </div>
         </section>
 
@@ -280,11 +280,7 @@ const Roava = () => {
           <div className="col-span-3 pt-8">
             <div className="md:grid grid-cols-3 py-2">
               <p className="font-semibold">Dennis Tamunotonye Dickson</p>
-              <p className="col-span-2 italic"> Content Strategy, UX, UI,</p>
-            </div>
-            <div className="md:grid grid-cols-3 py-2">
-              <p className="font-semibold">Sam Aofolaju</p>
-              <p className="col-span-2 italic">Chief Product Oficer, Product Strategy</p>
+              <p className="col-span-2 italic"> Content Strategy, UX, UI</p>
             </div>
             <div className="md:grid grid-cols-3 py-2">
               <p className="font-semibold">Cuberto</p>

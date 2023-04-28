@@ -12,7 +12,7 @@ import roavaWireframes from "../images/roava/roava-wireframes.png";
 import device from "../images/zoafia/device.png";
 import zoafiaMindmap from "../images/zoafia/zoafia-mindmap.jpg";
 import zoafiaBanner from "../images/zoafia/zoafia-banner.png";
-import roavaPersona from "../images/roava/roava-persona.png";
+import zoafiaPersona from "../images/zoafia/zoafia-persona.jpg";
 import roavaScreens from "../images/roava/roava-screens.png";
 
 const Zoafia = () => {
@@ -179,7 +179,7 @@ const Zoafia = () => {
           </div>
         </section>
         <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
-          <img src={roavaPersona} alt="" className="w-full h-full object-cover" />
+          <img src={zoafiaPersona} alt="" className="w-full h-full object-cover" />
         </div>
         
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">

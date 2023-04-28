@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import roavaBanner from "../images/roava/roava-banner.png";
 import zoafiaBanner from "../images/zoafia/zoafia-banner.png";
-import portrait from "../images/portrait.jpg";
+import portrait from "../images/dennis.jpg";
 
 
 const IndexPage = () => {
@@ -13,7 +13,7 @@ const IndexPage = () => {
         <section className="max-w-[1080px] py-4 pt-36 md:flex items-center mx-auto">
           <div className="ml-8 mr-12 my-12 md:my-0 w-[100px] h-[100px] relative">
             <Link to="/about" className="relative z-20">
-              <img src={portrait} alt="portrait" className="w-[100px] h-[100px] rounded-full object-cover hover:p-1" />
+              <img src={portrait} alt="portrait" className="grayscale w-[100px] h-[100px] rounded-full object-cover hover:p-1" />
             </Link>
             <span className=" w-[150px] absolute z-10 h-[150px] top-[5px] left-[5px] translate-x-[-50%] translate-y-[-50%]">
               <svg width={240} height={240} className={"spin animate-pulse duration-150 fill-slate-400 hover:fill-orange-500"}>
@@ -35,7 +35,7 @@ const IndexPage = () => {
           </div>
           <div className="max-w-[600px]">
             <p>My name is Dennis, and I design user interfaces for mobile and web applications. 
-            I have been designing for 5+ years, and worked for 3 financial institutions and 4 start-ups. By designing and teaching, I strive to create impactful work that resonates with people.
+            I have been designing for 5+ years, and worked for 3 financial institutions and 4 start-ups. By designing and teaching, I create impactful work that resonates with people.
             </p>
           </div>
         </section>

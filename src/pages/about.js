@@ -1,16 +1,16 @@
 import React from "react"
 import Layout from "../components/layout";
-import portrait from "../images/portrait.jpg";
+import portrait from "../images/dennis.jpg";
 
 const About = () => {
 
   return (
     <Layout>
-      <main className="w-full px-4 pt-48 md:pt-32">
+      <main className="w-full px-4 pt-48 md:pt-24">
         <section className="md:grid md:grid-cols-5 border-b-2 border-[#cccccc] mb-24 pb-24 gap-16 max-w-[1080px] pt-32 mx-auto">
           <div className="col-span-2 pb-8">
-            <div className="w-full -mt-12 bg-blue-200 md:h-[500px] h-[260px] rounded-xl ">
-              <img src={portrait} alt="portrait" className="w-full h-full rounded-xl  object-cover" />
+            <div className="w-full -mt-12 bg-blue-200 md:h-[600px] h-[260px] rounded-xl ">
+              <img src={portrait} alt="portrait" className="grayscale w-full h-full rounded-xl  object-cover" />
             </div>
           </div>
           <div className="col-span-3">
