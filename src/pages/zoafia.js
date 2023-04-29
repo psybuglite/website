@@ -6,10 +6,10 @@ import roavaReceipt from "../images/roava/roava-receipt.png";
 import roavaPayment from "../images/roava/roava-payment.png";
 import roavaSavings from "../images/roava/roava-savings.png";
 import roavaBrandCollage from "../images/roava/roava-brand-collage.png";
-import roavaBrandIcons from "../images/roava/roava-brand-icons.png";
-import roavaStyle from "../images/roava/roava-style.png";
-import roavaWireframes from "../images/roava/roava-wireframes.png";
-import device from "../images/zoafia/device.png";
+import zoafiaStyle from "../images/zoafia/zoafia-style.jpg";
+import zoafiaWireHome from "../images/zoafia/zoafia-wire-home.png";
+import zoafiaWireOffice from "../images/zoafia/zoafia-wire-office.png";
+import zoafiaWireItem from "../images/zoafia/zoafia-wire-item.png";
 import zoafiaMindmap from "../images/zoafia/zoafia-mindmap.jpg";
 import zoafiaBanner from "../images/zoafia/zoafia-banner.png";
 import zoafiaPersona from "../images/zoafia/zoafia-persona.jpg";
@@ -211,7 +211,7 @@ const Zoafia = () => {
           <img src={roavaBrandCollage} alt="" className="w-full h-full object-cover" />
         </div>
         <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
-          <img src={roavaStyle} alt="" className="w-full h-full object-cover" />
+          <img src={zoafiaStyle} alt="" className="w-full h-full object-cover" />
         </div>
 
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
@@ -219,18 +219,18 @@ const Zoafia = () => {
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">6.1 Wireframing and Feedback</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">To simplify the entire application, we broke down all the user journeys into smaller, self-contained segments. To conceptualize and refine our ideas, we utilized wireframes and focused on essential functionality.</p>
+            <p className="pb-6 font-semibold">To simplify the entire application, we broke down all the user journeys into smaller, self-contained segments. To conceptualise and refine our ideas, we utilized wireframes and focused on essential functionality.</p>
           </div>
         </section>
         <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
           <div>
-            <img src={device} alt="" className="w-full" />
+            <img src={zoafiaWireHome} alt="" className="w-full" />
           </div>
           <div>
-            <img src={device} alt="" className="w-full" />
+            <img src={zoafiaWireOffice} alt="" className="w-full" />
           </div>
           <div>
-            <img src={device} alt="" className="w-full" />
+            <img src={zoafiaWireItem} alt="" className="w-full" />
           </div>
         </div>
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
