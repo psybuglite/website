@@ -6,7 +6,7 @@ module.exports = {
     title: `UX/UI Designer & Developer - Dennis Tamunotonye Dickson`,
     description: `Hi, I am a designer, building websites and designing web aapplications and mobile applications. I'm in love with finding solutions to unique problems through design. Let's talk.`,
     twitterUsername: `@psybuglite`,
-    image: `/images/og.jpg`,
+    image: `og.jpg`,
     siteUrl: `https://tonye.design`,
     menuLinks: [
       {
