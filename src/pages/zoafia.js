@@ -150,11 +150,11 @@ const Zoafia = () => {
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] min-h-[500px]">
-          <img src={zoafiaBanner} alt="" className="h-[500px] md:h-full object-cover" />
+        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] md:min-h-[500px]">
+          <img src={zoafiaBanner} alt="" className="h-full md:h-full object-cover" />
         </div>
 
-        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
+        <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">1.1 Overview</h3>
           </div>
@@ -164,7 +164,7 @@ const Zoafia = () => {
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
+        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 lg:mb-32 pb-16 border-b border-[#cccccc] dark:border-[#444444]">
           <div>
             <img src={zoafiaProduct} alt="" className="w-full" />
           </div>
@@ -194,11 +194,11 @@ const Zoafia = () => {
             <p className="pb-6 font-semibold">Zoafia is designed for individuals and businesses seeking to establish and manage their online stores without requiring extensive technical knowledge of website development or coding. The platform caters to a diverse user base that includes first-time entrepreneurs, as well as established businesses with more sophisticated e-commerce requirements.</p>
           </div>
         </section>
-        <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
+        <div className="max-w-[1080px] mx-auto my-4 max-h-[600px] pb-16 border-b border-[#cccccc] dark:border-[#444444]">
           <img src={zoafiaPersona} alt="" className="w-full h-full object-cover" />
         </div>
         
-        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
+        <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">2.1 User Flows and IA</h3>
           </div>
@@ -210,11 +210,11 @@ const Zoafia = () => {
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
+        <div className="max-w-[1080px] mx-auto my-4 max-h-[600px] pb-16 border-b border-[#cccccc] dark:border-[#444444]">
           <img src={zoafiaMindmap} alt="" className="w-full h-full object-cover" />
         </div> 
 
-        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
+        <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">5.1 Style Guide</h3>
           </div>
@@ -223,7 +223,7 @@ const Zoafia = () => {
           </div>
         </section>
         
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
+        <div className="max-w-[1080px] mx-auto my-4 max-h-[600px] pb-16 border-b border-[#cccccc] dark:border-[#444444]">
           <img src={zoafiaStyle} alt="" className="w-full h-full object-cover" />
         </div>
 
@@ -235,7 +235,7 @@ const Zoafia = () => {
             <p className="pb-6 font-semibold">To simplify the entire application, we broke down all the user journeys into smaller, self-contained segments. To conceptualise and refine our ideas, we utilized wireframes and focused on essential functionality.</p>
           </div>
         </section>
-        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
+        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 lg:mb-32 pb-16 border-b border-[#cccccc] dark:border-[#444444]">
           <div>
             <img src={zoafiaWireHome} alt="" className="w-full" />
           </div>
@@ -266,7 +266,7 @@ const Zoafia = () => {
             <img src={zoafiaPayment} alt="" className="w-full" />
           </div>
         </div>
-        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
+        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 lg:mb-32 pb-16 border-b border-[#cccccc] dark:border-[#444444]">
           <div>
             <img src={zoafiaPos} alt="" className="w-full" />
           </div>

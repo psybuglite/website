@@ -56,7 +56,7 @@ const IndexPage = () => {
               <img src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />        
           </Link>
 
-          <Link to="/zoafia" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-16 px-4 py-12 hover:scale-[0.98] md:py-2 rounded-xl min-h-[500px] md:h-[300px] relative">
+          <Link to="/zoafia" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-16 px-4 py-36 hover:scale-[0.98] md:py-2 rounded-xl md:min-h-[500px] md:h-[300px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <div className=" text-[14px] absolute top-6 left-6 font-semibold">
                 <span className="">ZOAFIA Inventory</span> <br/>
@@ -68,11 +68,11 @@ const IndexPage = () => {
               </div>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2022 (ongoing)</span>
             </div>
-              <img src={zoafiaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />        
+              <img src={zoafiaBanner} alt="home" className="h-full object-cover mx-auto scale-150 md:scale-100" />        
           </Link>
         </section>
 
-        <section className="max-w-[1080px] md:grid grid-cols-2 mx-auto gap-8 py-24 border-b border-[#999999] dark:border-[#444444]">
+        <section className="max-w-[1080px] md:grid grid-cols-2 mx-auto gap-8 pt-8 md:py-24 border-b border-[#999999] dark:border-[#444444]">
           <div className="">
             <h2 className="font-semibold text-[44px] md:text-[52px] cursive pb-4">Publications</h2>
             <p>
