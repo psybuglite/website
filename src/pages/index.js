@@ -41,7 +41,7 @@ const IndexPage = () => {
         </section>
         <section className="max-w-[1080px] py-4 mx-auto">
           <h1 className="text-[44px] md:text-[52px] font-semibold cursive pt-12">Work </h1>
-          <Link to="/roava" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 px-4 py-12 hover:scale-[0.98] md:py-2 rounded-xl min-h-[500px] md:h-[300px] relative">
+          <Link to="/roava" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 px-4 py-12 hover:scale-[0.98] md:py-2 rounded-xl min-h-[500px] md:h-[300px] relative overflow-clip">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <div className=" text-[14px] absolute top-6 left-6 font-semibold">
                 <span className="">ROAVA</span> <br/>
@@ -56,7 +56,7 @@ const IndexPage = () => {
               <img src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />        
           </Link>
 
-          <Link to="/zoafia" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-16 px-4 py-36 hover:scale-[0.98] md:py-2 rounded-xl md:min-h-[500px] md:h-[300px] relative">
+          <Link to="/zoafia" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-16 px-4 py-36 hover:scale-[0.98] md:py-2 rounded-xl md:min-h-[500px] md:h-[300px] relative overflow-clip">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <div className=" text-[14px] absolute top-6 left-6 font-semibold">
                 <span className="">ZOAFIA Inventory</span> <br/>
@@ -78,8 +78,10 @@ const IndexPage = () => {
             <p>
             I often write about project case studies, tutorials, and articles on all things front-end design engineering.
             </p>
+          </div>
+          <div className="pt-16">
             <div className="py-8">
-              <h3 className="font-semibold text-[18px]">Recent Articles</h3>
+              <h3 className="font-semibold text-[18px] mb-4">Recent Articles</h3>
               <Link to="/writing/" className="underline inline-block py-2">
               How to fix 'document not defined' in Gatsby Build
               </Link>
@@ -90,9 +92,6 @@ const IndexPage = () => {
             <div className="my-4">
               <Link to="/writing" className="underline">See all articles</Link>
             </div>
-          </div>
-          <div className="bg-black rounded-xl">
-            
           </div>
         </section>
 
