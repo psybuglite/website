@@ -2,9 +2,15 @@ import React from "react"
 import { Link } from "gatsby";
 import CaseStudy from "../components/case-study";
 import ThemeToggler from "gatsby-plugin-dark-mode/ThemeToggler";
-import roavaReceipt from "../images/roava/roava-receipt.png";
-import roavaPayment from "../images/roava/roava-payment.png";
-import roavaSavings from "../images/roava/roava-savings.png";
+import zoafiaHome from "../images/zoafia/zoafia-home.png";
+import zoafiaPayment from "../images/zoafia/zoafia-payment.png";
+import zoafiaOffice from "../images/zoafia/zoafia-office.png";
+import zoafiaOnboarding from "../images/zoafia/zoafia-onboarding.png";
+import zoafiaBusiness from "../images/zoafia/zoafia-business.png";
+import zoafiaProduct from "../images/zoafia/zoafia-product.png";
+import zoafiaCheckout from "../images/zoafia/zoafia-checkout.png";
+import zoafiaPos from "../images/zoafia/zoafia-pos.png";
+import zoafiaDiscount from "../images/zoafia/zoafia-discount.png";
 import zoafiaStyle from "../images/zoafia/zoafia-style.jpg";
 import zoafiaWireHome from "../images/zoafia/zoafia-wire-home.png";
 import zoafiaWireOffice from "../images/zoafia/zoafia-wire-office.png";
@@ -158,6 +164,18 @@ const Zoafia = () => {
           </div>
         </section>
 
+        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
+          <div>
+            <img src={zoafiaProduct} alt="" className="w-full" />
+          </div>
+          <div>
+            <img src={zoafiaOnboarding} alt="" className="w-full" />
+          </div>
+          <div>
+            <img src={zoafiaOffice} alt="" className="w-full" />
+          </div>
+        </div>
+
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">1.2 Responsibilities & Business Goals</h3>
@@ -239,24 +257,24 @@ const Zoafia = () => {
         </section>
         <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
           <div>
-            <img src={roavaSavings} alt="" className="w-full" />
+            <img src={zoafiaBusiness} alt="" className="w-full" />
           </div>
           <div>
-            <img src={roavaReceipt} alt="" className="w-full" />
+            <img src={zoafiaHome} alt="" className="w-full" />
           </div>
           <div>
-            <img src={roavaPayment} alt="" className="w-full" />
+            <img src={zoafiaPayment} alt="" className="w-full" />
           </div>
         </div>
         <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
           <div>
-            <img src={roavaSavings} alt="" className="w-full" />
+            <img src={zoafiaPos} alt="" className="w-full" />
           </div>
           <div>
-            <img src={roavaReceipt} alt="" className="w-full" />
+            <img src={zoafiaCheckout} alt="" className="w-full" />
           </div>
           <div>
-            <img src={roavaPayment} alt="" className="w-full" />
+            <img src={zoafiaDiscount} alt="" className="w-full" />
           </div>
         </div>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
