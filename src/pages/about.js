@@ -1,4 +1,5 @@
 import React from "react"
+import { SEO } from "../components/seo"
 import Layout from "../components/layout";
 import portrait from "../images/dennis.jpg";
 
@@ -150,3 +151,7 @@ const About = () => {
 }
 
 export default About
+
+export const Head = () => (
+  <SEO title="UX/UI Designer & Developer - Dennis Tamunotonye Dickson" />
+)

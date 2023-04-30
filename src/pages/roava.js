@@ -1,4 +1,5 @@
 import React from "react"
+import { SEO } from "../components/seo"
 import { Link } from "gatsby";
 import CaseStudy from "../components/case-study";
 import ThemeToggler from "gatsby-plugin-dark-mode/ThemeToggler";
@@ -331,3 +332,7 @@ const Roava = () => {
 }
 
 export default Roava
+
+export const Head = () => (
+  <SEO title="Roava - UX/UI Designer & Developer - Dennis Tamunotonye Dickson" />
+)

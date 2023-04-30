@@ -1,4 +1,5 @@
 import React from "react"
+import { SEO } from "../components/seo"
 import { Link } from "gatsby";
 import CaseStudy from "../components/case-study";
 import ThemeToggler from "gatsby-plugin-dark-mode/ThemeToggler";
@@ -344,3 +345,7 @@ const Zoafia = () => {
 }
 
 export default Zoafia
+
+export const Head = () => (
+  <SEO title="Zoafia - UX/UI Designer & Developer - Dennis Tamunotonye Dickson" />
+)

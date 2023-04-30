@@ -1,4 +1,5 @@
 import * as React from "react";
+import { SEO } from "../components/seo"
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import roavaBanner from "../images/roava/roava-banner.png";
@@ -102,4 +103,6 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => (
+  <SEO title="UX/UI Designer & Developer - Dennis Tamunotonye Dickson" />
+)
