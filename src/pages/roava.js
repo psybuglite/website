@@ -122,7 +122,7 @@ const Roava = () => {
               </ThemeToggler>
             </div>
 
-            <Link to="/" className="p-4 font-semibold md:h-[80px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-l border-[#cccccc] dark:border-[#444444]">View</Link>
+            <div className="p-4 font-semibold md:h-[80px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-l border-[#cccccc] dark:border-[#444444]"></div>
           </nav>
         </section>
 
@@ -170,7 +170,7 @@ const Roava = () => {
           </div>
         </section>
 
-        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
+        <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
             <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">2.1 User Research</h3>
           </div>
@@ -263,7 +263,7 @@ const Roava = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-[1080px] mx-auto my-4">
+        <div className="max-w-[1080px] mx-auto my-4 pb-12 border-b border-[#cccccc] dark:border-[#444444]">
           <img src={roavaScreens} alt="" className="w-full h-full object-cover" />
         </div>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
