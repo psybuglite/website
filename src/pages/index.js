@@ -15,8 +15,8 @@ const IndexPage = () => {
         <section className="max-w-[1080px] py-4 pt-36 md:flex items-center mx-auto">
           <div className="ml-8 mr-12 my-12 md:my-0 w-[100px] h-[100px] relative">
             <Link to="/about" className="relative z-20">
-            <AnimatePresence>
-              <motion.img layoutId="portrait"
+              <AnimatePresence>
+                <motion.img layoutId="portrait"
                   layout src={portrait} alt="portrait" transition={{ duration: 0.1}} className="grayscale w-[100px] h-[100px] rounded-full object-cover hover:p-1" />
               </AnimatePresence>
             </Link>
@@ -92,10 +92,10 @@ const IndexPage = () => {
           <div className="md:pt-16 ">
             <div className="py-8">
               <h3 className="font-semibold text-[18px] mb-4">Recent Articles</h3>
-              <Link to="/writing/" className="underline inline-block py-2">
+              <Link to="/writing/window-document-not-defined-gatsby-build/" className="underline inline-block py-2">
               How to fix 'document not defined' in Gatsby Build
               </Link>
-              <Link to="/writing/" className="underline inline-block py-2">
+              <Link to="/writing/how-to-setup-react-project-on-a-virtual-private-server/" className="underline inline-block py-2">
               How to Set Up React Project on a Virtual Server
               </Link>
             </div>

@@ -8,8 +8,8 @@ const Header = ({ menuLinks }) => {
   useEffect(() => {}, []);
 
   return (
-    <header className="w-full md:fixed absolute top-0 left-0 px-4">
-      <div className="max-w-[1392px] mx-auto flex justify-between items-start py-4">
+    <header className="w-full md:fixed absolute top-0 left-0 px-4 ">
+      <div className="backdrop-blur max-w-[1392px] mx-auto flex justify-between items-start py-4 h-[10px]">
         <>
           <Link to="/">
             <span className="logo">
