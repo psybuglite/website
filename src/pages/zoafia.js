@@ -19,6 +19,7 @@ import zoafiaWireItem from "../images/zoafia/zoafia-wire-item.png";
 import zoafiaMindmap from "../images/zoafia/zoafia-mindmap.jpg";
 import zoafiaBanner from "../images/zoafia/zoafia-banner.png";
 import zoafiaPersona from "../images/zoafia/zoafia-persona.jpg";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Zoafia = () => {
 
@@ -152,7 +153,10 @@ const Zoafia = () => {
         </section>
 
         <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] h-[250px] md:min-h-[500px]">
-          <img src={zoafiaBanner} alt="" className="h-full md:h-full object-cover" />
+          <AnimatePresence>
+            <motion.img layoutId="zoafiaBanner"
+                  layout src={zoafiaBanner} alt="" className="h-full w-full object-cover" />
+          </AnimatePresence>
         </div>
 
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
@@ -165,15 +169,17 @@ const Zoafia = () => {
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 lg:mb-32 pb-16 border-b border-[#cccccc] dark:border-[#444444]">
-          <div>
-            <img src={zoafiaProduct} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={zoafiaOnboarding} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={zoafiaOffice} alt="" className="w-full" />
+        <div className="overflow-scroll scrollbar-hide border-b border-[#cccccc] dark:border-[#444444]">
+          <div className="max-w-[1080px] mx-auto my-4 px-8 min-h-[600px} min-w-[900px] grid grid-cols-3 gap-12 lg:gap-32 mb-24 lg:mb-32">
+            <div>
+              <img src={zoafiaProduct} alt="" className="w-full" />
+            </div>
+            <div>
+              <img src={zoafiaOnboarding} alt="" className="w-full" />
+            </div>
+            <div>
+              <img src={zoafiaOffice} alt="" className="w-full" />
+            </div>
           </div>
         </div>
 
@@ -236,15 +242,17 @@ const Zoafia = () => {
             <p className="pb-6 font-semibold">To simplify the entire application, we broke down all the user journeys into smaller, self-contained segments. To conceptualise and refine our ideas, we utilized wireframes and focused on essential functionality.</p>
           </div>
         </section>
-        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 lg:mb-32 pb-16 border-b border-[#cccccc] dark:border-[#444444]">
-          <div>
-            <img src={zoafiaWireHome} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={zoafiaWireOffice} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={zoafiaWireItem} alt="" className="w-full" />
+        <div className="overflow-scroll scrollbar-hide">
+          <div className="max-w-[1080px] mx-auto my-4 px-8 min-h-[600px} min-w-[900px] grid grid-cols-3 gap-12 lg:gap-32 mb-24 lg:mb-32">
+            <div>
+              <img src={zoafiaWireHome} alt="" className="w-full" />
+            </div>
+            <div>
+              <img src={zoafiaWireOffice} alt="" className="w-full" />
+            </div>
+            <div>
+              <img src={zoafiaWireItem} alt="" className="w-full" />
+            </div>
           </div>
         </div>
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
@@ -256,26 +264,30 @@ const Zoafia = () => {
             <p className="pb-6 italic text-gray-700 dark:text-gray-400">The design system used was made to enable speedy modifications to the designs in response to new observations and critical business changes.</p>
           </div>
         </section>
-        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
-          <div>
-            <img src={zoafiaBusiness} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={zoafiaHome} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={zoafiaPayment} alt="" className="w-full" />
+        <div className="overflow-scroll scrollbar-hide">
+          <div className="max-w-[1080px] mx-auto my-4 px-8 min-h-[600px} min-w-[900px] grid grid-cols-3 gap-12 lg:gap-32 mb-24 lg:mb-32">
+            <div>
+              <img src={zoafiaBusiness} alt="" className="w-full" />
+            </div>
+            <div>
+              <img src={zoafiaHome} alt="" className="w-full" />
+            </div>
+            <div>
+              <img src={zoafiaPayment} alt="" className="w-full" />
+            </div>
           </div>
         </div>
-        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 lg:mb-32 pb-16 border-b border-[#cccccc] dark:border-[#444444]">
-          <div>
-            <img src={zoafiaPos} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={zoafiaCheckout} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={zoafiaDiscount} alt="" className="w-full" />
+        <div className="overflow-scroll scrollbar-hide">
+          <div className="max-w-[1080px] mx-auto my-4 px-8 min-h-[600px} min-w-[900px] grid grid-cols-3 gap-12 lg:gap-32 mb-24 lg:mb-32">
+            <div>
+              <img src={zoafiaPos} alt="" className="w-full" />
+            </div>
+            <div>
+              <img src={zoafiaCheckout} alt="" className="w-full" />
+            </div>
+            <div>
+              <img src={zoafiaDiscount} alt="" className="w-full" />
+            </div>
           </div>
         </div>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">

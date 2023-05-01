@@ -1,4 +1,5 @@
 import * as React from "react";
+import { motion, AnimatePresence } from "framer-motion"
 import { SEO } from "../components/seo"
 import { Link } from "gatsby";
 import Layout from "../components/layout";
@@ -14,7 +15,10 @@ const IndexPage = () => {
         <section className="max-w-[1080px] py-4 pt-36 md:flex items-center mx-auto">
           <div className="ml-8 mr-12 my-12 md:my-0 w-[100px] h-[100px] relative">
             <Link to="/about" className="relative z-20">
-              <img src={portrait} alt="portrait" className="grayscale w-[100px] h-[100px] rounded-full object-cover hover:p-1" />
+            <AnimatePresence>
+              <motion.img layoutId="portrait"
+                  layout src={portrait} alt="portrait" className="grayscale w-[100px] h-[100px] rounded-full object-cover hover:p-1" />
+              </AnimatePresence>
             </Link>
             <span className=" w-[150px] absolute z-10 h-[150px] top-[5px] left-[5px] translate-x-[-50%] translate-y-[-50%]">
               <svg width={240} height={240} className={"spin animate-pulse duration-150 fill-slate-400 hover:fill-orange-500"}>
@@ -54,10 +58,13 @@ const IndexPage = () => {
               </div>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021</span>
             </div>
-              <img src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />        
+            <AnimatePresence>
+            <motion.img layoutId="zoafiaBanner"
+                  layout src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />    
+            </AnimatePresence>    
           </Link>
 
-          <Link to="/zoafia" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-16 px-4 py-24 hover:scale-[0.98] md:py-12 rounded-xl md:min-h-[600px] md:h-[300px] relative overflow-clip">
+          <Link to="/zoafia" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] mt-16 px-4 py-24 hover:scale-[0.98] md:py-12 rounded-xl md:min-h-[600px] md:h-[300px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <div className=" text-[14px] absolute top-6 left-6 font-semibold">
                 <span className="">ZOAFIA Inventory</span> <br/>
@@ -75,14 +82,14 @@ const IndexPage = () => {
           </Link>
         </section>
 
-        <section className="max-w-[1080px] md:grid grid-cols-2 mx-auto gap-8 pt-8 md:py-24 border-b border-[#999999] dark:border-[#444444]">
+        <section className="max-w-[1080px] md:grid grid-cols-2 mx-auto gap-8 py-24 border-b border-[#999999] dark:border-[#444444]">
           <div className="">
             <h2 className="font-semibold text-[44px] md:text-[52px] cursive pb-4">Publications</h2>
             <p>
             I often write about project case studies, tutorials, and articles on all things front-end design engineering.
             </p>
           </div>
-          <div className="pt-16">
+          <div className="md:pt-16 ">
             <div className="py-8">
               <h3 className="font-semibold text-[18px] mb-4">Recent Articles</h3>
               <Link to="/writing/" className="underline inline-block py-2">
