@@ -49,7 +49,7 @@ const Header = ({ menuLinks }) => {
               </li>
             ))}
             <AnimatePresence>
-              <motion.div layoutId="theme" layout className="mr-2 px-2 mt-2 hover:cursor-pointer bg-black dark:bg-white rounded-full">
+              <motion.div key="theme" layout className="mr-2 px-2 mt-2 hover:cursor-pointer bg-black dark:bg-white rounded-full">
                 <ThemeToggler>
                   {({ theme, toggleTheme }) => (
                     <label className="relative cursor-pointer block p-3 ">

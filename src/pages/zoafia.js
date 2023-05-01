@@ -31,7 +31,7 @@ const Zoafia = () => {
             <Link to="/" className="p-4 font-semibold md:h-[80px] r-[1px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-r border-[#cccccc] dark:border-[#444444]">Portfolio</Link>
 
             <AnimatePresence>
-              <motion.div layoutId="theme" layout className="px-2 bg-black dark:bg-white rounded-full">
+              <motion.div key="theme" layout className="px-2 bg-black dark:bg-white rounded-full">
                 <ThemeToggler>
                   {({ theme, toggleTheme }) => (
                     <label className="relative cursor-pointer block p-3 ">

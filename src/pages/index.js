@@ -17,7 +17,7 @@ const IndexPage = () => {
             <Link to="/about" className="relative z-20">
             <AnimatePresence>
               <motion.img layoutId="portrait"
-                  layout src={portrait} alt="portrait" className="grayscale w-[100px] h-[100px] rounded-full object-cover hover:p-1" />
+                  layout src={portrait} alt="portrait" transition={{ duration: 0.1}} className="grayscale w-[100px] h-[100px] rounded-full object-cover hover:p-1" />
               </AnimatePresence>
             </Link>
             <span className=" w-[150px] absolute z-10 h-[150px] top-[5px] left-[5px] translate-x-[-50%] translate-y-[-50%]">

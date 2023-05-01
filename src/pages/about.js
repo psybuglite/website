@@ -9,17 +9,17 @@ const About = () => {
   return (
     <Layout>
       <main className="w-full px-4 pt-24 md:pt-24">
-        <section className="md:grid md:grid-cols-5 border-b-2 border-[#cccccc] mb-24 pb-24 gap-16 max-w-[1080px] pt-32 mx-auto">
-          <div className="col-span-2 pb-8">
-            <div className="w-full -mt-12 md:h-[500px] h-[400px] rounded-xl ">
+        <section className="md:grid md:grid-cols-5 border-b-2 border-[#cccccc] dark:border-[#323232] mb-24 pb-24 gap-16 max-w-[1080px] pt-32 mx-auto">
+          <div className="col-span-2 pb-8 md:pb-0">
+            <div className="w-full max-w-[400px] h-[400px] rounded-xl ">
               <AnimatePresence>
               <motion.img layoutId="portrait"
-                  layout src={portrait} alt="portrait" className="grayscale hover:filter-none	w-full h-full rounded-xl  object-cover" />
+                  layout src={portrait} alt="portrait" transition={{ duration: 0.1}} className="grayscale duration-[2000ms] hover:grayscale-[20%]	w-full h-full rounded-xl object-cover" />
               </AnimatePresence>
             </div>
           </div>
           <div className="col-span-3">
-            <h2 className="md:text-[54px] text-[32px] font-semibold cursive mb-4"> Dennis Tamunotonye Dickson</h2>
+            <h2 className="md:text-[54px] text-[32px] font-semibold cursive mb-4 mt-0"> Dennis Tamunotonye Dickson</h2>
             <p className="py-2">
               I build digital experiences. I specialize in Web Design, UX / UI, Webflow, and Front End Development.
             </p>
