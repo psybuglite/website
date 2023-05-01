@@ -151,7 +151,7 @@ const Zoafia = () => {
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] md:min-h-[500px]">
+        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] h-[250px] md:min-h-[500px]">
           <img src={zoafiaBanner} alt="" className="h-full md:h-full object-cover" />
         </div>
 
