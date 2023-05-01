@@ -57,7 +57,7 @@ const IndexPage = () => {
               <img src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />        
           </Link>
 
-          <Link to="/zoafia" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-16 px-4 py-36 hover:scale-[0.98] md:py-2 rounded-xl md:min-h-[500px] md:h-[300px] relative overflow-clip">
+          <Link to="/zoafia" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-16 px-4 py-24 hover:scale-[0.98] md:py-12 rounded-xl md:min-h-[600px] md:h-[300px] relative overflow-clip">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <div className=" text-[14px] absolute top-6 left-6 font-semibold">
                 <span className="">ZOAFIA Inventory</span> <br/>
@@ -69,7 +69,9 @@ const IndexPage = () => {
               </div>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2022 (ongoing)</span>
             </div>
-              <img src={zoafiaBanner} alt="home" className="h-full object-cover mx-auto scale-150 md:scale-100" />        
+            <div className="h-[250px] md:h-full">
+              <img src={zoafiaBanner} alt="home" className="h-full object-cover md:object-cover mx-auto" />        
+            </div>
           </Link>
         </section>
 
