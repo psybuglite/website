@@ -28,10 +28,10 @@ const Zoafia = () => {
       <main className="w-full">
         <section className="backdrop-blur sticky z-10 top-0 border-b border-[#cccccc] dark:border-[#444444]">
           <nav className="flex items-center justify-between">
-            <Link to="/" className="p-4 font-semibold md:h-[80px] r-[1px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-r border-[#cccccc] dark:border-[#444444]">Portfolio</Link>
+            <Link to="/" className="p-4 font-semibold md:h-[80px] r-[1px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-r border-[#cccccc] dark:border-[#444444] link-item">Portfolio</Link>
 
             <AnimatePresence>
-              <motion.div key="theme" layout className="px-2 bg-black dark:bg-white rounded-full">
+              <motion.div key="theme" layout className="px-2 bg-black dark:bg-white rounded-full link-item">
                 <ThemeToggler>
                   {({ theme, toggleTheme }) => (
                     <label className="relative cursor-pointer block p-3 ">
@@ -302,7 +302,7 @@ const Zoafia = () => {
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">6.2 Credits</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">7.1 Credits</h3>
           </div>
           <div className="col-span-3 pt-8">
             <div className="md:grid grid-cols-3 py-2">
@@ -310,13 +310,40 @@ const Zoafia = () => {
               <p className="col-span-2 italic"> Content Strategy, UX, UI,</p>
             </div>
             <div className="md:grid grid-cols-3 py-2">
-              <p className="font-semibold">Iyke Owoh</p>
+              <p className="font-semibold underline">
+                <a href="https://www.linkedin.com/in/iykeowoh/" className="link-item">
+                  Iyke Owoh
+                </a>
+                <span className="absolute top-0 -right-4 link-arrow">
+                  <svg
+                    width={18}
+                    height={16}
+                    viewBox="0 0 18 16"
+                    fill="none"
+                    className="dark:stroke-white stroke-[#212121]"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.40918 11.3334L12.5476 4.66675"
+                      strokeWidth="0.666667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M5.40918 4.66675H12.5476V11.3334"
+                      strokeWidth="0.666667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
+              </p>
               <p className="col-span-2 italic">Development</p>
             </div>
           </div>
         </section>
         <section className="p-4">
-          <Link to="/roava" className="max-w-[1080px] block mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
+          <Link to="/roava" className="max-w-[1080px] block link-item mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
             <div className="col-span-2 pt-4">
               <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">Next Project:</h3>
             </div>

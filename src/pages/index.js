@@ -19,7 +19,7 @@ const IndexPage = () => {
       <main className="w-full px-4">
         <section className="max-w-[1080px] py-4 pt-36 md:flex items-center mx-auto">
           <div className="ml-8 mr-12 my-12 md:my-0 w-[100px] h-[100px] relative">
-            <Link to="/about" className="relative z-20">
+            <Link to="/about" className="relative z-20 link-item">
               <AnimatePresence>
                 <motion.img layoutId="portrait"
                   layout src={portrait} alt="portrait" transition={{ duration: 0.1}} className="grayscale w-[100px] h-[100px] rounded-full object-cover hover:p-1" />
@@ -98,15 +98,15 @@ const IndexPage = () => {
           <div className="md:pt-16 ">
             <div className="py-8">
               <h3 className="font-semibold text-[18px] mb-4">Recent Articles</h3>
-              <Link to="/writing/window-document-not-defined-gatsby-build/" className="underline inline-block py-2">
+              <Link to="/writing/window-document-not-defined-gatsby-build/" className="underline inline-block py-2 my-2 link-item">
               How to fix 'document not defined' in Gatsby Build
               </Link>
-              <Link to="/writing/how-to-setup-react-project-on-a-virtual-private-server/" className="underline inline-block py-2">
+              <Link to="/writing/how-to-setup-react-project-on-a-virtual-private-server/" className="underline inline-block py-2 my-2 link-item">
               How to Set Up React Project on a Virtual Server
               </Link>
             </div>
             <div className="my-4">
-              <Link to="/writing" className="underline">See all articles</Link>
+              <Link to="/writing" className="underline link-item">See all articles</Link>
             </div>
           </div>
         </section>

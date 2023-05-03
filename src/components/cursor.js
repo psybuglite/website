@@ -18,8 +18,8 @@ const Cursor = () => {
     gsap.to({}, 0.016, {
       repeat: -1,
       onRepeat: function () {
-        posX += (mouseX - posX) / 9;
-        posY += (mouseY - posY) / 9;
+        posX += (mouseX - posX) / 6;
+        posY += (mouseY - posY) / 6;
 
         gsap.set(follower, {
           css: {
@@ -43,16 +43,29 @@ const Cursor = () => {
     };
 
 
-    var links = document.querySelectorAll(".portfolio-item")
-    links.forEach((link) => {
-      link.onmouseenter = function () {
+    var portfolioItems = document.querySelectorAll(".portfolio-item")
+    portfolioItems.forEach((portfolioItem) => {
+      portfolioItem.onmouseenter = function () {
         newcursor.classList.add("active");
         follower.classList.add("active");
       };
 
-      link.onmouseleave = function () {
+      portfolioItem.onmouseleave = function () {
         newcursor.classList.remove("active");
         follower.classList.remove("active");
+      };
+    })
+
+    var linkItems = document.querySelectorAll(".link-item")
+    linkItems.forEach((linkItem) => {
+      linkItem.onmouseenter = function () {
+        newcursor.classList.add("linked");
+        follower.classList.add("linked");
+      };
+
+      linkItem.onmouseleave = function () {
+        newcursor.classList.remove("linked");
+        follower.classList.remove("linked");
       };
     })
 

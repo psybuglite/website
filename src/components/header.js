@@ -11,7 +11,7 @@ const Header = ({ menuLinks }) => {
     <header className="w-full md:fixed absolute top-0 left-0 px-4 ">
       <div className="backdrop-blur max-w-[1392px] mx-auto flex justify-between items-start py-4 h-[10px]">
         <>
-          <Link to="/">
+          <Link to="/" className="link-item">
             <span className="logo">
               <svg
               width={40}
@@ -37,11 +37,11 @@ const Header = ({ menuLinks }) => {
             {menuLinks.map((link) => (
               <li
                 key={link.name}
-                className="py-2.5 rounded-full dark:text-[#eee]"
+                className="py-2 my-1 rounded-full dark:text-[#eee]"
               >
                 <Link
                   to={link.link}
-                  className="py-2 px-4 rounded-full border border-[#999999] dark:border-[#444444] bg-transparent text-[#444444] dark:text-[#cccccc] hover:border-[#DC5132] hover:bg-[#DC5132] hover:text-white"
+                  className="py-2 px-4 rounded-full border border-[#999999] dark:border-[#444444] bg-transparent text-[#444444] dark:text-[#cccccc] hover:border-[#DC5132] hover:bg-[#DC5132] link-item hover:text-white"
                   activeClassName="bg-active"
                 >
                   {link.name}
@@ -49,7 +49,7 @@ const Header = ({ menuLinks }) => {
               </li>
             ))}
             <AnimatePresence>
-              <motion.div key="theme" layout className="mr-2 px-2 mt-2 hover:cursor-pointer bg-black dark:bg-white rounded-full">
+              <motion.div key="theme" layout className="mr-2 px-2 mt-2 link-item bg-black dark:bg-white rounded-full">
                 <ThemeToggler>
                   {({ theme, toggleTheme }) => (
                     <label className="relative cursor-pointer block p-3 ">

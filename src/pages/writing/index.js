@@ -19,13 +19,13 @@ const Writing = () => {
             <div className="pt-12">
               <ul className="none">
                 <li className="mb-4 py-4">
-                  <Link to="/writing/window-document-not-defined-gatsby-build" className="">
+                  <Link to="/writing/window-document-not-defined-gatsby-build" className="link-item">
                     <h3 className="text-[24px] link">How to fix 'document not defined' in Gatsby Build</h3>
                   </Link>
                   <p className="my-4 max-w-2xl">The error <span className="small-code">`document is not defined`</span> or <span className="small-code">`window is not defined`</span>window is not defined you see when building a gatsby project is as a result of gatsby attempting to query the DOM on the server as it is server-side rendering.</p>
                 </li>
                 <li className="mb-4 py-4">
-                  <Link to="/writing/how-to-setup-react-project-on-a-virtual-private-server" className="">
+                  <Link to="/writing/how-to-setup-react-project-on-a-virtual-private-server" className="link-item">
                     <h3 className="text-[24px] link"> How to Set Up React Project on a Virtual Server</h3>
                   </Link>
                   <p className="my-4 max-w-2xl">So, you&#39;ve finished building up the UI for your React project

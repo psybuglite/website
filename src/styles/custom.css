@@ -127,9 +127,9 @@ body.dark {
 .cursor.active {
   transform: scale(0);
 }
-/* .cursor.hovered {
-  opacity: 0.08;
-} */
+.cursor.linked {
+  opacity: 1;
+}
 
 .cursor-follower {
   position: absolute;
@@ -150,6 +150,10 @@ body.dark {
 }
 .cursor-follower.active {
   transform: scale(4);
+}
+
+.cursor-follower.linked {
+  transform: scale(2.5);
 }
 .cursor-follower.active img {
   opacity: 1;

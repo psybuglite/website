@@ -7,7 +7,7 @@ let year = d.getFullYear();
 const Footer = () => (
   <footer className="w-full px-4">
     <div className="flex pt-16 justify-center">
-      <Link to="/">
+      <Link to="/" className="link-item">
         <span className="logo">
           <svg
               width={40}
@@ -32,7 +32,7 @@ const Footer = () => (
         <p className="py-2 text-center"></p>
         <a
           href="mailto:dennistdickson@gmail.com"
-          className="flex email mx-auto underline"
+          className="flex link-item email mx-auto underline"
         >
           <span className="mr-2">
             <svg
@@ -64,7 +64,7 @@ const Footer = () => (
     </div>
     <div className="flex justify-center py-8">
     <span className="mx-8 relative">
-      <a target="_blank" rel="noreferrer" href="https://dribbble.com/psybuglite">
+      <a target="_blank" rel="noreferrer" href="https://dribbble.com/psybuglite" className="link-item" title="Dribbble">
         <svg
           width={43}
           height={40}
@@ -123,7 +123,7 @@ const Footer = () => (
       </span>
     </span>
     <span className="mx-8 relative">
-      <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/psybug">
+      <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/psybug" className="link-item" title="LinkedIn">
         <svg
           width={44}
           height={40}
