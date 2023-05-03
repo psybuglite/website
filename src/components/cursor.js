@@ -44,15 +44,13 @@ const Cursor = () => {
 
 
     var links = document.querySelectorAll(".portfolio-item")
-    links.forEach(function name(link) {
+    links.forEach((link) => {
       link.onmouseenter = function () {
-        console.log("I'm hovering");
         newcursor.classList.add("active");
         follower.classList.add("active");
       };
 
       link.onmouseleave = function () {
-        console.log("I'm not hovering");
         newcursor.classList.remove("active");
         follower.classList.remove("active");
       };
@@ -62,9 +60,9 @@ const Cursor = () => {
 
   return (
     <>
-      <div className="cursor">
+      <div className="hidden md:block cursor">
       </div>
-      <div className="cursor-follower">
+      <div className="hidden md:block cursor-follower">
         <img src={cursorImage} alt="" />
       </div>
     </>

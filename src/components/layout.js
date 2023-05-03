@@ -3,11 +3,11 @@ import Header from "./header";
 import Footer from "./footer"
 import Cursor from "./cursor";
 import PropTypes from "prop-types";
-import { StaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 
-const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
+const Layout = ({ children }) => {
+
+  const data = useStaticQuery(graphql`
       query SiteTitleQuery {
         site {
           siteMetadata {
@@ -19,8 +19,8 @@ const Layout = ({ children }) => (
           }
         }
       }
-    `}
-    render={(data) => (
+    `)
+    return (
       <React.Fragment>
         <Cursor />
         <Header
@@ -31,9 +31,8 @@ const Layout = ({ children }) => (
         <div className="dark:text-[#eee]">{children}</div>
         <Footer></Footer>
       </React.Fragment>
-    )}
-  />
-);
+    )
+  };
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
