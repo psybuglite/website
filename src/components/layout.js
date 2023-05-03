@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./header";
 import Footer from "./footer"
+import Cursor from "./cursor";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
@@ -21,6 +22,7 @@ const Layout = ({ children }) => (
     `}
     render={(data) => (
       <React.Fragment>
+        <Cursor />
         <Header
           menuLinks={data.site.siteMetadata.menuLinks}
           siteTitle={data.site.siteMetadata.title}

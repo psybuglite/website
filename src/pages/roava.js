@@ -1,5 +1,5 @@
 import React from "react"
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import { Link } from "gatsby";
 import CaseStudy from "../components/case-study";
 import ThemeToggler from "gatsby-plugin-dark-mode/ThemeToggler";
@@ -127,7 +127,7 @@ const Roava = () => {
         </section>
 
         <section className="max-w-[1080px] mx-auto px-4 py-12">
-          <h1 className="cursive text-[32px] md:text-[52px]">ROAVA</h1>
+          <h1 className="cursive text-[32px] md:text-[52px]">Roava</h1>
           <div className="md:grid grid-cols-3">
             <div className="pt-8 txt-[14px] col-span-2">
               <div className="md:grid grid-cols-3 py-2">
@@ -156,7 +156,7 @@ const Roava = () => {
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">ROAVA allows its customers to manage their money, exchange international currencies, bills and savings from their phone.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">I worked as part of a team of engineers, other designers, and other managerial staff. I primarily reported to the Chief Product Officer, and the product managers.</p>
+            <p className="pb-6 italic text-gray-700 dark:text-gray-400">I worked as part of a team of engineers, designers, and other managerial staff. I primarily reported to the Chief Product Officer, and the product managers.</p>
           </div>
         </section>
 
@@ -297,7 +297,7 @@ const Roava = () => {
               <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">Next Project:</h3>
             </div>
             <div className="col-span-3 py-4 flex justify-between items-center">
-              <p className="font-semibold text-[16px] md:text-[18px]">ZOAFIA</p>
+              <p className="font-semibold text-[16px] md:text-[18px]">Zoafia</p>
               <span>
                 <svg
                   width={25}
@@ -336,5 +336,5 @@ const Roava = () => {
 export default Roava
 
 export const Head = () => (
-  <SEO title="Roava - UX/UI Designer & Developer - Dennis Tamunotonye Dickson" />
+  <Seo title="Roava - UX/UI Designer & Developer - Dennis Tamunotonye Dickson" />
 )

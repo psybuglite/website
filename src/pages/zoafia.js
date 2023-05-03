@@ -1,5 +1,5 @@
 import React from "react"
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import { Link } from "gatsby";
 import CaseStudy from "../components/case-study";
 import ThemeToggler from "gatsby-plugin-dark-mode/ThemeToggler";
@@ -321,7 +321,7 @@ const Zoafia = () => {
               <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">Next Project:</h3>
             </div>
             <div className="col-span-3 py-4 flex justify-between items-center">
-              <p className="font-semibold text-[16px] md:text-[18px]">Roava.</p>
+              <p className="font-semibold text-[16px] md:text-[18px]">Roava</p>
               <span>
                 <svg
                   width={25}
@@ -360,5 +360,5 @@ const Zoafia = () => {
 export default Zoafia
 
 export const Head = () => (
-  <SEO title="Zoafia - UX/UI Designer & Developer - Dennis Tamunotonye Dickson" />
+  <Seo title="Zoafia - UX/UI Designer & Developer - Dennis Tamunotonye Dickson" />
 )

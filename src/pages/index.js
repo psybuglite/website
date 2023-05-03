@@ -1,6 +1,6 @@
-import * as React from "react";
+import React, { useEffect} from "react";
 import { motion, AnimatePresence } from "framer-motion"
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import roavaBanner from "../images/roava/roava-banner.png";
@@ -9,6 +9,11 @@ import portrait from "../images/dennis.jpg";
 
 
 const IndexPage = () => {
+
+  // useEffect(() => {
+
+  // }), [];
+
   return (
     <Layout>
       <main className="w-full px-4">
@@ -46,7 +51,8 @@ const IndexPage = () => {
         </section>
         <section className="max-w-[1080px] py-4 mx-auto">
           <h1 className="text-[44px] md:text-[52px] font-semibold cursive pt-12">Work </h1>
-          <Link to="/roava" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 px-4 py-12 hover:scale-[0.98] md:py-2 rounded-xl min-h-[500px] md:h-[300px] relative overflow-clip">
+          
+          <Link to="/roava" className="block portfolio-item hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] my-8 px-4 py-12 hover:scale-[0.98] md:py-2 rounded-xl min-h-[500px] md:h-[300px] relative overflow-clip">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <div className=" text-[14px] absolute top-6 left-6 font-semibold">
                 <span className="">ROAVA</span> <br/>
@@ -61,10 +67,10 @@ const IndexPage = () => {
             <AnimatePresence>
             <motion.img layoutId="zoafiaBanner"
                   layout src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />    
-            </AnimatePresence>    
+            </AnimatePresence>
           </Link>
 
-          <Link to="/zoafia" className="block hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] mt-16 px-4 py-24 hover:scale-[0.98] md:py-12 rounded-xl md:min-h-[600px] md:h-[300px] relative">
+          <Link to="/zoafia" className="block portfolio-item hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] mt-16 px-4 py-24 hover:scale-[0.98] md:py-12 rounded-xl md:min-h-[600px] md:h-[300px] relative">
             <div className="text-[#212121] dark:text-[#dddddd]">
               <div className=" text-[14px] absolute top-6 left-6 font-semibold">
                 <span className="">ZOAFIA Inventory</span> <br/>
@@ -113,5 +119,5 @@ const IndexPage = () => {
 export default IndexPage;
 
 export const Head = () => (
-  <SEO title="UX/UI Designer & Developer - Dennis Tamunotonye Dickson" />
+  <Seo title="UX/UI Designer & Developer - Dennis Tamunotonye Dickson" />
 )

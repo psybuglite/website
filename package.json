@@ -31,6 +31,7 @@
     "gatsby-source-filesystem": "^5.7.0",
     "gatsby-transformer-remark": "^6.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
+    "gsap": "^3.11.5",
     "highlight.js": "^11.7.0",
     "latest-version": "^7.0.0",
     "marked": "^4.2.12",

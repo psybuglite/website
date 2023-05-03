@@ -1,6 +1,6 @@
 import React from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import Layout from "../components/layout";
 import portrait from "../images/dennis.jpg";
 
@@ -157,5 +157,5 @@ const About = () => {
 export default About
 
 export const Head = () => (
-  <SEO title="About me - Dennis Tamunotonye Dickson" />
+  <Seo title="About me - Dennis Tamunotonye Dickson" />
 )
