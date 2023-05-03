@@ -42,6 +42,9 @@ body.dark {
   body.dark footer .link-arrow svg path { 
     stroke: white; 
   }
+  body.dark .link-arrow svg path { 
+    stroke: white; 
+  }
   body.dark footer .email svg path { 
     stroke: white; 
   }

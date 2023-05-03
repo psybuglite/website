@@ -310,11 +310,11 @@ const Zoafia = () => {
               <p className="col-span-2 italic"> Content Strategy, UX, UI,</p>
             </div>
             <div className="md:grid grid-cols-3 py-2">
-              <p className="font-semibold underline">
+              <p className="font-semibold underline relative">
                 <a href="https://www.linkedin.com/in/iykeowoh/" className="link-item">
                   Iyke Owoh
                 </a>
-                <span className="absolute top-0 -right-4 link-arrow">
+                <span className="absolute top-0 left-24 link-arrow">
                   <svg
                     width={18}
                     height={16}

@@ -286,7 +286,34 @@ const Roava = () => {
               <p className="col-span-2 italic"> Content Strategy, UX, UI</p>
             </div>
             <div className="md:grid grid-cols-3 py-2">
-              <p className="font-semibold">Cuberto</p>
+            <p className="font-semibold underline relative">
+                <a href="https://www.cuberto.com/" className="link-item">
+                  Cuberto
+                </a>
+                <span className="absolute top-0 left-18 link-arrow">
+                  <svg
+                    width={18}
+                    height={16}
+                    viewBox="0 0 18 16"
+                    fill="none"
+                    className="dark:stroke-white stroke-[#212121]"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.40918 11.3334L12.5476 4.66675"
+                      strokeWidth="0.666667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M5.40918 4.66675H12.5476V11.3334"
+                      strokeWidth="0.666667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
+              </p>
               <p className="col-span-2 italic">Branding</p>
             </div>
           </div>
