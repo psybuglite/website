@@ -52,11 +52,11 @@ body.dark {
     fill: white; 
   }
   body.dark .cursor {
-    border: solid 3px #DC5132;
+    border: solid 3px #23aecd;
   }
   body.dark .cursor.linked {
-    border: solid 1px #DC5132;
-    background: rgba(220, 81, 50, 0.3);
+    border: solid 1px #23aecd;
+    background: rgba(35, 174, 205, 0.3);
   }
 }
 
@@ -121,7 +121,7 @@ body.dark {
 .cursor {
   position: absolute;
   background-color: transparent;
-  border: solid 3px #23aecd;
+  border: solid 3px #DC5132;
   mix-blend-mode: difference;
   width: 16px;
   height: 16px;
@@ -140,6 +140,7 @@ body.dark {
 .cursor.linked {
   opacity: 1;
   border: solid 1px #DC5132;
+  background: rgba(220, 81, 50, 0.3);
   scale: 3;
 }
 
