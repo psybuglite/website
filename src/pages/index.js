@@ -1,5 +1,4 @@
 import React from "react";
-import { motion, AnimatePresence } from "framer-motion"
 import { Seo } from "../components/seo"
 import { Link } from "gatsby";
 import Layout from "../components/layout";
@@ -16,10 +15,7 @@ const IndexPage = () => {
         <section className="max-w-[1080px] py-4 pt-36 md:flex items-center mx-auto">
           <div className="ml-8 mr-12 my-12 md:my-0 w-[100px] h-[100px] relative">
             <Link to="/about" className="relative z-20 link-item">
-              <AnimatePresence>
-                <motion.img layoutId="portrait"
-                  layout src={portrait} alt="portrait" transition={{ duration: 0.1}} className="grayscale w-[100px] h-[100px] rounded-full object-cover hover:p-1" />
-              </AnimatePresence>
+              <img src={portrait} alt="portrait" transition={{ duration: 0.1}} className="grayscale w-[100px] h-[100px] rounded-full object-cover hover:p-1" />
             </Link>
             <span className=" w-[150px] absolute z-10 h-[150px] top-[5px] left-[5px] translate-x-[-50%] translate-y-[-50%]">
               <svg width={240} height={240} className={"spin animate-pulse duration-150 fill-slate-400 hover:fill-orange-500"}>
@@ -60,10 +56,7 @@ const IndexPage = () => {
               </div>
               <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021</span>
             </div>
-            <AnimatePresence>
-            <motion.img layoutId="zoafiaBanner"
-                  layout src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />    
-            </AnimatePresence>
+            <img src={roavaBanner} alt="home" className="h-[500px] md:h-full object-cover mx-auto" />
           </Link>
 
           <Link to="/zoafia" className="block portfolio-item hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] mt-16 px-4 py-24 hover:scale-[0.98] md:py-12 rounded-xl md:min-h-[600px] md:h-[300px] relative">

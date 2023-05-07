@@ -1,5 +1,4 @@
 import React from "react"
-import { motion, AnimatePresence } from "framer-motion"
 import { Seo } from "../components/seo"
 import Layout from "../components/layout";
 import portrait from "../images/dennis.jpg";
@@ -12,10 +11,7 @@ const About = () => {
         <section className="md:grid md:grid-cols-5 border-b-2 border-[#cccccc] dark:border-[#323232] mb-24 pb-24 gap-16 max-w-[1080px] pt-32 mx-auto">
           <div className="col-span-2 pb-8 md:pb-0">
             <div className="w-full max-w-[400px] h-[400px] rounded-xl ">
-              <AnimatePresence>
-              <motion.img layoutId="portrait"
-                  layout src={portrait} alt="portrait" transition={{ duration: 0.1}} className="grayscale duration-[2000ms] hover:grayscale-[20%]	w-full h-full rounded-xl object-cover" />
-              </AnimatePresence>
+              <img src={portrait} alt="portrait" transition={{ duration: 0.1}} className="grayscale duration-[2000ms] hover:grayscale-[20%]	w-full h-full rounded-xl object-cover" />
             </div>
           </div>
           <div className="col-span-3">
