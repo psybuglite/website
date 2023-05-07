@@ -1,4 +1,4 @@
-import React, { useEffect} from "react";
+import React from "react";
 import { motion, AnimatePresence } from "framer-motion"
 import { Seo } from "../components/seo"
 import { Link } from "gatsby";
@@ -9,10 +9,6 @@ import portrait from "../images/dennis.jpg";
 
 
 const IndexPage = () => {
-
-  // useEffect(() => {
-
-  // }), [];
 
   return (
     <Layout>

@@ -27,8 +27,33 @@ const About = () => {
               I enjoy working as part of a team in a collaborative, team-centered environment with opportunities to learn and grow. I love to contribute and collaborate to solve problems. 
             </p>
             <div className="mt-8">
-              <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1S4pKsXHnEhIIoUOFdBw1JW9Amja2gWA_/view?usp=sharing" className="link-item">
-                <button className="border border-[#323232] rounded-full px-6 py-2">View Resume</button>
+              <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1S4pKsXHnEhIIoUOFdBw1JW9Amja2gWA_/view?usp=sharing" className="inline-flex link-item">
+                <button className="border border-[#323232] flex items-center rounded-full px-6 py-2">
+                  View Resume
+                  <span className="link-arrow ml-4">
+                    <svg
+                      width={18}
+                      height={16}
+                      viewBox="0 0 18 16"
+                      fill="none"
+                      className="dark:stroke-white stroke-[#212121]"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.40918 11.3334L12.5476 4.66675"
+                        strokeWidth="0.666667"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M5.40918 4.66675H12.5476V11.3334"
+                        strokeWidth="0.666667"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </button>
               </a>
             </div>
           </div>
