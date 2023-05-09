@@ -1,9 +1,10 @@
-import React from "react";
+import React from "react"; 
 import { Seo } from "../components/seo"
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import roavaBanner from "../images/roava/roava-banner.png";
 import zoafiaBanner from "../images/zoafia/zoafia-banner.png";
+import dappyBanner from "../images/dappy/dappy-banner.png";
 import portrait from "../images/dennis.jpg";
 
 
@@ -73,6 +74,23 @@ const IndexPage = () => {
             </div>
             <div className="h-[250px] md:h-full">
               <img src={zoafiaBanner} alt="home" className="h-full object-cover md:object-cover mx-auto" />        
+            </div>
+          </Link>
+
+          <Link to="/dappy" className="block portfolio-item hover:bg-[#eeeeee] dark:hover:bg-[#212121] bg-transparent border border-[#999999] dark:border-[#444444] mt-16 px-4 py-24 hover:scale-[0.98] md:py-12 rounded-xl md:min-h-[600px] md:h-[300px] relative">
+            <div className="text-[#212121] dark:text-[#dddddd]">
+              <div className=" text-[14px] absolute top-6 left-6 font-semibold">
+                <span className="">DAPPY</span> <br/>
+                <span className="italic font-normal">Blockchain</span>
+              </div>
+              <div className=" text-[14px] absolute bottom-6 left-6 font-semibold">
+                <span className="">Role: <em className="font-normal">UX/UI Designer & Developer</em> </span><br/>
+                <span className="font-normal">UX, UI, Development</span>
+              </div>
+              <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2021</span>
+            </div>
+            <div className="h-[250px] md:h-full">
+              <img src={dappyBanner} alt="home" className="h-full object-cover md:object-cover mx-auto" />        
             </div>
           </Link>
         </section>

@@ -139,16 +139,16 @@ const Zoafia = () => {
           <div className="md:grid grid-cols-3">
             <div className="pt-8 txt-[14px] col-span-2">
               <div className="md:grid grid-cols-3 py-2">
-                <p className="font-semibold">Role</p>
-                <p className="col-span-2 italic">Product Designer</p>
+                <p className="font-semibold">Role :</p>
+                <p className="col-span-2">Product Designer</p>
               </div>
               <div className="md:grid grid-cols-3 py-2">
-                <p className="font-semibold">Details</p>
-                <p className="col-span-2 italic">A mobile application for managing e-commerce inventory, sales, shops, and staff.</p>
+                <p className="font-semibold">Details :</p>
+                <p className="col-span-2">A mobile application for managing e-commerce inventory, sales, shops, and staff.</p>
               </div>
               <div className="md:grid grid-cols-3 py-2">
-                <p className="font-semibold">Year</p>
-                <p className="col-span-2 italic">2022 (ongoing)</p>
+                <p className="font-semibold">Year :</p>
+                <p className="col-span-2">2022 (ongoing)</p>
               </div>
             </div>
           </div>
@@ -162,11 +162,11 @@ const Zoafia = () => {
 
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">1.1 Overview</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">1.1 Overview</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">Zoafia provides a user-friendly platform for shop and business owners to effectively manage their sales recording, inventory tracking, and product distribution across multiple shops. The platform also enables designated staff members to carry out authorized tasks, such as making sales, in accordance with their assigned permissions.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">As the designer of this project, I collaborate with a sole developer to oversee the application's development.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">As the designer of this project, I collaborate with a sole developer to oversee the application's development.</p>
           </div>
         </section>
 
@@ -186,17 +186,17 @@ const Zoafia = () => {
 
         <section className="max-w-[1080px] mx-auto border-y md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">1.2 Responsibilities & Business Goals</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">1.2 Responsibilities & Business Goals</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">In my role as a lead product designer, I collaborated with my colleague to identify and prioritize essential features for various user groups which we classified into three(3); Owners, Managers, and Sales Representatives. Through a Design Thinking session, we worked together as a team to discuss the specifics and chart out crucial user pathways and functionalities through User Journey Mapping.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">Our objective was to develop a mobile application that would enhance the website portal designed for shop owners to showcase their products. In addition to that, the mobile app provided a novel feature of assigning managerial and sales duties to newly onboarded staff within the same business.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">Our objective was to develop a mobile application that would enhance the website portal designed for shop owners to showcase their products. In addition to that, the mobile app provided a novel feature of assigning managerial and sales duties to newly onboarded staff within the same business.</p>
           </div>
         </section>
 
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">2.1 User Persona</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">2.1 User Persona</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">Zoafia is designed for individuals and businesses seeking to establish and manage their online stores without requiring extensive technical knowledge of website development or coding. The platform caters to a diverse user base that includes first-time entrepreneurs, as well as established businesses with more sophisticated e-commerce requirements.</p>
@@ -208,12 +208,12 @@ const Zoafia = () => {
         
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">2.2 User Flows and IA</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">2.2 User Flows and IA</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">To ensure that our mobile application design meets the diverse needs of our user base, we created a comprehensive user journey map that focuses on three primary user groups: Owners, Managers, and Sales People. This approach allowed us to identify specific requirements, preferences, and pain points for each user group and tailor our design accordingly...</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">— Owners are primarily concerned with managing inventory and monitoring sales performance, while Sales People focused on making sales and receiving commissions.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">
+            <p className="pb-6 text-gray-700 dark:text-gray-400">— Owners are primarily concerned with managing inventory and monitoring sales performance, while Sales People focused on making sales and receiving commissions.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">
               — Managers have a more diverse set of responsibilities, ranging from overseeing staff to managing inventory levels.</p>
           </div>
         </section>
@@ -224,7 +224,7 @@ const Zoafia = () => {
 
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">3.1 Style Guide</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">3.1 Style Guide</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">We utilised a UI style guide that improved the dependability of the Zoafia e-commerce application for shop and business owners, specifically pertaining to their needs for inventory and staff management.</p>
@@ -237,7 +237,7 @@ const Zoafia = () => {
 
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">4.1 Wireframing and Feedback</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">4.1 Wireframing and Feedback</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">To simplify the entire application, we broke down all the user journeys into smaller, self-contained segments. To conceptualise and refine our ideas, we utilized wireframes and focused on essential functionality.</p>
@@ -258,11 +258,11 @@ const Zoafia = () => {
         </div>
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16 border-t border-[#cccccc] dark:border-[#444444]">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">5.1 User Interface & Prototype</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">5.1 User Interface & Prototype</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">At Zoafia, we follow a mostly lean design approach, which allows us to swiftly begin developing interfaces while simultaneously making decisions about the product's direction and feature adjustments due to our lightweight design philosophy.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">The design system used was made to enable speedy modifications to the designs in response to new observations and critical business changes.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">The design system used was made to enable speedy modifications to the designs in response to new observations and critical business changes.</p>
           </div>
         </section>
         <div className="overflow-scroll scrollbar-hide">
@@ -293,7 +293,7 @@ const Zoafia = () => {
         </div>
         <section className="max-w-[1080px] mx-auto border-y md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">6.1 CLOSING THOUGHTS</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">6.1 CLOSING THOUGHTS</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">Since its launch, Zoafia has undergone numerous updates and has been adopted by thousands of businesses. We are currently exploring the possibility of adding additional features to the mobile application.</p>
@@ -302,12 +302,12 @@ const Zoafia = () => {
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">7.1 Credits</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">7.1 Credits</h3>
           </div>
           <div className="col-span-3 pt-8">
             <div className="md:grid grid-cols-3 py-2">
               <p className="font-semibold">Dennis Tamunotonye Dickson</p>
-              <p className="col-span-2 italic"> Content Strategy, UX, UI,</p>
+              <p className="col-span-2"> Content Strategy, UX, UI,</p>
             </div>
             <div className="md:grid grid-cols-3 py-2">
               <p className="font-semibold underline relative">
@@ -338,17 +338,17 @@ const Zoafia = () => {
                   </svg>
                 </span>
               </p>
-              <p className="col-span-2 italic">Development</p>
+              <p className="col-span-2">Development</p>
             </div>
           </div>
         </section>
         <section className="p-4">
-          <Link to="/roava" className="max-w-[1080px] block link-item mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
+          <Link to="/dappy" className="max-w-[1080px] block link-item mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
             <div className="col-span-2 pt-4">
-              <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">Next Project:</h3>
+              <h3 className="cursive text-[16px] md:text-[18px] font-semibold">Next Project:</h3>
             </div>
             <div className="col-span-3 py-4 flex justify-between items-center">
-              <p className="font-semibold text-[16px] md:text-[18px]">Roava</p>
+              <p className="font-semibold text-[16px] md:text-[18px]">Dappy</p>
               <span>
                 <svg
                   width={25}

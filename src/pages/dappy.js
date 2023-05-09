@@ -1,18 +1,15 @@
 import React from "react"
+import { Seo } from "../components/seo"
 import { Link } from "gatsby";
 import CaseStudy from "../components/case-study";
 import ThemeToggler from "gatsby-plugin-dark-mode/ThemeToggler";
-import roavaReceipt from "../images/roava/roava-receipt.png";
-import roavaPayment from "../images/roava/roava-payment.png";
-import roavaSavings from "../images/roava/roava-savings.png";
-import roavaBrandCollage from "../images/roava/roava-brand-collage.png";
-import roavaBrandIcons from "../images/roava/roava-brand-icons.png";
-import roavaStyle from "../images/roava/roava-style.png";
-import roavaWireframes from "../images/roava/roava-wireframes.png";
-import roavaIa from "../images/roava/roava-ia.png";
-import roavaPersona from "../images/roava/roava-persona.png";
-import roavaBanner from "../images/roava/roava-banner.png";
-import roavaScreens from "../images/roava/roava-screens.png";
+import dappyHome from "../images/dappy/dappy-home.png";
+import dappyBlockchain from "../images/dappy/dappy-blockchain.png";
+import dappyKyc from "../images/dappy/dappy-kyc.png";
+import dappyType from "../images/dappy/dappy-type.png";
+import dappyAmount from "../images/dappy/dappy-amount.png";
+import dappySummary from "../images/dappy/dappy-summary.png";
+import dappyBanner from "../images/dappy/dappy-banner.png";
 
 const Roava = () => {
 
@@ -121,184 +118,166 @@ const Roava = () => {
               </ThemeToggler>
             </div>
 
-            <Link to="/" className="p-4 font-semibold md:h-[80px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-l border-[#cccccc] dark:border-[#444444]">View</Link>
+            <div className="p-4 font-semibold md:h-[80px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-l border-[#cccccc] dark:border-[#444444]"></div>
           </nav>
         </section>
 
         <section className="max-w-[1080px] mx-auto px-4 py-12">
-          <h1 className="cursive text-[32px] md:text-[52px]">ROAVA</h1>
+          <h1 className="cursive text-[32px] md:text-[52px]">Dappy</h1>
           <div className="md:grid grid-cols-3">
             <div className="pt-8 txt-[14px] col-span-2">
               <div className="md:grid grid-cols-3 py-2">
-                <p className="font-semibold">Role</p>
-                <p className="col-span-2 italic">Product Designer</p>
+                <p className="font-semibold">Role :</p>
+                <p className="col-span-2">UX Designer and Developer</p>
               </div>
               <div className="md:grid grid-cols-3 py-2">
-                <p className="font-semibold">Details</p>
-                <p className="col-span-2 italic">Mobile finance experience for iOS and Android</p>
+                <p className="font-semibold">Details :</p>
+                <p className="col-span-2">Blockchain Payment Solution</p>
               </div>
               <div className="md:grid grid-cols-3 py-2">
-                <p className="font-semibold">Year</p>
-                <p className="col-span-2 italic">2021</p>
+                <p className="font-semibold">Year :</p>
+                <p className="col-span-2">2021</p>
               </div>
             </div>
           </div>
         </section>
 
         <div className="max-w-[1080px] mx-auto bg-[#eeeeee] dark:bg-[#212121] min-h-[500px]">
-          <img src={roavaBanner} alt="" className="h-[500px] md:h-full object-cover" />
+          <img src={dappyBanner} alt="" className="h-[500px] md:h-full object-cover" />
         </div>
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">1.1 Overview</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">1.1 Overview</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">ROAVA allows its customers to manage their money, exchange international currencies, bills and savings from their phone.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">I worked as part of a team of engineers, other designers, and other managerial staff. I primarily reported to the Chief Product Officer, and the product managers.</p>
+            <p className="pb-6 font-semibold">Dappy is a payment platform that functions as a fiat offramp, enabling speedy transactions across several blockchains using the Universal API platform with USDT and USDC.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">As a member of a small team, I played a role in both UI design and development for the initial design. Additionally, I served as the design lead for subsequent updates.</p>
           </div>
         </section>
 
-        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
-          <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">1.2 Responsibilities & Business Goals</h3>
-          </div>
-          <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">During my time working on the ROAVA project, my focus was centered around design systems, organisation and planning, and visual designs.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">Design a mobile experience for customers to send and receive payments in multiple currencies, manage international commitments or support their travelling lifestyle without the restrictions of regular banking. The customers would also get real-time notifications when they spend funds or get paid. Savings vaults, fixed term deposit accounts offering high interest, should also be made available to all users.</p>
-          </div>
-        </section>
-
-        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
-          <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">2.1 User Research</h3>
-          </div>
-          <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">We started with user research and strategy workshops, building a solid understanding of the pain points of frequent travellers to multiple countries,  as well as opportunities, and goals.</p>
-            <p className="pb-6 font-semibold italic">Initial Findings</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">— Participants had difficulty interpreting the flow of information from one end of the application to the next.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">
-              — User Journeys without a clear direction presented a challange for users to move from screen to screen.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">
-              — Failure to properly manage excpectation of users lead to dissatisfaction and confusion and user’ interaction on the app.</p>
-          </div>
-        </section>
-
-        <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
-          <img src={roavaPersona} alt="" className="w-full h-full object-cover" />
+        <div className="max-w-[1080px] mx-auto my-4 pb-12 border-b border-[#cccccc] dark:border-[#444444]">
+          <img src={dappyHome} alt="" className="w-full h-full object-cover" />
         </div>
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">3.1 Product Direction</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">2.1 Responsibilities </h3>
+          </div>
+          <div className="col-span-3 pt-8">
+            <p className="pb-6 font-semibold">My role encompassed spearheading the design process, as well as constructing user interfaces and prototypes for the Dappy Web 3.0 application.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">In addition, I oversaw the design process for integrating payment transfers between the Dappy application and other partner platforms and applications.</p>
+          </div>
+        </section>
+
+        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
+          <div className="col-span-2 pt-8">
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">3.1 Problem Statement</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">Simplifying the ease of creating an account despite the financial regulatory requirements for the app was a vital part of the user's onboarding, without which, access to the core application features would not be granted.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start. .</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start.</p>
           </div>
         </section>
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">4.1 IA & User Flows</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">4.1 User Flows</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">We aimed for security and ease of onboarding new users. The complexity of identity verification before gaining access to the core features of the app cannot be simply overlooked for a financial application.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">The app should take new sign ups through a clearly detailed walkthrough of what to expect during the verification process.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">The app should take new sign ups through a clearly detailed walkthrough of what to expect during the verification process.</p>
           </div>
         </section>
+
         <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
-          <img src={roavaIa} alt="" className="w-full h-full object-cover" />
+          <img src={dappyKyc} alt="" className="w-full h-full object-cover" />
         </div>
-        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
-          <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">5.1 Branding, Style, and Design System</h3>
-          </div>
-          <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">Our goal was to use a brand style that enhanced the reliability of the Roava application for users in different corners of the world.</p>
-          </div>
-        </section>
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
-        <img src={roavaBrandIcons} alt="" className="w-full h-full object-cover" />
+
+        <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
+          <img src={dappyBlockchain} alt="" className="w-full h-full object-cover" />
         </div>
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
-          <img src={roavaBrandCollage} alt="" className="w-full h-full object-cover" />
-        </div>
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
-          <img src={roavaStyle} alt="" className="w-full h-full object-cover" />
-        </div>
-        <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
-          <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">6.1 Wireframing and Feedback</h3>
-          </div>
-          <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">Making the entire application the least complicated it could meant breaking all the journeys into smaller, independent, and self-contained bits. Noting all drop-off points was important for </p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">Noting all drop-off points during the use of the mobile app was important for subsequent changes to the design.</p>
-          </div>
-        </section>
-        <div className="bg-[#dddddd] dark:bg-[#444444] max-w-[1080px] mx-auto my-4 max-h-[600px]">
-          <img src={roavaWireframes} alt="" className="w-full h-full object-cover" />
-        </div>
+    
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">7.1 User Interface & Prototype</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">4.1 UI Design and Implementation</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">Communication, testing, and feedback with management resulted in a reduction in the number of user journeys and features that were given different priorities.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">A design system was created to facilitate quick changes to the designs as new observations were made and business-critical changes could be quickly adapted.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">A design system was created to facilitate quick changes to the designs as new observations were made and business-critical changes could be quickly adapted.</p>
           </div>
         </section>
-        <div className="max-w-[1080px] mx-auto my-4 px-4 min-h-[200px] grid grid-cols-3 gap-4 md:gap-12 lg:gap-32 mb-24 lg:mb-32">
-          <div>
-            <img src={roavaSavings} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={roavaReceipt} alt="" className="w-full" />
-          </div>
-          <div>
-            <img src={roavaPayment} alt="" className="w-full" />
-          </div>
+              
+        <div className="max-w-[1080px] mx-auto my-4 pb-12 border-b border-[#cccccc] dark:border-[#444444]">
+          <img src={dappyType} alt="" className="w-full h-full object-cover" />
         </div>
-        <div className="max-w-[1080px] mx-auto my-4">
-          <img src={roavaScreens} alt="" className="w-full h-full object-cover" />
+        
+        <div className="max-w-[1080px] mx-auto my-4 pb-12 border-b border-[#cccccc] dark:border-[#444444]">
+          <img src={dappyAmount} alt="" className="w-full h-full object-cover" />
+        </div>
+
+        <div className="max-w-[1080px] mx-auto my-4 pb-12 border-b border-[#cccccc] dark:border-[#444444]">
+          <img src={dappySummary} alt="" className="w-full h-full object-cover" />
         </div>
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">8.1 Conclusion</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">5.1 Closing Thoughts</h3>
           </div>
           <div className="col-span-3 pt-8">
             <p className="pb-6 font-semibold">Validated all design assumptions and compare them with the expectations from the stakeholders.</p>
-            <p className="pb-6 italic text-gray-700 dark:text-gray-400">To get an accurate evaluation of what the stakeholder thought, I invited the business managing director representing the stakeholders for usability testing. I also invited and got feedback  from end-users to validate the design decisions we implemented in our prototypes.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">To get an accurate evaluation of what the stakeholder thought, I invited the business managing director representing the stakeholders for usability testing. I also invited and got feedback  from end-users to validate the design decisions we implemented in our prototypes.</p>
           </div>
         </section>
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
           <div className="col-span-2 pt-8">
-            <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">8.2 Credits</h3>
+            <h3 className="cursive text-[16px] md:text-[18px] font-semibold">8.2 Credits</h3>
           </div>
           <div className="col-span-3 pt-8">
             <div className="md:grid grid-cols-3 py-2">
               <p className="font-semibold">Dennis Tamunotonye Dickson</p>
-              <p className="col-span-2 italic"> Content Strategy, UX, UI,</p>
+              <p className="col-span-2"> Content Strategy, UX, UI</p>
             </div>
             <div className="md:grid grid-cols-3 py-2">
-              <p className="font-semibold">Sam Aofolaju</p>
-              <p className="col-span-2 italic">Chief Product Oficer, Product Strategy</p>
-            </div>
-            <div className="md:grid grid-cols-3 py-2">
-              <p className="font-semibold">Cuberto</p>
-              <p className="col-span-2 italic">Branding</p>
+            <p className="font-semibold underline relative">
+                <a href="https://www.cuberto.com/" target="_blank" rel="noreferrer" className="link-item">
+                  Joshua Akinsuyi
+                </a>
+                <span className="absolute top-0 left-18 link-arrow">
+                  <svg
+                    width={18}
+                    height={16}
+                    viewBox="0 0 18 16"
+                    fill="none"
+                    className="dark:stroke-white stroke-[#212121]"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.40918 11.3334L12.5476 4.66675"
+                      strokeWidth="0.666667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M5.40918 4.66675H12.5476V11.3334"
+                      strokeWidth="0.666667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <p className="col-span-2">Development</p>
             </div>
           </div>
         </section>
         <section className="p-4">
-          <Link to="/zoafia" className="max-w-[1080px] block mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
+          <Link to="/roava" className="max-w-[1080px] block mx-auto border md:grid md:grid-cols-5 hover:bg-[#dddddd] dark:hover:bg-[#212121] bg-transparent rounded-xl border-[#cccccc] dark:border-[#444444] px-4 mb-16 py-4 md:py-8">
             <div className="col-span-2 pt-4">
-              <h3 className="cursive text-[16px] md:text-[18px] uppercase font-semibold">Next Project:</h3>
+              <h3 className="cursive text-[16px] md:text-[18px] font-semibold">Next Project:</h3>
             </div>
             <div className="col-span-3 py-4 flex justify-between items-center">
-              <p className="font-semibold text-[16px] md:text-[18px]">ZOAFIA</p>
+              <p className="font-semibold text-[16px] md:text-[18px]">Roava</p>
               <span>
                 <svg
                   width={25}
@@ -335,3 +314,7 @@ const Roava = () => {
 }
 
 export default Roava
+
+export const Head = () => (
+  <Seo title="Dappy - UX/UI Designer & Developer - Dennis Tamunotonye Dickson" />
+)
