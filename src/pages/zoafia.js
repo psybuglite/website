@@ -19,7 +19,6 @@ import zoafiaWireItem from "../images/zoafia/zoafia-wire-item.png";
 import zoafiaMindmap from "../images/zoafia/zoafia-mindmap.jpg";
 import zoafiaBanner from "../images/zoafia/zoafia-banner.png";
 import zoafiaPersona from "../images/zoafia/zoafia-persona.jpg";
-import { AnimatePresence, motion } from "framer-motion";
 
 const Zoafia = () => {
 
@@ -30,8 +29,7 @@ const Zoafia = () => {
           <nav className="flex items-center justify-between">
             <Link to="/" className="p-4 font-semibold md:h-[80px] r-[1px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-r border-[#cccccc] dark:border-[#444444] link-item">Portfolio</Link>
 
-            <AnimatePresence>
-              <motion.div key="theme" layout className="px-2 bg-black dark:bg-white rounded-full link-item">
+            <div key="theme" layout className="px-2 bg-black dark:bg-white rounded-full link-item">
                 <ThemeToggler>
                   {({ theme, toggleTheme }) => (
                     <label className="relative cursor-pointer block p-3 ">
@@ -127,8 +125,7 @@ const Zoafia = () => {
                     </label>
                   )}
                 </ThemeToggler>
-              </motion.div>
-            </AnimatePresence>
+              </div>
 
             <div className="p-4 font-semibold md:h-[80px] h-[80px] w-[120px] md:w-[181px] text-center flex flex-col justify-center hover:bg-pink-50 dark:hover:bg-gray-800 border-l border-[#cccccc] dark:border-[#444444]"></div>
           </nav>
@@ -155,9 +152,7 @@ const Zoafia = () => {
         </section>
 
         <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] h-[250px] md:min-h-[500px]">
-          <AnimatePresence>
-            <motion.img layoutId="zoafiaBanner" layout src={zoafiaBanner} alt="" className="h-full w-full object-cover" />
-          </AnimatePresence>
+          <img layoutId="zoafiaBanner" layout src={zoafiaBanner} alt="" className="h-full w-full object-cover" />
         </div>
 
         <section className="max-w-[1080px] mx-auto md:grid md:grid-cols-5 px-4 py-16">

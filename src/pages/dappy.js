@@ -142,8 +142,8 @@ const Roava = () => {
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto bg-[#eeeeee] dark:bg-[#212121] min-h-[500px]">
-          <img src={dappyBanner} alt="" className="h-[500px] md:h-full object-cover" />
+        <div className="max-w-[1080px] mx-auto bg-[#dddddd] dark:bg-[#444444] h-[250px] md:min-h-[500px]">
+          <img src={dappyBanner} alt="" className="h-full w-full object-contain" />
         </div>
 
         <section className="max-w-[1080px] mx-auto border-b md:grid md:grid-cols-5 border-[#cccccc] dark:border-[#444444] px-4 py-16">
@@ -190,11 +190,11 @@ const Roava = () => {
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
+        <div className="max-w-[1080px] mx-auto mt-4 mb-32 max-h-[600px]">
           <img src={dappyKyc} alt="" className="w-full h-full object-cover" />
         </div>
 
-        <div className="max-w-[1080px] mx-auto my-4 max-h-[600px]">
+        <div className="max-w-[1080px] mx-auto my-16 max-h-[600px]">
           <img src={dappyBlockchain} alt="" className="w-full h-full object-cover" />
         </div>
     
@@ -224,8 +224,8 @@ const Roava = () => {
             <h3 className="cursive text-[16px] md:text-[18px] font-semibold">5.1 Closing Thoughts</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">Validated all design assumptions and compare them with the expectations from the stakeholders.</p>
-            <p className="pb-6 text-gray-700 dark:text-gray-400">To get an accurate evaluation of what the stakeholder thought, I invited the business managing director representing the stakeholders for usability testing. I also invited and got feedback  from end-users to validate the design decisions we implemented in our prototypes.</p>
+            <p className="pb-6 font-semibold">Dappy launched successfully with positive feedback. Integration with other application for stablecoins conversion on more blockchains is possible.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">Updates to the design with respect to new features will be made over time as the need for new changes arises.</p>
           </div>
         </section>
 
@@ -236,11 +236,11 @@ const Roava = () => {
           <div className="col-span-3 pt-8">
             <div className="md:grid grid-cols-3 py-2">
               <p className="font-semibold">Dennis Tamunotonye Dickson</p>
-              <p className="col-span-2"> Content Strategy, UX, UI</p>
+              <p className="col-span-2">UX, UI, Front-end Development</p>
             </div>
             <div className="md:grid grid-cols-3 py-2">
             <p className="font-semibold underline relative">
-                <a href="https://www.cuberto.com/" target="_blank" rel="noreferrer" className="link-item">
+                <a href="https://www.linkedin.com/in/joshua-akinsuyi/" target="_blank" rel="noreferrer" className="link-item">
                   Joshua Akinsuyi
                 </a>
                 <span className="absolute top-0 left-18 link-arrow">
@@ -267,7 +267,7 @@ const Roava = () => {
                   </svg>
                 </span>
               </p>
-              <p className="col-span-2">Development</p>
+              <p className="col-span-2">Back-end Development</p>
             </div>
           </div>
         </section>
