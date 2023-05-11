@@ -175,8 +175,10 @@ const Roava = () => {
             <h3 className="cursive text-[16px] md:text-[18px] font-semibold">3.1 Problem Statement</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">Simplifying the ease of creating an account despite the financial regulatory requirements for the app was a vital part of the user's onboarding, without which, access to the core application features would not be granted.</p>
-            <p className="pb-6 text-gray-700 dark:text-gray-400">With multiple currency accounts and different products all in one platform, the process of navigating multiple user journeys and flows made the application design complex and bloated from the very start.</p>
+            <p className="pb-6 font-semibold">Dappy was developed as a web-3 platform aimed at enabling cryptocurrency users to directly convert their stablecoins to fiat currency and send it to a designated account. It serves as a means to circumvent the constraints of peer-to-peer (P2P) transactions among others.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">
+              When converting stablecoins to fiat currency through P2P transactions, there is a risk of dealing with fraudulent or unreliable counterparties, which can lead to financial losses. Converting stablecoins to fiat currency often involves transaction fees, which can be substantial and may reduce the overall value of the conversion. 
+            </p>
           </div>
         </section>
 
@@ -185,16 +187,16 @@ const Roava = () => {
             <h3 className="cursive text-[16px] md:text-[18px] font-semibold">4.1 User Flows</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">We aimed for security and ease of onboarding new users. The complexity of identity verification before gaining access to the core features of the app cannot be simply overlooked for a financial application.</p>
-            <p className="pb-6 text-gray-700 dark:text-gray-400">The app should take new sign ups through a clearly detailed walkthrough of what to expect during the verification process.</p>
+            <p className="pb-6 font-semibold">The goal was to ensure minimal transaction wait times and low conversion fees. Connecting web-3 wallets did not necessitate the provision of personal information from users, except for KYC data handled by a third-party platform.</p>
+            <p className="pb-6 text-gray-700 dark:text-gray-400">This streamlined the process of connecting wallets, choosing a blockchain, and inputting transaction details, resulting in a quick and efficient experience.</p>
           </div>
         </section>
 
-        <div className="max-w-[1080px] mx-auto mt-4 mb-32 max-h-[600px]">
+        <div className="max-w-[1080px] mx-auto my-4 pb-12 border-b border-[#cccccc] dark:border-[#444444]">
           <img src={dappyKyc} alt="" className="w-full h-full object-cover" />
         </div>
 
-        <div className="max-w-[1080px] mx-auto my-16 max-h-[600px]">
+        <div className="max-w-[1080px] mx-auto my-4 pb-12 border-b border-[#cccccc] dark:border-[#444444]">
           <img src={dappyBlockchain} alt="" className="w-full h-full object-cover" />
         </div>
     
@@ -203,8 +205,7 @@ const Roava = () => {
             <h3 className="cursive text-[16px] md:text-[18px] font-semibold">4.1 UI Design and Implementation</h3>
           </div>
           <div className="col-span-3 pt-8">
-            <p className="pb-6 font-semibold">Communication, testing, and feedback with management resulted in a reduction in the number of user journeys and features that were given different priorities.</p>
-            <p className="pb-6 text-gray-700 dark:text-gray-400">A design system was created to facilitate quick changes to the designs as new observations were made and business-critical changes could be quickly adapted.</p>
+            <p className="pb-6 font-semibold">TailwindCSS and React were the primary technologies employed in developing the front-end of the application.</p>
           </div>
         </section>
               
