@@ -70,7 +70,7 @@ const IndexPage = () => {
                 <span className="">Role: <em className="font-normal">Product Designer</em> </span><br/>
                 <span className="font-normal">UX Strategy, UX, UI</span>
               </div>
-              <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2022 (ongoing)</span>
+              <span className=" text-[14px] absolute bottom-6 right-6 font-semibold">2022</span>
             </div>
             <div className="h-[250px] md:h-full">
               <img src={zoafiaBanner} alt="home" className="h-full object-cover md:object-cover mx-auto" />        

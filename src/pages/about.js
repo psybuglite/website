@@ -23,7 +23,7 @@ const About = () => {
               I enjoy working as part of a team in a collaborative, team-centered environment with opportunities to learn and grow. I love to contribute and collaborate to solve problems. 
             </p>
             <div className="mt-8">
-              <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1RWY5AvVCJXhexGU4rI-7N0mszYyNVYsr/view?usp=share_link" className="inline-flex link-item">
+              <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1CUx8TXMdFBRRO8eMsLwcHlzUNoHw-7pM/view?usp=sharing" className="inline-flex link-item">
                 <button className="border border-[#323232] flex items-center rounded-full px-6 py-2">
                   View Resume
                   <span className="link-arrow ml-4">
@@ -61,10 +61,10 @@ const About = () => {
           </div>
           <div className="col-span-2">
             <p className="text-[56px]">MTN</p>
+            <p className="text-[56px]">Roava</p>
             <p className="text-[56px]">Payflow</p>
             <p className="text-[56px]">FCCPC</p>
             <p className="text-[56px]">Eyowo</p>
-            <p className="text-[56px]">Universal API</p>
             <p className="text-[56px]">CNS-Marine</p>
             <p className="text-[56px]">Clinq Gold</p>
             <p className="text-[56px]">Zoafia</p>
