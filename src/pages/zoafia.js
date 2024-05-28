@@ -145,7 +145,7 @@ const Zoafia = () => {
               </div>
               <div className="md:grid grid-cols-3 py-2">
                 <p className="font-semibold">Year :</p>
-                <p className="col-span-2">2022 (ongoing)</p>
+                <p className="col-span-2">2022</p>
               </div>
             </div>
           </div>
