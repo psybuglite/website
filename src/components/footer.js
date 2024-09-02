@@ -123,7 +123,7 @@ const Footer = () => (
       </span>
     </span>
     <span className="mx-8 relative">
-      <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/psybug" className="link-item" title="LinkedIn">
+      <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/dennisdickson" className="link-item" title="LinkedIn">
         <svg
           width={44}
           height={40}
