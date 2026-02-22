@@ -4,7 +4,7 @@
 # here but we recommend using the Netlify UI for sensitive
 # values to keep them out of your source repository.
 [context.production]
-  environment = { NODE_VERSION = "18.0.0" }
+  environment = { NODE_VERSION = "22.0.0" }
 
 # Here is an example of how to define context-specific
 # environment variables. Be mindful when using this
