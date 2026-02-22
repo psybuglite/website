@@ -11,19 +11,35 @@ const About = () => {
         <section className="md:grid md:grid-cols-5 border-b-2 border-[#cccccc] dark:border-[#323232] mb-24 pb-24 gap-16 max-w-[1080px] pt-32 mx-auto">
           <div className="col-span-2 pb-8 md:pb-0">
             <div className="w-full max-w-[400px] h-[400px] rounded-xl ">
-              <img src={portrait} alt="portrait" transition={{ duration: 0.1}} className="grayscale duration-[2000ms] hover:grayscale-[20%]	w-full h-full rounded-xl object-cover" />
+              <img
+                src={portrait}
+                alt="portrait"
+                transition={{ duration: 0.1 }}
+                className="grayscale duration-[2000ms] hover:grayscale-[20%]	w-full h-full rounded-xl object-cover"
+              />
             </div>
           </div>
           <div className="col-span-3">
-            <h2 className="md:text-[54px] text-[32px] font-semibold cursive mb-4 mt-0"> Dennis Tamunotonye Dickson</h2>
+            <h2 className="md:text-[54px] text-[32px] font-semibold cursive mb-4 mt-0">
+              {" "}
+              Dennis Tamunotonye Dickson
+            </h2>
             <p className="py-2">
-              I build digital experiences. I specialize in Web Design, UX / UI, Webflow, and Front End Development.
+              I build digital experiences. I specialize in Web Design, UX / UI,
+              Webflow, and Front End Development.
             </p>
             <p className="py-2">
-              I enjoy working as part of a team in a collaborative, team-centered environment with opportunities to learn and grow. I love to contribute and collaborate to solve problems. 
+              I enjoy working as part of a team in a collaborative,
+              team-centered environment with opportunities to learn and grow. I
+              love to contribute and collaborate to solve problems.
             </p>
             <div className="mt-8">
-              <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1CUx8TXMdFBRRO8eMsLwcHlzUNoHw-7pM/view?usp=sharing" className="inline-flex link-item">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://drive.google.com/file/d/1CUx8TXMdFBRRO8eMsLwcHlzUNoHw-7pM/view?usp=sharing"
+                className="inline-flex link-item"
+              >
                 <button className="border border-[#323232] flex items-center rounded-full px-6 py-2">
                   View Resume
                   <span className="link-arrow ml-4">
@@ -60,13 +76,12 @@ const About = () => {
             <p className="font-semibold">Clients / Projects</p>
           </div>
           <div className="col-span-2">
+            <p className="text-[56px]">Embedly</p>
             <p className="text-[56px]">MTN</p>
             <p className="text-[56px]">Roava</p>
             <p className="text-[56px]">Payflow</p>
             <p className="text-[56px]">FCCPC</p>
             <p className="text-[56px]">Eyowo</p>
-            <p className="text-[56px]">CNS-Marine</p>
-            <p className="text-[56px]">Clinq Gold</p>
             <p className="text-[56px]">Zoafia</p>
           </div>
         </section>
@@ -76,6 +91,16 @@ const About = () => {
             <p className="font-semibold">Experience / History</p>
           </div>
           <div className="col-span-3">
+            <div className="grid grid-cols-3 py-4">
+              <p className="text-[16px]">Mar. ‘25  – Present</p>
+              <p className="text-[16px]">Sterling Bank</p>
+              <p className="text-[16px]">Product Designer</p>
+            </div>
+            <div className="grid grid-cols-3 py-4">
+              <p className="text-[16px]">Mar. ‘23  –  Present</p>
+              <p className="text-[16px]">Nokhouse</p>
+              <p className="text-[16px]">Founder, UX Engineer</p>
+            </div>
             <div className="grid grid-cols-3 py-4">
               <p className="text-[16px]">Oct. ‘19  –  Mar. ‘23</p>
               <p className="text-[16px]">Protocoh</p>
@@ -96,14 +121,9 @@ const About = () => {
               <p className="text-[16px]">Softcom</p>
               <p className="text-[16px]">UX/UI Designer & Developer</p>
             </div>
-            <div className="grid grid-cols-3 py-4">
-              <p className="text-[16px]">July ‘17  –  Jan. ‘18</p>
-              <p className="text-[16px]">Rudigo</p>
-              <p className="text-[16px]">Frontend Intern</p>
-            </div>
           </div>
         </section>
-        
+
         <section className="max-w-[1080px] border-b-2 border-[#323232] mb-24 pb-24 py-4 mx-auto md:grid grid-cols-5 items-start gap-16">
           <div className="col-span-2">
             <p className="font-semibold">Skills / Tools</p>
@@ -138,7 +158,9 @@ const About = () => {
                 </ul>
               </div>
               <div className="">
-                <h3 className="pb-4 mt-0 text-[18px] font-semibold">Development</h3>
+                <h3 className="pb-4 mt-0 text-[18px] font-semibold">
+                  Development
+                </h3>
                 <ul>
                   <li>HTML/CSS</li>
                   <li>JavaScript</li>
@@ -150,7 +172,9 @@ const About = () => {
                 </ul>
               </div>
               <div className="">
-                <h3 className="pb-4 mt-0 text-[18px] font-semibold">Analytics</h3>
+                <h3 className="pb-4 mt-0 text-[18px] font-semibold">
+                  Analytics
+                </h3>
                 <ul>
                   <li>Hotjar</li>
                   <li>Mixpanel</li>
@@ -158,7 +182,9 @@ const About = () => {
                 </ul>
               </div>
               <div className="">
-                <h3 className="pb-4 mt-0 text-[18px] font-semibold">Management</h3>
+                <h3 className="pb-4 mt-0 text-[18px] font-semibold">
+                  Management
+                </h3>
                 <ul>
                   <li>Jira</li>
                   <li>Trello</li>
@@ -172,7 +198,7 @@ const About = () => {
         </section>
       </main>
     </Layout>
-  )
+  );
 }
 
 export default About
