@@ -54,7 +54,7 @@ const IndexPage = () => {
           </div>
           <div className="max-w-[720px]">
             <p className="leading-6">
-              My name is Dennis. and I'm a senior product designer with{" "}
+              My name is Dennis. I'm a senior product designer with{" "}
               {year - 2018}+ years of experience designing intuitive, scalable
               digital products across web and mobile. Strong in end-to-end
               product thinking, design systems, and cross-functional
